@@ -1,5 +1,6 @@
-<!doctype html>
-<html lang="ko-KR" class="no-js">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
 <!-- Mirrored from gym.plco.site/guide/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Dec 2021 16:23:44 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
@@ -1457,28 +1458,28 @@
                                 <ul class="sf-menu">
                                     <li id="menu-item-463"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-463">
-                                        <a href="guide/index.html"><span class="menu-title-text">소개</span></a>
+                                        <a href="/guide"><span class="menu-title-text">소개</span></a>
                                         <ul class="sub-menu">
                                             <li id="menu-item-468"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-468">
-                                                <a href="#coach"><span
+                                                <a href="/guide#coach"><span
                                                         class="menu-title-text">코치진</span></a></li>
                                             <li id="menu-item-464"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-464">
-                                                <a href="#player"><span
+                                                <a href="/guide#player"><span
                                                         class="menu-title-text">선수소개</span></a></li>
                                             <li id="menu-item-466"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-466">
-                                                <a href="#space"><span
+                                                <a href="/guide#space"><span
                                                         class="menu-title-text">시설</span></a></li>
                                             <li id="menu-item-465"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-465">
-                                                <a href="#awards"><span
+                                                <a href="/guide#awards"><span
                                                         class="menu-title-text">수상내역</span></a>
                                             </li>
                                             <li id="menu-item-467"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-467">
-                                                <a href="#location"><span
+                                                <a href="/guide#location"><span
                                                         class="menu-title-text">지점안내</span></a></li>
 
 
@@ -1486,16 +1487,16 @@
                                     </li>
                                     <li id="menu-item-479"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-479">
-                                        <a href="service/index.html"><span class="menu-title-text">축구교실</span></a>
+                                        <a href="/classroom"><span class="menu-title-text">축구교실</span></a>
                                         <ul class="sub-menu">
                                             <li id="menu-item-131"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-131">
-                                                <a href="service/index.html"><span
+                                                <a href="/classroom#class1"><span
                                                         class="menu-title-text">대야점(본점)</span></a>
                                             </li>
                                             <li id="menu-item-406"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-406">
-                                                <a href="service/amateur/index.html"><span
+                                                <a href="/classroom#class2"><span
                                                         class="menu-title-text">장현지구(직영점)</span></a></li>
 
                                         </ul>
@@ -1503,15 +1504,15 @@
 
                                     <li id="menu-item-479"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-479">
-                                        <a href="service/index.html"><span class="menu-title-text">축구레슨</span></a>
+                                        <a href="/lesson"><span class="menu-title-text">축구레슨</span></a>
                                         <ul class="sub-menu">
                                             <li id="menu-item-131"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-131">
-                                                <a href="service/index.html"><span class="menu-title-text">레슨 소개</span></a>
+                                                <a href="/lesson#info"><span class="menu-title-text">레슨 소개</span></a>
                                             </li>
                                             <li id="menu-item-406"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-406">
-                                                <a href="service/amateur/index.html"><span
+                                                <a href="/lesson#pay"><span
                                                         class="menu-title-text">레슨 비용</span></a></li>
                                         </ul>
                                     </li>
@@ -1523,20 +1524,20 @@
 
                                     <li id="menu-item-471"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-471">
-                                        <a href="news/index.html"><span class="menu-title-text">VIDEO</span></a>
+                                        <a href="/video"><span class="menu-title-text">VIDEO</span></a>
                                         <ul class="sub-menu">
                                             <li id="menu-item-473"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-473">
-                                                <a href="news/story/index.html"><span
+                                                <a href="/video#mission"><span
                                                         class="menu-title-text">미션</span></a></li>
                                             <li id="menu-item-472"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-472">
-                                                <a href="news/event/index.html"><span
+                                                <a href="/video#game"><span
                                                         class="menu-title-text">경기영상</span></a>
                                             </li>
                                             <li id="menu-item-472"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-472">
-                                                <a href="news/event/index.html"><span
+                                                <a href="/video#analysis"><span
                                                         class="menu-title-text">분석영상(8vs8)</span></a>
                                             </li>
                                         </ul>
@@ -5273,7 +5274,7 @@
                                                         <div class="vc_column-inner">
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_text_column wpb_content_element vc_custom_1625461770930">
-                                                                    <div class="wpb_wrapper"><p>축구교실으로 ─</p></div>
+<!--                                                                    <div class="wpb_wrapper"><p>축구교실으로 ─</p></div>-->
                                                                 </div>
                                                                 <div class="nectar-split-heading" data-align="default"
                                                                      data-m-align="inherit"
@@ -5281,473 +5282,265 @@
                                                                      data-animation-delay="0" data-m-rm-animation=""
                                                                      data-stagger="" data-custom-font-size="false">
                                                                     <div class="heading-line">
-                                                                        <div><h2>오시는 길</h2></div>
+                                                                        <div><h2>지점안내</h2></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="vc_col-sm-6 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                         data-padding-pos="all" data-has-bg-color="false"
-                                                         data-bg-color="" data-bg-opacity="1" data-animation=""
-                                                         data-delay="0">
-                                                        <div class="vc_column-inner">
-                                                            <div class="wpb_wrapper"></div>
+                                                    <!--본점시작-->
+                                                    <div id="fws_61c1ff4f70f85" data-midnight=""
+                                                         data-column-margin="default"
+                                                         class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_tablet_0px top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
+                                                         style="padding-top: 80px; padding-bottom: 100px; ">
+                                                        <div class="row-bg-wrap">
+                                                            <div class="row-bg"></div>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper"><h4>서울 송파구 송파대로 111, 파크하비오 지하 1층</h4></div>
-                                            </div>
-                                            <div id="fws_61c1ff5e6be07" data-midnight="" data-column-margin="default"
-                                                 class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-top "
-                                                 style="">
-                                                <div class="row-bg-wrap">
-                                                    <div class="row-bg"></div>
-                                                </div>
-                                                <div class="row_col_wrap_12_inner col span_12 left">
-                                                    <div style=""
-                                                         class="vc_col-sm-6 wpb_column column_container vc_column_container col child_column padding-2-percent inherit_tablet inherit_phone "
-                                                         data-using-bg="true" data-border-radius="10px"
-                                                         data-padding-pos="all" data-has-bg-color="true"
-                                                         data-bg-color="#0a0a0a" data-bg-opacity="1" data-animation=""
-                                                         data-delay="0">
-                                                        <div class="vc_column-inner">
-                                                            <div class="column-bg-overlay-wrap"
-                                                                 data-bg-animation="none">
-                                                                <div class="column-bg-overlay"
-                                                                     style="opacity: 1; background-color: #0a0a0a;"></div>
-                                                            </div>
-                                                            <div class="wpb_wrapper">
-                                                                <div class="wpb_text_column wpb_content_element ">
-                                                                    <div class="wpb_wrapper"><h5><strong>플코짐은 이렇게
-                                                                        찾아오세요! </strong></h5>
-                                                                        <ul>
-                                                                            <li><strong>주소</strong> : <u>서울</u>
-                                                                                <u>송파구</u> <u>송파대로</u><u> 111, </u><u>파크하비오</u>
-                                                                                <u>지하</u><u>1</u><u>층</u><u>
-                                                                                    106</u><u>호</u> <u>플코짐<br/></u>(워터킹덤
-                                                                                맞은 편)
-                                                                            </li>
-                                                                            <li><strong>대중교통 이용 시</strong> : 장지역 4번출구 직진
-                                                                                10m, 횡단보도 건넌 후 달콤커피 지나 좌측 에스컬레이터 타시고 지하
-                                                                                1층으로 내려오세요.
-                                                                            </li>
-                                                                        </ul>
+                                                        <div class="row_col_wrap_12_inner col span_12 left">
+                                                            <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
+                                                                 data-padding-pos="left-right"
+                                                                 data-has-bg-color="false" data-bg-color=""
+                                                                 data-bg-opacity="1" data-animation=""
+                                                                 data-delay="0">
+                                                                <div class="vc_column-inner">
+                                                                    <div class="wpb_wrapper">
+                                                                        <div><h2>
+                                                                            <strong>대야점(본점)</strong></h2></div>
+                                                                        <div class="nectar-highlighted-text"
+                                                                             data-style="half_text"
+                                                                             data-exp="default"
+                                                                             data-using-custom-color="true"
+                                                                             data-animation-delay="false"
+                                                                             data-color="rgba(255,255,255,0.21)"
+                                                                             data-color-gradient="" style="">
+                                                                            <h5>
+                                                                            대야점에서는 실내훈련과 야외훈련이 진행됩니다.
+                                                                            취미반/선수반/그룹레슨/개인레슨을 운영중이며,
+                                                                            선수반은 전지점 시흥 대야점(실내구장)과 신천동축구장(야외구장)에서
+                                                                            통합훈련으로 진행되고있습니다.</h5>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                    <div style=""
-                                                         class="vc_col-sm-6 wpb_column column_container vc_column_container col child_column padding-2-percent inherit_tablet inherit_phone "
-                                                         data-using-bg="true" data-padding-pos="all"
-                                                         data-has-bg-color="true" data-bg-color="#0a0a0a"
-                                                         data-bg-opacity="1" data-animation="" data-delay="0">
-                                                        <div class="vc_column-inner">
-                                                            <div class="column-bg-overlay-wrap"
-                                                                 data-bg-animation="none">
-                                                                <div class="column-bg-overlay"
-                                                                     style="opacity: 1; background-color: #0a0a0a;"></div>
-                                                            </div>
-                                                            <div class="wpb_wrapper">
-                                                                <div class="wpb_text_column wpb_content_element ">
-                                                                    <div class="wpb_wrapper"><h5>
-                                                                        <strong> </strong><strong>주차는 어떻게 하나요
-                                                                        ? </strong></h5>
-                                                                        <ul>
-                                                                            <li>GATE 3으로 들어오신 후, A12 기둥 주차 (car&amp;boom
-                                                                                앞 통로에 플코짐 위치)
-                                                                            </li>
-                                                                            <li>주차는 3시간 무료입니다.</li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="fws_61c1ff5e6c0bd" data-column-margin="default" data-midnight="dark"
-                             class="wpb_row vc_row-fluid vc_row full-width-content vc_row-o-equal-height vc_row-flex vc_row-o-content-top "
-                             style="padding-top: 0px; padding-bottom: 0px; ">
-                            <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false">
-                                <div class="inner-wrap">
-                                    <div class="row-bg" style=""></div>
-                                </div>
-                            </div>
-                            <div class="row_col_wrap_12 col span_12 dark left">
-                                <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "
-                                     data-padding-pos="all" data-has-bg-color="false" data-bg-color=""
-                                     data-bg-opacity="1" data-animation="" data-delay="0">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div id="map_61c1ff5e6c2c6" style="height: 700px;" class="nectar-google-map"
-                                                 data-infowindow-start-open="" data-dark-color-scheme=""
-                                                 data-marker-style="nectar" data-nectar-marker-color="accent-color"
-                                                 data-ultra-flat="" data-greyscale="" data-extra-color=""
-                                                 data-enable-animation="false" data-enable-zoom="1" data-zoom-level="16"
-                                                 data-center-lat="37.480576646417994"
-                                                 data-center-lng="127.12403438805893" data-marker-img=""></div>
-                                            <div class="map_61c1ff5e6c2c6 map-marker-list">
-                                                <div class="map-marker" data-marker-image-width="50"
-                                                     data-marker-image-height="50" data-lat="37.480576646417994"
-                                                     data-lng="127.12403438805893" data-mapinfo=""></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-<!--                        <div id="fws_61c1ff5e6c34a" data-column-margin="default" data-midnight="dark"-->
-<!--                             class="wpb_row vc_row-fluid vc_row " style="padding-top: 0px; padding-bottom: 0px; ">-->
-<!--                            <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false">-->
-<!--                                <div class="inner-wrap">-->
-<!--                                    <div class="row-bg" style=""></div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="row_col_wrap_12 col span_12 dark left">-->
-<!--                                <div style="margin-bottom: -21px; "-->
-<!--                                     class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "-->
-<!--                                     data-padding-pos="all" data-has-bg-color="false" data-bg-color=""-->
-<!--                                     data-bg-opacity="1" data-animation="" data-delay="0">-->
-<!--                                    <div class="vc_column-inner">-->
-<!--                                        <div class="wpb_wrapper">-->
-<!--                                            <div class="wpb_widgetised_column wpb_content_element">-->
-<!--                                                <div id="sidebar" data-nectar-ss="" class="wpb_wrapper">-->
-<!--                                                    <div id="text-2" class="widget widget_text">-->
-<!--                                                        <div class="textwidget">-->
-<!--                                                            <div id="fws_61c1ff5e6ca3f" data-column-margin="default"-->
-<!--                                                                 data-midnight="light" data-top-percent="5%"-->
-<!--                                                                 data-bottom-percent="5%"-->
-<!--                                                                 class="wpb_row vc_row-fluid vc_row full-width-section vc_row-o-equal-height vc_row-flex vc_row-o-content-middle parallax_section "-->
-<!--                                                                 style="padding-top: calc(100vw * 0.05); padding-bottom: calc(100vw * 0.05); ">-->
-<!--                                                                <div class="row-bg-wrap" data-bg-animation="none"-->
-<!--                                                                     data-bg-overlay="true">-->
-<!--                                                                    <div class="inner-wrap using-image">-->
-<!--                                                                        <div class="row-bg using-image using-bg-color"-->
-<!--                                                                             data-parallax-speed="fast"-->
-<!--                                                                             style="background-image: url(../wp-content/uploads/2021/06/service_cta-scaled.jpg); background-position: center center; background-repeat: no-repeat; background-color: #1e1e1e; "></div>-->
-<!--                                                                    </div>-->
-<!--                                                                    <div class="row-bg-overlay"-->
-<!--                                                                         style="background-color:#000000; opacity: 0.8; "></div>-->
-<!--                                                                </div>-->
-<!--                                                                <div class="row_col_wrap_12 col span_12 light left">-->
-<!--                                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "-->
-<!--                                                                         data-padding-pos="all"-->
-<!--                                                                         data-has-bg-color="false" data-bg-color=""-->
-<!--                                                                         data-bg-opacity="1" data-animation=""-->
-<!--                                                                         data-delay="0">-->
-<!--                                                                        <div class="vc_column-inner">-->
-<!--                                                                            <div class="wpb_wrapper">-->
-<!--                                                                                <div id="fws_61c1ff5e6cb83"-->
-<!--                                                                                     data-midnight=""-->
-<!--                                                                                     data-column-margin="default"-->
-<!--                                                                                     class="wpb_row vc_row-fluid vc_row inner_row vc_custom_1626186036416 "-->
-<!--                                                                                     style="">-->
-<!--                                                                                    <div class="row-bg-wrap">-->
-<!--                                                                                        <div class="row-bg"></div>-->
-<!--                                                                                    </div>-->
-<!--                                                                                    <div class="row_col_wrap_12_inner col span_12 left">-->
-<!--                                                                                        <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-<!--                                                                                             data-padding-pos="all"-->
-<!--                                                                                             data-has-bg-color="false"-->
-<!--                                                                                             data-bg-color=""-->
-<!--                                                                                             data-bg-opacity="1"-->
-<!--                                                                                             data-animation=""-->
-<!--                                                                                             data-delay="0">-->
-<!--                                                                                            <div class="vc_column-inner">-->
-<!--                                                                                                <div class="wpb_wrapper"></div>-->
-<!--                                                                                            </div>-->
-<!--                                                                                        </div>-->
-<!--                                                                                        <div class="vc_col-sm-8 vc_hidden-sm vc_hidden-xs wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "-->
-<!--                                                                                             data-padding-pos="left-right"-->
-<!--                                                                                             data-has-bg-color="false"-->
-<!--                                                                                             data-bg-color=""-->
-<!--                                                                                             data-bg-opacity="1"-->
-<!--                                                                                             data-animation=""-->
-<!--                                                                                             data-delay="0">-->
-<!--                                                                                            <div class="vc_column-inner">-->
-<!--                                                                                                <div class="wpb_wrapper">-->
-<!--                                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1624435412260">-->
-<!--                                                                                                        <div class="wpb_wrapper">-->
-<!--                                                                                                            <h5><strong>BEST-->
-<!--                                                                                                                PERFORMANCE-->
-<!--                                                                                                                EVER!</strong>-->
-<!--                                                                                                            </h5></div>-->
-<!--                                                                                                    </div>-->
 
-<!--                                                                                                </div>-->
-<!--                                                                                            </div>-->
-<!--                                                                                        </div>-->
-<!--                                                                                        <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-<!--                                                                                             data-padding-pos="all"-->
-<!--                                                                                             data-has-bg-color="false"-->
-<!--                                                                                             data-bg-color=""-->
-<!--                                                                                             data-bg-opacity="1"-->
-<!--                                                                                             data-animation=""-->
-<!--                                                                                             data-delay="0">-->
-<!--                                                                                            <div class="vc_column-inner">-->
-<!--                                                                                                <div class="wpb_wrapper"></div>-->
-<!--                                                                                            </div>-->
-<!--                                                                                        </div>-->
-<!--                                                                                    </div>-->
-<!--                                                                                </div>-->
-<!--                                                                                <div id="fws_61c1ff5e6cefd"-->
-<!--                                                                                     data-midnight=""-->
-<!--                                                                                     data-column-margin="default"-->
-<!--                                                                                     class="wpb_row vc_row-fluid vc_row inner_row vc_custom_1626186040826 "-->
-<!--                                                                                     style="">-->
-<!--                                                                                    <div class="row-bg-wrap">-->
-<!--                                                                                        <div class="row-bg"></div>-->
-<!--                                                                                    </div>-->
-<!--                                                                                    <div class="row_col_wrap_12_inner col span_12 left">-->
-<!--                                                                                        <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-<!--                                                                                             data-padding-pos="all"-->
-<!--                                                                                             data-has-bg-color="false"-->
-<!--                                                                                             data-bg-color=""-->
-<!--                                                                                             data-bg-opacity="1"-->
-<!--                                                                                             data-animation=""-->
-<!--                                                                                             data-delay="0">-->
-<!--                                                                                            <div class="vc_column-inner">-->
-<!--                                                                                                <div class="wpb_wrapper"></div>-->
-<!--                                                                                            </div>-->
-<!--                                                                                        </div>-->
-<!--                                                                                        <div class="vc_col-sm-8 vc_hidden-lg vc_hidden-md wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "-->
-<!--                                                                                             data-padding-pos="left-right"-->
-<!--                                                                                             data-has-bg-color="false"-->
-<!--                                                                                             data-bg-color=""-->
-<!--                                                                                             data-bg-opacity="1"-->
-<!--                                                                                             data-animation=""-->
-<!--                                                                                             data-delay="0">-->
-<!--                                                                                            <div class="vc_column-inner">-->
-<!--                                                                                                <div class="wpb_wrapper">-->
-<!--                                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1624435412260">-->
-<!--                                                                                                        <div class="wpb_wrapper">-->
-<!--                                                                                                            <h5><strong>BEST-->
-<!--                                                                                                                PERFORMANCE-->
-<!--                                                                                                                EVER!</strong>-->
-<!--                                                                                                            </h5></div>-->
-<!--                                                                                                    </div>-->
-<!--                                                                                                    &lt;!&ndash;<div class="wpb_text_column wpb_content_element ">-->
-<!--                                                                                                        <div class="wpb_wrapper">-->
-<!--                                                                                                            <h2><strong>지금-->
-<!--                                                                                                                신청하세요!</strong>-->
-<!--                                                                                                            </h2></div>-->
-<!--                                                                                                    </div>&ndash;&gt;-->
-<!--                                                                                                    &lt;!&ndash;<a class="nectar-button large see-through-3 "-->
-<!--                                                                                                       style="margin-top: 25px; border-color: #2a44ec;"-->
-<!--                                                                                                       target="_blank"-->
-<!--                                                                                                       href="https://form.typeform.com/to/AF4PWVSz"-->
-<!--                                                                                                       data-color-override="#2a44ec"-->
-<!--                                                                                                       data-hover-color-override="#2a44ec"-->
-<!--                                                                                                       data-hover-text-color-override="#ffffff"-->
-<!--                                                                                                       rel="noopener"><span>무료훈련 신청</span></a>&ndash;&gt;-->
-<!--                                                                                                </div>-->
-<!--                                                                                            </div>-->
-<!--                                                                                        </div>-->
-<!--                                                                                        <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-<!--                                                                                             data-padding-pos="all"-->
-<!--                                                                                             data-has-bg-color="false"-->
-<!--                                                                                             data-bg-color=""-->
-<!--                                                                                             data-bg-opacity="1"-->
-<!--                                                                                             data-animation=""-->
-<!--                                                                                             data-delay="0">-->
-<!--                                                                                            <div class="vc_column-inner">-->
-<!--                                                                                                <div class="wpb_wrapper"></div>-->
-<!--                                                                                            </div>-->
-<!--                                                                                        </div>-->
-<!--                                                                                    </div>-->
-<!--                                                                                </div>-->
-<!--                                                                            </div>-->
-<!--                                                                        </div>-->
-<!--                                                                    </div>-->
-<!--                                                                </div>-->
-<!--                                                            </div>-->
-<!--                                                        </div>-->
-<!--                                                    </div>-->
-<!--                                                </div>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                                                            <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
+                                                                 data-padding-pos="all" data-has-bg-color="false"
+                                                                 data-bg-color="" data-bg-opacity="1"
+                                                                 data-animation="" data-delay="0">
+                                                                <div class="vc_column-inner">
+                                                                    <div class="wpb_wrapper">
+                                                                        <div class="wpb_gallery wpb_content_element clearfix">
+                                                                            <div class="wpb_wrapper">
+                                                                                <div class="wpb_gallery_slidesflickity_style"
+                                                                                     data-onclick="link_image"
+                                                                                     data-interval="5">
+                                                                                    <div class="nectar-flickity not-initialized"
+                                                                                         data-drag-scale=""
+                                                                                         data-overflow="hidden"
+                                                                                         data-wrap="wrap"
+                                                                                         data-spacing=""
+                                                                                         data-shadow=""
+                                                                                         data-autoplay=""
+                                                                                         data-autoplay-dur=""
+                                                                                         data-free-scroll=""
+                                                                                         data-controls="default"
+                                                                                         data-desktop-columns="1"
+                                                                                         data-small-desktop-columns="1"
+                                                                                         data-tablet-columns="1">
+                                                                                        <div class="flickity-viewport">
+                                                                                            <div class="flickity-slider">
+                                                                                                <div class="cell"
+                                                                                                     data-lazy="false">
+                                                                                                    <img class="skip-lazy "
+                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_2-1-750x500.jpg"
+                                                                                                         width="750"
+                                                                                                         height="500"
+                                                                                                         alt="plco_gym_main_sec3_2-1"
+                                                                                                         title="plco_gym_main_sec3_2-1"/><a
+                                                                                                        class="entire-slide-link"
+                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_2-1.jpg"></a>
+                                                                                                </div>
+                                                                                                <div class="cell"
+                                                                                                     data-lazy="false">
+                                                                                                    <img class="skip-lazy "
+                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-2-750x500.jpg"
+                                                                                                         width="750"
+                                                                                                         height="500"
+                                                                                                         alt="plco_gym_main_sec3_1-2"
+                                                                                                         title="plco_gym_main_sec3_1-2"/><a
+                                                                                                        class="entire-slide-link"
+                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-2.jpg"></a>
+                                                                                                </div>
+                                                                                                <div class="cell"
+                                                                                                     data-lazy="false">
+                                                                                                    <img class="skip-lazy "
+                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-3-750x500.jpg"
+                                                                                                         width="750"
+                                                                                                         height="500"
+                                                                                                         alt="plco_gym_main_sec3_1-3"
+                                                                                                         title="plco_gym_main_sec3_1-3"/><a
+                                                                                                        class="entire-slide-link"
+                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-3.jpg"></a>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--본점끝-->
+
+                                                    <!--장현지구(직영점) 시작-->
+                                                    <div id="fws_61c1ff4f728b7" data-midnight=""
+                                                         data-column-margin="default"
+                                                         class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle bottom_padding_tablet_0px bottom_padding_phone_0px "
+                                                         style="padding-bottom: 100px; ">
+                                                        <div class="row-bg-wrap">
+                                                            <div class="row-bg"></div>
+                                                        </div>
+                                                        <div class="row_col_wrap_12_inner col span_12 left">
+                                                            <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
+                                                                 data-padding-pos="all" data-has-bg-color="false"
+                                                                 data-bg-color="" data-bg-opacity="1"
+                                                                 data-animation="" data-delay="0">
+                                                                <div class="vc_column-inner">
+                                                                    <div class="wpb_wrapper">
+                                                                        <div class="wpb_gallery wpb_content_element clearfix">
+                                                                            <div class="wpb_wrapper">
+                                                                                <div class="wpb_gallery_slidesflickity_style"
+                                                                                     data-onclick="link_image"
+                                                                                     data-interval="5">
+                                                                                    <div class="nectar-flickity not-initialized"
+                                                                                         data-drag-scale=""
+                                                                                         data-overflow="hidden"
+                                                                                         data-wrap="wrap"
+                                                                                         data-spacing=""
+                                                                                         data-shadow=""
+                                                                                         data-autoplay=""
+                                                                                         data-autoplay-dur=""
+                                                                                         data-free-scroll=""
+                                                                                         data-controls="default"
+                                                                                         data-desktop-columns="1"
+                                                                                         data-small-desktop-columns="1"
+                                                                                         data-tablet-columns="1">
+                                                                                        <div class="flickity-viewport">
+                                                                                            <div class="flickity-slider">
+                                                                                                <div class="cell"
+                                                                                                     data-lazy="false">
+                                                                                                    <img class="skip-lazy "
+                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-4-1-750x500.jpg"
+                                                                                                         width="750"
+                                                                                                         height="500"
+                                                                                                         alt="plco_gym_main_sec3_1-4"
+                                                                                                         title="plco_gym_main_sec3_1-4"/><a
+                                                                                                        class="entire-slide-link"
+                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-4-1.jpg"></a>
+                                                                                                </div>
+                                                                                                <div class="cell"
+                                                                                                     data-lazy="false">
+                                                                                                    <img class="skip-lazy "
+                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-5-750x500.jpg"
+                                                                                                         width="750"
+                                                                                                         height="500"
+                                                                                                         alt="plco_gym_main_sec3_1-5"
+                                                                                                         title="plco_gym_main_sec3_1-5"/><a
+                                                                                                        class="entire-slide-link"
+                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-5.jpg"></a>
+                                                                                                </div>
+                                                                                                <div class="cell"
+                                                                                                     data-lazy="false">
+                                                                                                    <img class="skip-lazy "
+                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-6-750x500.jpg"
+                                                                                                         width="750"
+                                                                                                         height="500"
+                                                                                                         alt="plco_gym_main_sec3_1-6"
+                                                                                                         title="plco_gym_main_sec3_1-6"/><a
+                                                                                                        class="entire-slide-link"
+                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-6.jpg"></a>
+                                                                                                </div>
+                                                                                                <div class="cell"
+                                                                                                     data-lazy="false">
+                                                                                                    <img class="skip-lazy "
+                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-7-750x500.jpg"
+                                                                                                         width="750"
+                                                                                                         height="500"
+                                                                                                         alt="plco_gym_main_sec3_1-7"
+                                                                                                         title="plco_gym_main_sec3_1-7"/><a
+                                                                                                        class="entire-slide-link"
+                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-7.jpg"></a>
+                                                                                                </div>
+                                                                                                <div class="cell"
+                                                                                                     data-lazy="false">
+                                                                                                    <img class="skip-lazy "
+                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-8-750x500.jpg"
+                                                                                                         width="750"
+                                                                                                         height="500"
+                                                                                                         alt="plco_gym_main_sec3_1-8"
+                                                                                                         title="plco_gym_main_sec3_1-8"/><a
+                                                                                                        class="entire-slide-link"
+                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-8.jpg"></a>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
+                                                                 data-padding-pos="left-right"
+                                                                 data-has-bg-color="false" data-bg-color=""
+                                                                 data-bg-opacity="1" data-animation=""
+                                                                 data-delay="0">
+                                                                <div class="vc_column-inner">
+                                                                    <div class="wpb_wrapper">
+                                                                        <div>
+                                                                            <h2>
+                                                                                <strong>장현지구(직영점)</strong>
+                                                                            </h2>
+                                                                        </div>
+                                                                        <div class="nectar-highlighted-text"
+                                                                             data-style="half_text"
+                                                                             data-exp="default"
+                                                                             data-using-custom-color="true"
+                                                                             data-animation-delay="false"
+                                                                             data-color="rgba(238,238,238,0.37)"
+                                                                             data-color-gradient="" style="">
+                                                                            <h5>
+                                                                                장현지구점에서는 풋살장 정식규격(야외구장)에서
+                                                                                취미반/엘리트반이 운영되고 있습니다.
+                                                                                본사 통합관리로 장현지구점이 운영되고 있기에
+                                                                                풋볼아이의 교육 “축구를 재미있게, 제대로 배울 수 있도록”이라는
+                                                                                사명감을 가지고 본점과 똑같이 진행되고 있습니다.
+                                                                                엘리트반은 취미반보다 더 체계적인 교육을 받을 수 있으며,
+                                                                                실력 향상 후 선수반으로 이동도 가능합니다.
+                                                                            </h5>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--자현구점 끝-->
+                                                </div>
+                                            </div>
+                                        <!--여기까지-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <span class="cp-load-after-post"></span></div>
                 </div>
-<!--                <div class="nectar-global-section before-footer">-->
-<!--                    <div class="container normal-container row">-->
-<!--                        <div id="fws_61c1ff5e6e71b" data-column-margin="none" data-midnight="light"-->
-<!--                             class="wpb_row vc_row-fluid vc_row full-width-section vc_row-o-equal-height vc_row-flex vc_row-o-content-middle "-->
-<!--                             style="padding-top: 50px; padding-bottom: 50px; ">-->
-<!--                            <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="true">-->
-<!--                                <div class="inner-wrap">-->
-<!--                                    <div class="row-bg using-bg-color" style="background-color: #000000; "></div>-->
-<!--                                </div>-->
-<!--                                <div class="row-bg-overlay" style="background-color:#111111; opacity: 0.8; "></div>-->
-<!--                            </div>-->
-<!--                            <div class="row_col_wrap_12 col span_12 light left">-->
-<!--                                <div class="vc_col-sm-6 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "-->
-<!--                                     data-padding-pos="right" data-has-bg-color="false" data-bg-color=""-->
-<!--                                     data-bg-opacity="1" data-animation="" data-delay="0">-->
-<!--                                    <div class="vc_column-inner">-->
-<!--                                        <div class="wpb_wrapper">-->
-<!--                                            <div id="fws_61c1ff5e6e826" data-midnight="" data-column-margin="70px"-->
-<!--                                                 class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex "-->
-<!--                                                 style="">-->
-<!--                                                <div class="row-bg-wrap">-->
-<!--                                                    <div class="row-bg"></div>-->
-<!--                                                </div>-->
-<!--                                                <div class="row_col_wrap_12_inner col span_12 left">-->
-<!--                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-<!--                                                         data-t-w-inherits="small_desktop" data-padding-pos="all"-->
-<!--                                                         data-has-bg-color="false" data-bg-color="" data-bg-opacity="1"-->
-<!--                                                         data-animation="" data-delay="0">-->
-<!--                                                        <div class="vc_column-inner">-->
-<!--                                                            <div class="wpb_wrapper">-->
-<!--                                                                <div class="wpb_text_column wpb_content_element ">-->
-<!--                                                                    <div class="wpb_wrapper"><h4>㈜-->
-<!--                                                                        <strong>큐엠아이티</strong></h4>-->
-<!--                                                                        <p><span style="font-size: 0.9em;"><strong>사업자 등록번호.</strong> 528-86-00986  <strong>대표.</strong> 이상기<br/><strong>본사.</strong> 서울특별시 서초구 강남대로311, 드림플러스 강남<br/><strong>플코짐 송파점.</strong> 서울특별시 송파구 송파대로111, 파크하비오 B101</span>-->
-<!--                                                                        </p></div>-->
-<!--                                                                </div>-->
-<!--                                                                <div class="wpb_text_column wpb_content_element ">-->
-<!--                                                                    <div class="wpb_wrapper"><p><i-->
-<!--                                                                            class="icon-tiny fa fa-phone extra-color-3"></i><strong>일반상담-->
-<!--                                                                        :-->
-<!--                                                                         <a href="tel: 028531201">02-853-1201</a></strong><br/><i-->
-<!--                                                                            class="icon-tiny fa fa-commenting-o extra-color-3"></i><strong>카카오-->
-<!--                                                                        1:1 상담 : </strong> <span-->
-<!--                                                                            style="color: #ffffff;"><a-->
-<!--                                                                            style="color: #ffffff;"-->
-<!--                                                                            href="http://pf.kakao.com/_Rnskxb/chat"-->
-<!--                                                                            target="_blank" rel="noopener"><span-->
-<!--                                                                            style="text-decoration: underline;">엘리트</span><i-->
-<!--                                                                            class="icon-tiny fa fa-external-link extra-color-3"></i></a> <a-->
-<!--                                                                            style="color: #ffffff;"-->
-<!--                                                                            href="http://pf.kakao.com/_XBsKK/chat"-->
-<!--                                                                            target="_blank" rel="noopener"><span-->
-<!--                                                                            style="text-decoration: underline;">아마추어</span><i-->
-<!--                                                                            class="icon-tiny fa fa-external-link extra-color-3"></i> </a></span>-->
-<!--                                                                    </p></div>-->
-<!--                                                                </div>-->
-<!--                                                            </div>-->
-<!--                                                        </div>-->
-<!--                                                    </div>-->
-<!--                                                </div>-->
-<!--                                            </div>-->
-<!--                                            <div id="fws_61c1ff5e6ea75" data-midnight="" data-column-margin="default"-->
-<!--                                                 class="wpb_row vc_row-fluid vc_row inner_row bottom_padding_tablet_15pct "-->
-<!--                                                 style="padding-top: 5px; ">-->
-<!--                                                <div class="row-bg-wrap">-->
-<!--                                                    <div class="row-bg"></div>-->
-<!--                                                </div>-->
-<!--                                                <div class="row_col_wrap_12_inner col span_12 left">-->
-<!--                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding el_spacing_0px inherit_tablet inherit_phone "-->
-<!--                                                         data-padding-pos="all" data-has-bg-color="false"-->
-<!--                                                         data-bg-color="" data-bg-opacity="1" data-animation=""-->
-<!--                                                         data-delay="0">-->
-<!--                                                        <div class="vc_column-inner">-->
-<!--                                                            <div class="wpb_wrapper">-->
-<!--                                                                <div class="nectar-cta alignment_tablet_default alignment_phone_default "-->
-<!--                                                                     data-color="default" data-using-bg="false"-->
-<!--                                                                     data-display="inline" data-style="underline"-->
-<!--                                                                     data-alignment="left" data-text-color="custom"-->
-<!--                                                                     style="margin-right: 30px; margin-bottom: 10px; ">-->
-<!--                                                                    <p style="color: #ffffff;"><span-->
-<!--                                                                            class="text"> </span><span-->
-<!--                                                                            class="link_wrap"><a target="_blank"-->
-<!--                                                                                                 class="link_text"-->
-<!--                                                                                                 style="border-color: #ffffff;"-->
-<!--                                                                                                 href="https://plco.site/about">회사소개</a></span>-->
-<!--                                                                    </p></div>-->
-<!--                                                                <div class="nectar-cta alignment_tablet_default alignment_phone_default "-->
-<!--                                                                     data-color="default" data-using-bg="false"-->
-<!--                                                                     data-display="inline" data-style="underline"-->
-<!--                                                                     data-alignment="left" data-text-color="custom"-->
-<!--                                                                     style="margin-bottom: 10px; "><p-->
-<!--                                                                        style="color: #ffffff;"><span-->
-<!--                                                                        class="text"> </span><span class="link_wrap"-->
-<!--                                                                                                   style="padding-right: 30px; "><a-->
-<!--                                                                        target="_blank" class="link_text"-->
-<!--                                                                        style="border-color: #ffffff;"-->
-<!--                                                                        href="https://www.notion.so/qmit1201/Join-QMIT-6e503040945143099c84a410b2ecec31">채용</a></span>-->
-<!--                                                                </p></div>-->
-<!--                                                                <div class="nectar-cta alignment_tablet_default alignment_phone_default "-->
-<!--                                                                     data-color="default" data-using-bg="false"-->
-<!--                                                                     data-display="inline" data-style="underline"-->
-<!--                                                                     data-alignment="left" data-text-color="custom"-->
-<!--                                                                     style="margin-bottom: 10px; "><p-->
-<!--                                                                        style="color: #ffffff;"><span-->
-<!--                                                                        class="text"> </span><span class="link_wrap"-->
-<!--                                                                                                   style="padding-right: 25px; "><a-->
-<!--                                                                        target="_blank" class="link_text"-->
-<!--                                                                        style="border-color: #ffffff;"-->
-<!--                                                                        href="https://form.typeform.com/to/AF4PWVSz">무료훈련 신청</a></span>-->
-<!--                                                                </p></div>-->
-<!--                                                            </div>-->
-<!--                                                        </div>-->
-<!--                                                    </div>-->
-<!--                                                </div>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="vc_col-sm-6 wpb_column column_container vc_column_container col centered-text no-extra-padding no-extra-padding_tablet no-extra-padding_phone border_left_tablet_0px border_left_phone_0px border_top_tablet_0px border_top_phone_0px border_color_5e5e5e border_style_solid "-->
-<!--                                     data-padding-pos="left" data-has-bg-color="false" data-bg-color=""-->
-<!--                                     data-bg-opacity="1" data-animation="" data-delay="0">-->
-<!--                                    <div class="vc_column-inner">-->
-<!--                                        <div class="wpb_wrapper">-->
-<!--                                            <div class="clients no-carousel four-cols" data-he="opacity"-->
-<!--                                                 data-additional_padding="2">-->
-<!--                                                <div class="no-link"><img-->
-<!--                                                        src="../wp-content/uploads/2021/07/Naver-D2SF-30.png"-->
-<!--                                                        alt="client" width="214" height="30"/></div>-->
-<!--                                                <div class="no-link"><img-->
-<!--                                                        src="../wp-content/uploads/2021/07/Lotte-Accelelator-30.png"-->
-<!--                                                        alt="client" width="179" height="30"/></div>-->
-<!--                                                <div class="no-link"><img-->
-<!--                                                        src="../wp-content/uploads/2021/07/Kaist-light-30.png"-->
-<!--                                                        alt="client" width="67" height="30"/></div>-->
-<!--                                                <div class="no-link"><img-->
-<!--                                                        src="../wp-content/uploads/2021/07/SansSans-ebiz-30.png"-->
-<!--                                                        alt="client" width="98" height="30"/></div>-->
-<!--                                                <div class="no-link"><img-->
-<!--                                                        src="../wp-content/uploads/2021/07/samsung-30.png" alt="client"-->
-<!--                                                        width="98" height="30"/></div>-->
-<!--                                                <div class="no-link"><img-->
-<!--                                                        src="../wp-content/uploads/2021/07/C-Lab-light-20.png"-->
-<!--                                                        alt="client" width="81" height="20"/></div>-->
-<!--                                                <div class="no-link"><img src="../wp-content/uploads/2021/07/MCB-30.png"-->
-<!--                                                                          alt="client" width="128" height="30"/></div>-->
-<!--                                                <div class="no-link"><img-->
-<!--                                                        src="../wp-content/uploads/2021/07/kspo-30.png" alt="client"-->
-<!--                                                        width="81" height="30"/></div>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
             </div>
-<!--            <div id="footer-outer" data-midnight="light" data-cols="4" data-custom-color="true"-->
-<!--                 data-disable-copyright="false" data-matching-section-color="true" data-copyright-line="false"-->
-<!--                 data-using-bg-img="false" data-bg-img-overlay="0.8" data-full-width="false"-->
-<!--                 data-using-widget-area="false" data-link-hover="default">-->
-<!--                <div class="row" id="copyright" data-layout="default">-->
-<!--                    <div class="container">-->
-<!--                        <div class="col span_5"><p>ⓒ 2021 QMIT All rights reserved.</p></div>&lt;!&ndash;/span_5&ndash;&gt;-->
-<!--                        <div class="col span_7 col_last">-->
-<!--                            <ul class="social"></ul>-->
-<!--                        </div>&lt;!&ndash;/span_7&ndash;&gt; </div>&lt;!&ndash;/container&ndash;&gt; </div>&lt;!&ndash;/row&ndash;&gt;</div>&lt;!&ndash;/footer-outer&ndash;&gt;-->
             <div id="slide-out-widget-area-bg" class="fullscreen-split hidden dark"></div>
             <div id="slide-out-widget-area" class="fullscreen-split hidden"
                  data-dropdown-func="separate-dropdown-parent-link" data-back-txt="Back">

@@ -1077,28 +1077,28 @@
                                 <ul class="sf-menu">
                                     <li id="menu-item-463"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-463">
-                                        <a href="guide/index.html"><span class="menu-title-text">소개</span></a>
+                                        <a href="/guide"><span class="menu-title-text">소개</span></a>
                                         <ul class="sub-menu">
                                             <li id="menu-item-468"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-468">
-                                                <a href="guide/index.html#coach"><span
+                                                <a href="/guide#coach"><span
                                                         class="menu-title-text">코치진</span></a></li>
                                             <li id="menu-item-464"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-464">
-                                                <a href="guide/index.html#player"><span
+                                                <a href="/guide#player"><span
                                                         class="menu-title-text">선수소개</span></a></li>
                                             <li id="menu-item-466"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-466">
-                                                <a href="guide/index.html#space"><span
+                                                <a href="/guide#space"><span
                                                         class="menu-title-text">시설</span></a></li>
                                             <li id="menu-item-465"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-465">
-                                                <a href="guide/index.html#awards"><span
+                                                <a href="/guide#awards"><span
                                                         class="menu-title-text">수상내역</span></a>
                                             </li>
                                             <li id="menu-item-467"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-467">
-                                                <a href="guide/index.html#location"><span
+                                                <a href="/guide#location"><span
                                                         class="menu-title-text">지점안내</span></a></li>
 
 
@@ -1106,16 +1106,16 @@
                                     </li>
                                     <li id="menu-item-479"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-479">
-                                        <a href="service/index.html"><span class="menu-title-text">축구교실</span></a>
+                                        <a href="/classroom"><span class="menu-title-text">축구교실</span></a>
                                         <ul class="sub-menu">
                                             <li id="menu-item-131"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-131">
-                                                <a href="service/index.html"><span
+                                                <a href="/classroom#class1"><span
                                                         class="menu-title-text">대야점(본점)</span></a>
                                             </li>
                                             <li id="menu-item-406"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-406">
-                                                <a href="service/amateur/index.html"><span
+                                                <a href="/classroom#class2"><span
                                                         class="menu-title-text">장현지구(직영점)</span></a></li>
 
                                         </ul>
@@ -1123,15 +1123,15 @@
 
                                     <li id="menu-item-479"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-479">
-                                        <a href="service/index.html"><span class="menu-title-text">축구레슨</span></a>
+                                        <a href="/lesson"><span class="menu-title-text">축구레슨</span></a>
                                         <ul class="sub-menu">
                                             <li id="menu-item-131"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-131">
-                                                <a href="service/index.html"><span class="menu-title-text">레슨 소개</span></a>
+                                                <a href="/lesson#info"><span class="menu-title-text">레슨 소개</span></a>
                                             </li>
                                             <li id="menu-item-406"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-406">
-                                                <a href="service/amateur/index.html"><span
+                                                <a href="/lesson#pay"><span
                                                         class="menu-title-text">레슨 비용</span></a></li>
                                         </ul>
                                     </li>
@@ -1143,20 +1143,20 @@
 
                                     <li id="menu-item-471"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-471">
-                                        <a href="news/index.html"><span class="menu-title-text">VIDEO</span></a>
+                                        <a href="/video"><span class="menu-title-text">VIDEO</span></a>
                                         <ul class="sub-menu">
                                             <li id="menu-item-473"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-473">
-                                                <a href="news/story/index.html"><span
+                                                <a href="/video#mission"><span
                                                         class="menu-title-text">미션</span></a></li>
                                             <li id="menu-item-472"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-472">
-                                                <a href="news/event/index.html"><span
+                                                <a href="/video#game"><span
                                                         class="menu-title-text">경기영상</span></a>
                                             </li>
                                             <li id="menu-item-472"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-472">
-                                                <a href="news/event/index.html"><span
+                                                <a href="/video#analysis"><span
                                                         class="menu-title-text">분석영상(8vs8)</span></a>
                                             </li>
                                         </ul>

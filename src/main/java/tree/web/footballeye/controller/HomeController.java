@@ -12,5 +12,25 @@ public class HomeController {
 		return "home";		
 	}
 	
+	@RequestMapping("/guide")
+	public String guide() {
+		return "guide/index";		
+	}
+	
+	@RequestMapping("/classroom")
+	public String classroom() {
+		return "classroom/index";		
+	}
+	
+	@RequestMapping("/lesson")
+	public String lesson() {
+		return "lesson/index";		
+	}
+	
+	@RequestMapping("/video")
+	public String video() {
+		return "video/index";		
+	}
+	
 	
 }

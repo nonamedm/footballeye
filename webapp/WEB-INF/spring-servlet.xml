@@ -80,7 +80,6 @@
 	<mvc:resources location="/WEB-INF/resources/wp-includes/" mapping="/wp-includes/**"></mvc:resources>
 	<mvc:resources location="/WEB-INF/resources/wp-content/" mapping="/wp-content/**"></mvc:resources>
 	<mvc:resources location="/WEB-INF/resources/wp-json/" mapping="/wp-json/**"></mvc:resources>
-	<mvc:resources location="/WEB-INF/views/guide/" mapping="/guide/**"></mvc:resources>
 	<mvc:resources mapping="/image/**" location="file:///c:/upload/photo/" />
 
 
