@@ -48,12 +48,10 @@
 <!-- 			value="jdbc:mysql://127.0.0.1:3300/mysql?useSSL=false&amp;serverTimezone=UTC"/> -->
 	<bean id="dataSourceSpied" class="org.apache.ibatis.datasource.pooled.PooledDataSource">
         <property name="driver" value="com.mysql.jdbc.Driver"/>
-		<property name="url" value="jdbc:mysql://127.0.0.1:3306/nonamedm?serverTimezone=UTC&amp;useSSL=false"/>
-		<property name="username" value="nonamedm1" />
+		<property name="url" value="jdbc:mysql://umj7-027.cafe24.com:3306/nonamedm12?serverTimezone=UTC&amp;useSSL=false"/>
+		<property name="username" value="nonamedm12" />
 		<property name="password" value="a8875142!!" />
-
 	</bean>
-
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSourceSpied" />
 		<property name="mapperLocations" value="classpath:myBatis/sqlmaps/*.xml" />

@@ -3,7 +3,115 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="user">
+  	<insert id="userinsert" parameterType="hashmap" >
+<!--    	INSERT INTO USER_INFO(USER_IDX,USER_STNUM,USER_NAME,USER_PWD,USER_MAIL,USER_SUBJECT) -->
+<!--   	VALUES((SELECT NVL(MAX(USER_IDX),0) FROM USER_INFO)+1,#{user_stnum},#{user_name},#{user_pwd},#{user_mail},#{user_subject})  -->
+	   	INSERT INTO USER_INFO(USER_STNUM,USER_NAME,USER_PWD,USER_MAIL,USER_SUBJECT,USER_PHOTO)
+	  	 VALUES(#{user_stnum},#{user_name},#{user_shapwd},#{user_mail},#{user_subject},#{user_photo}) 
+  	</insert>
+  	<select id="getUser" parameterType="hashmap" resultType="tree.web.footballeye.vo.UserVo">
+  		SELECT * FROM USER_INFO WHERE USER_STNUM=#{user_stnum_in}
+  	</select>
+  	
+  	<select id="calendarEventList" resultType="hashmap">
+  		SELECT * FROM  CALENDAREVENT WHERE DELETE_YN='N'
+  	</select>
+	<update id="changeRegister" parameterType="hashmap" >
+		UPDATE USER_INFO SET REGISTER=1 WHERE USER_MAIL=#{user_mail} AND USER_STNUM=#{user_stnum} AND USER_PWD=#{user_pwd}
+	</update>
+  	
+  	<insert id="calendarEventInsert" parameterType="tree.web.footballeye.vo.CalendarVo" >
+	   	INSERT INTO CALENDAREVENT(title,start,end,allday,delete_yn)
+	  	 VALUES(#{title},#{start},#{end},#{allday},#{delete_yn}) 
+  	</insert>
+  	<update id="calendarEventDelete" parameterType="tree.web.footballeye.vo.CalendarVo" >
+	   	UPDATE CALENDAREVENT SET DELETE_YN=#{delete_yn} WHERE TITLE=#{title} AND START=#{start} AND END=#{end} 
+  	</update>
+  	<select id="userid"
+  			parameterType="hashmap"
+  			resultType="tree.web.footballeye.vo.UserVo">
+  		SELECT USER_STNUM
+  		FROM  USER_INFO
+  		<if test='user_stnum eq "admin".toString()'>
+  		WHERE  USER_STNUM = #{user_stnum} and REGISTER=9
+  		</if>
+  		<if test='!user_stnum.equals("admin")'>
+  		WHERE  USER_STNUM = #{user_stnum} and REGISTER=1
+  		</if>
+  	</select>
+  	<select id="userMail"
+  			parameterType="hashmap"
+  			resultType="tree.web.footballeye.vo.UserVo">
+  		SELECT USER_MAIL
+  		FROM  USER_INFO
+  		WHERE  USER_MAIL = #{user_mail} AND (REGISTER = 1 OR REGISTER = 9)
+  	</select>
+  	
+<!--   	<update id="userupdate" -->
+<!--   			parameterType="hashmap"> -->
+<!--   		 UPDATE   USER_INFO  -->
+<!-- 		 SET  	 USER_NAME  = #{user_name} -->
+<!-- 		  		,USER_PHONE = #{user_phone} -->
+<!-- 		  		,USER_MAIL  = #{user_mail} -->
+<!-- 		 WHERE   USER_IDX = #{user_idx} -->
+<!--   	</update> -->
+  	
+<!--   	<update id="find_pwd"  -->
+<!--   		parameterType="hashmap"> -->
+<!--   		UPDATE   USER_INFO  -->
+<!--   		SET   USER_PWD = #{user_pwd} -->
+<!--   		WHERE USER_ID = #{user_id} -->
+<!--   	</update> -->
+  	
+<!--   	<insert id="userfile" -->
+<!--   		parameterType="hashmap" -->
+<!--   	> -->
+  	
+<!--    	INSERT INTO USER_INFO(USER_ID,USER_NAME,USER_PWD,USER_MAIL,COUNTRY,USER_PHONE) -->
+<!--   	VALUES(#{user_id},#{user_name},#{user_pwd},#{user_mail},#{country},#{user_phone})  -->
+<!--   	</insert> -->
   	
   	
-
+  	
+<!--   	<select id="attendanceCheckYn" parameterType="map" resultType="int"> -->
+<!--   		SELECT count(*) -->
+<!--   		FROM ATTENDANCECHECK -->
+<!--   		WHERE USERID = #{userid} -->
+<!--   		AND ATTENDANCECHECK_DAY = #{today} -->
+<!--   	</select> -->
+  	
+<!--   	<insert id="attendanceCheck" parameterType="map"> -->
+<!--   		INSERT INTO ATTENDANCECHECK(USERID, ATTENDANCECHECK_DAY) VALUES(#{userid}, #{today}) -->
+<!--   	</insert> -->
+  	
+<!--   	<select id="attendanceTag" parameterType="String" resultType="hashmap"> -->
+<!--   		SELECT USERID, ATTENDANCECHECK_DAY -->
+<!--   		FROM ATTENDANCECHECK -->
+<!--   		WHERE USERID = #{userid} -->
+<!--   	</select> -->
+  	
+<!--   	<insert id="savephoto" -->
+<!--   		parameterType="hashmap"> -->
+<!-- 	   INSERT INTO USER_PHOTO( USER_ID , PHOTO_NAME ,PHOTO_FILEEXT,PHOTO_SFILENAME )  -->
+<!--   		 VALUES( #{user_id} , #{photo_name}, #{photo_fileext}, #{photo_sfilename} ) -->
+<!--  	</insert> -->
+  	
+<!--   	<select id="getphoto" -->
+<!--   				parameterType="hashmap" -->
+<!--   				resultType="sjls.todotalk.user.vo.ImgVo"> -->
+<!-- 		SELECT  PHOTO_NAME, USER_ID, PROFILE_PHOTO, PHOTO_ORGFILENAME, PHOTO_FILEEXT, PHOTO_SFILENAME,USER_IDX,USER_PHOTO_IDX -->
+<!-- 		FROM    USER_PHOTO -->
+<!-- 		WHERE   USER_ID = #{user_id} -->
+		
+<!--   	</select> -->
+  	
+<!--   	<delete id="deletephoto" -->
+<!--   			parameterType="hashmap"> -->
+<!--   		 	DELETE FROM USER_PHOTO 	WHERE   USER_ID = #{user_id} -->
+  			
+  			
+  	
+<!--   	</delete> -->
+  	
+  
 </mapper>

@@ -4,6 +4,69 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="board">
   	
+  	<select id="getMissionList" resultType="hashmap">
+  		SELECT * FROM BOARD WHERE BOARD_NAME='mission' ORDER BY BOARD_IDX DESC
+  	</select>
+  	<update id="updateReadCount" parameterType="int">
+  		UPDATE BOARD SET BOARD_READCOUNT=BOARD_READCOUNT+1 WHERE BOARD_IDX=#{idx}
+  	</update>
   	
+  	<select id="getBoardRead" parameterType="int" resultType="map">
+	 <![CDATA[
+		SELECT b.BOARD_IDX as BOARD_IDX, b.BOARD_TITLE as BOARD_TITLE,
+			   b.BOARD_CONT as BOARD_CONT, b.USER_ID AS USER_ID, b.USER_NAME AS USER_NAME,
+			   DATE_FORMAT(b.BOARD_REGDATE, '%Y-%m-%d') AS BOARD_REGDATE,
+			   b.BOARD_READCOUNT AS BOARD_READCOUNT,
+			   f.SFILE_NAME AS FILE_NAME
+		FROM BOARD b
+		left outer join BOARD_FILES f
+		on b.BOARD_IDX = f.BOARD_IDX
+		WHERE b.BOARD_IDX = #{idx}
+		]]>
+	</select>
+  	<select id="getMinMaxIdx" resultType="map">
+	 <![CDATA[
+		SELECT MAX(BOARD_IDX) AS maxIdx, MIN(BOARD_IDX) AS minIdx FROM BOARD
+		]]>
+	</select>
 
+	<select id="getNextTitle" parameterType="int" resultType="string">
+	 <![CDATA[
+		SELECT BOARD_TITLE FROM BOARD
+		WHERE BOARD_IDX = #{nextIdx}
+		]]>
+	</select>
+	<select id="getPrevTitle" parameterType="int" resultType="string">
+	 <![CDATA[
+		SELECT BOARD_TITLE FROM BOARD
+		WHERE BOARD_IDX = #{prevIdx}
+		]]>
+	</select>
+	
+	<insert id="boardWriteNew" parameterType="map">
+		insert into BOARD
+			(BOARD_NAME,BOARD_TITLE, BOARD_CONT, USER_ID,USER_NAME, BOARD_REGDATE)
+		values(#{board_name},#{board_title}, #{board_cont}, #{user_id},#{user_name}, now())
+	</insert>
+	
+	<select id="getBoard_idx" parameterType="hashmap" resultType="hashmap">
+		SELECT 
+			(MAX(BOARD_IDX)) as BOARD_IDX
+		FROM BOARD
+	</select>
+	
+	<insert id="boardFileWrite" parameterType="hashmap">
+		insert into BOARD_FILES
+			(FILE_NAME, FILE_EXT, SFILE_NAME, BOARD_IDX)
+		values(#{file_name}, #{file_ext}, #{sfile_name}, #{board_idx})
+	</insert>
+	
+	<select id="getBoardFile" parameterType="int" resultType="hashmap">
+  		SELECT * 
+  		FROM BOARD_FILES WHERE BOARD_IDX = #{idx}
+  	</select>
+  	
+  	<delete id="deleteBoard" parameterType="int">
+  		DELETE FROM BOARD WHERE BOARD_IDX=#{board_idx} AND USER_ID=${user_id}
+  	</delete>
 </mapper>

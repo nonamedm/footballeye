@@ -3623,7 +3623,7 @@
                                 <div class="off-canvas-menu-container mobile-only">
                                     <ul class="menu">
                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-479">
-                                            <a href="service/index.html">소개</a>
+                                            <a href="/guide">소개</a>
                                             <ul class="sub-menu">
                                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131">
                                                     <a href="service/index.html">선수</a></li>
