@@ -20,8 +20,8 @@ public interface UserService {
 
 	// 아이디 중복 검사 
 	UserVo getid(HashMap<String, Object> map);
+	UserVo getPhone(HashMap<String, Object> map);
 	String getPwCheck(HashMap<String, Object> map);
-	UserVo getMail(HashMap<String, Object> map);
 	UserVo getid2(HashMap<String, Object> map);
 
 	// 유저 개인정보 

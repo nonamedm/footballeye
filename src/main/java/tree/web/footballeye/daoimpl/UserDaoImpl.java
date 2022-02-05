@@ -34,7 +34,6 @@ public class UserDaoImpl implements UserDao {
 	@Override
 	public UserVo getUser(HashMap<String, Object> map) {
 		UserVo vo =sqlSession.selectOne("user.getUser",map);
-		System.out.println("dao : "+map);
 		return vo;
 	}
 
@@ -62,8 +61,8 @@ public class UserDaoImpl implements UserDao {
 		return result;
 	}
 	@Override
-	public UserVo getMail(HashMap<String, Object> map) {
-		UserVo  vo  =sqlSession.selectOne("user.userMail",map);
+	public UserVo getPhone(HashMap<String, Object> map) {
+		UserVo  vo  =sqlSession.selectOne("user.userPhone",map);
 		return vo;
 	}
 	

@@ -31,6 +31,7 @@ public class boardController {
 		ModelAndView mav = new ModelAndView();
 		
 		List<BoardVo> getMissionList = boardService.getMissionList();
+		
 		mav.addObject("getMissionList",getMissionList);
 		mav.setViewName("/video/index");
 		return mav;

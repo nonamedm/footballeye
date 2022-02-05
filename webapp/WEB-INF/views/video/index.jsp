@@ -898,23 +898,6 @@ table, tr, th, td{
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PTF6GFV');</script>
 <!-- End Google Tag Manager -->
-<meta name="facebook-domain-verification"
-	content="zyx2qrlk3ffw3l2y6kcem3qyb0vctb" />
-<meta name="google-site-verification"
-	content="RZvSLFLPME_-vW16IlNLgXsWanLy4M45vSGjmejNuPo" />
-<meta name="naver-site-verification"
-	content="ee607f968d15abe5902f3ac74343ded29ca18a2b" />
-<meta name="description"
-	content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
-<meta property="og:type" content="플코짐">
-<meta property="og:title" content="Plco GYM">
-<meta property="og:description"
-	content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
-<meta property="og:url" content="https://gym.plco.site">
-<meta property="al:web:url" content="https://gym.plco.site">
-<meta property="twitter:title" content="Plco GYM">
-<meta name="twitter:description"
-	content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
 <link rel="canonical" href="../">
 <script type="text/javascript"> var root = document.getElementsByTagName("html")[0];
     root.setAttribute("class", "js"); </script>
@@ -1543,211 +1526,11 @@ body .page-submenu li a {
 	<div class="ocm-effect-wrap">
 		<div class="ocm-effect-wrap-inner">
 			<div id="header-space" data-header-mobile-fixed='1'></div>
-			<div id="header-outer" data-has-menu="true" data-has-buttons="no"
-				data-header-button_style="default" data-using-pr-menu="false"
-				data-mobile-fixed="1" data-ptnm="false" data-lhe="default"
-				data-user-set-bg="#111111" data-format="menu-left-aligned"
-				data-permanent-transparent="false" data-megamenu-rt="0"
-				data-remove-fixed="0" data-header-resize="0" data-cart="false"
-				data-transparency-option="1" data-box-shadow="large"
-				data-shrink-num="6" data-using-secondary="0" data-using-logo="1"
-				data-logo-height="30" data-m-logo-height="30" data-padding="20"
-				data-full-width="true" data-condense="false"
-				data-transparent-header="true"
-				data-transparent-shadow-helper="false" data-remove-border="true"
-				class="transparent">
-				<div id="search-outer" class="nectar">
-					<div id="search">
-						<div class="container">
-							<div id="search-box">
-								<div class="inner-wrap">
-									<div class="col span_12">
-										<form role="search" action="" method="GET">
-											<input type="text" name="s" value="" aria-label="Search"
-												placeholder="Search" /> <span>Hit enter to search or
-												ESC to close</span>
-										</form>
-									</div>
-									<!--/span_12-->
-								</div>
-								<!--/inner-wrap-->
-							</div>
-							<!--/search-box-->
-							<div id="close">
-								<a href="#"><span class="screen-reader-text">Close
-										Search</span><span class="close-wrap"> <span
-										class="close-line close-line1"></span> <span
-										class="close-line close-line2"></span>
-								</span> </a>
-							</div>
-						</div>
-						<!--/container-->
-					</div>
-					<!--/search-->
-				</div>
-				<!--/search-outer-->
-				<header id="top">
-					<div class="container">
-						<div class="row">
-							<div class="col span_3">
-								<a id="logo" href="/"
-									data-supplied-ml-starting-dark="true"
-									data-supplied-ml-starting="true" data-supplied-ml="false">
-									LOGO </a>
-							</div>
-							<!--/span_3-->
-							<div class="col span_9 col_last">
-								<div
-									class="slide-out-widget-area-toggle mobile-icon fullscreen-split"
-									data-custom-color="false"
-									data-icon-animation="simple-transform">
-									<div>
-										<a href="#sidewidgetarea" aria-label="Navigation Menu"
-											aria-expanded="false" class="closed"><span
-											class="screen-reader-text">Menu</span><span
-											aria-hidden="true"> <i class="lines-button x2"> <i
-													class="lines"></i>
-											</i>
-										</span></a>
-									</div>
-								</div>
-
-								<!--헤더-->
-                            <nav>
-                                <ul class="sf-menu">
-                                    <li id="menu-item-463"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-463">
-                                        <a href="/guide"><span class="menu-title-text">소개</span></a>
-                                        <ul class="sub-menu">
-                                            <li id="menu-item-468"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-468">
-                                                <a href="/guide#coach"><span
-                                                        class="menu-title-text">코치진</span></a></li>
-                                            <li id="menu-item-464"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-464">
-                                                <a href="/guide#player"><span
-                                                        class="menu-title-text">선수소개</span></a></li>
-                                            <li id="menu-item-466"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-466">
-                                                <a href="/guide#space"><span
-                                                        class="menu-title-text">시설</span></a></li>
-                                            <li id="menu-item-465"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-465">
-                                                <a href="/guide#awards"><span
-                                                        class="menu-title-text">수상내역</span></a>
-                                            </li>
-                                            <li id="menu-item-467"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-467">
-                                                <a href="/guide#location"><span
-                                                        class="menu-title-text">지점안내</span></a></li>
-
-
-                                        </ul>
-                                    </li>
-                                    <li id="menu-item-479"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-479">
-                                        <a href="/classroom"><span class="menu-title-text">축구교실</span></a>
-                                        <ul class="sub-menu">
-                                            <li id="menu-item-131"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-131">
-                                                <a href="/classroom#class1"><span
-                                                        class="menu-title-text">대야점(본점)</span></a>
-                                            </li>
-                                            <li id="menu-item-406"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-406">
-                                                <a href="/classroom#class2"><span
-                                                        class="menu-title-text">장현지구(직영점)</span></a></li>
-
-                                        </ul>
-                                    </li>
-
-                                    <li id="menu-item-479"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-479">
-                                        <a href="/lesson"><span class="menu-title-text">축구레슨</span></a>
-                                        <ul class="sub-menu">
-                                            <li id="menu-item-131"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-131">
-                                                <a href="/lesson#info"><span class="menu-title-text">레슨 소개</span></a>
-                                            </li>
-                                            <li id="menu-item-406"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-406">
-                                                <a href="/lesson#pay"><span
-                                                        class="menu-title-text">레슨 비용</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li id="menu-item-404"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-404">
-                                        <a href="https://smartstore.naver.com/assistsuit?NaPm=ct%3Dkx0c0jvc%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3Dcaeb95eeb127615e37031fca52d3f2cb1c848695"><span
-                                                class="menu-title-text">온라인매장</span></a>
-                                    </li>
-
-                                    <li id="menu-item-471"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-471">
-                                        <a href="/video"><span class="menu-title-text">VIDEO</span></a>
-                                        <ul class="sub-menu">
-                                            <li id="menu-item-473"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-473">
-                                                <a href="/video#mission"><span
-                                                        class="menu-title-text">미션</span></a></li>
-                                            <li id="menu-item-472"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-472">
-                                                <a href="/video#game"><span
-                                                        class="menu-title-text">경기영상</span></a>
-                                            </li>
-                                            <li id="menu-item-472"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-472">
-                                                <a href="/video#analysis"><span
-                                                        class="menu-title-text">분석영상(8vs8)</span></a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li id="menu-item-404"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-404">
-                                        <a href="https://cafe.naver.com/playsoccerandcafe"><span
-                                                class="menu-title-text">커뮤니티</span></a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <!--헤더끝-->
-							</div>
-							<!--/span_9-->
-							<!--<div class="right-aligned-menu-items">
-                            <nav>
-                                <ul class="buttons sf-menu" data-user-set-ocm="off"></ul>
-                                <ul>
-                                    <li id="social-in-menu" class="button_social_group">
-                                        <a target="_blank"
-                                                                                           href="https://www.facebook.com/plcogym"><span
-                                            class="screen-reader-text">facebook</span><i class="fa fa-facebook"
-                                                                                         aria-hidden="true"></i> </a><a
-                                            target="_blank"
-                                            href="https://www.youtube.com/channel/UCUXRxvrWoWrXprZ0mMZjT3A/featured"><span
-                                            class="screen-reader-text">youtube</span><i class="fa fa-youtube-play"
-                                                                                        aria-hidden="true"></i> </a><a
-                                            target="_blank"
-                                            href="https://www.instagram.com/official_plcogym_elite/"><span
-                                            class="screen-reader-text">instagram</span><i class="fa fa-instagram"
-                                                                                          aria-hidden="true"></i> </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>-->
-							<!--/right-aligned-menu-items-->
-						</div>
-						<!--/row-->
-					</div>
-					<!--/container-->
-				</header>
-			</div>
+			<%@include file="../header.jsp"%>
 			<div id="ajax-content-wrap">
 				<div class="container-wrap">
 					<div class="container main-content">
 						<div class="row">
-							<p id="breadcrumbs" class="yoast">
-								<span><span> <a href="/">Home</a> » <span
-										class="breadcrumb_last" aria-current="page">소개</span></span></span>
-							</p>
-
 							<div id="fws_61c1ff5e5e702" data-column-margin="default"
 								data-midnight="light" data-top-percent="10%"
 								data-bottom-percent="13%"
@@ -1755,12 +1538,6 @@ body .page-submenu li a {
 								style="padding-top: calc(100vw * 0.10); padding-bottom: calc(100vw * 0.13);">
 								<div class="row-bg-wrap" data-bg-animation="zoom-out"
 									data-bg-overlay="true">
-									<!--<div class="inner-wrap using-image">
-                                    <div class="row-bg using-image using-bg-color" data-parallax-speed="fast"
-                                         style="background-image: url(..//wp-content/uploads/2021/06/plcogym_logo-l.svg); background-position: center center; background-repeat: no-repeat; background-color: #333333; "></div>
-                                </div>-->
-									<!--<div class="row-bg-overlay"
-                                     style="background:pink; background: linear-gradient(45deg,#5c1cdb 0%,#000000 100%); opacity: 0.95; "></div>-->
 								</div>
 
 								<div class="video-color-overlay" data-color=""></div>
@@ -1885,15 +1662,6 @@ body .page-submenu li a {
 											<div class="wpb_wrapper">
 												<div class="page-submenu" data-bg-color="#000000"
 													data-sticky="true" data-alignment="center">
-<!-- 													<div class="full-width-content" -->
-<!-- 														style="background-color: #000000; color: #ffffff;"> -->
-<!-- 														<a href="#" class="mobile-menu-link"><i -->
-<!-- 															class="salient-page-submenu-icon"></i>Menu</a> -->
-<!-- 														<ul style="background-color: #000000; color: #ffffff;"> -->
-<!-- 															<li><a href="#class1">대야점(본점)</a></li> -->
-<!-- 															<li><a href="#class2">장현지구(직영점)</a></li> -->
-<!-- 														</ul> -->
-<!-- 													</div> -->
 												</div>
 											</div>
 										</div>
@@ -2050,28 +1818,6 @@ body .page-submenu li a {
 																								<h2>80,000</h2>
 																							</div>
 																						</div>
-																						<!--                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1625458379920">-->
-																						<!--                                                                                        <div class="wpb_wrapper"><p>80,000원</p>-->
-																						<!--                                                                                        </div>-->
-																						<!--                                                                                    </div>-->
-																						<!--                                                                                    <div class="divider-wrap"-->
-																						<!--                                                                                         data-alignment="default">-->
-																						<!--                                                                                        <div style="margin-top: 12.5px; height: 1px; margin-bottom: 12.5px;"-->
-																						<!--                                                                                             data-width="100%" data-animate=""-->
-																						<!--                                                                                             data-animation-delay=""-->
-																						<!--                                                                                             data-color="default"-->
-																						<!--                                                                                             class="divider-border"></div>-->
-																						<!--                                                                                    </div>-->
-																						<!--                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1625459601400">-->
-																						<!--                                                                                        <div class="wpb_wrapper">-->
-																						<!--                                                                                            <p>-->
-																						<!--                                                                                                <i class="icon-tiny fa fa-check extra-color-1"></i>-->
-																						<!--                                                                                                1회 이용권<br/>-->
-																						<!--                                                                                                <del></del>-->
-																						<!--                                                                                                <del></del>-->
-																						<!--                                                                                            </p>-->
-																						<!--                                                                                        </div>-->
-																						<!--                                                                                    </div>-->
 																					</div>
 																				</div>
 																			</div>
@@ -2107,30 +1853,6 @@ body .page-submenu li a {
 																								<h2>130,000</h2>
 																							</div>
 																						</div>
-																						<!--                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1625459018735">-->
-																						<!--                                                                                        <div class="wpb_wrapper"><p>회당-->
-																						<!--                                                                                            90,000원</p></div>-->
-																						<!--                                                                                    </div>-->
-																						<!--                                                                                    <div class="divider-wrap"-->
-																						<!--                                                                                         data-alignment="default">-->
-																						<!--                                                                                        <div style="margin-top: 12.5px; height: 1px; margin-bottom: 12.5px;"-->
-																						<!--                                                                                             data-width="100%" data-animate=""-->
-																						<!--                                                                                             data-animation-delay=""-->
-																						<!--                                                                                             data-color="default"-->
-																						<!--                                                                                             class="divider-border"></div>-->
-																						<!--                                                                                    </div>-->
-																						<!--                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1625459646401">-->
-																						<!--                                                                                        <div class="wpb_wrapper">-->
-																						<!--                                                                                            <p>-->
-																						<!--                                                                                                <i class="icon-tiny fa fa-check extra-color-1"></i>-->
-																						<!--                                                                                                1회권 대비 20만원 할인<br/>-->
-																						<!--                                                                                                <del></del>-->
-																						<!--                                                                                                <del></del>-->
-																						<!--                                                                                                <i class="icon-tiny fa fa-check extra-color-1"></i>-->
-																						<!--                                                                                                이용기간 3개월-->
-																						<!--                                                                                            </p>-->
-																						<!--                                                                                        </div>-->
-																						<!--                                                                                    </div>-->
 																					</div>
 																				</div>
 																			</div>
@@ -2166,32 +1888,6 @@ body .page-submenu li a {
 																								<h2>170,000</h2>
 																							</div>
 																						</div>
-																						<!--                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1625459011264">-->
-																						<!--                                                                                        <div class="wpb_wrapper"><p>회당-->
-																						<!--                                                                                            83,000원</p></div>-->
-																						<!--                                                                                    </div>-->
-																						<!--                                                                                    <div class="divider-wrap"-->
-																						<!--                                                                                         data-alignment="default">-->
-																						<!--                                                                                        <div style="margin-top: 12.5px; height: 1px; margin-bottom: 12.5px;"-->
-																						<!--                                                                                             data-width="100%" data-animate=""-->
-																						<!--                                                                                             data-animation-delay=""-->
-																						<!--                                                                                             data-color="default"-->
-																						<!--                                                                                             class="divider-border"></div>-->
-																						<!--                                                                                    </div>-->
-																						<!--                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1625459651631">-->
-																						<!--                                                                                        <div class="wpb_wrapper">-->
-																						<!--                                                                                            <p>-->
-																						<!--                                                                                                <i class="icon-tiny fa fa-check extra-color-1"></i>-->
-																						<!--                                                                                                1회권 대비 44만원 할인<br/>-->
-																						<!--                                                                                                <del></del>-->
-																						<!--                                                                                                <del></del>-->
-																						<!--                                                                                                <i class="icon-tiny fa fa-check extra-color-1"></i>-->
-																						<!--                                                                                                이용기간 6개월<br/><i-->
-																						<!--                                                                                                    class="icon-tiny fa fa-check extra-color-1"></i>-->
-																						<!--                                                                                                퍼포먼스 측정-->
-																						<!--                                                                                            </p>-->
-																						<!--                                                                                        </div>-->
-																						<!--                                                                                    </div>-->
 																					</div>
 																				</div>
 																			</div>
@@ -2252,28 +1948,6 @@ body .page-submenu li a {
 																								<h2>200,000</h2>
 																							</div>
 																						</div>
-																						<!--                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1625458379920">-->
-																						<!--                                                                                        <div class="wpb_wrapper"><p>80,000원</p>-->
-																						<!--                                                                                        </div>-->
-																						<!--                                                                                    </div>-->
-																						<!--                                                                                    <div class="divider-wrap"-->
-																						<!--                                                                                         data-alignment="default">-->
-																						<!--                                                                                        <div style="margin-top: 12.5px; height: 1px; margin-bottom: 12.5px;"-->
-																						<!--                                                                                             data-width="100%" data-animate=""-->
-																						<!--                                                                                             data-animation-delay=""-->
-																						<!--                                                                                             data-color="default"-->
-																						<!--                                                                                             class="divider-border"></div>-->
-																						<!--                                                                                    </div>-->
-																						<!--                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1625459601400">-->
-																						<!--                                                                                        <div class="wpb_wrapper">-->
-																						<!--                                                                                            <p>-->
-																						<!--                                                                                                <i class="icon-tiny fa fa-check extra-color-1"></i>-->
-																						<!--                                                                                                1회 이용권<br/>-->
-																						<!--                                                                                                <del></del>-->
-																						<!--                                                                                                <del></del>-->
-																						<!--                                                                                            </p>-->
-																						<!--                                                                                        </div>-->
-																						<!--                                                                                    </div>-->
 																					</div>
 																				</div>
 																			</div>
@@ -2309,30 +1983,6 @@ body .page-submenu li a {
 																								<h2>300,000</h2>
 																							</div>
 																						</div>
-																						<!--                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1625459018735">-->
-																						<!--                                                                                        <div class="wpb_wrapper"><p>회당-->
-																						<!--                                                                                            90,000원</p></div>-->
-																						<!--                                                                                    </div>-->
-																						<!--                                                                                    <div class="divider-wrap"-->
-																						<!--                                                                                         data-alignment="default">-->
-																						<!--                                                                                        <div style="margin-top: 12.5px; height: 1px; margin-bottom: 12.5px;"-->
-																						<!--                                                                                             data-width="100%" data-animate=""-->
-																						<!--                                                                                             data-animation-delay=""-->
-																						<!--                                                                                             data-color="default"-->
-																						<!--                                                                                             class="divider-border"></div>-->
-																						<!--                                                                                    </div>-->
-																						<!--                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1625459646401">-->
-																						<!--                                                                                        <div class="wpb_wrapper">-->
-																						<!--                                                                                            <p>-->
-																						<!--                                                                                                <i class="icon-tiny fa fa-check extra-color-1"></i>-->
-																						<!--                                                                                                1회권 대비 20만원 할인<br/>-->
-																						<!--                                                                                                <del></del>-->
-																						<!--                                                                                                <del></del>-->
-																						<!--                                                                                                <i class="icon-tiny fa fa-check extra-color-1"></i>-->
-																						<!--                                                                                                이용기간 3개월-->
-																						<!--                                                                                            </p>-->
-																						<!--                                                                                        </div>-->
-																						<!--                                                                                    </div>-->
 																					</div>
 																				</div>
 																			</div>
@@ -2368,32 +2018,6 @@ body .page-submenu li a {
 																								<h2>330,000</h2>
 																							</div>
 																						</div>
-																						<!--                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1625459011264">-->
-																						<!--                                                                                        <div class="wpb_wrapper"><p>회당-->
-																						<!--                                                                                            83,000원</p></div>-->
-																						<!--                                                                                    </div>-->
-																						<!--                                                                                    <div class="divider-wrap"-->
-																						<!--                                                                                         data-alignment="default">-->
-																						<!--                                                                                        <div style="margin-top: 12.5px; height: 1px; margin-bottom: 12.5px;"-->
-																						<!--                                                                                             data-width="100%" data-animate=""-->
-																						<!--                                                                                             data-animation-delay=""-->
-																						<!--                                                                                             data-color="default"-->
-																						<!--                                                                                             class="divider-border"></div>-->
-																						<!--                                                                                    </div>-->
-																						<!--                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1625459651631">-->
-																						<!--                                                                                        <div class="wpb_wrapper">-->
-																						<!--                                                                                            <p>-->
-																						<!--                                                                                                <i class="icon-tiny fa fa-check extra-color-1"></i>-->
-																						<!--                                                                                                1회권 대비 44만원 할인<br/>-->
-																						<!--                                                                                                <del></del>-->
-																						<!--                                                                                                <del></del>-->
-																						<!--                                                                                                <i class="icon-tiny fa fa-check extra-color-1"></i>-->
-																						<!--                                                                                                이용기간 6개월<br/><i-->
-																						<!--                                                                                                    class="icon-tiny fa fa-check extra-color-1"></i>-->
-																						<!--                                                                                                퍼포먼스 측정-->
-																						<!--                                                                                            </p>-->
-																						<!--                                                                                        </div>-->
-																						<!--                                                                                    </div>-->
 																					</div>
 																				</div>
 																			</div>
@@ -2435,72 +2059,7 @@ body .page-submenu li a {
 																					<div class="row-bg-wrap">
 																						<div class="row-bg"></div>
 																					</div>
-																					<!--                                                                                <div class="row_col_wrap_12_inner col span_12 left">-->
-																					<!--                                                                                    <div class="vc_col-sm-12 vc_hidden-lg vc_hidden-md wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "-->
-																					<!--                                                                                         data-padding-pos="all" data-has-bg-color="false"-->
-																					<!--                                                                                         data-bg-color="" data-bg-opacity="1" data-animation=""-->
-																					<!--                                                                                         data-delay="0">-->
-																					<!--                                                                                        <div class="vc_column-inner">-->
-																					<!--                                                                                            <div class="wpb_wrapper">-->
-
-																					<!--                                                                                                &lt;!&ndash;<div class="nectar-split-heading" data-align="default"-->
-																					<!--                                                                                                     data-m-align="inherit"-->
-																					<!--                                                                                                     data-animation-type="default"-->
-																					<!--                                                                                                     data-animation-delay="0" data-m-rm-animation=""-->
-																					<!--                                                                                                     data-stagger="" data-custom-font-size="false">-->
-																					<!--                                                                                                    <div class="heading-line">-->
-																					<!--                                                                                                        <div><h2>시설 안내</h2></div>-->
-																					<!--                                                                                                    </div>-->
-																					<!--                                                                                                </div>&ndash;&gt;-->
-																					<!--                                                                                            </div>-->
-																					<!--                                                                                        </div>-->
-																					<!--                                                                                    </div>-->
-																					<!--                                                                                </div>-->
 																				</div>
-																				<!--모바일/웹 코치진 타이틀-->
-																				<!--                                                                            <div id="fws_61c1ff5e66c62" data-midnight="" data-column-margin="default"-->
-																				<!--                                                                                 class="wpb_row vc_row-fluid vc_row inner_row bottom_padding_phone_40px "-->
-																				<!--                                                                                 style="padding-bottom: 100px; ">-->
-																				<!--                                                                                <div class="row-bg-wrap">-->
-																				<!--                                                                                    <div class="row-bg"></div>-->
-																				<!--                                                                                </div>-->
-																				<!--                                                                                <div class="row_col_wrap_12_inner col span_12 left">-->
-																				<!--                                                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-																				<!--                                                                                         data-padding-pos="all" data-has-bg-color="false"-->
-																				<!--                                                                                         data-bg-color="" data-bg-opacity="1" data-animation=""-->
-																				<!--                                                                                         data-delay="0">-->
-																				<!--                                                                                        <div class="vc_column-inner">-->
-																				<!--                                                                                            <div class="wpb_wrapper">-->
-																				<!--                                                                                                <div class="nectar_video_player_self_hosted wpb_video_widget wpb_content_element vc_clearfix vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-center"-->
-																				<!--                                                                                                     data-border-radius="10px" data-shadow="none">-->
-																				<!--                                                                                                    <div class="wpb_wrapper">-->
-																				<!--                                                                                                        <div class="wpb_video_wrapper">-->
-																				<!--&lt;!&ndash;                                                                                                            <div class="vc_column-inner">&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                <div class="wpb_wrapper">&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                    &lt;!&ndash;<div class="nectar-split-heading" data-align="default"&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                         data-m-align="inherit"&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                         data-animation-type="default"&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                         data-animation-delay="0" data-m-rm-animation=""&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                         data-stagger="" data-custom-font-size="false">&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                        <div class="heading-line">&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                            <div><h2>축구교실 코칭 스태프</h2></div>&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                        </div>&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                    </div>&ndash;&gt;&ndash;&gt;-->
-
-																				<!--&lt;!&ndash;                                                                                                                    <div class="wpb_text_column wpb_content_element "&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                         style=" max-width: 650px; display: inline-block;">&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                    </div>&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                                </div>&ndash;&gt;-->
-																				<!--&lt;!&ndash;                                                                                                            </div>&ndash;&gt;-->
-																				<!--                                                                                                        </div>-->
-																				<!--                                                                                                    </div>-->
-																				<!--                                                                                                </div>-->
-																				<!--                                                                                            </div>-->
-																				<!--                                                                                        </div>-->
-																				<!--                                                                                    </div>-->
-																				<!--                                                                                </div>-->
-																				<!--                                                                            </div>-->
-																				<!--모바일/웹 코치진 li-->
 																				<div id="fws_61c1ff5e672aa" data-midnight=""
 																					data-column-margin="40px"
 																					class="wpb_row vc_row-fluid vc_row inner_row "
@@ -2858,10 +2417,6 @@ body .page-submenu li a {
 																			</div>
 																			<div class="wpb_wrapper">
 																				<div class="wpb_text_column wpb_content_element ">
-																					<!--                                                                                <div class="wpb_wrapper"><h4>팀 스케줄은 별도-->
-																					<!--                                                                                    협의가 필요합니다. 사이트 하단 <strong>카카오톡 1:1-->
-																					<!--                                                                                        문의를 통해 빠른 문의</strong>가 가능합니다. 🙂-->
-																					<!--                                                                                </h4></div>-->
 																					<div class="wpb_wrapper">
 																						<h4>
 																							지도가 들어갈 부분입니다. api 연결 해주어야함<strong></strong>🙂
@@ -2881,350 +2436,10 @@ body .page-submenu li a {
 									</div>
 								</div>
 							</div>
-							<!--                        <div id="fws_61c1ff5e6c34a" data-column-margin="default" data-midnight="dark"-->
-							<!--                             class="wpb_row vc_row-fluid vc_row " style="padding-top: 0px; padding-bottom: 0px; ">-->
-							<!--                            <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false">-->
-							<!--                                <div class="inner-wrap">-->
-							<!--                                    <div class="row-bg" style=""></div>-->
-							<!--                                </div>-->
-							<!--                            </div>-->
-							<!--                            <div class="row_col_wrap_12 col span_12 dark left">-->
-							<!--                                <div style="margin-bottom: -21px; "-->
-							<!--                                     class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "-->
-							<!--                                     data-padding-pos="all" data-has-bg-color="false" data-bg-color=""-->
-							<!--                                     data-bg-opacity="1" data-animation="" data-delay="0">-->
-							<!--                                    <div class="vc_column-inner">-->
-							<!--                                        <div class="wpb_wrapper">-->
-							<!--                                            <div class="wpb_widgetised_column wpb_content_element">-->
-							<!--                                                <div id="sidebar" data-nectar-ss="" class="wpb_wrapper">-->
-							<!--                                                    <div id="text-2" class="widget widget_text">-->
-							<!--                                                        <div class="textwidget">-->
-							<!--                                                            <div id="fws_61c1ff5e6ca3f" data-column-margin="default"-->
-							<!--                                                                 data-midnight="light" data-top-percent="5%"-->
-							<!--                                                                 data-bottom-percent="5%"-->
-							<!--                                                                 class="wpb_row vc_row-fluid vc_row full-width-section vc_row-o-equal-height vc_row-flex vc_row-o-content-middle parallax_section "-->
-							<!--                                                                 style="padding-top: calc(100vw * 0.05); padding-bottom: calc(100vw * 0.05); ">-->
-							<!--                                                                <div class="row-bg-wrap" data-bg-animation="none"-->
-							<!--                                                                     data-bg-overlay="true">-->
-							<!--                                                                    <div class="inner-wrap using-image">-->
-							<!--                                                                        <div class="row-bg using-image using-bg-color"-->
-							<!--                                                                             data-parallax-speed="fast"-->
-							<!--                                                                             style="background-image: url(..//wp-content/uploads/2021/06/service_cta-scaled.jpg); background-position: center center; background-repeat: no-repeat; background-color: #1e1e1e; "></div>-->
-							<!--                                                                    </div>-->
-							<!--                                                                    <div class="row-bg-overlay"-->
-							<!--                                                                         style="background-color:#000000; opacity: 0.8; "></div>-->
-							<!--                                                                </div>-->
-							<!--                                                                <div class="row_col_wrap_12 col span_12 light left">-->
-							<!--                                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "-->
-							<!--                                                                         data-padding-pos="all"-->
-							<!--                                                                         data-has-bg-color="false" data-bg-color=""-->
-							<!--                                                                         data-bg-opacity="1" data-animation=""-->
-							<!--                                                                         data-delay="0">-->
-							<!--                                                                        <div class="vc_column-inner">-->
-							<!--                                                                            <div class="wpb_wrapper">-->
-							<!--                                                                                <div id="fws_61c1ff5e6cb83"-->
-							<!--                                                                                     data-midnight=""-->
-							<!--                                                                                     data-column-margin="default"-->
-							<!--                                                                                     class="wpb_row vc_row-fluid vc_row inner_row vc_custom_1626186036416 "-->
-							<!--                                                                                     style="">-->
-							<!--                                                                                    <div class="row-bg-wrap">-->
-							<!--                                                                                        <div class="row-bg"></div>-->
-							<!--                                                                                    </div>-->
-							<!--                                                                                    <div class="row_col_wrap_12_inner col span_12 left">-->
-							<!--                                                                                        <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-							<!--                                                                                             data-padding-pos="all"-->
-							<!--                                                                                             data-has-bg-color="false"-->
-							<!--                                                                                             data-bg-color=""-->
-							<!--                                                                                             data-bg-opacity="1"-->
-							<!--                                                                                             data-animation=""-->
-							<!--                                                                                             data-delay="0">-->
-							<!--                                                                                            <div class="vc_column-inner">-->
-							<!--                                                                                                <div class="wpb_wrapper"></div>-->
-							<!--                                                                                            </div>-->
-							<!--                                                                                        </div>-->
-							<!--                                                                                        <div class="vc_col-sm-8 vc_hidden-sm vc_hidden-xs wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "-->
-							<!--                                                                                             data-padding-pos="left-right"-->
-							<!--                                                                                             data-has-bg-color="false"-->
-							<!--                                                                                             data-bg-color=""-->
-							<!--                                                                                             data-bg-opacity="1"-->
-							<!--                                                                                             data-animation=""-->
-							<!--                                                                                             data-delay="0">-->
-							<!--                                                                                            <div class="vc_column-inner">-->
-							<!--                                                                                                <div class="wpb_wrapper">-->
-							<!--                                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1624435412260">-->
-							<!--                                                                                                        <div class="wpb_wrapper">-->
-							<!--                                                                                                            <h5><strong>BEST-->
-							<!--                                                                                                                PERFORMANCE-->
-							<!--                                                                                                                EVER!</strong>-->
-							<!--                                                                                                            </h5></div>-->
-							<!--                                                                                                    </div>-->
-
-							<!--                                                                                                </div>-->
-							<!--                                                                                            </div>-->
-							<!--                                                                                        </div>-->
-							<!--                                                                                        <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-							<!--                                                                                             data-padding-pos="all"-->
-							<!--                                                                                             data-has-bg-color="false"-->
-							<!--                                                                                             data-bg-color=""-->
-							<!--                                                                                             data-bg-opacity="1"-->
-							<!--                                                                                             data-animation=""-->
-							<!--                                                                                             data-delay="0">-->
-							<!--                                                                                            <div class="vc_column-inner">-->
-							<!--                                                                                                <div class="wpb_wrapper"></div>-->
-							<!--                                                                                            </div>-->
-							<!--                                                                                        </div>-->
-							<!--                                                                                    </div>-->
-							<!--                                                                                </div>-->
-							<!--                                                                                <div id="fws_61c1ff5e6cefd"-->
-							<!--                                                                                     data-midnight=""-->
-							<!--                                                                                     data-column-margin="default"-->
-							<!--                                                                                     class="wpb_row vc_row-fluid vc_row inner_row vc_custom_1626186040826 "-->
-							<!--                                                                                     style="">-->
-							<!--                                                                                    <div class="row-bg-wrap">-->
-							<!--                                                                                        <div class="row-bg"></div>-->
-							<!--                                                                                    </div>-->
-							<!--                                                                                    <div class="row_col_wrap_12_inner col span_12 left">-->
-							<!--                                                                                        <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-							<!--                                                                                             data-padding-pos="all"-->
-							<!--                                                                                             data-has-bg-color="false"-->
-							<!--                                                                                             data-bg-color=""-->
-							<!--                                                                                             data-bg-opacity="1"-->
-							<!--                                                                                             data-animation=""-->
-							<!--                                                                                             data-delay="0">-->
-							<!--                                                                                            <div class="vc_column-inner">-->
-							<!--                                                                                                <div class="wpb_wrapper"></div>-->
-							<!--                                                                                            </div>-->
-							<!--                                                                                        </div>-->
-							<!--                                                                                        <div class="vc_col-sm-8 vc_hidden-lg vc_hidden-md wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "-->
-							<!--                                                                                             data-padding-pos="left-right"-->
-							<!--                                                                                             data-has-bg-color="false"-->
-							<!--                                                                                             data-bg-color=""-->
-							<!--                                                                                             data-bg-opacity="1"-->
-							<!--                                                                                             data-animation=""-->
-							<!--                                                                                             data-delay="0">-->
-							<!--                                                                                            <div class="vc_column-inner">-->
-							<!--                                                                                                <div class="wpb_wrapper">-->
-							<!--                                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1624435412260">-->
-							<!--                                                                                                        <div class="wpb_wrapper">-->
-							<!--                                                                                                            <h5><strong>BEST-->
-							<!--                                                                                                                PERFORMANCE-->
-							<!--                                                                                                                EVER!</strong>-->
-							<!--                                                                                                            </h5></div>-->
-							<!--                                                                                                    </div>-->
-							<!--                                                                                                    &lt;!&ndash;<div class="wpb_text_column wpb_content_element ">-->
-							<!--                                                                                                        <div class="wpb_wrapper">-->
-							<!--                                                                                                            <h2><strong>지금-->
-							<!--                                                                                                                신청하세요!</strong>-->
-							<!--                                                                                                            </h2></div>-->
-							<!--                                                                                                    </div>&ndash;&gt;-->
-							<!--                                                                                                    &lt;!&ndash;<a class="nectar-button large see-through-3 "-->
-							<!--                                                                                                       style="margin-top: 25px; border-color: #2a44ec;"-->
-							<!--                                                                                                       target="_blank"-->
-							<!--                                                                                                       href="https://form.typeform.com/to/AF4PWVSz"-->
-							<!--                                                                                                       data-color-override="#2a44ec"-->
-							<!--                                                                                                       data-hover-color-override="#2a44ec"-->
-							<!--                                                                                                       data-hover-text-color-override="#ffffff"-->
-							<!--                                                                                                       rel="noopener"><span>무료훈련 신청</span></a>&ndash;&gt;-->
-							<!--                                                                                                </div>-->
-							<!--                                                                                            </div>-->
-							<!--                                                                                        </div>-->
-							<!--                                                                                        <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-							<!--                                                                                             data-padding-pos="all"-->
-							<!--                                                                                             data-has-bg-color="false"-->
-							<!--                                                                                             data-bg-color=""-->
-							<!--                                                                                             data-bg-opacity="1"-->
-							<!--                                                                                             data-animation=""-->
-							<!--                                                                                             data-delay="0">-->
-							<!--                                                                                            <div class="vc_column-inner">-->
-							<!--                                                                                                <div class="wpb_wrapper"></div>-->
-							<!--                                                                                            </div>-->
-							<!--                                                                                        </div>-->
-							<!--                                                                                    </div>-->
-							<!--                                                                                </div>-->
-							<!--                                                                            </div>-->
-							<!--                                                                        </div>-->
-							<!--                                                                    </div>-->
-							<!--                                                                </div>-->
-							<!--                                                            </div>-->
-							<!--                                                        </div>-->
-							<!--                                                    </div>-->
-							<!--                                                </div>-->
-							<!--                                            </div>-->
-							<!--                                        </div>-->
-							<!--                                    </div>-->
-							<!--                                </div>-->
-							<!--                            </div>-->
-							<!--                        </div>-->
 							<span class="cp-load-after-post"></span>
 						</div>
 					</div>
-					<!--                <div class="nectar-global-section before-footer">-->
-					<!--                    <div class="container normal-container row">-->
-					<!--                        <div id="fws_61c1ff5e6e71b" data-column-margin="none" data-midnight="light"-->
-					<!--                             class="wpb_row vc_row-fluid vc_row full-width-section vc_row-o-equal-height vc_row-flex vc_row-o-content-middle "-->
-					<!--                             style="padding-top: 50px; padding-bottom: 50px; ">-->
-					<!--                            <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="true">-->
-					<!--                                <div class="inner-wrap">-->
-					<!--                                    <div class="row-bg using-bg-color" style="background-color: #000000; "></div>-->
-					<!--                                </div>-->
-					<!--                                <div class="row-bg-overlay" style="background-color:#111111; opacity: 0.8; "></div>-->
-					<!--                            </div>-->
-					<!--                            <div class="row_col_wrap_12 col span_12 light left">-->
-					<!--                                <div class="vc_col-sm-6 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "-->
-					<!--                                     data-padding-pos="right" data-has-bg-color="false" data-bg-color=""-->
-					<!--                                     data-bg-opacity="1" data-animation="" data-delay="0">-->
-					<!--                                    <div class="vc_column-inner">-->
-					<!--                                        <div class="wpb_wrapper">-->
-					<!--                                            <div id="fws_61c1ff5e6e826" data-midnight="" data-column-margin="70px"-->
-					<!--                                                 class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex "-->
-					<!--                                                 style="">-->
-					<!--                                                <div class="row-bg-wrap">-->
-					<!--                                                    <div class="row-bg"></div>-->
-					<!--                                                </div>-->
-					<!--                                                <div class="row_col_wrap_12_inner col span_12 left">-->
-					<!--                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-					<!--                                                         data-t-w-inherits="small_desktop" data-padding-pos="all"-->
-					<!--                                                         data-has-bg-color="false" data-bg-color="" data-bg-opacity="1"-->
-					<!--                                                         data-animation="" data-delay="0">-->
-					<!--                                                        <div class="vc_column-inner">-->
-					<!--                                                            <div class="wpb_wrapper">-->
-					<!--                                                                <div class="wpb_text_column wpb_content_element ">-->
-					<!--                                                                    <div class="wpb_wrapper"><h4>㈜-->
-					<!--                                                                        <strong>큐엠아이티</strong></h4>-->
-					<!--                                                                        <p><span style="font-size: 0.9em;"><strong>사업자 등록번호.</strong> 528-86-00986  <strong>대표.</strong> 이상기<br/><strong>본사.</strong> 서울특별시 서초구 강남대로311, 드림플러스 강남<br/><strong>플코짐 송파점.</strong> 서울특별시 송파구 송파대로111, 파크하비오 B101</span>-->
-					<!--                                                                        </p></div>-->
-					<!--                                                                </div>-->
-					<!--                                                                <div class="wpb_text_column wpb_content_element ">-->
-					<!--                                                                    <div class="wpb_wrapper"><p><i-->
-					<!--                                                                            class="icon-tiny fa fa-phone extra-color-3"></i><strong>일반상담-->
-					<!--                                                                        :-->
-					<!--                                                                         <a href="tel: 028531201">02-853-1201</a></strong><br/><i-->
-					<!--                                                                            class="icon-tiny fa fa-commenting-o extra-color-3"></i><strong>카카오-->
-					<!--                                                                        1:1 상담 : </strong> <span-->
-					<!--                                                                            style="color: #ffffff;"><a-->
-					<!--                                                                            style="color: #ffffff;"-->
-					<!--                                                                            href="http://pf.kakao.com/_Rnskxb/chat"-->
-					<!--                                                                            target="_blank" rel="noopener"><span-->
-					<!--                                                                            style="text-decoration: underline;">엘리트</span><i-->
-					<!--                                                                            class="icon-tiny fa fa-external-link extra-color-3"></i></a> <a-->
-					<!--                                                                            style="color: #ffffff;"-->
-					<!--                                                                            href="http://pf.kakao.com/_XBsKK/chat"-->
-					<!--                                                                            target="_blank" rel="noopener"><span-->
-					<!--                                                                            style="text-decoration: underline;">아마추어</span><i-->
-					<!--                                                                            class="icon-tiny fa fa-external-link extra-color-3"></i> </a></span>-->
-					<!--                                                                    </p></div>-->
-					<!--                                                                </div>-->
-					<!--                                                            </div>-->
-					<!--                                                        </div>-->
-					<!--                                                    </div>-->
-					<!--                                                </div>-->
-					<!--                                            </div>-->
-					<!--                                            <div id="fws_61c1ff5e6ea75" data-midnight="" data-column-margin="default"-->
-					<!--                                                 class="wpb_row vc_row-fluid vc_row inner_row bottom_padding_tablet_15pct "-->
-					<!--                                                 style="padding-top: 5px; ">-->
-					<!--                                                <div class="row-bg-wrap">-->
-					<!--                                                    <div class="row-bg"></div>-->
-					<!--                                                </div>-->
-					<!--                                                <div class="row_col_wrap_12_inner col span_12 left">-->
-					<!--                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding el_spacing_0px inherit_tablet inherit_phone "-->
-					<!--                                                         data-padding-pos="all" data-has-bg-color="false"-->
-					<!--                                                         data-bg-color="" data-bg-opacity="1" data-animation=""-->
-					<!--                                                         data-delay="0">-->
-					<!--                                                        <div class="vc_column-inner">-->
-					<!--                                                            <div class="wpb_wrapper">-->
-					<!--                                                                <div class="nectar-cta alignment_tablet_default alignment_phone_default "-->
-					<!--                                                                     data-color="default" data-using-bg="false"-->
-					<!--                                                                     data-display="inline" data-style="underline"-->
-					<!--                                                                     data-alignment="left" data-text-color="custom"-->
-					<!--                                                                     style="margin-right: 30px; margin-bottom: 10px; ">-->
-					<!--                                                                    <p style="color: #ffffff;"><span-->
-					<!--                                                                            class="text"> </span><span-->
-					<!--                                                                            class="link_wrap"><a target="_blank"-->
-					<!--                                                                                                 class="link_text"-->
-					<!--                                                                                                 style="border-color: #ffffff;"-->
-					<!--                                                                                                 href="https://plco.site/about">회사소개</a></span>-->
-					<!--                                                                    </p></div>-->
-					<!--                                                                <div class="nectar-cta alignment_tablet_default alignment_phone_default "-->
-					<!--                                                                     data-color="default" data-using-bg="false"-->
-					<!--                                                                     data-display="inline" data-style="underline"-->
-					<!--                                                                     data-alignment="left" data-text-color="custom"-->
-					<!--                                                                     style="margin-bottom: 10px; "><p-->
-					<!--                                                                        style="color: #ffffff;"><span-->
-					<!--                                                                        class="text"> </span><span class="link_wrap"-->
-					<!--                                                                                                   style="padding-right: 30px; "><a-->
-					<!--                                                                        target="_blank" class="link_text"-->
-					<!--                                                                        style="border-color: #ffffff;"-->
-					<!--                                                                        href="https://www.notion.so/qmit1201/Join-QMIT-6e503040945143099c84a410b2ecec31">채용</a></span>-->
-					<!--                                                                </p></div>-->
-					<!--                                                                <div class="nectar-cta alignment_tablet_default alignment_phone_default "-->
-					<!--                                                                     data-color="default" data-using-bg="false"-->
-					<!--                                                                     data-display="inline" data-style="underline"-->
-					<!--                                                                     data-alignment="left" data-text-color="custom"-->
-					<!--                                                                     style="margin-bottom: 10px; "><p-->
-					<!--                                                                        style="color: #ffffff;"><span-->
-					<!--                                                                        class="text"> </span><span class="link_wrap"-->
-					<!--                                                                                                   style="padding-right: 25px; "><a-->
-					<!--                                                                        target="_blank" class="link_text"-->
-					<!--                                                                        style="border-color: #ffffff;"-->
-					<!--                                                                        href="https://form.typeform.com/to/AF4PWVSz">무료훈련 신청</a></span>-->
-					<!--                                                                </p></div>-->
-					<!--                                                            </div>-->
-					<!--                                                        </div>-->
-					<!--                                                    </div>-->
-					<!--                                                </div>-->
-					<!--                                            </div>-->
-					<!--                                        </div>-->
-					<!--                                    </div>-->
-					<!--                                </div>-->
-					<!--                                <div class="vc_col-sm-6 wpb_column column_container vc_column_container col centered-text no-extra-padding no-extra-padding_tablet no-extra-padding_phone border_left_tablet_0px border_left_phone_0px border_top_tablet_0px border_top_phone_0px border_color_5e5e5e border_style_solid "-->
-					<!--                                     data-padding-pos="left" data-has-bg-color="false" data-bg-color=""-->
-					<!--                                     data-bg-opacity="1" data-animation="" data-delay="0">-->
-					<!--                                    <div class="vc_column-inner">-->
-					<!--                                        <div class="wpb_wrapper">-->
-					<!--                                            <div class="clients no-carousel four-cols" data-he="opacity"-->
-					<!--                                                 data-additional_padding="2">-->
-					<!--                                                <div class="no-link"><img-->
-					<!--                                                        src="..//wp-content/uploads/2021/07/Naver-D2SF-30.png"-->
-					<!--                                                        alt="client" width="214" height="30"/></div>-->
-					<!--                                                <div class="no-link"><img-->
-					<!--                                                        src="..//wp-content/uploads/2021/07/Lotte-Accelelator-30.png"-->
-					<!--                                                        alt="client" width="179" height="30"/></div>-->
-					<!--                                                <div class="no-link"><img-->
-					<!--                                                        src="..//wp-content/uploads/2021/07/Kaist-light-30.png"-->
-					<!--                                                        alt="client" width="67" height="30"/></div>-->
-					<!--                                                <div class="no-link"><img-->
-					<!--                                                        src="..//wp-content/uploads/2021/07/SansSans-ebiz-30.png"-->
-					<!--                                                        alt="client" width="98" height="30"/></div>-->
-					<!--                                                <div class="no-link"><img-->
-					<!--                                                        src="..//wp-content/uploads/2021/07/samsung-30.png" alt="client"-->
-					<!--                                                        width="98" height="30"/></div>-->
-					<!--                                                <div class="no-link"><img-->
-					<!--                                                        src="..//wp-content/uploads/2021/07/C-Lab-light-20.png"-->
-					<!--                                                        alt="client" width="81" height="20"/></div>-->
-					<!--                                                <div class="no-link"><img src="..//wp-content/uploads/2021/07/MCB-30.png"-->
-					<!--                                                                          alt="client" width="128" height="30"/></div>-->
-					<!--                                                <div class="no-link"><img-->
-					<!--                                                        src="..//wp-content/uploads/2021/07/kspo-30.png" alt="client"-->
-					<!--                                                        width="81" height="30"/></div>-->
-					<!--                                            </div>-->
-					<!--                                        </div>-->
-					<!--                                    </div>-->
-					<!--                                </div>-->
-					<!--                            </div>-->
-					<!--                        </div>-->
-					<!--                    </div>-->
-					<!--                </div>-->
 				</div>
-				<!--            <div id="footer-outer" data-midnight="light" data-cols="4" data-custom-color="true"-->
-				<!--                 data-disable-copyright="false" data-matching-section-color="true" data-copyright-line="false"-->
-				<!--                 data-using-bg-img="false" data-bg-img-overlay="0.8" data-full-width="false"-->
-				<!--                 data-using-widget-area="false" data-link-hover="default">-->
-				<!--                <div class="row" id="copyright" data-layout="default">-->
-				<!--                    <div class="container">-->
-				<!--                        <div class="col span_5"><p>ⓒ 2021 QMIT All rights reserved.</p></div>&lt;!&ndash;/span_5&ndash;&gt;-->
-				<!--                        <div class="col span_7 col_last">-->
-				<!--                            <ul class="social"></ul>-->
-				<!--                        </div>&lt;!&ndash;/span_7&ndash;&gt; </div>&lt;!&ndash;/container&ndash;&gt; </div>&lt;!&ndash;/row&ndash;&gt;</div>&lt;!&ndash;/footer-outer&ndash;&gt;-->
 				<div id="slide-out-widget-area-bg"
 					class="fullscreen-split hidden dark"></div>
 				<div id="slide-out-widget-area" class="fullscreen-split hidden"

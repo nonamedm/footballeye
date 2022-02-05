@@ -10344,9 +10344,7 @@ input[type="button"]:hover{
 body[data-form-submit="regular"] .container-wrap input[type=submit],
 body[data-form-submit="regular"] .container-wrap button[type=submit],
 body[data-form-submit="see-through"] .container-wrap input[type=submit],
-body[data-form-submit="see-through"] .container-wrap button[type=submit]:not(.search-widget-btn) {
-  padding:15px 22px!important
-}
+
 body[data-form-submit="regular"] input[type=submit]:hover,
 body[data-form-submit="regular"] button[type=submit]:hover{
   opacity:0.85

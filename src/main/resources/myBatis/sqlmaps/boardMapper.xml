@@ -5,7 +5,8 @@
 <mapper namespace="board">
   	
   	<select id="getMissionList" resultType="hashmap">
-  		SELECT * FROM BOARD WHERE BOARD_NAME='mission' ORDER BY BOARD_IDX DESC
+  		SELECT BOARD_NAME,BOARD_IDX,BOARD_TITLE,BOARD_CONT,USER_ID,USER_NAME,DATE_FORMAT(BOARD_REGDATE, '%Y-%m-%d') AS BOARD_REGDATE,BOARD_READCOUNT
+  			 FROM BOARD WHERE BOARD_NAME='mission' ORDER BY BOARD_IDX DESC
   	</select>
   	<update id="updateReadCount" parameterType="int">
   		UPDATE BOARD SET BOARD_READCOUNT=BOARD_READCOUNT+1 WHERE BOARD_IDX=#{idx}
@@ -66,7 +67,7 @@
   		FROM BOARD_FILES WHERE BOARD_IDX = #{idx}
   	</select>
   	
-  	<delete id="deleteBoard" parameterType="int">
-  		DELETE FROM BOARD WHERE BOARD_IDX=#{board_idx} AND USER_ID=${user_id}
+  	<delete id="deleteBoard" parameterType="hashmap">
+  		DELETE FROM BOARD WHERE BOARD_IDX=#{board_idx} AND USER_ID=#{user_id}
   	</delete>
 </mapper>

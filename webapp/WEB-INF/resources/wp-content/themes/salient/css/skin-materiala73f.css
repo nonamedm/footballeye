@@ -2157,12 +2157,7 @@ body.material.woocommerce .pswp__button--arrow--right {
 #commentform .form-submit {
   margin-top:25px
 }
-.container-wrap input[type="submit"],
-.container-wrap button[type="submit"],
-.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
-  padding:16px!important;
-  border-radius:0!important
-}
+
 
 body[data-button-style="rounded"] .container-wrap input[type="submit"],
 body[data-button-style="rounded"] .container-wrap button[type="submit"] {

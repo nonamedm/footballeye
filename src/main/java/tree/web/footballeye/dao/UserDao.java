@@ -18,7 +18,7 @@ public interface UserDao {
 	// user_id 중복확인
 	UserVo getid(HashMap<String, Object> map);
 	UserVo getid2(HashMap<String, Object> map);
-	UserVo getMail(HashMap<String, Object> map);
+	UserVo getPhone(HashMap<String, Object> map);
 	// user 개인 정보 
 	UserVo getuser_info(HashMap<String, Object> map);
 	

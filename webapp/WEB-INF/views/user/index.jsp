@@ -2,9 +2,181 @@
 	pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
+<%
+	Cookie[] cookies = request.getCookies();
+	String idsave = "";
+    for(Cookie cookie:cookies){
+    	System.out.println("쿠키명 : "+cookie.getName());
+    	System.out.println("쿠키값 : "+cookie.getValue());
+    	if(cookie.getName().equals("idsave")) {
+    		idsave = cookie.getValue();
+    	}
+    }
+%>
+<!-- Mirrored from gym.plco.site/guide/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Dec 2021 16:23:44 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+<meta name='robots'
+	content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>이용 안내 | Plco GYM</title>
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="ko_KR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="이용 안내 | Plco GYM" />
+<meta property="og:url" content="index.html" />
+<meta property="og:site_name" content="Plco GYM" />
+<meta property="article:publisher"
+	content="https://www.facebook.com/plcogym" />
+<meta property="article:modified_time"
+	content="2021-11-25T06:31:16+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:label1" content="Est. reading time" />
+<meta name="twitter:data1" content="18분" />
+<script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+<script type="application/ld+json" class="yoast-schema-graph">{
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://gym.plco.site/#organization",
+                "name": "\ud50c\ucf54\uc9d0",
+                "url": "https://gym.plco.site/",
+                "sameAs": [
+                    "https://www.facebook.com/plcogym",
+                    "https://www.instagram.com/official_plcogym_elite",
+                    "https://www.youtube.com/channel/UCUXRxvrWoWrXprZ0mMZjT3A"
+                ],
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://gym.plco.site/#logo",
+                    "inLanguage": "ko-KR",
+                    "url": "https://gym.plco.site/wp-content/uploads/2021/07/plcogym_logo_main.svg",
+                    "contentUrl": "https://gym.plco.site/wp-content/uploads/2021/07/plcogym_logo_main.svg",
+                    "caption": "\ud50c\ucf54\uc9d0"
+                },
+                "image": {
+                    "@id": "https://gym.plco.site/#logo"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://gym.plco.site/#website",
+                "url": "https://gym.plco.site/",
+                "name": "Plco GYM",
+                "description": "",
+                "publisher": {
+                    "@id": "https://gym.plco.site/#organization"
+                },
+                "potentialAction": [
+                    {
+                        "@type": "SearchAction",
+                        "target": {
+                            "@type": "EntryPoint",
+                            "urlTemplate": "https://gym.plco.site/?s={search_term_string}"
+                        },
+                        "query-input": "required name=search_term_string"
+                    }
+                ],
+                "inLanguage": "ko-KR"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://gym.plco.site/guide/#webpage",
+                "url": "https://gym.plco.site/guide/",
+                "name": "\uc774\uc6a9 \uc548\ub0b4 | Plco GYM",
+                "isPartOf": {
+                    "@id": "https://gym.plco.site/#website"
+                },
+                "datePublished": "2021-06-20T08:04:58+00:00",
+                "dateModified": "2021-11-25T06:31:16+00:00",
+                "breadcrumb": {
+                    "@id": "https://gym.plco.site/guide/#breadcrumb"
+                },
+                "inLanguage": "ko-KR",
+                "potentialAction": [
+                    {
+                        "@type": "ReadAction",
+                        "target": [
+                            "https://gym.plco.site/guide/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://gym.plco.site/guide/#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://gym.plco.site/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "\uc774\uc6a9 \uc548\ub0b4"
+                    }
+                ]
+            }
+        ]
+    }</script>
+<!-- / Yoast SEO plugin. -->
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml"
+	title="Plco GYM &raquo; 피드" href="../feed" />
+<link rel="alternate" type="application/rss+xml"
+	title="Plco GYM &raquo; 댓글 피드" href="../comments/feed" />
+<script type="text/javascript">    window._wpemojiSettings = {
+        "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
+        "ext": ".png",
+        "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/",
+        "svgExt": ".svg",
+        "source": {"concatemoji": "https:\/\/gym.plco.site\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.4"}
+    };
+    !function (e, a, t) {
+        var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d");
 
+        function s(e, t) {
+            var a = String.fromCharCode;
+            p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0);
+            e = i.toDataURL();
+            return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+        }
+
+        function c(e) {
+            var t = a.createElement("script");
+            t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+        }
+
+        for (o = Array("flag", "emoji"), t.supports = {
+            everything: !0,
+            everythingExceptFlag: !0
+        }, r = 0; r < o.length; r++) t.supports[o[r]] = function (e) {
+            if (!p || !p.fillText) return !1;
+            switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                case"flag":
+                    return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+                case"emoji":
+                    return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212])
+            }
+            return !1
+        }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+        t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () {
+            t.DOMReady = !0
+        }, t.supports.everything || (n = function () {
+            t.readyCallback()
+        }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () {
+            "complete" === a.readyState && t.readyCallback()
+        })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)))
+    }(window, document, window._wpemojiSettings);</script>
 <style type="text/css">
 
 img.wp-smiley, img.emoji {
@@ -20,8 +192,6 @@ img.wp-smiley, img.emoji {
 }
 
 </style>
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
 <link rel='stylesheet' id='wp-block-library-css'
 	href='../wp-includes/css/dist/block-library/style.min4999.css?ver=5.7.4'
 	type='text/css' media='all' />
@@ -665,19 +835,16 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
 		padding: 5% 5% 5% 5%;
 	}
 }
-table th a {
-	
-	font-size:15px;
-}
-.row a:hover{
-	 text-decoration:none;
-}
-table th a:hover {
-	color:white;
-	font-size:16px;
-}
 table {
 	width:100%;
+}
+table td a {
+	color:white;
+	font-size:15px;
+}
+table td a:hover {
+	color:white;
+	font-size:16px;
 }
 tr {
 	height:45px;
@@ -695,29 +862,7 @@ table, tr, th, td{
 	border: 2px solid rgba(255,255,255,0.16);
 	border-collapse:collapse;
 }
-.note-btn {
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;
-}
-.dropdown-item {
-	color:black;
-}
-.dropdown-item h1, .dropdown-item h2, .dropdown-item h3,.dropdown-item h4,.dropdown-item h5,.dropdown-item h6 {
-	color:black;
-}
-.modal-backdrop {
-	display:none;
-}
-.modal-content {
-	color:black;
-}
-.note-toolbar{
-	background-color:white;
-}
-.note-editable {
-	background-color:white; color:black;
-}
+
 </style>
 <link rel='stylesheet' id='salient-child-style-css'
 	href='../wp-content/themes/salient-child/stylea73f.css?ver=13.0.5'
@@ -731,13 +876,12 @@ table, tr, th, td{
 <link rel='stylesheet' id='convert-plus-info-bar-style-css'
 	href='../wp-content/plugins/convertplug/modules/info_bar/assets/css/info_bar.minf5fc.css?ver=3.5.21'
 	type='text/css' media='all' />
-
-<script src="/js/jquery-1.9.1.js"></script>
-<script src="/js/summernote.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
-<script src=" https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/lang/summernote-ko-KR.min.js"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
+<script type='text/javascript' id='jquery-core-js-extra'>
+        /* <![CDATA[ */
+        var slide_in = {"demo_dir": "https:\/\/gym.plco.site\/wp-content\/plugins\/convertplug\/modules\/slide_in\/assets\/demos"};
+        /* ]]> */</script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'
+            id='jquery-core-js'></script>
 <link rel="https://api.w.org/" href="../wp-json" />
 <link rel="alternate" type="application/json"
 	href="../wp-json/wp/v2/pages/270.json" />
@@ -750,6 +894,21 @@ table, tr, th, td{
 	href="../wp-json/oembed/1.0/embed5c8f.json?url=https%3A%2F%2Fgym.plco.site%2Fguide%2F" />
 <link rel="alternate" type="text/xml+oembed"
 	href="../wp-json/oembed/1.0/embed4768?url=https%3A%2F%2Fgym.plco.site%2Fguide%2F&amp;format=xml" />
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            '../../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PTF6GFV');</script>
+<!-- End Google Tag Manager -->
 <link rel="canonical" href="../">
 <script type="text/javascript"> var root = document.getElementsByTagName("html")[0];
     root.setAttribute("class", "js"); </script>
@@ -1372,43 +1531,127 @@ body .page-submenu li a {
             body.setAttribute("style", "--scroll-bar-w: 0px");
         }
     }
-    
 })(window, document); </script>
-<script type="text/javascript">
+<script>
 jQuery(document).ready(function ($) {
-	$('#board_cont').summernote({
-	       placeholder: '새 글을 작성하세요 !',
-	       tabsize: 2,
-	       height: 500,
-	       lang: "ko-KR"/* ,
-	       callbacks : { 
-	       	onImageUpload : function(files, editor, welEditable) {
-	       // 파일 업로드(다중업로드를 위해 반복문 사용)
-		        for (var i = files.length - 1; i >= 0; i--) {
-		        	uploadSummernoteImageFile(files[i],this);
-		        }
-	       	}
-	       } */
+	$('[name=user_id]').keyup(function () {
+		if($('[name=user_id]').val().length>=4){
+			var user_id = $(this).val();
+			$.ajax({
+				url : '/checkId',
+				data : {user_id : user_id},
+				type : 'POST',
+				success : function (result) {
+					if(result=="true") {
+						$('#id_check_result').html(result.html);
+					} else {
+						$('#id_check_result').html(result.html);
+					}
+				}
+			});
+		}
 	});
-	$("form").submit( function() {
-		var board_title = $("#board_title").val();
-		var board_cont = $("#board_cont" ).val();
-		
-		if( board_title.length == 0 )
-		{
-			alert("제목을 입력해 주세요!")
+	$('[name=user_pwd]').keyup(function () {
+		if($('[name=user_pwd]').val().length>=1){
+			var user_pwd = $(this).val();
+			$.ajax({
+				url : '/pwCheck',
+				data : {user_pwd : user_pwd},
+				type : 'POST',
+				success : function (result) {
+					if(result=="true") {
+						$('#pwd_check').html(result.html);
+					} else {
+						$('#pwd_check').html(result.html);
+					}
+				}
+			});
+		}
+	});
+	$('[name=user_pwdchk]').keyup(function () {
+			var user_pwd = $('[name=user_pwd]').val();
+			var user_pwdchk = $(this).val();
+			$.ajax({
+				url : '/pwCheckReg',
+				data : {user_pwd : user_pwd, user_pwdchk : user_pwdchk},
+				type : 'POST',
+				success : function (result) {
+					if(result=="true") {
+						$('#pwd_check').html(result.html);
+					} else {
+						$('#pwd_checkreg').html(result.html);
+					}
+				}
+			});
+	});
+	$('[name=user_phone]').keyup(function () {
+		if($('[name=user_phone]').val().length>=4){
+			var user_phone = $(this).val();
+			$.ajax({
+				url : '/checkPhone',
+				data : {user_phone: user_phone},
+				type : 'POST',
+				success : function (result) {
+					if(result=="true") {
+						$('#phone_check_result').html(result.html);
+					} else {
+						$('#phone_check_result').html(result.html);
+					}
+				}
+			});
+		}
+	});
+	$('#joinFormSubmit').on('submit',function(){
+		if($('[name=user_id]').val().trim().length==0||$('#id_check_result > b').attr("class")=='red'){
+			alert('아이디를 확인하세요');
+			$('[name=user_id]').focus();
 			return false;
 		}
-		
-		if( board_cont.length == 0 )
-		{
-			alert("내용을 입력해 주세요!")
+		if($('[name=user_pwd]').val().trim().length==0||$('#pwd_check > b').attr("class")=='red'){
+			alert('비밀번호를 확인하세요');
+			$('[name=user_pwd]').focus();
 			return false;
 		}
-		
+		if($('#pwd_checkreg > b').attr("class")=='red'){
+			alert('비밀번호를 확인하세요');
+			$('[name=user_pwdchk]').focus();
+			return false;
+		}
+		if($('[name=user_name]').val().trim().length==0){
+			alert('이름을 입력하세요');
+			$('[name=user_name]').focus();
+			return false;
+		}
+		if($('[name=user_phone]').val().trim().length==0||$('#phone_check_result > b').attr("class")=='red'){
+			alert('전화번호를 확인하세요');
+			$('[name=user_phone]').focus();
+			return false;
+		}
 		return true;
-	});
+	})
+	
 });
+function loginDo () {
+// 	jQuery(document).ready(function ($) {
+// 		$('form').attr("method","POST").submit();
+// 	});
+	//alert("무야호");
+	
+}
+function joinDo () {
+	jQuery(document).ready(function ($) {
+		$('#joinForm').css("display","block");
+	});
+	//alert("무야호");
+}
+function loginCancel () {
+	jQuery(document).ready(function ($) {
+		$('#joinForm').css("display","none");
+	});
+	//alert("무야호");
+}
+
+
 </script>
 	<a href="#ajax-content-wrap" class="nectar-skip-to-content">Skip to
 		main content</a>
@@ -1420,8 +1663,6 @@ jQuery(document).ready(function ($) {
 				<div class="container-wrap">
 					<div class="container main-content">
 						<div class="row">
-							
-
 							<div id="fws_61c1ff5e5e702" data-column-margin="default"
 								data-midnight="light" data-top-percent="10%"
 								data-bottom-percent="13%"
@@ -1463,7 +1704,7 @@ jQuery(document).ready(function ($) {
 												<p
 													style="color: rgba(255, 255, 255, 0.74); text-align: center"
 													class="vc_custom_heading vc_custom_1625455006671">
-													VIDEO</p>
+													USER</p>
 												<div id="fws_61c1ff5e5f61a" data-midnight=""
 													data-column-margin="default"
 													class="wpb_row vc_row-fluid vc_row inner_row vc_custom_1626184666410 "
@@ -1486,7 +1727,7 @@ jQuery(document).ready(function ($) {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h1>
-																			<strong>풋볼아이 미션영상
+																			<strong>풋볼아이 회원서비스
 																			</strong>
 																		</h1>
 																	</div>
@@ -1517,8 +1758,8 @@ jQuery(document).ready(function ($) {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h2>
-																			<strong>폭발적인 <em>퍼포먼스<br /> 성장을 경험
-																			</em>하다<br />
+																			<strong>풋볼아이 <em>회원<br /> 서비스
+																			</em>
 																			</strong>
 																		</h2>
 																	</div>
@@ -1586,52 +1827,54 @@ jQuery(document).ready(function ($) {
 														data-style="default" data-spacing="side-45px"
 														data-icon-size="" data-full-width-line=""
 														data-color-scheme="accent-color" data-alignment="left">
-														</br>
 
-														<div id="mission" data-tab-icon=""
+														<div id="mission" data-tab-icon="" style="width:50%; margin:0 auto;"
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
-
 															<h3>
-																	<i class="fas fa-video"></i> 미션영상
+																	<i class="fas fa-user"></i> 로그인
 															</h3>
 								                            <div class="container">
-																<div style="margin-top:20px"></div>
-																<form action="/boardWriteNew" method="post" class="form-horizontal" enctype="multipart/form-data">
-																	<table>
-																		<input type="hidden" id="user_id" name="user_id"  value="${login.user_id}"/>
-																		<input type="hidden" id="user_name" name="user_name"  value="${login.user_name }" />
+																<form action="/Login" method="POST">
+																<table class="table-type02">
+																	<tbody>
 																		<tr>
-																			<th>제목</th><th><input type="text" id="board_title" name="board_title" style="width:100%; color:white;" autocomplete="off"></th>
-																			<th>게시판 분류</th>
-																			<th>
-																				<select name="board_name">
-																					<option value="mission" selected>미션영상</option>
-																					<option value="game">경기영상</option>
-																					<option value="analysis">분석영상</option>
-																				</select>
-																			</th>
+																			<th style="width:30%;font-weight: 700;font-size: 15px;">아이디</th>
+																			<td><input type="text" name="user_id_in" id="user_id_in"
+																				class="wp100" value="<%=idsave%>"/></td>
 																		</tr>
 																		<tr>
-																			<th colspan="4" style=""><textarea class="form-control" id="board_cont" name="board_cont"></textarea></th>
+																			<th style="width:30%;font-weight: 700;font-size: 15px;">비번</th>
+																			<td><input type="password" name="user_pwd_in" id="user_pwd_in"
+																				class="wp100" /></td>
 																		</tr>
 																		<tr>
-																			<th>영상첨부</th>
-																			<th>
-																				<input type="file" name="file_name" id="file_name" accept="video/*" multiple>
-																			</th>
+																			<td colspan="2">
+																			<c:set var="idsave" value="<%=idsave %>" />
+																				<c:choose>
+																				<c:when test="${idsave eq ''}">
+																				<input id="check" name="idrmb" type="checkbox"> <b class="blue">ID 기억하기</b>
+																				</c:when>
+																				<c:otherwise>
+																				<input id="check" type="checkbox" name="idrmb" checked="checked"> <b class="blue">ID 기억하기</b>
+																				</c:otherwise>
+																				</c:choose>
+																			</td>
 																		</tr>
 																		<tr>
-																			<th colspan="4">
-																			<button class="btn btn-default" type="submit" >
-																				<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;저장
-																			</button>
-																			<button class="btn btn-default" type="button" onclick="window.history.back()">
-																				<span class="glyphicon glyphicon-remove"></span>&nbsp;&nbsp;취소
-																			</button>
-																			</th>
+																			<td colspan="2" class="wp30">
+																			<input type="submit" value="로그인" onclick="javascript:loginDo();" />
+																			<input type="button" value="취소" onclick="window.history.back()" /></td>
 																		</tr>
-																	</table>
-																</form>
+																		<tr>
+																			<td colspan="2">
+																			 <input
+																				type="button" value="회원가입" onclick="javascript:joinDo();" />
+																				<input type="button" value="아이디/비번찾기"
+																				onclick="location.href='/findIdPw'" /></td>
+																		</tr>
+																	</tbody>
+																</table>
+															</form>																
 															</div>
 														</div>
 													</div>
@@ -1904,6 +2147,9 @@ function stopclock() {
 						<!-- .cp-slidein-body -->
 					</div>
 					<!-- .cp-slidein-content -->
+					<div
+						class="slidein-overlay-close do_not_close cp-inside-close cp-adjacent-right"
+						style="width: 20px"></div>
 				</div>
 				<!-- .cp-animate-container -->
 			</div>
@@ -1911,6 +2157,52 @@ function stopclock() {
 		</div>
 		<!-- .slidein-overlay -->
 	</div>
+	<section id="joinForm"
+		style="width: 50%; border-radius:16px; padding:1%; margin: 16px auto; display:none; position: fixed; top: 25%; left: 25%; z-index: 999; background-color:white; color:black;">
+		<div class="section-tit">
+			<h3 style="color:black; text-align:center;"><strong>회원가입</strong></h3>
+		</div>
+		<div class="table-wrap">
+			<form action="/join" method="POST" id="joinFormSubmit" enctype="multipart/form-data">
+				<table class="table-type02" id="joinFormTable">
+					<tbody>
+						<tr><th>아이디</th>
+							<td><input style="width:70%;"type="text" name="user_id" id="user_id"
+								class="wp70" placeholder="아이디를 입력하세요" autocomplete="off"/>
+								<span id="id_check_result" style="width: 20%;display: inline-block;"></span></td>
+						</tr>
+						<tr><th>이름</th>
+							<td><input style="width:70%;" type="text" name="user_name" id="user_name"
+								class="wp70" placeholder="이름 입력" autocomplete="off"/>
+								<span id="" style="width: 20%;display: inline-block;"></span></td>
+						</tr>
+						<tr><th>비밀번호</th>
+							<td><input style="width:70%;" type="password" name="user_pwd" id="user_pwd"
+								class="wp70" placeholder="비밀번호 입력"/>
+								<span id="pwd_check" style="width: 20%;display: inline-block;"></span></td>
+						</tr>
+						<tr><th>비밀번호 확인</th>
+							<td><input style="width:70%;" type="password" name="user_pwdchk" id="user_pwdchk"
+								class="wp70" placeholder="비밀번호 확인"/>
+								<span id="pwd_checkreg" style="width: 20%;display: inline-block;"></span></td>
+						</tr>
+						<tr><th>전화번호</th>
+							<td><input style="width:70%;" type="text" name="user_phone" id="user_phone"
+								class="wp70" placeholder="ex)010-1234-5678" autocomplete="off"/>
+								<span id="phone_check_result" style="width: 20%;display: inline-block;"></span></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="wp30">
+							<input type="submit" value="회원가입" />
+							<input type="button" value="취소" onclick="location.href='javascript:loginCancel()'" /> 
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+
+	</section>
 	<script type="text/html" id="wpb-modifications"></script>
 <link rel='stylesheet' id='subscriber_newsletter-cp_id_30a46-css'
       href='../wp-content/plugins/convertplug/modules/slide_in/assets/demos/subscriber_newsletter/subscriber_newsletter.minf5fc.css?ver=3.5.21'
@@ -1947,7 +2239,6 @@ function stopclock() {
         id='flickity-js'></script>
 <script type='text/javascript' src='../wp-content/themes/salient/js/third-party/superfish0322.js?ver=1.5.8'
         id='superfish-js'></script>
-        
 <script type='text/javascript' id='nectar-frontend-js-extra'>
     /* <![CDATA[ */
     var nectarLove = {

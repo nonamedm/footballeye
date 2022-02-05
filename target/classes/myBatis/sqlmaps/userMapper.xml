@@ -6,45 +6,30 @@
   	<insert id="userinsert" parameterType="hashmap" >
 <!--    	INSERT INTO USER_INFO(USER_IDX,USER_STNUM,USER_NAME,USER_PWD,USER_MAIL,USER_SUBJECT) -->
 <!--   	VALUES((SELECT NVL(MAX(USER_IDX),0) FROM USER_INFO)+1,#{user_stnum},#{user_name},#{user_pwd},#{user_mail},#{user_subject})  -->
-	   	INSERT INTO USER_INFO(USER_STNUM,USER_NAME,USER_PWD,USER_MAIL,USER_SUBJECT,USER_PHOTO)
-	  	 VALUES(#{user_stnum},#{user_name},#{user_shapwd},#{user_mail},#{user_subject},#{user_photo}) 
+	   	INSERT INTO USER(USER_ID,USER_NAME,USER_PWD,USER_PHONE)
+	  	 VALUES(#{user_id},#{user_name},#{user_shapwd},#{user_phone}) 
   	</insert>
   	<select id="getUser" parameterType="hashmap" resultType="tree.web.footballeye.vo.UserVo">
-  		SELECT * FROM USER_INFO WHERE USER_STNUM=#{user_stnum_in}
+  		SELECT * FROM USER WHERE USER_ID=#{user_id_in}
   	</select>
   	
-  	<select id="calendarEventList" resultType="hashmap">
-  		SELECT * FROM  CALENDAREVENT WHERE DELETE_YN='N'
-  	</select>
 	<update id="changeRegister" parameterType="hashmap" >
 		UPDATE USER_INFO SET REGISTER=1 WHERE USER_MAIL=#{user_mail} AND USER_STNUM=#{user_stnum} AND USER_PWD=#{user_pwd}
 	</update>
   	
-  	<insert id="calendarEventInsert" parameterType="tree.web.footballeye.vo.CalendarVo" >
-	   	INSERT INTO CALENDAREVENT(title,start,end,allday,delete_yn)
-	  	 VALUES(#{title},#{start},#{end},#{allday},#{delete_yn}) 
-  	</insert>
-  	<update id="calendarEventDelete" parameterType="tree.web.footballeye.vo.CalendarVo" >
-	   	UPDATE CALENDAREVENT SET DELETE_YN=#{delete_yn} WHERE TITLE=#{title} AND START=#{start} AND END=#{end} 
-  	</update>
   	<select id="userid"
   			parameterType="hashmap"
   			resultType="tree.web.footballeye.vo.UserVo">
-  		SELECT USER_STNUM
-  		FROM  USER_INFO
-  		<if test='user_stnum eq "admin".toString()'>
-  		WHERE  USER_STNUM = #{user_stnum} and REGISTER=9
-  		</if>
-  		<if test='!user_stnum.equals("admin")'>
-  		WHERE  USER_STNUM = #{user_stnum} and REGISTER=1
-  		</if>
+  		SELECT USER_ID
+  		FROM  USER
+  		WHERE  USER_ID = #{user_id}
   	</select>
-  	<select id="userMail"
+  	<select id="userPhone"
   			parameterType="hashmap"
   			resultType="tree.web.footballeye.vo.UserVo">
-  		SELECT USER_MAIL
-  		FROM  USER_INFO
-  		WHERE  USER_MAIL = #{user_mail} AND (REGISTER = 1 OR REGISTER = 9)
+  		SELECT USER_PHONE
+  		FROM  USER
+  		WHERE  USER_PHONE = #{user_phone}
   	</select>
   	
 <!--   	<update id="userupdate" -->

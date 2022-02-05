@@ -20,7 +20,7 @@ import tree.web.footballeye.vo.UserVo;
 public class UserServiceImpl implements UserService {
 	@Autowired
 	private  UserDao  userDao;
-
+	
 	@Override
 	public void insertUser(HashMap<String, Object> map) {
 		userDao.insertUser(map);
@@ -34,7 +34,6 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public UserVo getUser(HashMap<String, Object> map) {
 		UserVo  vo = userDao.getUser(map);
-//		System.out.println("ser : "+map);
 		return vo;
 	}
 	
@@ -49,8 +48,8 @@ public class UserServiceImpl implements UserService {
 		return result;
 	}
 	@Override
-	public UserVo getMail(HashMap<String, Object> map) {
-		UserVo vo = userDao.getMail(map);
+	public UserVo getPhone(HashMap<String, Object> map) {
+		UserVo vo = userDao.getPhone(map);
 		return vo;
 	}
 	@Override
@@ -58,21 +57,21 @@ public class UserServiceImpl implements UserService {
 		UserVo vo = userDao.getid2(map);
 		return vo;
 	}
-
+	
 	@Override
 	public UserVo getuser_info(HashMap<String, Object> map) {
 		UserVo vo = userDao.getuser_info(map);
 		
 		return vo;
 	}
-
+	
 	@Override
 	public UserVo find_pwd(HashMap<String, Object> map) {
 		UserVo vo = userDao.find_pwd(map);
 		return vo ;
 	}
-
-
+	
+	
 //	@Override
 //	public void savePhoto(HashMap<String, Object> map, HttpServletRequest request) {
 //		ProFilePhoto.savePhoto(map,request);
@@ -94,13 +93,13 @@ public class UserServiceImpl implements UserService {
 	public void attendanceCheck(HashMap<String, Object> map) {
 		userDao.attendanceCheck(map);
 	}
-
+	
 	@Override
 	public List<Map<String, Object>> attendanceTag(String userid) {
 		List<Map<String, Object>> attendanceList = userDao.attendanceTag(userid);
 		return attendanceList;
 	}
-
+	
 	@Override
 	public void savePhoto(HashMap<String, Object> map, HttpServletRequest request) {
 //		ProFilePhoto.savePhoto(map,request);
@@ -109,38 +108,38 @@ public class UserServiceImpl implements UserService {
 //		}
 		
 	}
-
+	
 	@Override
 	public ImgVo getPhoto(HashMap<String, Object> map) {
 		ImgVo img = userDao.getPhoto(map);
 		
 		return img;
 	}
-
+	
 	@Override
 	public void deletePhoto(HashMap<String , Object> map) {
 		userDao.deletePhoto(map);
 	}
-
+	
 	@Override
 	public List<CalendarVo> calendarEventList() {
 		List<CalendarVo> calendarEventList = userDao.calendarEventList();
 		return calendarEventList;
 	}
-
+	
 	@Override
 	public void calendarEventInsert(CalendarVo vo) {
 		userDao.calendarEventInsert(vo);
 		
 	}
-
+	
 	@Override
 	public void calendarEventDelete(CalendarVo vo) {
 		userDao.calendarEventDelete(vo);
 		
 	}
-
-
-
-
+	
+	
+	
+	
 }

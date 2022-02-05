@@ -38,4 +38,9 @@ public class HomeController {
 		return "lesson/index";		
 	}
 	
+	@RequestMapping("/loginFm")
+	public String loginFm() {
+		return "user/index";		
+	}
+	
 }
