@@ -824,16 +824,16 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
 		padding: 5% 5% 5% 5%;
 	}
 }
-table th a {
+table {
+	width:100%;
+}
+table td a {
 	color:white;
 	font-size:15px;
 }
-table th a:hover {
+table td a:hover {
 	color:white;
 	font-size:16px;
-}
-table {
-	width:100%;
 }
 tr {
 	height:45px;
@@ -851,9 +851,12 @@ table, tr, th, td{
 	border: 2px solid rgba(255,255,255,0.16);
 	border-collapse:collapse;
 }
+#pageDiv > a {
+	color:white;
+	font-size:18px;
+}
 
 </style>
-
 <link rel='stylesheet' id='salient-child-style-css'
 	href='../wp-content/themes/salient-child/stylea73f.css?ver=13.0.5'
 	type='text/css' media='all' />
@@ -866,13 +869,148 @@ table, tr, th, td{
 <link rel='stylesheet' id='convert-plus-info-bar-style-css'
 	href='../wp-content/plugins/convertplug/modules/info_bar/assets/css/info_bar.minf5fc.css?ver=3.5.21'
 	type='text/css' media='all' />
-
-<script src="/js/jquery-1.9.1.js"></script>
-<script src="/js/summernote.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
-<script src=" https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/lang/summernote-ko-KR.min.js"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
+<script type='text/javascript' id='jquery-core-js-extra'>
+        /* <![CDATA[ */
+        var slide_in = {"demo_dir": "https:\/\/gym.plco.site\/wp-content\/plugins\/convertplug\/modules\/slide_in\/assets\/demos"};
+        /* ]]> */</script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'
+            id='jquery-core-js'></script>
+<script>
+var pageMove;
+var pageHtml
+jQuery(document).ready(function ($) {
+	var pageList = 10;
+	var startNum = 0;
+	var endNum = 10;
+	var pageEndNum = 0;
+	//console.dir(boardList);
+	
+	pageMove =function (pageNum) {
+		var html = "";
+		
+		startNum = (pageNum-1)*pageList;
+		endNum = startNum+pageList;
+		
+		$.ajax({
+			url : '/analysisList',
+			data : {startNum : startNum, endNum : endNum},
+			type : 'POST',
+			success : function (result) {
+// 				console.dir(result);
+				if(endNum>result.getAnalysisList.length){
+					endNum = result.getAnalysisList.length;
+				}
+				pageEndNum = Math.floor(result.getAnalysisList.length / pageList) + 1;
+				
+				for(i=startNum; i<endNum; i++) {
+					html += "<tr>";
+					html += "<td>"+result.getAnalysisList[i].BOARD_IDX+"</td>";
+					html += "<td><a href='/boardRead?idx="+result.getAnalysisList[i].BOARD_IDX+"'>"+result.getAnalysisList[i].BOARD_TITLE+"</a></td>";
+					html += "<td>"+result.getAnalysisList[i].USER_NAME+"</td>";
+					html += "<td>"+result.getAnalysisList[i].BOARD_REGDATE+"</td>";
+					html += "<td>"+result.getAnalysisList[i].BOARD_READCOUNT+"</td></tr>";
+				}
+				$("#tableCont").html(html);
+				pageHtml(pageNum);
+			}
+		});
+	}
+	
+	pageHtml = function (pageNum) {
+		var html = "";
+		$.ajax({
+			type : 'POST',
+			success : function (result) {
+				if(pageNum!=1) {
+					if(pageNum>4) html += "<a href='javascript:pageMove("+(pageNum-3)+")'>이전 < </a>"
+					else html += "<a href='javascript:pageMove(1)'>이전 < </a>"
+				}
+				if(pageNum<4) {
+					if(pageNum==1) {
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+" </a>";
+						if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+						if(pageEndNum>=pageNum+2) html += "<a href='javascript:pageMove("+(pageNum+2)+")'>"+(pageNum+2)+"  </a>"
+						if(pageEndNum>=pageNum+3) html += "<a href='javascript:pageMove("+(pageNum+3)+")'>"+(pageNum+3)+"  </a>"
+						if(pageEndNum>=pageNum+4) html += "<a href='javascript:pageMove("+(pageNum+4)+")'>"+(pageNum+4)+"  </a>"
+						if(pageEndNum>=pageNum+5) html += "<a href='javascript:pageMove("+(pageNum+5)+")'>"+(pageNum+5)+"  </a>"
+						if(pageEndNum>=pageNum+6) html += "<a href='javascript:pageMove("+(pageNum+6)+")'>"+(pageNum+6)+"  </a>"
+						if(pageEndNum >pageNum+6) html += "<a href='javascript:pageMove("+(pageNum+3)+")'> >다음 </a>";
+					} else if(pageNum==2) {
+						html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+" </a>";
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>";
+						if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+						if(pageEndNum>=pageNum+2) html += "<a href='javascript:pageMove("+(pageNum+2)+")'>"+(pageNum+2)+"  </a>"
+						if(pageEndNum>=pageNum+3) html += "<a href='javascript:pageMove("+(pageNum+3)+")'>"+(pageNum+3)+"  </a>"
+						if(pageEndNum>=pageNum+4) html += "<a href='javascript:pageMove("+(pageNum+4)+")'>"+(pageNum+4)+"  </a>"
+						if(pageEndNum>=pageNum+5) html += "<a href='javascript:pageMove("+(pageNum+5)+")'>"+(pageNum+5)+"  </a>"
+						if(pageEndNum >pageNum+5) html += "<a href='javascript:pageMove("+(pageNum+3)+")'> >다음 </a>";
+					} else if(pageNum==3) {
+						html += "<a href='javascript:pageMove("+(pageNum-2)+")'>"+(pageNum-2)+" </a>";
+						html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+"  </a>"
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>"
+						if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+						if(pageEndNum>=pageNum+2) html += "<a href='javascript:pageMove("+(pageNum+2)+")'>"+(pageNum+2)+"  </a>"
+						if(pageEndNum>=pageNum+3) html += "<a href='javascript:pageMove("+(pageNum+3)+")'>"+(pageNum+3)+"  </a>"
+						if(pageEndNum>=pageNum+4) html += "<a href='javascript:pageMove("+(pageNum+4)+")'>"+(pageNum+4)+"  </a>"
+						if(pageEndNum >pageNum+4) html += "<a href='javascript:pageMove("+(pageNum+3)+")'> >다음 </a>";
+					}
+				}
+				if(4 <=pageNum && pageNum+3 < pageEndNum) {
+					html += "<a href='javascript:pageMove("+(pageNum-3)+")'>"+(pageNum-3)+"  </a>"
+					html += "<a href='javascript:pageMove("+(pageNum-2)+")'>"+(pageNum-2)+"  </a>"
+					html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+"  </a>"
+					html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>"
+					if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+					if(pageEndNum>=pageNum+2) html += "<a href='javascript:pageMove("+(pageNum+2)+")'>"+(pageNum+2)+"  </a>"
+					if(pageEndNum>=pageNum+3) html += "<a href='javascript:pageMove("+(pageNum+3)+")'>"+(pageNum+3)+"  </a>"	
+					if(pageEndNum> pageNum+4) html += "<a href='javascript:pageMove("+(pageNum+3)+")'> >다음 </a>"	;
+				}
+				if(4 <=pageNum && pageNum+3 >= pageEndNum) {
+					if(pageNum+3==pageEndNum) {
+						if(pageNum-3 > 0) html += "<a href='javascript:pageMove("+(pageNum-3)+")'>"+(pageNum-3)+"  </a>"
+						if(pageNum-2 > 0) html += "<a href='javascript:pageMove("+(pageNum-2)+")'>"+(pageNum-2)+"  </a>"
+						if(pageNum-1 > 0) html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+"  </a>"
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>"
+						if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+						if(pageEndNum>=pageNum+2) html += "<a href='javascript:pageMove("+(pageNum+2)+")'>"+(pageNum+2)+"  </a>"
+						if(pageEndNum>=pageNum+3) html += "<a href='javascript:pageMove("+(pageNum+3)+")'>"+(pageNum+3)+"  </a>"	
+					} else if(pageNum+2==pageEndNum) {
+						if(pageNum-4 > 0) html += "<a href='javascript:pageMove("+(pageNum-4)+")'>"+(pageNum-4)+"  </a>"
+						if(pageNum-3 > 0) html += "<a href='javascript:pageMove("+(pageNum-3)+")'>"+(pageNum-3)+"  </a>"
+						if(pageNum-2 > 0) html += "<a href='javascript:pageMove("+(pageNum-2)+")'>"+(pageNum-2)+"  </a>"
+						if(pageNum-1 > 0) html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+"  </a>"
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>"
+						if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+						if(pageEndNum>=pageNum+2) html += "<a href='javascript:pageMove("+(pageNum+2)+")'>"+(pageNum+2)+"  </a>"
+					} else if(pageNum+1==pageEndNum) {
+						if(pageNum-5 > 0) html += "<a href='javascript:pageMove("+(pageNum-5)+")'>"+(pageNum-5)+"  </a>"
+						if(pageNum-4 > 0) html += "<a href='javascript:pageMove("+(pageNum-4)+")'>"+(pageNum-4)+"  </a>"
+						if(pageNum-3 > 0) html += "<a href='javascript:pageMove("+(pageNum-3)+")'>"+(pageNum-3)+"  </a>"
+						if(pageNum-2 > 0) html += "<a href='javascript:pageMove("+(pageNum-2)+")'>"+(pageNum-2)+"  </a>"
+						if(pageNum-1 > 0) html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+"  </a>"
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>"
+						if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+					} else if(pageNum==pageEndNum) {
+						if(pageNum-6 > 0) html += "<a href='javascript:pageMove("+(pageNum-6)+")'>"+(pageNum-6)+"  </a>"
+						if(pageNum-5 > 0) html += "<a href='javascript:pageMove("+(pageNum-5)+")'>"+(pageNum-5)+"  </a>"
+						if(pageNum-4 > 0) html += "<a href='javascript:pageMove("+(pageNum-4)+")'>"+(pageNum-4)+"  </a>"
+						if(pageNum-3 > 0) html += "<a href='javascript:pageMove("+(pageNum-3)+")'>"+(pageNum-3)+"  </a>"
+						if(pageNum-2 > 0) html += "<a href='javascript:pageMove("+(pageNum-2)+")'>"+(pageNum-2)+"  </a>"
+						if(pageNum-1 > 0) html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+"  </a>"
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>"
+					}
+				}
+				
+				$("#pageDiv").html(html);
+			}
+		});
+		
+	}
+	
+	pageMove(1);
+	pageHtml(1);
+});
+</script>
 <link rel="https://api.w.org/" href="../wp-json" />
 <link rel="alternate" type="application/json"
 	href="../wp-json/wp/v2/pages/270.json" />
@@ -899,15 +1037,8 @@ table, tr, th, td{
             '../../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PTF6GFV');</script>
+
 <!-- End Google Tag Manager -->
-<meta name="facebook-domain-verification"
-	content="zyx2qrlk3ffw3l2y6kcem3qyb0vctb" />
-<meta name="google-site-verification"
-	content="RZvSLFLPME_-vW16IlNLgXsWanLy4M45vSGjmejNuPo" />
-<meta name="naver-site-verification"
-	content="ee607f968d15abe5902f3ac74343ded29ca18a2b" />
-<meta name="twitter:description"
-	content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
 <link rel="canonical" href="../">
 <script type="text/javascript"> var root = document.getElementsByTagName("html")[0];
     root.setAttribute("class", "js"); </script>
@@ -1531,21 +1662,6 @@ body .page-submenu li a {
         }
     }
 })(window, document); </script>
-<script type="text/javascript">
-jQuery(document).ready(function ($) {
-	$("#deleteBtn").on("click",function(){
-		var user_id="${login.user_id}";
-		var board_id="${getBoardRead.USER_ID}";
-		if(user_id!=board_id){
-			alert("삭제 권한이 없습니다!");
-		} else {
-			$("#deleteForm").submit();
-			alert("게시글이 삭제 되었습니다!");
-		}
-	});
-	
-});
-</script>
 	<a href="#ajax-content-wrap" class="nectar-skip-to-content">Skip to
 		main content</a>
 	<div class="ocm-effect-wrap">
@@ -1556,7 +1672,6 @@ jQuery(document).ready(function ($) {
 				<div class="container-wrap">
 					<div class="container main-content">
 						<div class="row">
-
 							<div id="fws_61c1ff5e5e702" data-column-margin="default"
 								data-midnight="light" data-top-percent="10%"
 								data-bottom-percent="13%"
@@ -1564,12 +1679,6 @@ jQuery(document).ready(function ($) {
 								style="padding-top: calc(100vw * 0.10); padding-bottom: calc(100vw * 0.13);">
 								<div class="row-bg-wrap" data-bg-animation="zoom-out"
 									data-bg-overlay="true">
-									<!--<div class="inner-wrap using-image">
-                                    <div class="row-bg using-image using-bg-color" data-parallax-speed="fast"
-                                         style="background-image: url(..//wp-content/uploads/2021/06/plcogym_logo-l.svg); background-position: center center; background-repeat: no-repeat; background-color: #333333; "></div>
-                                </div>-->
-									<!--<div class="row-bg-overlay"
-                                     style="background:pink; background: linear-gradient(45deg,#5c1cdb 0%,#000000 100%); opacity: 0.95; "></div>-->
 								</div>
 
 								<div class="video-color-overlay" data-color=""></div>
@@ -1727,71 +1836,60 @@ jQuery(document).ready(function ($) {
 														data-style="default" data-spacing="side-45px"
 														data-icon-size="" data-full-width-line=""
 														data-color-scheme="accent-color" data-alignment="left">
-														</br>
 
-														<div id="mission" data-tab-icon=""
+														<div id="analysis" data-tab-icon=""
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
 
 															<h3>
-																	<i class="fas fa-video"></i> 
+																	<i class="fas fa-video"></i> 분석영상
 															</h3>
 								                            <div class="container">
 																<div style="margin-top:20px"></div>
 																<table class="table table-striped">
-																	<tr><th colspan="3" style="width:100%; text-align:left; padding-left:20px;"><h4><strong>${getBoardRead.BOARD_TITLE }</strong></h4></th></tr>
+																	<thead>
 																	<tr>
-																	<th style="width:70%; text-align:left; border-right:0px; padding-left:20px;">${getBoardRead.USER_NAME } ( ${getBoardRead.USER_ID} )</th>
-																	<th style="width:15%; border-left:0px; border-right:0px;">${getBoardRead.BOARD_REGDATE }</th>
-																	<th style="width:15%; border-left:0px;">조회수 : ${getBoardRead.BOARD_READCOUNT}</th></tr>
-																	<tr><td colspan="3" style="width:100%; vertical-align: baseline; padding:20px; background-color:white;">
-																		<c:forEach var="getFileList" items="${getFileList }">
-																			<iframe width="800px" height="500px" src="file/${getFileList.SFILE_NAME}" align="center"></iframe>
-																		</c:forEach>
-																		${getBoardRead.BOARD_CONT }
-																		</td>
+																		<th style="width:10%">
+																		<h4>
+																			<strong>번호</strong>
+																		</h4>
+																		</th>
+																		<th style="width:40%">
+																		<h4>
+																			<strong>제목</strong>
+																		</h4>
+																		</th>
+																		<th style="width:20%">
+																		<h4>
+																			<strong>작성자</strong>
+																		</h4>
+																		</th>
+																		<th style="width:20%">
+																		<h4>
+																			<strong>작성일</strong>
+																		</h4>
+																		</th>
+																		<th style="width:10%">
+																		<h4>
+																			<strong>조회</strong>
+																		</h4>
+																		</th>
 																	</tr>
-																		<c:forEach var="getFileList" items="${getFileList }">
-																			<a href="file/${getFileList.SFILE_NAME}" download=""> <h5>파일첨부 : ${getFileList.SFILE_NAME}</h5></a>
-																		</c:forEach>
-																	<tr><th colspan="3" style="width:100%; text-align:left; padding-left:20px;">
-																	<c:choose>
-																	<c:when test="${maxIdx eq getBoardRead.BOARD_IDX }">
-																	다음 글이 없습니다.
-																	</c:when>
-																	<c:otherwise>
-																	<a href="/boardRead?idx=${nextIdx}">다음글 : ${nextTitle}</a>
-																	</c:otherwise>
-																	</c:choose>
-																	</th></tr>
-																	<tr><th colspan="3" style="width:100%; text-align:left; padding-left:20px;">
-																	<c:choose>
-																	<c:when test="${minIdx eq getBoardRead.BOARD_IDX }">
-																	이전 글이 없습니다.
-																	</c:when>
-																	<c:otherwise>
-																	<a href="/boardRead?idx=${prevIdx}">이전글 : ${prevTitle}</a>
-																	</c:otherwise>
-																	</c:choose>
-																	</th></tr>
+																	</thead>
+																	<tbody id="tableCont">
+																	
+																	</tbody>
 																</table>
-																<div class="row" >
+																<div class="row"  style="display:flex;">
 														    		<div class="col-sm-2">
-																		<button class="btn btn-block" onclick="javascript:history.back();">목록으로</button>
-																		<c:choose>
-																		<c:when test="${login.user_id ne null }">
-																		<button class="btn btn-block" style="" id="deleteBtn">삭제</button>
-																		</c:when>
-																		<c:otherwise></c:otherwise>
-																		</c:choose>
-																		<form action="/deleteBoard" method="post" id="deleteForm">
-																			<input type="hidden" name="board_idx" value="${getBoardRead.BOARD_IDX}">
-																			<input type="hidden" name="user_id" value="${login.user_id }">
-																			<input type="hidden" name="board_id" value="${getBoardRead.USER_ID}">
-																		</form>
+																		<button class="btn btn-block" onclick="window.location='/boardWrite'">글쓰기</button>
+																	</div>
+														    		<div id="pageDiv" class="col-sm-5" style="width:80%; text-align:center;">
+																		
 																	</div>
 																</div>
 															</div>
 														</div>
+														
 													</div>
 												</div>
 											</div>
@@ -2148,10 +2246,16 @@ function stopclock() {
 <script type='text/javascript'
         src='../wp-content/plugins/convertplug/modules/assets/js/cp-module-mainf5fc.js?ver=3.5.21'
         id='convert-plus-module-main-js-js'></script>
-   </script>
+   
 	<script type='text/javascript'
 		src='..//wp-content/plugins/convertplug/modules/slide_in/assets/js/slide_in.minf5fc.js?ver=3.5.21'
 		id='convert-plus-slide-in-script-js'></script>
+<script>
+jQuery(document).ready(function ($) {
+	
+	
+});
+</script>    
 </body>
 <!-- Mirrored from gym.plco.site/guide/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Dec 2021 16:23:50 GMT -->
 </html>

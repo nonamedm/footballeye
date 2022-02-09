@@ -31,9 +31,80 @@ public class boardController {
 		ModelAndView mav = new ModelAndView();
 		
 		List<BoardVo> getMissionList = boardService.getMissionList();
-		
 		mav.addObject("getMissionList",getMissionList);
+		
+		List<BoardVo> getGameList = boardService.getGameList();
+		mav.addObject("getGameList",getGameList);
+		
+		List<BoardVo> getAnalysisList = boardService.getAnalysisList();
+		mav.addObject("getAnalysisList",getAnalysisList);
+		
 		mav.setViewName("/video/index");
+		return mav;
+	}
+	@RequestMapping("/mission")
+	public ModelAndView  mission(@RequestParam HashMap<String, Object> map,HttpServletRequest request) {
+		
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("/video/index");
+		return mav;
+	}
+	@RequestMapping("/missionList")
+	public ModelAndView  missionList(@RequestParam HashMap<String, Object> map,HttpServletRequest request) {
+		
+		ModelAndView mav = new ModelAndView();
+		List<BoardVo> getMissionList = boardService.getMissionList();
+		int getMissionListSize = getMissionList.size();
+		mav.addObject("getMissionList",getMissionList);
+		mav.addObject("getMissionListSize",getMissionListSize);
+		
+		mav.setViewName("jsonView");
+		return mav;
+	}
+	@RequestMapping("/game")
+	public ModelAndView  game(@RequestParam HashMap<String, Object> map,HttpServletRequest request) {
+		
+		ModelAndView mav = new ModelAndView();
+		
+		
+		mav.setViewName("/video/index2");
+		return mav;
+	}
+	@RequestMapping("/gameList")
+	public ModelAndView  gameList(@RequestParam HashMap<String, Object> map,HttpServletRequest request) {
+		
+		ModelAndView mav = new ModelAndView();
+		List<BoardVo> getGameList = boardService.getGameList();
+		int getGameListSize = getGameList.size();
+		mav.addObject("getGameList",getGameList);
+		mav.addObject("getGameListSize",getGameListSize);
+		
+		
+		mav.setViewName("jsonView");
+		return mav;
+	}
+	@RequestMapping("/analysis")
+	public ModelAndView  analysis(@RequestParam HashMap<String, Object> map,HttpServletRequest request) {
+		
+		ModelAndView mav = new ModelAndView();
+		
+		
+		
+		mav.setViewName("/video/index3");
+		return mav;
+	}
+	@RequestMapping("/analysisList")
+	public ModelAndView  analysisList(@RequestParam HashMap<String, Object> map,HttpServletRequest request) {
+		
+		ModelAndView mav = new ModelAndView();
+
+		List<BoardVo> getAnalysisList = boardService.getAnalysisList();
+		int getAnalysisListSize = getAnalysisList.size();
+		mav.addObject("getAnalysisList",getAnalysisList);
+		mav.addObject("getAnalysisListSize",getAnalysisListSize);
+		
+		
+		mav.setViewName("jsonView");
 		return mav;
 	}
 	
@@ -44,7 +115,7 @@ public class boardController {
 		int idx = Integer.parseInt(req.getParameter("idx"));
 		boardService.updateReadCount(idx);
 		HashMap<String, Object> getBoardRead = boardService.getBoardRead(idx);
-		HashMap<String, Object> getMinMaxIdx = boardService.getMinMaxIdx();
+		HashMap<String, Object> getMinMaxIdx = boardService.getMinMaxIdx(idx);
 		
 		List<BoardFileVo> getFileList = boardService.getBoardFile(idx);
 		
@@ -52,14 +123,18 @@ public class boardController {
 		int minIdx = (int) getMinMaxIdx.get("minIdx");
 		String nextTitle ="";
 		String prevTitle ="";
-		int nextIdx = idx+1;
+		int nextIdx=0;
 		if(idx!=maxIdx) {
+			nextIdx = boardService.getNextIdx(idx);
+			System.out.println(nextIdx);
 			nextTitle = boardService.getNextTitle(nextIdx);
 		} else {
 			nextTitle = "다음 글이 없습니다.";
 		}
-		int prevIdx = idx-1;
+		int prevIdx = 0;
 		if(idx!=minIdx) {
+			prevIdx = boardService.getPrevIdx(idx);
+			System.out.println(prevIdx);
 			prevTitle = boardService.getPrevTitle(prevIdx);
 		} else {
 			prevTitle = "이전 글이 없습니다.";

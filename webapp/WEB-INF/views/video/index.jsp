@@ -851,6 +851,10 @@ table, tr, th, td{
 	border: 2px solid rgba(255,255,255,0.16);
 	border-collapse:collapse;
 }
+#pageDiv > a {
+	color:white;
+	font-size:18px;
+}
 
 </style>
 <link rel='stylesheet' id='salient-child-style-css'
@@ -871,6 +875,143 @@ table, tr, th, td{
         /* ]]> */</script>
 <script type='text/javascript' src='../wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'
             id='jquery-core-js'></script>
+<script>
+var pageMove;
+var pageHtml;
+var pageList = 10;
+var startNum = 0;
+var endNum = 10;
+var pageEndNum = 0;
+var nowPage = 1;
+jQuery(document).ready(function ($) {
+	//console.dir(boardList);
+	
+	pageMove =function (pageNum) {
+		var html = "";
+		nowPage = pageNum;
+		startNum = (pageNum-1)*pageList;
+		endNum = startNum+pageList;
+		
+		$.ajax({
+			url : '/missionList',
+			data : {startNum : startNum, endNum : endNum},
+			type : 'POST',
+			success : function (result) {
+// 				console.dir(result);
+				if(endNum>result.getMissionList.length){
+					endNum = result.getMissionList.length;
+				}
+				pageEndNum = Math.floor(result.getMissionList.length / pageList) + 1;
+				
+				for(i=startNum; i<endNum; i++) {
+					html += "<tr>";
+					html += "<td>"+result.getMissionList[i].BOARD_IDX+"</td>";
+					html += "<td><a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+result.getMissionList[i].BOARD_TITLE+"</a></td>";
+					html += "<td>"+result.getMissionList[i].USER_NAME+"</td>";
+					html += "<td>"+result.getMissionList[i].BOARD_REGDATE+"</td>";
+					html += "<td>"+result.getMissionList[i].BOARD_READCOUNT+"</td></tr>";
+				}
+				$("#tableCont").html(html);
+				pageHtml(pageNum);
+			}
+		});
+	}
+	
+	pageHtml = function (pageNum) {
+		var html = "";
+		$.ajax({
+			type : 'POST',
+			success : function (result) {
+				if(pageNum!=1) {
+					if(pageNum>4) html += "<a href='javascript:pageMove("+(pageNum-3)+")'>이전 < </a>"
+					else html += "<a href='javascript:pageMove(1)'>이전 < </a>"
+				}
+				if(pageNum<4) {
+					if(pageNum==1) {
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+" </a>";
+						if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+						if(pageEndNum>=pageNum+2) html += "<a href='javascript:pageMove("+(pageNum+2)+")'>"+(pageNum+2)+"  </a>"
+						if(pageEndNum>=pageNum+3) html += "<a href='javascript:pageMove("+(pageNum+3)+")'>"+(pageNum+3)+"  </a>"
+						if(pageEndNum>=pageNum+4) html += "<a href='javascript:pageMove("+(pageNum+4)+")'>"+(pageNum+4)+"  </a>"
+						if(pageEndNum>=pageNum+5) html += "<a href='javascript:pageMove("+(pageNum+5)+")'>"+(pageNum+5)+"  </a>"
+						if(pageEndNum>=pageNum+6) html += "<a href='javascript:pageMove("+(pageNum+6)+")'>"+(pageNum+6)+"  </a>"
+						if(pageEndNum >pageNum+6) html += "<a href='javascript:pageMove("+(pageNum+3)+")'> >다음 </a>";
+					} else if(pageNum==2) {
+						html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+" </a>";
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>";
+						if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+						if(pageEndNum>=pageNum+2) html += "<a href='javascript:pageMove("+(pageNum+2)+")'>"+(pageNum+2)+"  </a>"
+						if(pageEndNum>=pageNum+3) html += "<a href='javascript:pageMove("+(pageNum+3)+")'>"+(pageNum+3)+"  </a>"
+						if(pageEndNum>=pageNum+4) html += "<a href='javascript:pageMove("+(pageNum+4)+")'>"+(pageNum+4)+"  </a>"
+						if(pageEndNum>=pageNum+5) html += "<a href='javascript:pageMove("+(pageNum+5)+")'>"+(pageNum+5)+"  </a>"
+						if(pageEndNum >pageNum+5) html += "<a href='javascript:pageMove("+(pageNum+3)+")'> >다음 </a>";
+					} else if(pageNum==3) {
+						html += "<a href='javascript:pageMove("+(pageNum-2)+")'>"+(pageNum-2)+" </a>";
+						html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+"  </a>"
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>"
+						if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+						if(pageEndNum>=pageNum+2) html += "<a href='javascript:pageMove("+(pageNum+2)+")'>"+(pageNum+2)+"  </a>"
+						if(pageEndNum>=pageNum+3) html += "<a href='javascript:pageMove("+(pageNum+3)+")'>"+(pageNum+3)+"  </a>"
+						if(pageEndNum>=pageNum+4) html += "<a href='javascript:pageMove("+(pageNum+4)+")'>"+(pageNum+4)+"  </a>"
+						if(pageEndNum >pageNum+4) html += "<a href='javascript:pageMove("+(pageNum+3)+")'> >다음 </a>";
+					}
+				}
+				if(4 <=pageNum && pageNum+3 < pageEndNum) {
+					html += "<a href='javascript:pageMove("+(pageNum-3)+")'>"+(pageNum-3)+"  </a>"
+					html += "<a href='javascript:pageMove("+(pageNum-2)+")'>"+(pageNum-2)+"  </a>"
+					html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+"  </a>"
+					html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>"
+					if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+					if(pageEndNum>=pageNum+2) html += "<a href='javascript:pageMove("+(pageNum+2)+")'>"+(pageNum+2)+"  </a>"
+					if(pageEndNum>=pageNum+3) html += "<a href='javascript:pageMove("+(pageNum+3)+")'>"+(pageNum+3)+"  </a>"	
+					if(pageEndNum> pageNum+4) html += "<a href='javascript:pageMove("+(pageNum+3)+")'> >다음 </a>"	;
+				}
+				if(4 <=pageNum && pageNum+3 >= pageEndNum) {
+					if(pageNum+3==pageEndNum) {
+						if(pageNum-3 > 0) html += "<a href='javascript:pageMove("+(pageNum-3)+")'>"+(pageNum-3)+"  </a>"
+						if(pageNum-2 > 0) html += "<a href='javascript:pageMove("+(pageNum-2)+")'>"+(pageNum-2)+"  </a>"
+						if(pageNum-1 > 0) html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+"  </a>"
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>"
+						if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+						if(pageEndNum>=pageNum+2) html += "<a href='javascript:pageMove("+(pageNum+2)+")'>"+(pageNum+2)+"  </a>"
+						if(pageEndNum>=pageNum+3) html += "<a href='javascript:pageMove("+(pageNum+3)+")'>"+(pageNum+3)+"  </a>"	
+					} else if(pageNum+2==pageEndNum) {
+						if(pageNum-4 > 0) html += "<a href='javascript:pageMove("+(pageNum-4)+")'>"+(pageNum-4)+"  </a>"
+						if(pageNum-3 > 0) html += "<a href='javascript:pageMove("+(pageNum-3)+")'>"+(pageNum-3)+"  </a>"
+						if(pageNum-2 > 0) html += "<a href='javascript:pageMove("+(pageNum-2)+")'>"+(pageNum-2)+"  </a>"
+						if(pageNum-1 > 0) html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+"  </a>"
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>"
+						if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+						if(pageEndNum>=pageNum+2) html += "<a href='javascript:pageMove("+(pageNum+2)+")'>"+(pageNum+2)+"  </a>"
+					} else if(pageNum+1==pageEndNum) {
+						if(pageNum-5 > 0) html += "<a href='javascript:pageMove("+(pageNum-5)+")'>"+(pageNum-5)+"  </a>"
+						if(pageNum-4 > 0) html += "<a href='javascript:pageMove("+(pageNum-4)+")'>"+(pageNum-4)+"  </a>"
+						if(pageNum-3 > 0) html += "<a href='javascript:pageMove("+(pageNum-3)+")'>"+(pageNum-3)+"  </a>"
+						if(pageNum-2 > 0) html += "<a href='javascript:pageMove("+(pageNum-2)+")'>"+(pageNum-2)+"  </a>"
+						if(pageNum-1 > 0) html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+"  </a>"
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>"
+						if(pageEndNum>=pageNum+1) html += "<a href='javascript:pageMove("+(pageNum+1)+")'>"+(pageNum+1)+"  </a>"
+					} else if(pageNum==pageEndNum) {
+						if(pageNum-6 > 0) html += "<a href='javascript:pageMove("+(pageNum-6)+")'>"+(pageNum-6)+"  </a>"
+						if(pageNum-5 > 0) html += "<a href='javascript:pageMove("+(pageNum-5)+")'>"+(pageNum-5)+"  </a>"
+						if(pageNum-4 > 0) html += "<a href='javascript:pageMove("+(pageNum-4)+")'>"+(pageNum-4)+"  </a>"
+						if(pageNum-3 > 0) html += "<a href='javascript:pageMove("+(pageNum-3)+")'>"+(pageNum-3)+"  </a>"
+						if(pageNum-2 > 0) html += "<a href='javascript:pageMove("+(pageNum-2)+")'>"+(pageNum-2)+"  </a>"
+						if(pageNum-1 > 0) html += "<a href='javascript:pageMove("+(pageNum-1)+")'>"+(pageNum-1)+"  </a>"
+						html += "<a href='javascript:pageMove("+(pageNum)+")' style='font-size:25px;'>"+(pageNum)+"  </a>"
+					}
+				}
+				
+				$("#pageDiv").html(html);
+			}
+		});
+		
+	}
+	
+	pageMove(nowPage);
+	pageHtml(1);
+});
+</script>
 <link rel="https://api.w.org/" href="../wp-json" />
 <link rel="alternate" type="application/json"
 	href="../wp-json/wp/v2/pages/270.json" />
@@ -897,6 +1038,7 @@ table, tr, th, td{
             '../../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PTF6GFV');</script>
+
 <!-- End Google Tag Manager -->
 <link rel="canonical" href="../">
 <script type="text/javascript"> var root = document.getElementsByTagName("html")[0];
@@ -1595,7 +1737,7 @@ body .page-submenu li a {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h1>
-																			<strong>풋볼아이 미션영상
+																			<strong>풋볼아이 영상게시판
 																			</strong>
 																		</h1>
 																	</div>
@@ -1695,13 +1837,12 @@ body .page-submenu li a {
 														data-style="default" data-spacing="side-45px"
 														data-icon-size="" data-full-width-line=""
 														data-color-scheme="accent-color" data-alignment="left">
-														<ul class="wpb_tabs_nav ui-tabs-nav clearfix">
-															<li><a href="#mission" class="active-tab"><span>미션</span></a></li>
-															<li><a href="#game"><span>경기영상</span></a></li>
-															<li><a href="#analysis"><span>분석영상</span></a></li>
-														</ul>
-														</br>
-
+<!-- 														<ul class=""> -->
+<!-- 															<li><a id="mission" href="/mission" class="active-tab"><span>미션</span></a></li> -->
+<!-- 															<li><a id="game" href="/game"><span>경기영상</span></a></li> -->
+<!-- 															<li><a id="analysis" href="/analysis"><span>분석영상</span></a></li> -->
+<!-- 														</ul> -->
+<!-- 														</br> -->
 														<div id="mission" data-tab-icon=""
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
 
@@ -1740,691 +1881,16 @@ body .page-submenu li a {
 																		</th>
 																	</tr>
 																	</thead>
-																	<tbody>
-																	<c:forEach var="getMissionList" items="${getMissionList}">
-																		<tr>
-																			<td>${getMissionList.BOARD_IDX}</td>
-																			<td>
-																				<a href="/boardRead?idx=${getMissionList.BOARD_IDX}">${getMissionList.BOARD_TITLE}</a>
-																			</td>
-																			<td>${getMissionList.USER_NAME}</td>
-																			<td>${getMissionList.BOARD_REGDATE}</td>
-											                                        		<td>${getMissionList.BOARD_READCOUNT}</td>
-																		</tr>
-																	</c:forEach>
+																	<tbody id="tableCont">
+																	
 																	</tbody>
 																</table>
-																<div class="row" >
+																<div class="row"  style="display:flex;">
 														    		<div class="col-sm-2">
 																		<button class="btn btn-block" onclick="window.location='/boardWrite'">글쓰기</button>
 																	</div>
-																</div>
-															</div>
-														</div>
-														<div id="tab-usage-fee-1" data-tab-icon=""
-															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
-															<div id="fws_61c1ff5e60f0e" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1626185031385 right_padding_15px left_padding_15px top_padding_tablet_5px top_padding_phone_5px bottom_padding_tablet_5px bottom_padding_phone_5px "
-																style="padding-top: 15px; padding-bottom: 15px;">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<h3>
-																	<i class="fas fa-clock"></i> 이용요금
-																</h3>
-																<h4>
-																	<strong>취미반</strong>
-																</h4>
-																<div class="row_col_wrap_12_inner col left">
-																	<!--이용요금-->
-																	<div id="fws_61c1ff5e646b0" data-midnight=""
-																		data-column-margin="40px"
-																		class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-top vc_custom_1625460531616 "
-																		style="">
-																		<div class="row-bg-wrap">
-																			<div class="row-bg"></div>
-																		</div>
-																		<div class="row_col_wrap_12_inner col span_12 left">
-																			<div style=""
-																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
-																				data-using-bg="true" data-shadow="x_large_depth"
-																				data-border-radius="10px" data-border-animation=""
-																				data-border-animation-delay=""
-																				data-border-width="1px" data-border-style="solid"
-																				data-border-color="#333333"
-																				data-padding-pos="left-right"
-																				data-has-bg-color="true" data-bg-color="#0a0a0a"
-																				data-bg-opacity="1" data-hover-bg="#010101"
-																				data-hover-bg-opacity="1" data-animation="grow-in"
-																				data-delay="0">
-																				<div class="vc_column-inner"
-																					style="border: 1px solid #333333;">
-																					<div class="column-bg-overlay-wrap"
-																						data-bg-animation="none">
-																						<div class="column-bg-overlay"
-																							style="opacity: 1; background-color: #0a0a0a;"></div>
-																					</div>
-																					<div class="wpb_wrapper">
-																						<div
-																							class="wpb_text_column wpb_content_element vc_custom_1625460014594">
-																							<div class="wpb_wrapper">
-																								<p>주1회</p>
-																							</div>
-																						</div>
-																						<div
-																							class="wpb_text_column wpb_content_element vc_custom_1625459284045">
-																							<div class="wpb_wrapper">
-																								<h2>80,000</h2>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																			<div style=""
-																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
-																				data-using-bg="true" data-border-radius="10px"
-																				data-border-animation=""
-																				data-border-animation-delay=""
-																				data-border-width="1px" data-border-style="solid"
-																				data-border-color="#222222"
-																				data-padding-pos="left-right"
-																				data-has-bg-color="true" data-bg-color="#0a0a0a"
-																				data-bg-opacity="1" data-hover-bg="#010101"
-																				data-hover-bg-opacity="1" data-animation="grow-in"
-																				data-delay="0">
-																				<div class="vc_column-inner"
-																					style="border: 1px solid #222222;">
-																					<div class="column-bg-overlay-wrap"
-																						data-bg-animation="none">
-																						<div class="column-bg-overlay"
-																							style="opacity: 1; background-color: #0a0a0a;"></div>
-																					</div>
-																					<div class="wpb_wrapper">
-																						<div
-																							class="wpb_text_column wpb_content_element vc_custom_1625460011176">
-																							<div class="wpb_wrapper">
-																								<p>주2회</p>
-																							</div>
-																						</div>
-																						<div
-																							class="wpb_text_column wpb_content_element vc_custom_1625459279816">
-																							<div class="wpb_wrapper">
-																								<h2>130,000</h2>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																			<div style=""
-																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
-																				data-using-bg="true" data-border-radius="10px"
-																				data-border-animation=""
-																				data-border-animation-delay=""
-																				data-border-width="1px" data-border-style="solid"
-																				data-border-color="#222222"
-																				data-padding-pos="left-right"
-																				data-has-bg-color="true" data-bg-color="#0a0a0a"
-																				data-bg-opacity="1" data-hover-bg="#010101"
-																				data-hover-bg-opacity="1" data-animation="grow-in"
-																				data-delay="0">
-																				<div class="vc_column-inner"
-																					style="border: 1px solid #222222;">
-																					<div class="column-bg-overlay-wrap"
-																						data-bg-animation="none">
-																						<div class="column-bg-overlay"
-																							style="opacity: 1; background-color: #0a0a0a;"></div>
-																					</div>
-																					<div class="wpb_wrapper">
-																						<div
-																							class="wpb_text_column wpb_content_element vc_custom_1625460000452">
-																							<div class="wpb_wrapper">
-																								<p>주3회</p>
-																							</div>
-																						</div>
-																						<div
-																							class="wpb_text_column wpb_content_element vc_custom_1625459276620">
-																							<div class="wpb_wrapper">
-																								<h2>170,000</h2>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div id="fws_61c1ff5e60f0e" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1626185031385 right_padding_15px left_padding_15px top_padding_tablet_5px top_padding_phone_5px bottom_padding_tablet_5px bottom_padding_phone_5px "
-																style="padding-top: 15px; padding-bottom: 15px;">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<!--                                                            <h3><i class="fas fa-clock"></i> 이용요금 </h3>-->
-																<h4>
-																	<strong>선수반</strong>
-																</h4>
-																<div class="row_col_wrap_12_inner col left">
-																	<!--이용요금-->
-																	<div id="fws_61c1ff5e646b0" data-midnight=""
-																		data-column-margin="40px"
-																		class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-top vc_custom_1625460531616 "
-																		style="">
-																		<div class="row-bg-wrap">
-																			<div class="row-bg"></div>
-																		</div>
-																		<div class="row_col_wrap_12_inner col span_12 left">
-																			<div style=""
-																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
-																				data-using-bg="true" data-shadow="x_large_depth"
-																				data-border-radius="10px" data-border-animation=""
-																				data-border-animation-delay=""
-																				data-border-width="1px" data-border-style="solid"
-																				data-border-color="#333333"
-																				data-padding-pos="left-right"
-																				data-has-bg-color="true" data-bg-color="#0a0a0a"
-																				data-bg-opacity="1" data-hover-bg="#010101"
-																				data-hover-bg-opacity="1" data-animation="grow-in"
-																				data-delay="0">
-																				<div class="vc_column-inner"
-																					style="border: 1px solid #333333;">
-																					<div class="column-bg-overlay-wrap"
-																						data-bg-animation="none">
-																						<div class="column-bg-overlay"
-																							style="opacity: 1; background-color: #0a0a0a;"></div>
-																					</div>
-																					<div class="wpb_wrapper">
-																						<div
-																							class="wpb_text_column wpb_content_element vc_custom_1625460014594">
-																							<div class="wpb_wrapper">
-																								<p>주3회</p>
-																							</div>
-																						</div>
-																						<div
-																							class="wpb_text_column wpb_content_element vc_custom_1625459284045">
-																							<div class="wpb_wrapper">
-																								<h2>200,000</h2>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																			<div style=""
-																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
-																				data-using-bg="true" data-border-radius="10px"
-																				data-border-animation=""
-																				data-border-animation-delay=""
-																				data-border-width="1px" data-border-style="solid"
-																				data-border-color="#222222"
-																				data-padding-pos="left-right"
-																				data-has-bg-color="true" data-bg-color="#0a0a0a"
-																				data-bg-opacity="1" data-hover-bg="#010101"
-																				data-hover-bg-opacity="1" data-animation="grow-in"
-																				data-delay="0">
-																				<div class="vc_column-inner"
-																					style="border: 1px solid #222222;">
-																					<div class="column-bg-overlay-wrap"
-																						data-bg-animation="none">
-																						<div class="column-bg-overlay"
-																							style="opacity: 1; background-color: #0a0a0a;"></div>
-																					</div>
-																					<div class="wpb_wrapper">
-																						<div
-																							class="wpb_text_column wpb_content_element vc_custom_1625460011176">
-																							<div class="wpb_wrapper">
-																								<p>주5회</p>
-																							</div>
-																						</div>
-																						<div
-																							class="wpb_text_column wpb_content_element vc_custom_1625459279816">
-																							<div class="wpb_wrapper">
-																								<h2>300,000</h2>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																			<div style=""
-																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
-																				data-using-bg="true" data-border-radius="10px"
-																				data-border-animation=""
-																				data-border-animation-delay=""
-																				data-border-width="1px" data-border-style="solid"
-																				data-border-color="#222222"
-																				data-padding-pos="left-right"
-																				data-has-bg-color="true" data-bg-color="#0a0a0a"
-																				data-bg-opacity="1" data-hover-bg="#010101"
-																				data-hover-bg-opacity="1" data-animation="grow-in"
-																				data-delay="0">
-																				<div class="vc_column-inner"
-																					style="border: 1px solid #222222;">
-																					<div class="column-bg-overlay-wrap"
-																						data-bg-animation="none">
-																						<div class="column-bg-overlay"
-																							style="opacity: 1; background-color: #0a0a0a;"></div>
-																					</div>
-																					<div class="wpb_wrapper">
-																						<div
-																							class="wpb_text_column wpb_content_element vc_custom_1625460000452">
-																							<div class="wpb_wrapper">
-																								<p>주6회</p>
-																							</div>
-																						</div>
-																						<div
-																							class="wpb_text_column wpb_content_element vc_custom_1625459276620">
-																							<div class="wpb_wrapper">
-																								<h2>330,000</h2>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-
-														</div>
-														<div id="tab-coach-1" data-tab-icon=""
-															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
-															<!--여기부터-->
-															<div id="coach" data-column-margin="default"
-																data-midnight="dark"
-																class="wpb_row vc_row-fluid vc_row full-width-section parallax_section "
-																style="padding-top: 0px; padding-bottom: 0px;">
-																<div class="row-bg-wrap" data-bg-animation="none"
-																	data-bg-overlay="true">
-																	<div class="inner-wrap">
-																		<div class="row-bg" data-parallax-speed="fixed"
-																			style=""></div>
-																	</div>
-																	<div class="row-bg-overlay"
-																		style="background: #000000; background: linear-gradient(to bottom, #000000 0%, #000000 100%); opacity: 0.8;"></div>
-																</div>
-																<div class="row_col_wrap_12 col span_12 dark left">
-																	<div style="margin-top: 0;"
-																		class="vc_col-sm-12 wpb_column column_container vc_column_container col neg-marg no-extra-padding top_margin_tablet_40px top_margin_phone_40px inherit_tablet inherit_phone "
-																		data-padding-pos="all" data-has-bg-color="false"
-																		data-bg-color="" data-bg-opacity="1" data-animation=""
-																		data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<!--모바일 코치진 부타이틀-->
-																				<div id="fws_61c1ff5e66b39" data-midnight=""
-																					data-column-margin="default"
-																					class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-top vc_custom_1626440852231 "
-																					style="">
-																					<div class="row-bg-wrap">
-																						<div class="row-bg"></div>
-																					</div>
-																				</div>
-																				<div id="fws_61c1ff5e672aa" data-midnight=""
-																					data-column-margin="40px"
-																					class="wpb_row vc_row-fluid vc_row inner_row "
-																					style="">
-																					<div class="row-bg-wrap">
-																						<div class="row-bg"></div>
-																					</div>
-																					<div class="row_col_wrap_12_inner col span_12 left">
-																						<div
-																							class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone "
-																							data-padding-pos="all" data-has-bg-color="false"
-																							data-bg-color="" data-bg-opacity="1"
-																							data-animation="fade-in-from-bottom"
-																							data-delay="0">
-																							<div class="vc_column-inner">
-																								<div class="wpb_wrapper">
-																									<div class="team-member"
-																										data-style="bio_fullscreen">
-																										<div class="team-member-image">
-																											<div class="team-member-image-inner">
-																												<img
-																													src="../wp-content/uploads/2021/07/coach_1_500x500.png"
-																													width="500" height="500" alt="" />
-																											</div>
-																										</div>
-																										<div class="team-member-overlay"></div>
-																										<div class="team-meta">
-																											<h3>이재홍 | LEE JAE HONG</h3>
-																											<p>감독</p>
-																											<div class="arrow-end fa fa-angle-right"></div>
-																											<div class="arrow-line"></div>
-																										</div>
-																										<div class="nectar_team_bio_img"
-																											data-img-src="../wp-content/uploads/2021/07/coach_1.jpg"></div>
-																										<div class="nectar_team_bio">
-																											<blockquote>
-																												<h4>
-																													1982년 03월 13일<br /> 중앙고 - 한양대
-																												</h4>
-																											</blockquote>
-																											<p>&nbsp;</p>
-																											<h4>
-																												<strong>지도자 경력</strong>
-																											</h4>
-
-																											<ul>
-																												<li>2007~2013 유상철축구교실 U12 총괄 감독</li>
-																												<li>2012~2013 방이중학교 코치</li>
-																												<li>2014~2015 울산대학교 코치</li>
-																												<li>2016~2017서울 이랜드 FC U18 코치</li>
-																												<li>2019~현재인천유나이티드 U12 감독</li>
-																											</ul>
-
-																											<p>&nbsp;</p>
-																											<h4>
-																												<strong>선수 경력</strong>
-																											</h4>
-																											<ul>
-																												<li>- 한양대학교</li>
-
-																											</ul>
-																											<div class="bottom_meta"></div>
-																										</div>
-																									</div>
-																								</div>
-																							</div>
-																						</div>
-																						<div
-																							class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone "
-																							data-padding-pos="all" data-has-bg-color="false"
-																							data-bg-color="" data-bg-opacity="1"
-																							data-animation="fade-in-from-bottom"
-																							data-delay="0">
-																							<div class="vc_column-inner">
-																								<div class="wpb_wrapper">
-																									<div class="team-member"
-																										data-style="bio_fullscreen">
-																										<div class="team-member-image">
-																											<div class="team-member-image-inner">
-																												<img
-																													src="..//wp-content/uploads/2021/07/coach_2_500x500.png"
-																													width="500" height="500" alt="" />
-																											</div>
-																										</div>
-																										<div class="team-member-overlay"></div>
-																										<div class="team-meta">
-																											<h3>조동욱 | CHO DONG WOOK</h3>
-																											<p>코치</p>
-																											<div class="arrow-end fa fa-angle-right"></div>
-																											<div class="arrow-line"></div>
-																										</div>
-																										<div class="nectar_team_bio_img"
-																											data-img-src="..//wp-content/uploads/2021/07/coach_2.jpg"></div>
-																										<div class="nectar_team_bio">
-																											<blockquote>
-																												<h4>
-																													1985년 05월 21일<br /> 강릉농공고 - 동국대
-																												</h4>
-																											</blockquote>
-																											<p>&nbsp;</p>
-																											<h4>
-																												<strong>지도자 경력</strong>
-																											</h4>
-																											<ul>
-																												<li>광명공업고등학교 코치</li>
-																												<li>2013~2014 여의도고등학교 코치</li>
-																												<li>2014~2016 전북현대 U15 금산중 코치</li>
-																												<li>2016~2017 서울 이랜드 FC U18 코치</li>
-																												<li>2018 서울 이랜드 FC U15 코치</li>
-																												<li>2018 KFA 골든에이지 서울지역 지도자</li>
-																												<li>2019~현재 인천유나이티드 U12 코치</li>
-																											</ul>
-
-																											<p>&nbsp;</p>
-																											<h4>
-																												<strong>선수 경력</strong>
-																											</h4>
-																											<ul>
-																												<li>2008~2010 천안시청</li>
-
-																											</ul>
-																											<div class="bottom_meta"></div>
-																										</div>
-																									</div>
-																								</div>
-																							</div>
-																						</div>
-																						<div
-																							class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone "
-																							data-padding-pos="all" data-has-bg-color="false"
-																							data-bg-color="" data-bg-opacity="1"
-																							data-animation="fade-in-from-bottom"
-																							data-delay="0">
-																							<div class="vc_column-inner">
-																								<div class="wpb_wrapper">
-																									<div class="team-member"
-																										data-style="bio_fullscreen">
-																										<div class="team-member-image">
-																											<div class="team-member-image-inner">
-																												<img
-																													src="..//wp-content/uploads/2021/07/coach_3_500x500.png"
-																													width="500" height="500" alt="" />
-																											</div>
-																										</div>
-																										<div class="team-member-overlay"></div>
-																										<div class="team-meta">
-																											<h3>조재환 | CHO JAE HWAN</h3>
-																											<p>코치</p>
-																											<div class="arrow-end fa fa-angle-right"></div>
-																											<div class="arrow-line"></div>
-																										</div>
-																										<div class="nectar_team_bio_img"
-																											data-img-src="..//wp-content/uploads/2021/07/coach_3.jpg"></div>
-																										<div class="nectar_team_bio">
-																											<blockquote>
-																												<h4>
-																													1996년 09월 17일<br /> 여의도고 - 명지대
-																												</h4>
-																											</blockquote>
-
-																											<p>&nbsp;</p>
-																											<h4>
-																												<strong>지도자 경력</strong>
-																											</h4>
-																											<ul>
-																												<li>2019~현재인천유나이티드 U10 코치</li>
-
-																											</ul>
-																											<p>&nbsp;</p>
-																											<h4>
-																												<strong>선수 경력</strong>
-																											</h4>
-																											<ul>
-																												<li>- 명지대학교</li>
-
-																											</ul>
-																											<div class="bottom_meta"></div>
-																										</div>
-																									</div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-
-																				<div class="divider-wrap height_phone_50px "
-																					data-alignment="default">
-																					<div style="height: 100px;" class="divider"></div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<!--여기까지-->
-														</div>
-														<div id="tab-facility-1" data-tab-icon=""
-															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
-															<!--시설안내-->
-															<div id="fws_61c1ff5e6bbfd" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-top "
-																style="">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div
-																		class="vc_col-sm-6 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-																		data-padding-pos="all" data-has-bg-color="false"
-																		data-bg-color="" data-bg-opacity="1" data-animation=""
-																		data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div
-																					class="wpb_text_column wpb_content_element vc_custom_1625461770930">
-																					<!--                                                                    <div class="wpb_wrapper"><p>축구교실으로 ─</p></div>-->
-																				</div>
-																				<div class="nectar-split-heading"
-																					data-align="default" data-m-align="inherit"
-																					data-animation-type="default"
-																					data-animation-delay="0" data-m-rm-animation=""
-																					data-stagger="" data-custom-font-size="false">
-																					<div class="heading-line">
-																						<div>
-																							<h2>지점안내</h2>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<!--본점시작-->
-																	<div id="fws_61c1ff4f70f85" data-midnight=""
-																		data-column-margin="default"
-																		class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_tablet_0px top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
-																		style="padding-top: 80px; padding-bottom: 100px;">
-																		<div class="row-bg-wrap">
-																			<div class="row-bg"></div>
-																		</div>
-																		<div class="row_col_wrap_12_inner col span_12 left">
-																			<div
-																				class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
-																				data-padding-pos="left-right"
-																				data-has-bg-color="false" data-bg-color=""
-																				data-bg-opacity="1" data-animation="" data-delay="0">
-																				<div class="vc_column-inner">
-																					<div class="wpb_wrapper">
-																						<div>
-																							<h2>
-																								<strong>대야점(본점)</strong>
-																							</h2>
-																						</div>
-																						<div class="nectar-highlighted-text"
-																							data-style="half_text" data-exp="default"
-																							data-using-custom-color="true"
-																							data-animation-delay="false"
-																							data-color="rgba(255,255,255,0.21)"
-																							data-color-gradient="" style="">
-																							<h5>대야점에서는 실내훈련과 야외훈련이 진행됩니다.
-																								취미반/선수반/그룹레슨/개인레슨을 운영중이며, 선수반은 전지점 시흥 대야점(실내구장)과
-																								신천동축구장(야외구장)에서 통합훈련으로 진행되고있습니다.</h5>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-
-																			<div
-																				class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-																				data-padding-pos="all" data-has-bg-color="false"
-																				data-bg-color="" data-bg-opacity="1"
-																				data-animation="" data-delay="0">
-																				<div class="vc_column-inner">
-																					<div class="wpb_wrapper">
-																						<div
-																							class="wpb_gallery wpb_content_element clearfix">
-																							<div class="wpb_wrapper">
-																								<div class="wpb_gallery_slidesflickity_style"
-																									data-onclick="link_image" data-interval="5">
-																									<div class="nectar-flickity not-initialized"
-																										data-drag-scale="" data-overflow="hidden"
-																										data-wrap="wrap" data-spacing=""
-																										data-shadow="" data-autoplay=""
-																										data-autoplay-dur="" data-free-scroll=""
-																										data-controls="default"
-																										data-desktop-columns="1"
-																										data-small-desktop-columns="1"
-																										data-tablet-columns="1">
-																										<div class="flickity-viewport">
-																											<div class="flickity-slider">
-																												<div class="cell" data-lazy="false">
-																													<img class="skip-lazy "
-																														src="wp-content/uploads/2021/06/plco_gym_main_sec3_2-1-750x500.jpg"
-																														width="750" height="500"
-																														alt="plco_gym_main_sec3_2-1"
-																														title="plco_gym_main_sec3_2-1" /><a
-																														class="entire-slide-link"
-																														href="wp-content/uploads/2021/06/plco_gym_main_sec3_2-1.jpg"></a>
-																												</div>
-																												<div class="cell" data-lazy="false">
-																													<img class="skip-lazy "
-																														src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-2-750x500.jpg"
-																														width="750" height="500"
-																														alt="plco_gym_main_sec3_1-2"
-																														title="plco_gym_main_sec3_1-2" /><a
-																														class="entire-slide-link"
-																														href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-2.jpg"></a>
-																												</div>
-																												<div class="cell" data-lazy="false">
-																													<img class="skip-lazy "
-																														src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-3-750x500.jpg"
-																														width="750" height="500"
-																														alt="plco_gym_main_sec3_1-3"
-																														title="plco_gym_main_sec3_1-3" /><a
-																														class="entire-slide-link"
-																														href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-3.jpg"></a>
-																												</div>
-																											</div>
-																										</div>
-																									</div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<!--본점끝-->
-																</div>
-															</div>
-															<!--시설안내까지-->
-
-														</div>
-														<div id="tab-way-1" data-tab-icon=""
-															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
-															<div id="fws_61c1ff5e63b63" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_custom_1625454595728 "
-																style="">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div style=""
-																		class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column padding-3-percent inherit_tablet inherit_phone "
-																		data-using-bg="true" data-padding-pos="all"
-																		data-has-bg-color="true" data-bg-color="#2a44ec"
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="column-bg-overlay-wrap"
-																				data-bg-animation="none">
-																				<div class="column-bg-overlay"
-																					style="opacity: 1; background-color: #2a44ec;"></div>
-																			</div>
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							지도가 들어갈 부분입니다. api 연결 해주어야함<strong></strong>🙂
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
+														    		<div id="pageDiv" class="col-sm-5" style="width:80%; text-align:center;">
+																		
 																	</div>
 																</div>
 															</div>
@@ -2577,6 +2043,7 @@ function stopclock() {
     if (timerRunning) clearTimeout(timerID);
     timerRunning = false;	//document.cookie="time=0";	}	function showtime () {	var now = new Date();	var my = now.getTime() ;	now = new Date(my-diffms) ;	//document.cookie="time="+now.toLocaleString();	timerID = setTimeout('showtime()',10000);	timerRunning = true;	}	function startclock () {	stopclock();	showtime();	}	var timerID = null;	var timerRunning = false;	var x = new Date() ;	var now = x.getTime() ;	var gmt = 1640103774 * 1000 ;	var diffms = (now - gmt) ;</script>
 	<!-- slide_in Shortcode -->
+	
 	<style type="text/css" id="">
 .cp-form-container .cp-submit-wrap-full .cp-submit {
 	width: 70%;
@@ -2785,9 +2252,7 @@ function stopclock() {
 <script type='text/javascript'
         src='../wp-content/plugins/convertplug/modules/assets/js/cp-module-mainf5fc.js?ver=3.5.21'
         id='convert-plus-module-main-js-js'></script>
-    /* <![CDATA[ */
-    var smile_ajax = {"url": "https:\/\/gym.plco.site\/wp-admin\/admin-ajax.php"};
-    /* ]]> */</script>
+   
 	<script type='text/javascript'
 		src='..//wp-content/plugins/convertplug/modules/slide_in/assets/js/slide_in.minf5fc.js?ver=3.5.21'
 		id='convert-plus-slide-in-script-js'></script>

@@ -149,15 +149,15 @@ jQuery(document).ready(function ($) {
 								<ul class="sub-menu">
 									<li id="menu-item-473"
 										class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-473">
-										<a href="/video#mission"><span class="menu-title-text">미션</span></a>
+										<a href="/mission#mission"><span class="menu-title-text">미션</span></a>
 									</li>
 									<li id="menu-item-472"
 										class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-472">
-										<a href="/video#game"><span class="menu-title-text">경기영상</span></a>
+										<a href="/game#game"><span class="menu-title-text">경기영상</span></a>
 									</li>
 									<li id="menu-item-472"
 										class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-472">
-										<a href="/video#analysis"><span class="menu-title-text">분석영상(8vs8)</span></a>
+										<a href="/analysis#analysis"><span class="menu-title-text">분석영상(8vs8)</span></a>
 									</li>
 								</ul>
 							</li>

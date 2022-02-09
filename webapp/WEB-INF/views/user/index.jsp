@@ -1863,14 +1863,16 @@ function loginCancel () {
 																		<tr>
 																			<td colspan="2" class="wp30">
 																			<input type="submit" value="로그인" onclick="javascript:loginDo();" />
-																			<input type="button" value="취소" onclick="window.history.back()" /></td>
+																			<input type="button" value="취소" onclick="window.history.back()" />
+																			 <input
+																				type="button" value="회원가입" onclick="javascript:joinDo();" />
+																			</td>
 																		</tr>
 																		<tr>
 																			<td colspan="2">
-																			 <input
-																				type="button" value="회원가입" onclick="javascript:joinDo();" />
-																				<input type="button" value="아이디/비번찾기"
-																				onclick="location.href='/findIdPw'" /></td>
+<!-- 																				<input type="button" value="아이디/비번찾기" -->
+<!-- 																				onclick="location.href='/findIdPw'" /> -->
+																				</td>
 																		</tr>
 																	</tbody>
 																</table>

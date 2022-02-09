@@ -8,6 +8,14 @@
   		SELECT BOARD_NAME,BOARD_IDX,BOARD_TITLE,BOARD_CONT,USER_ID,USER_NAME,DATE_FORMAT(BOARD_REGDATE, '%Y-%m-%d') AS BOARD_REGDATE,BOARD_READCOUNT
   			 FROM BOARD WHERE BOARD_NAME='mission' ORDER BY BOARD_IDX DESC
   	</select>
+  	<select id="getGameList" resultType="hashmap">
+  		SELECT BOARD_NAME,BOARD_IDX,BOARD_TITLE,BOARD_CONT,USER_ID,USER_NAME,DATE_FORMAT(BOARD_REGDATE, '%Y-%m-%d') AS BOARD_REGDATE,BOARD_READCOUNT
+  			 FROM BOARD WHERE BOARD_NAME='game' ORDER BY BOARD_IDX DESC
+  	</select>
+  	<select id="getAnalysisList" resultType="hashmap">
+  		SELECT BOARD_NAME,BOARD_IDX,BOARD_TITLE,BOARD_CONT,USER_ID,USER_NAME,DATE_FORMAT(BOARD_REGDATE, '%Y-%m-%d') AS BOARD_REGDATE,BOARD_READCOUNT
+  			 FROM BOARD WHERE BOARD_NAME='analysis' ORDER BY BOARD_IDX DESC
+  	</select>
   	<update id="updateReadCount" parameterType="int">
   		UPDATE BOARD SET BOARD_READCOUNT=BOARD_READCOUNT+1 WHERE BOARD_IDX=#{idx}
   	</update>
@@ -25,9 +33,9 @@
 		WHERE b.BOARD_IDX = #{idx}
 		]]>
 	</select>
-  	<select id="getMinMaxIdx" resultType="map">
+  	<select id="getMinMaxIdx" parameterType="int" resultType="map">
 	 <![CDATA[
-		SELECT MAX(BOARD_IDX) AS maxIdx, MIN(BOARD_IDX) AS minIdx FROM BOARD
+		SELECT MAX(BOARD_IDX) AS maxIdx, MIN(BOARD_IDX) AS minIdx FROM BOARD WHERE BOARD_NAME = (SELECT BOARD_NAME FROM BOARD WHERE BOARD_IDX=#{idx})
 		]]>
 	</select>
 
@@ -70,4 +78,18 @@
   	<delete id="deleteBoard" parameterType="hashmap">
   		DELETE FROM BOARD WHERE BOARD_IDX=#{board_idx} AND USER_ID=#{user_id}
   	</delete>
+  	
+  	<select id="getNextIdx" parameterType="int" resultType="int">
+  	 <![CDATA[
+  		SELECT BOARD_IDX FROM BOARD WHERE BOARD_IDX > #{idx} AND BOARD_NAME=(SELECT BOARD_NAME FROM BOARD WHERE BOARD_IDX=#{idx})
+  			ORDER BY BOARD_IDX ASC LIMIT 1
+ 		]]>
+  	</select>
+  	
+  	<select id="getPrevIdx" parameterType="int" resultType="int">
+  	 <![CDATA[
+  		SELECT BOARD_IDX FROM BOARD WHERE BOARD_IDX < #{idx} AND BOARD_NAME=(SELECT BOARD_NAME FROM BOARD WHERE BOARD_IDX=#{idx})
+  			ORDER BY BOARD_IDX DESC LIMIT 1
+ 		]]>
+  	</select>
 </mapper>

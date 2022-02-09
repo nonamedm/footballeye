@@ -1486,7 +1486,7 @@ jQuery(document).ready(function ($) {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h1>
-																			<strong>풋볼아이 미션영상
+																			<strong>풋볼아이 영상게시판
 																			</strong>
 																		</h1>
 																	</div>
@@ -1592,7 +1592,7 @@ jQuery(document).ready(function ($) {
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
 
 															<h3>
-																	<i class="fas fa-video"></i> 미션영상
+																	<i class="fas fa-video"></i> 
 															</h3>
 								                            <div class="container">
 																<div style="margin-top:20px"></div>

@@ -26,6 +26,16 @@ public class BoardDaoImpl implements BoardDao {
 		return getMissionList;
 	}
 	@Override
+	public List<BoardVo> getGameList() {
+		List<BoardVo> getGameList = sqlSession.selectList("board.getGameList");
+		return getGameList;
+	}
+	@Override
+	public List<BoardVo> getAnalysisList() {
+		List<BoardVo> getAnalysisList = sqlSession.selectList("board.getAnalysisList");
+		return getAnalysisList;
+	}
+	@Override
 	public void updateReadCount(int idx) {
 		sqlSession.update("board.updateReadCount",idx);
 	}
@@ -35,8 +45,8 @@ public class BoardDaoImpl implements BoardDao {
 		return getBoardRead;
 	}
 	@Override
-	public HashMap<String, Object> getMinMaxIdx() {
-		HashMap<String, Object> getMinMaxIdx = sqlSession.selectOne("board.getMinMaxIdx");
+	public HashMap<String, Object> getMinMaxIdx(int idx) {
+		HashMap<String, Object> getMinMaxIdx = sqlSession.selectOne("board.getMinMaxIdx",idx);
 		return getMinMaxIdx;
 	}
 	@Override
@@ -67,6 +77,16 @@ public class BoardDaoImpl implements BoardDao {
 	@Override
 	public void deleteBoard(HashMap<String, Object> map, HttpServletRequest req) {
 		sqlSession.delete("board.deleteBoard",map);
+	}
+	@Override
+	public int getNextIdx(int idx) {
+		int nextIdx = sqlSession.selectOne("board.getNextIdx",idx);
+		return nextIdx;
+	}
+	@Override
+	public int getPrevIdx(int idx) {
+		int prevIdx = sqlSession.selectOne("board.getPrevIdx",idx);
+		return prevIdx;
 	}
 
 	

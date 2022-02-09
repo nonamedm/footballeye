@@ -13,12 +13,14 @@ import tree.web.footballeye.vo.NoticeReplyVo;
 public interface BoardDao {
 
 	List<BoardVo> getMissionList();
+	List<BoardVo> getGameList();
+	List<BoardVo> getAnalysisList();
 
 	void updateReadCount(int idx);
 
 	HashMap<String, Object> getBoardRead(int idx);
 
-	HashMap<String, Object> getMinMaxIdx();
+	HashMap<String, Object> getMinMaxIdx(int idx);
 
 	String getNextTitle(int nextIdx);
 
@@ -31,6 +33,9 @@ public interface BoardDao {
 	List<BoardFileVo> getBoardFile(int idx);
 
 	void deleteBoard(HashMap<String, Object> map, HttpServletRequest req);
+	int getNextIdx(int idx);
+	int getPrevIdx(int idx);
+
 
 
 }
