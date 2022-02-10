@@ -8,8 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
-    <!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ --><title>이용
-    안내 | Plco GYM</title>
+    <!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ --><title>풋볼아이</title>
     <link rel="canonical" href="index.html"/>
     <meta property="og:locale" content="ko_KR"/>
     <meta property="og:type" content="article"/>
