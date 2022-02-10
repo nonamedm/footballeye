@@ -8,8 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
-    <!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ --><title>이용
-    안내 | Plco GYM</title>
+    <!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ --><title>풋볼아이</title>
     <link rel="canonical" href="index.html"/>
     <meta property="og:locale" content="ko_KR"/>
     <meta property="og:type" content="article"/>
@@ -799,16 +798,6 @@
     <meta name="facebook-domain-verification" content="zyx2qrlk3ffw3l2y6kcem3qyb0vctb"/>
     <meta name="google-site-verification" content="RZvSLFLPME_-vW16IlNLgXsWanLy4M45vSGjmejNuPo"/>
     <meta name="naver-site-verification" content="ee607f968d15abe5902f3ac74343ded29ca18a2b"/>
-    <meta name="description" content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
-    <meta property="og:type" content="플코짐">
-    <meta property="og:title" content="Plco GYM">
-    <meta property="og:description"
-          content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
-    <meta property="og:url" content="https://gym.plco.site">
-    <meta property="al:web:url" content="https://gym.plco.site">
-    <meta property="twitter:title" content="Plco GYM">
-    <meta name="twitter:description"
-          content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
     <link rel="canonical" href="../index.html">
     <script type="text/javascript"> var root = document.getElementsByTagName("html")[0];
     root.setAttribute("class", "js"); </script>
@@ -1369,7 +1358,12 @@
     .vc_custom_1625461770930 {
         margin-bottom: 0px !important;
         padding-bottom: 0px !important;
-    }</style>
+    }
+    .team_member_picture_wrap {
+    	width:80%;
+    }
+    
+    </style>
     <noscript>
         <style> .wpb_animate_when_almost_visible {
             opacity: 1;
@@ -1471,7 +1465,7 @@
                                                                      data-animation-delay="false" data-color=""
                                                                      data-color-gradient="" style="">
                                                                     <h1>
-                                                                        <strong>축구교실에<br/>
+                                                                        <strong>축구교실을<br/>
                                                                         소개해드립니다.<br/>
                                                                         </strong>
                                                                     </h1>
@@ -1501,9 +1495,8 @@
                                                                      data-animation-delay="false" data-color=""
                                                                      data-color-gradient="" style="">
                                                                     <h2>
-                                                                        <strong>폭발적인
-                                                                            <em>퍼포먼스<br/>
-                                                                            성장을 경험</em>하다<br/>
+                                                                        <strong>축구교실을<br/>
+                                                                        소개해드립니다.<br/>
                                                                         </strong>
                                                                     </h2>
                                                                 </div>
@@ -1677,7 +1670,7 @@
                                                     <div class="row-bg"></div>
                                                 </div>
                                                 <div class="row_col_wrap_12_inner col span_12 left">
-                                                    <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone "
+                                                    <div class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone "
                                                          data-padding-pos="all" data-has-bg-color="false"
                                                          data-bg-color="" data-bg-opacity="1"
                                                          data-animation="fade-in-from-bottom" data-delay="0">
@@ -1686,37 +1679,36 @@
                                                                 <div class="team-member" data-style="bio_fullscreen">
                                                                     <div class="team-member-image">
                                                                         <div class="team-member-image-inner"><img
-                                                                                src="../wp-content/uploads/2021/07/coach_1_500x500.png"
+                                                                                src="../wp-content/uploads/2021/07/lim.png"
                                                                                 width="500" height="500" alt=""/></div>
                                                                     </div>
                                                                     <div class="team-member-overlay"></div>
-                                                                    <div class="team-meta"><h3>이재홍 | LEE JAE HONG</h3>
-                                                                        <p>감독</p>
+                                                                    <div class="team-meta"><h3>임원빈 | LIM WON BIN</h3>
+                                                                        <p>대표</p>
                                                                         <div class="arrow-end fa fa-angle-right"></div>
                                                                         <div class="arrow-line"></div>
                                                                     </div>
                                                                     <div class="nectar_team_bio_img"
-                                                                         data-img-src="../wp-content/uploads/2021/07/coach_1.jpg"></div>
+                                                                         data-img-src="../wp-content/uploads/2021/07/lim2.png"></div>
                                                                     <div class="nectar_team_bio">
                                                                         <blockquote>
                                                                             <h4>
-                                                                                1982년 03월 13일<br/>
-                                                                                중앙고 - 한양대
+                                                                                <br/>
+                                                                                
                                                                             </h4>
                                                                         </blockquote>
                                                                         <p>&nbsp;</p><h4><strong>지도자 경력</strong></h4>
 
                                                                         <ul>
-                                                                            <li>2007~2013 유상철축구교실 U12 총괄 감독</li>
-                                                                            <li>2012~2013 방이중학교 코치</li>
-                                                                            <li>2014~2015 울산대학교 코치</li>
-                                                                            <li>2016~2017서울 이랜드 FC U18 코치</li>
-                                                                            <li>2019~현재인천유나이티드 U12 감독</li>
+                                                                            <li>현 풋볼아이 유튜브(2016) 대표</li>
+                                                                            <li>현 풋볼아이 축구교실(2018) 대표</li>
+                                                                            <li>현 풋볼아이 의류 브랜드(2019) 대표</li>
                                                                         </ul>
 
-                                                                        <p>&nbsp;</p><h4><strong>선수 경력</strong></h4>
+                                                                        <p>&nbsp;</p><h4><strong></strong></h4>
                                                                         <ul>
-                                                                            <li> - 한양대학교</li>
+                                                                            <li> KFA 지도자 자격증 보유</li>
+                                                                            <li> 스포츠경영관리사 보유</li>
 
                                                                         </ul>
                                                                         <div class="bottom_meta"></div>
@@ -1725,7 +1717,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone "
+                                                    <div class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone "
                                                          data-padding-pos="all" data-has-bg-color="false"
                                                          data-bg-color="" data-bg-opacity="1"
                                                          data-animation="fade-in-from-bottom" data-delay="0">
@@ -1734,38 +1726,37 @@
                                                                 <div class="team-member" data-style="bio_fullscreen">
                                                                     <div class="team-member-image">
                                                                         <div class="team-member-image-inner"><img
-                                                                                src="../wp-content/uploads/2021/07/coach_2_500x500.png"
+                                                                                src="../wp-content/uploads/2021/07/kimb.png"
                                                                                 width="500" height="500" alt=""/></div>
                                                                     </div>
                                                                     <div class="team-member-overlay"></div>
-                                                                    <div class="team-meta"><h3>조동욱 | CHO DONG WOOK</h3>
-                                                                        <p>코치</p>
+                                                                    <div class="team-meta"><h3>김병익 | KIM BYUNG IK</h3>
+                                                                        <p>대야점 팀장</p>
                                                                         <div class="arrow-end fa fa-angle-right"></div>
                                                                         <div class="arrow-line"></div>
                                                                     </div>
                                                                     <div class="nectar_team_bio_img"
-                                                                         data-img-src="../wp-content/uploads/2021/07/coach_2.jpg"></div>
+                                                                         data-img-src="../wp-content/uploads/2021/07/kimb2.png"></div>
                                                                     <div class="nectar_team_bio">
                                                                         <blockquote>
                                                                             <h4>
-                                                                                1985년 05월 21일<br/>
-                                                                                강릉농공고 - 동국대
+                                                                                부천SK 유스<br/>
+                                                                                인천대학교 체육학부 졸업
                                                                             </h4>
                                                                         </blockquote>
                                                                         <p>&nbsp;</p><h4><strong>지도자 경력</strong></h4>
                                                                         <ul>
-                                                                            <li>광명공업고등학교 코치</li>
-                                                                            <li>2013~2014 여의도고등학교 코치</li>
-                                                                            <li>2014~2016 전북현대 U15 금산중 코치</li>
-                                                                            <li>2016~2017 서울 이랜드 FC U18 코치</li>
-                                                                            <li>2018      서울 이랜드 FC U15 코치</li>
-                                                                            <li>2018      KFA 골든에이지 서울지역 지도자</li>
-                                                                            <li>2019~현재 인천유나이티드 U12 코치</li>
+                                                                            <li>전 부천FC 어린이 축구단 코치</li>
+                                                                            <li>전 필리핀 마닐라 알라방 아인FC 총괄</li>
+                                                                            <li>전 인천유나이티드 아카데미 서구지부 팀장</li>
+                                                                            <li>현 풋볼아이FC 팀장</li>
                                                                         </ul>
 
-                                                                        <p>&nbsp;</p><h4><strong>선수 경력</strong></h4>
+                                                                        <p>&nbsp;</p><h4><strong></strong></h4>
                                                                         <ul>
-                                                                            <li>2008~2010 천안시청</li>
+                                                                            <li>KFA 지도자 자격증 보유</li>
+                                                                            <li>풋살 지도자 3급</li>
+                                                                            <li>풋살 심판 3급</li>
 
                                                                         </ul>
                                                                         <div class="bottom_meta"></div>
@@ -1774,7 +1765,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone "
+                                                    <div class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone "
                                                          data-padding-pos="all" data-has-bg-color="false"
                                                          data-bg-color="" data-bg-opacity="1"
                                                          data-animation="fade-in-from-bottom" data-delay="0">
@@ -1783,30 +1774,77 @@
                                                                 <div class="team-member" data-style="bio_fullscreen">
                                                                     <div class="team-member-image">
                                                                         <div class="team-member-image-inner"><img
-                                                                                src="../wp-content/uploads/2021/07/coach_3_500x500.png"
+                                                                                src="../wp-content/uploads/2021/07/kimk.png"
                                                                                 width="500" height="500" alt=""/></div>
                                                                     </div>
                                                                     <div class="team-member-overlay"></div>
-                                                                    <div class="team-meta"><h3>조재환 | CHO JAE HWAN</h3>
-                                                                        <p>코치</p>
+                                                                    <div class="team-meta"><h3>김규탁 | KIM GYU TAK</h3>
+                                                                        <p>대야점 코치</p>
                                                                         <div class="arrow-end fa fa-angle-right"></div>
                                                                         <div class="arrow-line"></div>
                                                                     </div>
                                                                     <div class="nectar_team_bio_img"
-                                                                         data-img-src="../wp-content/uploads/2021/07/coach_3.jpg"></div>
+                                                                         data-img-src="../wp-content/uploads/2021/07/kimk2.png"></div>
                                                                     <div class="nectar_team_bio">
-                                                                        <blockquote><h4>1996년 09월 17일<br/>
-                                                                            여의도고 - 명지대</h4>
+                                                                        <blockquote><h4>전남드래곤즈 입단<br/>
+                                                                            동국대 체육교육과 졸업</h4>
                                                                         </blockquote>
 
-                                                                        <p>&nbsp;</p><h4><strong>지도자 경력</strong></h4>
+                                                                        <p>&nbsp;</p><h4><strong>수상 경력</strong></h4>
                                                                         <ul>
-                                                                            <li>2019~현재인천유나이티드 U10 코치</li>
+                                                                            <li>2013년 주말리그 최우수 선수상</li>
+                                                                            <li>2013년  대통령 금배 수비상</li>
+                                                                            <li>2013년 춘계대회 우승</li>
+                                                                            <li>2013년 대통령 금배 우승</li>
+                                                                            <li>2013년 아시아 축구대회  우승</li>
 
                                                                         </ul>
                                                                         <p>&nbsp;</p><h4><strong>선수 경력</strong></h4>
                                                                         <ul>
-                                                                            <li>- 명지대학교</li>
+                                                                        	<li>U-16세 파주nfc 대표팀 소집</li>
+                                                                            <li>2013년 아시아 대표팀  발탁</li>
+                                                                            <li>2018년  전남드래곤즈 입단</li>
+
+                                                                        </ul>
+                                                                        <div class="bottom_meta"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone "
+                                                         data-padding-pos="all" data-has-bg-color="false"
+                                                         data-bg-color="" data-bg-opacity="1"
+                                                         data-animation="fade-in-from-bottom" data-delay="0">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <div class="team-member" data-style="bio_fullscreen">
+                                                                    <div class="team-member-image">
+                                                                        <div class="team-member-image-inner"><img
+                                                                                src="../wp-content/uploads/2021/07/leej.png"
+                                                                                width="500" height="500" alt=""/></div>
+                                                                    </div>
+                                                                    <div class="team-member-overlay"></div>
+                                                                    <div class="team-meta"><h3>이지환 | LEE JI HWAN</h3>
+                                                                        <p>대야점 코치</p>
+                                                                        <div class="arrow-end fa fa-angle-right"></div>
+                                                                        <div class="arrow-line"></div>
+                                                                    </div>
+                                                                    <div class="nectar_team_bio_img"
+                                                                         data-img-src="../wp-content/uploads/2021/07/leej2.png"></div>
+                                                                    <div class="nectar_team_bio">
+                                                                        <blockquote><h4>인천 유나이티드<br/>
+                                                                            아카데미 코치(2020~2021)</h4>
+                                                                        </blockquote>
+
+                                                                        <p>&nbsp;</p><h4><strong>지도자 경력</strong></h4>
+                                                                        <ul>
+                                                                            <li>인천 유나이티드 아카데미 코치</li>
+
+                                                                        </ul>
+                                                                        <p>&nbsp;</p><h4><strong></strong></h4>
+                                                                        <ul>
+                                                                        	<li>KFA 지도자 자격증 보유</li>
 
                                                                         </ul>
                                                                         <div class="bottom_meta"></div>
@@ -2890,7 +2928,7 @@
                                                                      data-animation-delay="0" data-m-rm-animation=""
                                                                      data-stagger="" data-custom-font-size="false">
                                                                     <div class="heading-line">
-                                                                        <div><h2>시설 안내</h2></div>
+                                                                        <div><h2>시설 안내(대야점)</h2></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -2940,12 +2978,7 @@
                                                                                         src="../wp-content/uploads/2021/07/guide_space_1.jpg"
                                                                                         alt=""
                                                                                         srcset="
-                                                                                        ../wp-content/uploads/2021/07/guide_space_1.jpg 1920w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_1-300x200.jpg 300w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_1-1024x681.jpg 1024w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_1-768x511.jpg 768w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_1-1536x1022.jpg 1536w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_1-900x600.jpg 900w
+                                                                                        ../wp-content/uploads/2021/07/guide_space_1.jpg
 "
                                                                                         sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
                                                                                 </a></div>
@@ -2985,12 +3018,7 @@
                                                                                         data-animation="fade-in"
                                                                                         src="../wp-content/uploads/2021/07/guide_space_2.jpg"
                                                                                         alt=""
-                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_2.jpg 1920w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_2-300x200.jpg 300w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_2-1024x681.jpg 1024w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_2-768x511.jpg 768w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_2-1536x1022.jpg 1536w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_2-900x600.jpg 900w"
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_2.jpg"
                                                                                         sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
                                                                                 </a></div>
                                                                             </div>
@@ -3029,12 +3057,7 @@
                                                                                         data-animation="fade-in"
                                                                                         src="../wp-content/uploads/2021/07/guide_space_3.jpg"
                                                                                         alt=""
-                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_3.jpg 1920w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_3-300x200.jpg 300w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_3-1024x681.jpg 1024w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_3-768x511.jpg 768w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_3-1536x1022.jpg 1536w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_3-900x600.jpg 900w"
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_3.jpg"
                                                                                         sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
                                                                                 </a></div>
                                                                             </div>
@@ -3064,12 +3087,7 @@
                                                                                         data-animation="fade-in"
                                                                                         src="../wp-content/uploads/2021/07/guide_space_4.jpg"
                                                                                         alt=""
-                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_4.jpg 1920w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_4-300x200.jpg 300w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_4-1024x681.jpg 1024w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_4-768x511.jpg 768w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_4-1536x1022.jpg 1536w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_4-900x600.jpg 900w"
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_4.jpg"
                                                                                         sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
                                                                                 </a></div>
                                                                             </div>
@@ -3078,7 +3096,6 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <!--장현지구-->
                                                         <div class="cell">
                                                             <div class="inner-wrap-outer">
                                                                 <div class="inner-wrap">
@@ -3093,18 +3110,320 @@
                                                                                 <div class="hover-wrap-inner"><a
                                                                                         href="../wp-content/uploads/2021/07/guide_space_5.jpg"
                                                                                         class="pp "> <img
-                                                                                        class="img-with-animation skip-lazy"
+                                                                                        class="img-with-animation skip-lazy "
                                                                                         data-delay="0" height="1277"
                                                                                         width="1920"
                                                                                         data-animation="fade-in"
                                                                                         src="../wp-content/uploads/2021/07/guide_space_5.jpg"
                                                                                         alt=""
-                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_5.jpg 1920w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_5-300x200.jpg 300w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_5-1024x681.jpg 1024w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_5-768x511.jpg 768w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_5-1536x1022.jpg 1536w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_5-900x600.jpg 900w"
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_5.jpg"
+                                                                                        sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
+                                                                                </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell">
+                                                            <div class="inner-wrap-outer">
+                                                                <div class="inner-wrap">
+                                                                    <div class="img-with-aniamtion-wrap "
+                                                                         data-max-width="100%"
+                                                                         data-max-width-mobile="default"
+                                                                         data-border-radius="10px"
+                                                                         data-shadow="x_large_depth"
+                                                                         data-animation="fade-in">
+                                                                        <div class="inner">
+                                                                            <div class="hover-wrap">
+                                                                                <div class="hover-wrap-inner"><a
+                                                                                        href="../wp-content/uploads/2021/07/guide_space_6.jpg"
+                                                                                        class="pp "> <img
+                                                                                        class="img-with-animation skip-lazy "
+                                                                                        data-delay="0" height="1277"
+                                                                                        width="1920"
+                                                                                        data-animation="fade-in"
+                                                                                        src="../wp-content/uploads/2021/07/guide_space_6.jpg"
+                                                                                        alt=""
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_6.jpg"
+                                                                                        sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
+                                                                                </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell">
+                                                            <div class="inner-wrap-outer">
+                                                                <div class="inner-wrap">
+                                                                    <div class="img-with-aniamtion-wrap "
+                                                                         data-max-width="100%"
+                                                                         data-max-width-mobile="default"
+                                                                         data-border-radius="10px"
+                                                                         data-shadow="x_large_depth"
+                                                                         data-animation="fade-in">
+                                                                        <div class="inner">
+                                                                            <div class="hover-wrap">
+                                                                                <div class="hover-wrap-inner"><a
+                                                                                        href="../wp-content/uploads/2021/07/guide_space_7.jpg"
+                                                                                        class="pp "> <img
+                                                                                        class="img-with-animation skip-lazy "
+                                                                                        data-delay="0" height="1277"
+                                                                                        width="1920"
+                                                                                        data-animation="fade-in"
+                                                                                        src="../wp-content/uploads/2021/07/guide_space_7.jpg"
+                                                                                        alt=""
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_7.jpg"
+                                                                                        sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
+                                                                                </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell">
+                                                            <div class="inner-wrap-outer">
+                                                                <div class="inner-wrap">
+                                                                    <div class="img-with-aniamtion-wrap "
+                                                                         data-max-width="100%"
+                                                                         data-max-width-mobile="default"
+                                                                         data-border-radius="10px"
+                                                                         data-shadow="x_large_depth"
+                                                                         data-animation="fade-in">
+                                                                        <div class="inner">
+                                                                            <div class="hover-wrap">
+                                                                                <div class="hover-wrap-inner"><a
+                                                                                        href="../wp-content/uploads/2021/07/guide_space_8.jpg"
+                                                                                        class="pp "> <img
+                                                                                        class="img-with-animation skip-lazy "
+                                                                                        data-delay="0" height="1277"
+                                                                                        width="1920"
+                                                                                        data-animation="fade-in"
+                                                                                        src="../wp-content/uploads/2021/07/guide_space_8.jpg"
+                                                                                        alt=""
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_8.jpg"
+                                                                                        sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
+                                                                                </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell">
+                                                            <div class="inner-wrap-outer">
+                                                                <div class="inner-wrap">
+                                                                    <div class="img-with-aniamtion-wrap "
+                                                                         data-max-width="100%"
+                                                                         data-max-width-mobile="default"
+                                                                         data-border-radius="10px"
+                                                                         data-shadow="x_large_depth"
+                                                                         data-animation="fade-in">
+                                                                        <div class="inner">
+                                                                            <div class="hover-wrap">
+                                                                                <div class="hover-wrap-inner"><a
+                                                                                        href="../wp-content/uploads/2021/07/guide_space_9.jpg"
+                                                                                        class="pp "> <img
+                                                                                        class="img-with-animation skip-lazy "
+                                                                                        data-delay="0" height="1277"
+                                                                                        width="1920"
+                                                                                        data-animation="fade-in"
+                                                                                        src="../wp-content/uploads/2021/07/guide_space_9.jpg"
+                                                                                        alt=""
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_9.jpg"
+                                                                                        sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
+                                                                                </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell">
+                                                            <div class="inner-wrap-outer">
+                                                                <div class="inner-wrap">
+                                                                    <div class="img-with-aniamtion-wrap "
+                                                                         data-max-width="100%"
+                                                                         data-max-width-mobile="default"
+                                                                         data-border-radius="10px"
+                                                                         data-shadow="x_large_depth"
+                                                                         data-animation="fade-in">
+                                                                        <div class="inner">
+                                                                            <div class="hover-wrap">
+                                                                                <div class="hover-wrap-inner"><a
+                                                                                        href="../wp-content/uploads/2021/07/guide_space_10.jpg"
+                                                                                        class="pp "> <img
+                                                                                        class="img-with-animation skip-lazy "
+                                                                                        data-delay="0" height="1277"
+                                                                                        width="1920"
+                                                                                        data-animation="fade-in"
+                                                                                        src="../wp-content/uploads/2021/07/guide_space_10.jpg"
+                                                                                        alt=""
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_10.jpg"
+                                                                                        sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
+                                                                                </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell">
+                                                            <div class="inner-wrap-outer">
+                                                                <div class="inner-wrap">
+                                                                    <div class="img-with-aniamtion-wrap "
+                                                                         data-max-width="100%"
+                                                                         data-max-width-mobile="default"
+                                                                         data-border-radius="10px"
+                                                                         data-shadow="x_large_depth"
+                                                                         data-animation="fade-in">
+                                                                        <div class="inner">
+                                                                            <div class="hover-wrap">
+                                                                                <div class="hover-wrap-inner"><a
+                                                                                        href="../wp-content/uploads/2021/07/guide_space_11.jpg"
+                                                                                        class="pp "> <img
+                                                                                        class="img-with-animation skip-lazy "
+                                                                                        data-delay="0" height="1277"
+                                                                                        width="1920"
+                                                                                        data-animation="fade-in"
+                                                                                        src="../wp-content/uploads/2021/07/guide_space_11.jpg"
+                                                                                        alt=""
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_11.jpg"
+                                                                                        sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
+                                                                                </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell">
+                                                            <div class="inner-wrap-outer">
+                                                                <div class="inner-wrap">
+                                                                    <div class="img-with-aniamtion-wrap "
+                                                                         data-max-width="100%"
+                                                                         data-max-width-mobile="default"
+                                                                         data-border-radius="10px"
+                                                                         data-shadow="x_large_depth"
+                                                                         data-animation="fade-in">
+                                                                        <div class="inner">
+                                                                            <div class="hover-wrap">
+                                                                                <div class="hover-wrap-inner"><a
+                                                                                        href="../wp-content/uploads/2021/07/guide_space_12.jpg"
+                                                                                        class="pp "> <img
+                                                                                        class="img-with-animation skip-lazy "
+                                                                                        data-delay="0" height="1277"
+                                                                                        width="1920"
+                                                                                        data-animation="fade-in"
+                                                                                        src="../wp-content/uploads/2021/07/guide_space_12.jpg"
+                                                                                        alt=""
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_12.jpg"
+                                                                                        sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
+                                                                                </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="space2" data-column-margin="default" data-midnight="dark"
+                             class="wpb_row vc_row-fluid vc_row full-width-section top_padding_phone_50px "
+                             style="padding-top: 100px; padding-bottom: 100px; ">
+                            <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="true">
+                                <div class="inner-wrap using-image">
+                                    <div class="row-bg using-image"
+                                         style="background-image: url(../wp-content/uploads/2021/07/guide_space_bg.jpg); background-position: left top; background-repeat: no-repeat; "></div>
+                                </div>
+                                <div class="row-bg-overlay" style="background-color:#000000; opacity: 0.8; "></div>
+                            </div>
+                            <div class="row_col_wrap_12 col span_12 dark left">
+                                <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "
+                                     data-padding-pos="all" data-has-bg-color="false" data-bg-color=""
+                                     data-bg-opacity="1" data-animation="" data-delay="0">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div id="fws_61c1ff5e6a269" data-midnight="" data-column-margin="default"
+                                                 class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-bottom "
+                                                 style="">
+                                                <div class="row-bg-wrap">
+                                                    <div class="row-bg"></div>
+                                                </div>
+                                                <div class="row_col_wrap_12_inner col span_12 left">
+                                                    <div class="vc_col-sm-6 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
+                                                         data-padding-pos="all" data-has-bg-color="false"
+                                                         data-bg-color="" data-bg-opacity="1" data-animation=""
+                                                         data-delay="0">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <div class="wpb_text_column wpb_content_element vc_custom_1626169618496">
+                                                                    <div class="wpb_wrapper"></div>
+                                                                </div>
+                                                                <div class="nectar-split-heading" data-align="default"
+                                                                     data-m-align="inherit"
+                                                                     data-animation-type="default"
+                                                                     data-animation-delay="0" data-m-rm-animation=""
+                                                                     data-stagger="" data-custom-font-size="false">
+                                                                    <div class="heading-line">
+                                                                        <div><h2>시설 안내(장현지구점)</h2></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="vc_col-sm-6 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
+                                                         data-padding-pos="all" data-has-bg-color="false"
+                                                         data-bg-color="" data-bg-opacity="1" data-animation=""
+                                                         data-delay="0">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nectar-flickity not-initialized nectar-carousel"
+                                                 data-centered-cells="true" data-touch-icon-color="light"
+                                                 data-control-color="default" data-overflow="visible"
+                                                 data-r-bottom-total="" data-drag-scale="true" data-wrap="no-wrap"
+                                                 data-spacing="default" data-controls="touch_total"
+                                                 data-pagination-alignment="default" data-adaptive-height=""
+                                                 data-border-radius="none" data-column-border=""
+                                                 data-column-padding="30px" data-format="default" data-autoplay=""
+                                                 data-autoplay-dur="5000" data-control-style="material_pagination"
+                                                 data-desktop-columns="1" data-small-desktop-columns="1"
+                                                 data-tablet-columns="1" data-column-color="">
+                                                <div class="flickity-viewport">
+                                                    <div class="flickity-slider">
+                                                        <div class="cell">
+                                                            <div class="inner-wrap-outer">
+                                                                <div class="inner-wrap">
+                                                                    <div class="img-with-aniamtion-wrap "
+                                                                         data-max-width="100%"
+                                                                         data-max-width-mobile="default"
+                                                                         data-border-radius="10px"
+                                                                         data-shadow="x_large_depth"
+                                                                         data-animation="fade-in">
+                                                                        <div class="inner">
+                                                                            <div class="hover-wrap">
+                                                                                <div class="hover-wrap-inner"><a
+                                                                                        href="../wp-content/uploads/2021/07/guide_space_13.jpg"
+                                                                                        class="pp "> <img
+                                                                                        class="img-with-animation skip-lazy"
+                                                                                        data-delay="0" height="1277"
+                                                                                        width="1920"
+                                                                                        data-animation="fade-in"
+                                                                                        src="../wp-content/uploads/2021/07/guide_space_13.jpg"
+                                                                                        alt=""
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_13.jpg"
                                                                                         sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
                                                                                 </a></div>
                                                                             </div>
@@ -3148,20 +3467,54 @@
                                                                         <div class="inner">
                                                                             <div class="hover-wrap">
                                                                                 <div class="hover-wrap-inner"><a
-                                                                                        href="../wp-content/uploads/2021/07/guide_space_6.jpg"
+                                                                                        href="../wp-content/uploads/2021/07/guide_space_14.jpg"
                                                                                         class="pp "> <img
-                                                                                        class="img-with-animation skip-lazy"
+                                                                                        class="img-with-animation skip-lazy "
                                                                                         data-delay="0" height="1277"
                                                                                         width="1920"
                                                                                         data-animation="fade-in"
-                                                                                        src="../wp-content/uploads/2021/07/guide_space_6.jpg"
+                                                                                        src="../wp-content/uploads/2021/07/guide_space_14.jpg"
                                                                                         alt=""
-                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_6.jpg 1920w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_6-300x200.jpg 300w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_6-1024x681.jpg 1024w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_6-768x511.jpg 768w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_6-1536x1022.jpg 1536w,
-                                                                                        ../wp-content/uploads/2021/07/guide_space_6-900x600.jpg 900w"
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_14.jpg"
+                                                                                        sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
+                                                                                </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--<div class="wpb_text_column wpb_content_element vc_custom_1625461071586">
+                                                                        <div class="wpb_wrapper"><h4><strong>Physical
+                                                                            Zone </strong>ㅣ 피지컬 존</h4></div>
+                                                                    </div>
+                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1626441320921"
+                                                                         style=" max-width: 355px; display: inline-block;">
+                                                                        <div class="wpb_wrapper"><p>경기장에서의 폭발력을 위한 전문 체력
+                                                                            장비가 세팅된 피지컬 존에서 플코짐 선수들은 성장을 경험하게 됩니다.</p>
+                                                                        </div>
+                                                                    </div>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell">
+                                                            <div class="inner-wrap-outer">
+                                                                <div class="inner-wrap">
+                                                                    <div class="img-with-aniamtion-wrap "
+                                                                         data-max-width="100%"
+                                                                         data-max-width-mobile="default"
+                                                                         data-border-radius="10px"
+                                                                         data-shadow="x_large_depth"
+                                                                         data-animation="fade-in">
+                                                                        <div class="inner">
+                                                                            <div class="hover-wrap">
+                                                                                <div class="hover-wrap-inner"><a
+                                                                                        href="../wp-content/uploads/2021/07/guide_space_15.jpg"
+                                                                                        class="pp "> <img
+                                                                                        class="img-with-animation skip-lazy "
+                                                                                        data-delay="0" height="1277"
+                                                                                        width="1920"
+                                                                                        data-animation="fade-in"
+                                                                                        src="../wp-content/uploads/2021/07/guide_space_15.jpg"
+                                                                                        alt=""
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_15.jpg"
                                                                                         sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
                                                                                 </a></div>
                                                                             </div>
@@ -3171,7 +3524,93 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-
+                                                        <div class="cell">
+                                                            <div class="inner-wrap-outer">
+                                                                <div class="inner-wrap">
+                                                                    <div class="img-with-aniamtion-wrap "
+                                                                         data-max-width="100%"
+                                                                         data-max-width-mobile="default"
+                                                                         data-border-radius="10px"
+                                                                         data-shadow="x_large_depth"
+                                                                         data-animation="fade-in">
+                                                                        <div class="inner">
+                                                                            <div class="hover-wrap">
+                                                                                <div class="hover-wrap-inner"><a
+                                                                                        href="../wp-content/uploads/2021/07/guide_space_16.jpg"
+                                                                                        class="pp "> <img
+                                                                                        class="img-with-animation skip-lazy "
+                                                                                        data-delay="0" height="1277"
+                                                                                        width="1920"
+                                                                                        data-animation="fade-in"
+                                                                                        src="../wp-content/uploads/2021/07/guide_space_16.jpg"
+                                                                                        alt=""
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_16.jpg"
+                                                                                        sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
+                                                                                </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+<!--                                                         <div class="cell"> -->
+<!--                                                             <div class="inner-wrap-outer"> -->
+<!--                                                                 <div class="inner-wrap"> -->
+<!--                                                                     <div class="img-with-aniamtion-wrap " -->
+<!--                                                                          data-max-width="100%" -->
+<!--                                                                          data-max-width-mobile="default" -->
+<!--                                                                          data-border-radius="10px" -->
+<!--                                                                          data-shadow="x_large_depth" -->
+<!--                                                                          data-animation="fade-in"> -->
+<!--                                                                         <div class="inner"> -->
+<!--                                                                             <div class="hover-wrap"> -->
+<!--                                                                                 <div class="hover-wrap-inner"><a -->
+<!--                                                                                         href="../wp-content/uploads/2021/07/guide_space_17.jpg" -->
+<!--                                                                                         class="pp "> <img -->
+<!--                                                                                         class="img-with-animation skip-lazy " -->
+<!--                                                                                         data-delay="0" height="1277" -->
+<!--                                                                                         width="1920" -->
+<!--                                                                                         data-animation="fade-in" -->
+<!--                                                                                         src="../wp-content/uploads/2021/07/guide_space_17.jpg" -->
+<!--                                                                                         alt="" -->
+<!--                                                                                         srcset="../wp-content/uploads/2021/07/guide_space_17.jpg" -->
+<!--                                                                                         sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/> -->
+<!--                                                                                 </a></div> -->
+<!--                                                                             </div> -->
+<!--                                                                         </div> -->
+<!--                                                                     </div> -->
+<!--                                                                 </div> -->
+<!--                                                             </div> -->
+<!--                                                         </div> -->
+                                                        <div class="cell">
+                                                            <div class="inner-wrap-outer">
+                                                                <div class="inner-wrap">
+                                                                    <div class="img-with-aniamtion-wrap "
+                                                                         data-max-width="100%"
+                                                                         data-max-width-mobile="default"
+                                                                         data-border-radius="10px"
+                                                                         data-shadow="x_large_depth"
+                                                                         data-animation="fade-in">
+                                                                        <div class="inner">
+                                                                            <div class="hover-wrap">
+                                                                                <div class="hover-wrap-inner"><a
+                                                                                        href="../wp-content/uploads/2021/07/guide_space_18.jpg"
+                                                                                        class="pp "> <img
+                                                                                        class="img-with-animation skip-lazy "
+                                                                                        data-delay="0" height="1277"
+                                                                                        width="1920"
+                                                                                        data-animation="fade-in"
+                                                                                        src="../wp-content/uploads/2021/07/guide_space_18.jpg"
+                                                                                        alt=""
+                                                                                        srcset="../wp-content/uploads/2021/07/guide_space_18.jpg"
+                                                                                        sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
+                                                                                </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3242,36 +3681,36 @@
                                                                                         <div class="cell"
                                                                                              data-lazy="false">
                                                                                             <img class="skip-lazy "
-                                                                                                 src="../wp-content/uploads/2021/06/plco_gym_main_sec3_2-1-750x500.jpg"
+                                                                                                 src="../wp-content/uploads/2021/06/award.jpg"
                                                                                                  width="750"
                                                                                                  height="500"
                                                                                                  alt="plco_gym_main_sec3_2-1"
                                                                                                  title="plco_gym_main_sec3_2-1"/><a
                                                                                                 class="entire-slide-link"
-                                                                                                href="../wp-content/uploads/2021/06/plco_gym_main_sec3_2-1.jpg"></a>
+                                                                                                href="../wp-content/uploads/2021/06/award.jpg"></a>
                                                                                         </div>
-                                                                                        <div class="cell"
-                                                                                             data-lazy="false">
-                                                                                            <img class="skip-lazy "
-                                                                                                 src="../wp-content/uploads/2021/06/plco_gym_main_sec3_1-2-750x500.jpg"
-                                                                                                 width="750"
-                                                                                                 height="500"
-                                                                                                 alt="plco_gym_main_sec3_1-2"
-                                                                                                 title="plco_gym_main_sec3_1-2"/><a
-                                                                                                class="entire-slide-link"
-                                                                                                href="../wp-content/uploads/2021/06/plco_gym_main_sec3_1-2.jpg"></a>
-                                                                                        </div>
-                                                                                        <div class="cell"
-                                                                                             data-lazy="false">
-                                                                                            <img class="skip-lazy "
-                                                                                                 src="../wp-content/uploads/2021/06/plco_gym_main_sec3_1-3-750x500.jpg"
-                                                                                                 width="750"
-                                                                                                 height="500"
-                                                                                                 alt="plco_gym_main_sec3_1-3"
-                                                                                                 title="plco_gym_main_sec3_1-3"/><a
-                                                                                                class="entire-slide-link"
-                                                                                                href="../wp-content/uploads/2021/06/plco_gym_main_sec3_1-3.jpg"></a>
-                                                                                        </div>
+<!--                                                                                         <div class="cell" -->
+<!--                                                                                              data-lazy="false"> -->
+<!--                                                                                             <img class="skip-lazy " -->
+<!--                                                                                                  src="../wp-content/uploads/2021/06/plco_gym_main_sec3_1-2-750x500.jpg" -->
+<!--                                                                                                  width="750" -->
+<!--                                                                                                  height="500" -->
+<!--                                                                                                  alt="plco_gym_main_sec3_1-2" -->
+<!--                                                                                                  title="plco_gym_main_sec3_1-2"/><a -->
+<!--                                                                                                 class="entire-slide-link" -->
+<!--                                                                                                 href="../wp-content/uploads/2021/06/plco_gym_main_sec3_1-2.jpg"></a> -->
+<!--                                                                                         </div> -->
+<!--                                                                                         <div class="cell" -->
+<!--                                                                                              data-lazy="false"> -->
+<!--                                                                                             <img class="skip-lazy " -->
+<!--                                                                                                  src="../wp-content/uploads/2021/06/plco_gym_main_sec3_1-3-750x500.jpg" -->
+<!--                                                                                                  width="750" -->
+<!--                                                                                                  height="500" -->
+<!--                                                                                                  alt="plco_gym_main_sec3_1-3" -->
+<!--                                                                                                  title="plco_gym_main_sec3_1-3"/><a -->
+<!--                                                                                                 class="entire-slide-link" -->
+<!--                                                                                                 href="../wp-content/uploads/2021/06/plco_gym_main_sec3_1-3.jpg"></a> -->
+<!--                                                                                         </div> -->
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -3415,35 +3854,35 @@
                                                                                                 <div class="cell"
                                                                                                      data-lazy="false">
                                                                                                     <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_2-1-750x500.jpg"
+                                                                                                         src="wp-content/uploads/2021/06/daeya1.jpg"
                                                                                                          width="750"
                                                                                                          height="500"
                                                                                                          alt="plco_gym_main_sec3_2-1"
                                                                                                          title="plco_gym_main_sec3_2-1"/><a
                                                                                                         class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_2-1.jpg"></a>
+                                                                                                        href="wp-content/uploads/2021/06/daeya1.jpg"></a>
                                                                                                 </div>
                                                                                                 <div class="cell"
                                                                                                      data-lazy="false">
                                                                                                     <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-2-750x500.jpg"
+                                                                                                         src="wp-content/uploads/2021/06/daeya2.jpg"
                                                                                                          width="750"
                                                                                                          height="500"
                                                                                                          alt="plco_gym_main_sec3_1-2"
                                                                                                          title="plco_gym_main_sec3_1-2"/><a
                                                                                                         class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-2.jpg"></a>
+                                                                                                        href="wp-content/uploads/2021/06/daeya1.jpg"></a>
                                                                                                 </div>
                                                                                                 <div class="cell"
                                                                                                      data-lazy="false">
                                                                                                     <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-3-750x500.jpg"
+                                                                                                         src="wp-content/uploads/2021/06/daeya3.jpg"
                                                                                                          width="750"
                                                                                                          height="500"
                                                                                                          alt="plco_gym_main_sec3_1-3"
                                                                                                          title="plco_gym_main_sec3_1-3"/><a
                                                                                                         class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-3.jpg"></a>
+                                                                                                        href="wp-content/uploads/2021/06/daeya3.jpg"></a>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -3496,57 +3935,35 @@
                                                                                                 <div class="cell"
                                                                                                      data-lazy="false">
                                                                                                     <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-4-1-750x500.jpg"
+                                                                                                         src="wp-content/uploads/2021/06/jang1.jpg"
                                                                                                          width="750"
                                                                                                          height="500"
                                                                                                          alt="plco_gym_main_sec3_1-4"
                                                                                                          title="plco_gym_main_sec3_1-4"/><a
                                                                                                         class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-4-1.jpg"></a>
+                                                                                                        href="wp-content/uploads/2021/06/jang1.jpg"></a>
                                                                                                 </div>
                                                                                                 <div class="cell"
                                                                                                      data-lazy="false">
                                                                                                     <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-5-750x500.jpg"
+                                                                                                         src="wp-content/uploads/2021/06/jang2.jpg"
                                                                                                          width="750"
                                                                                                          height="500"
                                                                                                          alt="plco_gym_main_sec3_1-5"
                                                                                                          title="plco_gym_main_sec3_1-5"/><a
                                                                                                         class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-5.jpg"></a>
+                                                                                                        href="wp-content/uploads/2021/06/jang2.jpg"></a>
                                                                                                 </div>
                                                                                                 <div class="cell"
                                                                                                      data-lazy="false">
                                                                                                     <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-6-750x500.jpg"
+                                                                                                         src="wp-content/uploads/2021/06/jang3.jpg"
                                                                                                          width="750"
                                                                                                          height="500"
                                                                                                          alt="plco_gym_main_sec3_1-6"
                                                                                                          title="plco_gym_main_sec3_1-6"/><a
                                                                                                         class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-6.jpg"></a>
-                                                                                                </div>
-                                                                                                <div class="cell"
-                                                                                                     data-lazy="false">
-                                                                                                    <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-7-750x500.jpg"
-                                                                                                         width="750"
-                                                                                                         height="500"
-                                                                                                         alt="plco_gym_main_sec3_1-7"
-                                                                                                         title="plco_gym_main_sec3_1-7"/><a
-                                                                                                        class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-7.jpg"></a>
-                                                                                                </div>
-                                                                                                <div class="cell"
-                                                                                                     data-lazy="false">
-                                                                                                    <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-8-750x500.jpg"
-                                                                                                         width="750"
-                                                                                                         height="500"
-                                                                                                         alt="plco_gym_main_sec3_1-8"
-                                                                                                         title="plco_gym_main_sec3_1-8"/><a
-                                                                                                        class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-8.jpg"></a>
+                                                                                                        href="wp-content/uploads/2021/06/jang3.jpg"></a>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -3591,7 +4008,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <!--자현구점 끝-->
+                                                    <!--장현구점 끝-->
                                                 </div>
                                             </div>
                                         <!--여기까지-->
@@ -3604,80 +4021,7 @@
                         <span class="cp-load-after-post"></span></div>
                 </div>
             </div>
-            <div id="slide-out-widget-area-bg" class="fullscreen-split hidden dark"></div>
-            <div id="slide-out-widget-area" class="fullscreen-split hidden"
-                 data-dropdown-func="separate-dropdown-parent-link" data-back-txt="Back">
-                <div class="inner-wrap">
-                    <div class="inner" data-prepend-menu-mobile="false"><a class="slide_out_area_close" href="#"><span
-                            class="screen-reader-text">Close Menu</span><span class="close-wrap"> <span
-                            class="close-line close-line1"></span> <span class="close-line close-line2"></span> </span></a>
-                        <div class="container normal-container">
-                            <div class="left-side">
-                                <div class="off-canvas-menu-container mobile-only">
-                                    <ul class="menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-479">
-                                            <a href="../service/index.html">서비스 소개</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131">
-                                                    <a href="../service/index.html">선수</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406">
-                                                    <a href="../service/amateur/index.html">아마추어</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405">
-                                                    <a href="../service/team/index.html">팀</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404">
-                                            <a href="../user-story/index.html">유저 스토리</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-270 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-463">
-                                            <a href="index.html" aria-current="page">이용 안내</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-465">
-                                                    <a href="index.html#schedule" aria-current="page">트레이닝 스케줄</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-464">
-                                                    <a href="index.html#price" aria-current="page">이용 요금</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-466">
-                                                    <a href="index.html#space" aria-current="page">시설 안내</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-467">
-                                                    <a href="index.html#location" aria-current="page">오시는 길</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-468">
-                                                    <a href="index.html#coach" aria-current="page">코치진 소개</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-471">
-                                            <a href="../news/index.html">새소식</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473">
-                                                    <a href="../news/story/index.html">플코짐 스토리</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-472">
-                                                    <a href="../news/event/index.html">이벤트</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <ul class="menu secondary-header-items"></ul>
-                                </div>
-                            </div>
-                            <div class="right-side">
-                                <div class="right-side-inner">
-                                    <div class="bottom-meta-wrap">
-                                        <ul class="off-canvas-social-links mobile-only">
-                                            <li><a target="_blank" href="https://www.facebook.com/plcogym"><span
-                                                    class="screen-reader-text">facebook</span><i class="fa fa-facebook"
-                                                                                                 aria-hidden="true"></i>
-                                            </a></li>
-                                            <li><a target="_blank"
-                                                   href="https://www.youtube.com/channel/UCUXRxvrWoWrXprZ0mMZjT3A/featured"><span
-                                                    class="screen-reader-text">youtube</span><i
-                                                    class="fa fa-youtube-play" aria-hidden="true"></i> </a></li>
-                                            <li><a target="_blank"
-                                                   href="https://www.instagram.com/official_plcogym_elite/"><span
-                                                    class="screen-reader-text">instagram</span><i
-                                                    class="fa fa-instagram" aria-hidden="true"></i> </a></li>
-                                        </ul>
-                                    </div><!--/bottom-meta-wrap--></div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--/inner-wrap--></div>
+            <%@include file="../header2.jsp"%>
         </div> <!--/ajax-content-wrap--></div>
 </div><!--/ocm-effect-wrap-->
 <script type="text/javascript" id="modal">    document.addEventListener("DOMContentLoaded", function () {

@@ -469,7 +469,7 @@ body .team-member[data-style="bio_fullscreen"] .team-meta .arrow-end{
     left:0;
     position:relative;
     padding: 8% 60% 4% 10%;
-    overflow-y: scroll;
+    overflow-y: hidden;
     margin: auto 0;
     max-height: 100vh;
 }

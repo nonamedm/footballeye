@@ -10,23 +10,7 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
     <!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ --><title>
     풋볼아이</title>
-    <meta name="description" content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다."/>
     <link rel="canonical" href="index.html"/>
-    <meta property="og:locale" content="ko_KR"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="플코짐"/>
-    <meta property="og:description"
-          content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다."/>
-    <meta property="og:url" content="index.html"/>
-    <meta property="og:site_name" content="Plco GYM"/>
-    <meta property="article:publisher" content="https://www.facebook.com/plcogym"/>
-    <meta property="article:modified_time" content="2021-11-01T02:06:49+00:00"/>
-    <meta property="og:image" content="wp-content/uploads/2021/06/gym_main.jpg"/>
-    <meta property="og:image:width" content="1920"/>
-    <meta property="og:image:height" content="1277"/>
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:label1" content="Est. reading time"/>
-    <meta name="twitter:data1" content="12분"/>
     <script type="application/ld+json" class="yoast-schema-graph">{
         "@context": "https://schema.org",
         "@graph": [
@@ -1071,9 +1055,10 @@
                                                                      data-using-custom-color="false"
                                                                      data-animation-delay="false" data-color=""
                                                                      data-color-gradient="" style="">
-                                                                    <h1>
-                                                                        <strong>축구교실을</strong>
-                                                                        <em>소개합니다</em>
+                                                                    <h1 style="font-size: 6vh;">
+                                                                        <strong>We provide the</strong>
+                                                                        <strong>best environment and</strong>
+                                                                        <strong>best education !</strong>
                                                                     </h1>
                                                                 </div>
                                                             </div>
@@ -1097,10 +1082,10 @@
                                                                 <div class="wpb_text_column wpb_content_element vc_custom_1626163412168">
                                                                     <div class="wpb_wrapper"><p><span
                                                                             style="font-size: 1.15em; font-weight: 400;">
-                                                                        부모님 대기공간(카페)와 넓은 환경으로 감염병으로부터
-                                                                        안전하게 훈련이 가능합니다. 또한,<br/>
-                                                                        바닥 충격방지 매트 설치 후 잔디를 설치하여<br/>
-                                                                        아이들이 축구 교육을 안전하고 제대로 배울 수 있습니다.<br/>
+                                                                        풋볼아이는 유소년 선수들을 위해
+                                                                        최고의 환경과 최고의 교육을 제공합니다.<br/><br>
+                                                                        <input type="button" value="선수반 무료 테스트 신청"><br><br>
+                                                                        <input type="button" value="취미반 체험 수업 신청">
                                                                         </span></p></div>
                                                                 </div>
                                                             </div>
@@ -1194,7 +1179,11 @@
                                                                      data-animation-delay="false" data-color=""
                                                                      data-color-gradient="" style=""><h2
                                                                         style="text-align: center;"><span
-                                                                        style="font-size: 1.5em; line-height: 1.2em!important;"><strong>Best<br/><em>Performance<br/></em>Ever!</strong></span>
+                                                                        style="font-size: 1em; line-height: 1.2em!important;"><strong>We provide the<br/>
+                                                                        best environment and<br/>
+                                                                        best education!<br><br>
+                                                                        </strong></span>
+                                                                        
                                                                 </h2></div>
                                                             </div>
                                                         </div>
@@ -1215,9 +1204,10 @@
                                                         <div class="vc_column-inner">
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_text_column wpb_content_element vc_custom_1626179150480">
-                                                                    <div class="wpb_wrapper"><p>플코짐은 스포츠 선수의 전문체력,<br/>
-                                                                        스킬을 체계적으로 성장시키는<br/>
-                                                                        전문 트레이닝 서비스 입니다.</p></div>
+                                                                    <div class="wpb_wrapper"><p>풋볼아이는 유소년 선수들을 위해<br/>
+                                                                        최고의 환경과 최고의 교육을 제공합니다.<br/><br><input type="button" value="선수반 무료 테스트 신청"><br><br>
+                                                                        <input type="button" value="취미반 체험 수업 신청">
+                                                                        </p></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1265,7 +1255,6 @@
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_text_column wpb_content_element vc_custom_1635732389422">
                                                                     <div class="wpb_wrapper">
-                                                                        <h6>2022.12 기준</h6>
                                                                     </div>
                                                                 </div>
                                                                 <div class="nectar-highlighted-text"
@@ -1273,9 +1262,8 @@
                                                                      data-outline-thickness="thin"
                                                                      data-using-custom-color="false"
                                                                      data-animation-delay="false" data-color=""
-                                                                     data-color-gradient="" style=""><h1>
-                                                                    <strong>축구교실 </strong><br/>
-                                                                    <!--                                                                    <strong>하고 있어요</strong>-->
+                                                                     data-color-gradient="" style=""><h1 style="font-size:2em;">
+                                                                    <strong>유소년 선수를 소개합니다! </strong><br/>
                                                                 </h1></div>
                                                             </div>
                                                         </div>
@@ -1290,7 +1278,7 @@
                                                 </div>
                                                 <div class="row_col_wrap_12_inner col span_12 left">
 
-                                                    <div class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
+                                                    <div class="vc_col-sm-6 vc_col-xs-6 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
                                                          data-padding-pos="all" data-has-bg-color="false"
                                                          data-bg-color="" data-bg-opacity="1" data-animation=""
                                                          data-delay="0">
@@ -1301,15 +1289,15 @@
                                                                      data-symbol-pos="after" data-symbol-size="30"
                                                                      data-ms-align="default">
                                                                     <div class="number extra-color-3"
-                                                                         data-number-size="92"><h2><span>2</span></h2>
+                                                                         data-number-size="92"><h2><span>120</span></h2>
                                                                     </div>
-                                                                    <div class="subject" style="padding: 2%;">골키퍼
+                                                                    <div class="subject" style="padding: 2%;">유소년 아마추어 선수
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
+                                                    <div class="vc_col-sm-6 vc_col-xs-6 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
                                                          data-padding-pos="all" data-has-bg-color="false"
                                                          data-bg-color="" data-bg-opacity="1" data-animation=""
                                                          data-delay="0">
@@ -1320,33 +1308,33 @@
                                                                      data-symbol-pos="after" data-symbol-size="30"
                                                                      data-ms-align="default">
                                                                     <div class="number extra-color-3"
-                                                                         data-number-size="92"><h2><span>16</span></h2>
+                                                                         data-number-size="92"><h2><span>30</span></h2>
                                                                     </div>
-                                                                    <div class="subject" style="padding: 2%;">수비수,공격수
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                         data-padding-pos="all" data-has-bg-color="false"
-                                                         data-bg-color="" data-bg-opacity="1" data-animation=""
-                                                         data-delay="0">
-                                                        <div class="vc_column-inner">
-                                                            <div class="wpb_wrapper">
-                                                                <div class="nectar-milestone " data-symbol="명"
-                                                                     data-symbol-alignment="superscript"
-                                                                     data-symbol-pos="after" data-symbol-size="30"
-                                                                     data-ms-align="default">
-                                                                    <div class="number extra-color-3"
-                                                                         data-number-size="92"><h2><span>26</span></h2>
-                                                                    </div>
-                                                                    <div class="subject" style="padding: 2%;">미드필더
+                                                                    <div class="subject" style="padding: 2%;">유소년 선수
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
+<!--                                                     <div class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone " -->
+<!--                                                          data-padding-pos="all" data-has-bg-color="false" -->
+<!--                                                          data-bg-color="" data-bg-opacity="1" data-animation="" -->
+<!--                                                          data-delay="0"> -->
+<!--                                                         <div class="vc_column-inner"> -->
+<!--                                                             <div class="wpb_wrapper"> -->
+<!--                                                                 <div class="nectar-milestone " data-symbol="명" -->
+<!--                                                                      data-symbol-alignment="superscript" -->
+<!--                                                                      data-symbol-pos="after" data-symbol-size="30" -->
+<!--                                                                      data-ms-align="default"> -->
+<!--                                                                     <div class="number extra-color-3" -->
+<!--                                                                          data-number-size="92"><h2><span>26</span></h2> -->
+<!--                                                                     </div> -->
+<!--                                                                     <div class="subject" style="padding: 2%;">미드필더 -->
+<!--                                                                     </div> -->
+<!--                                                                 </div> -->
+<!--                                                             </div> -->
+<!--                                                         </div> -->
+<!--                                                     </div> -->
 
                                                 </div>
                                             </div>
@@ -1606,7 +1594,7 @@
                                                                      data-outline-thickness="thin"
                                                                      data-using-custom-color="false"
                                                                      data-animation-delay="false" data-color=""
-                                                                     data-color-gradient="" style=""><h2>플코짐의<br/><em>서비스</em>를
+                                                                     data-color-gradient="" style=""><h2>풋볼아이FC<br/><em>축구클럽</em>을
                                                                     소개합니다</h2></div>
                                                             </div>
                                                         </div>
@@ -1620,9 +1608,8 @@
                                                      data-alignment="center">
                                                     <ul class="wpb_tabs_nav ui-tabs-nav clearfix">
                                                         <li><a href="#tab-1635732376265-7"
-                                                               class="active-tab"><span>선수</span></a></li>
-                                                        <li><a href="#tab-1635732376640-1"><span>아마추어</span></a></li>
-                                                        <li><a href="#tab-1635732376817-4"><span>팀</span></a></li>
+                                                               class="active-tab"><span>대야점</span></a></li>
+                                                        <li><a href="#tab-1635732376640-1"><span>장현지구점</span></a></li>
                                                     </ul>
                                                     <div id="tab-%ec%84%a0%ec%88%98" data-tab-icon=""
                                                          class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
@@ -1635,7 +1622,7 @@
                                                              data-animation-delay="false" data-color=""
                                                              data-color-gradient="" style=""><h1
                                                                 style="text-align: center; letter-spacing: -0.05em;">
-                                                            <strong><em>경기장에서 발휘되는<br/></em>폭발력!</strong></h1></div>
+                                                            <strong><em>대야점</em>(본점)</strong></h1></div>
                                                         <div id="fws_61c1ff4f70f85" data-midnight=""
                                                              data-column-margin="default"
                                                              class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_tablet_0px top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
@@ -1660,17 +1647,17 @@
                                                                                  data-animation-delay="false"
                                                                                  data-color="#ffffff"
                                                                                  data-color-gradient="" style=""><h2>
-                                                                                <strong><em>스킬</em></strong></h2></div>
+                                                                                <strong><em>대야점</em></strong></h2></div>
                                                                             <div class="nectar-highlighted-text"
                                                                                  data-style="half_text"
                                                                                  data-exp="default"
                                                                                  data-using-custom-color="true"
                                                                                  data-animation-delay="false"
                                                                                  data-color="rgba(255,255,255,0.21)"
-                                                                                 data-color-gradient="" style=""><h5>볼을
-                                                                                잘 차는 선수가 아닌 축구를 잘하는 선수가 될 수 있도록 트레이닝을
-                                                                                진행. 연령과 선수 개인에 맞춘 트레이닝을 진행하여 기술적 향상이
-                                                                                실전에서 좋은 퍼포먼스로 이어지도록 트레이닝합니다.</h5></div>
+                                                                                 data-color-gradient="" style=""><h5>대야점에서는 실내훈련과 야외훈련이 진행됩니다.
+																				취미반/선수반/그룹레슨/개인레슨을 운영중이며,
+																				선수반은 전지점 시흥 대야점(실내구장)과 신천동축구장(야외구장)에서 
+																				통합훈련으로 진행되고있습니다.</h5></div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1703,35 +1690,35 @@
                                                                                                     <div class="cell"
                                                                                                          data-lazy="false">
                                                                                                         <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_2-1-750x500.jpg"
+                                                                                                             src="wp-content/uploads/2021/06/daeya1.jpg"
                                                                                                              width="750"
                                                                                                              height="500"
                                                                                                              alt="plco_gym_main_sec3_2-1"
                                                                                                              title="plco_gym_main_sec3_2-1"/><a
                                                                                                             class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_2-1.jpg"></a>
+                                                                                                            href="wp-content/uploads/2021/06/daeya1.jpg"></a>
                                                                                                     </div>
                                                                                                     <div class="cell"
                                                                                                          data-lazy="false">
                                                                                                         <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-2-750x500.jpg"
+                                                                                                             src="wp-content/uploads/2021/06/daeya2.jpg"
                                                                                                              width="750"
                                                                                                              height="500"
                                                                                                              alt="plco_gym_main_sec3_1-2"
                                                                                                              title="plco_gym_main_sec3_1-2"/><a
                                                                                                             class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-2.jpg"></a>
+                                                                                                            href="wp-content/uploads/2021/06/daeya2.jpg"></a>
                                                                                                     </div>
                                                                                                     <div class="cell"
                                                                                                          data-lazy="false">
                                                                                                         <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-3-750x500.jpg"
+                                                                                                             src="wp-content/uploads/2021/06/daeya3.jpg"
                                                                                                              width="750"
                                                                                                              height="500"
                                                                                                              alt="plco_gym_main_sec3_1-3"
                                                                                                              title="plco_gym_main_sec3_1-3"/><a
                                                                                                             class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-3.jpg"></a>
+                                                                                                            href="wp-content/uploads/2021/06/daeya3.jpg"></a>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
@@ -1739,354 +1726,6 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div id="fws_61c1ff4f728b7" data-midnight=""
-                                                             data-column-margin="default"
-                                                             class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle bottom_padding_tablet_0px bottom_padding_phone_0px "
-                                                             style="padding-bottom: 100px; ">
-                                                            <div class="row-bg-wrap">
-                                                                <div class="row-bg"></div>
-                                                            </div>
-                                                            <div class="row_col_wrap_12_inner col span_12 left">
-                                                                <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                                     data-padding-pos="all" data-has-bg-color="false"
-                                                                     data-bg-color="" data-bg-opacity="1"
-                                                                     data-animation="" data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="wpb_gallery wpb_content_element clearfix">
-                                                                                <div class="wpb_wrapper">
-                                                                                    <div class="wpb_gallery_slidesflickity_style"
-                                                                                         data-onclick="link_image"
-                                                                                         data-interval="5">
-                                                                                        <div class="nectar-flickity not-initialized"
-                                                                                             data-drag-scale=""
-                                                                                             data-overflow="hidden"
-                                                                                             data-wrap="wrap"
-                                                                                             data-spacing=""
-                                                                                             data-shadow=""
-                                                                                             data-autoplay=""
-                                                                                             data-autoplay-dur=""
-                                                                                             data-free-scroll=""
-                                                                                             data-controls="default"
-                                                                                             data-desktop-columns="1"
-                                                                                             data-small-desktop-columns="1"
-                                                                                             data-tablet-columns="1">
-                                                                                            <div class="flickity-viewport">
-                                                                                                <div class="flickity-slider">
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-4-1-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-4"
-                                                                                                             title="plco_gym_main_sec3_1-4"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-4-1.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-5-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-5"
-                                                                                                             title="plco_gym_main_sec3_1-5"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-5.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-6-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-6"
-                                                                                                             title="plco_gym_main_sec3_1-6"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-6.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-7-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-7"
-                                                                                                             title="plco_gym_main_sec3_1-7"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-7.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-8-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-8"
-                                                                                                             title="plco_gym_main_sec3_1-8"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-8.jpg"></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
-                                                                     data-padding-pos="left-right"
-                                                                     data-has-bg-color="false" data-bg-color=""
-                                                                     data-bg-opacity="1" data-animation=""
-                                                                     data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="full_text"
-                                                                                 data-exp="default"
-                                                                                 data-user-color="true"
-                                                                                 style="color: #212121;"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="#ffffff"
-                                                                                 data-color-gradient="" style=""><h2>
-                                                                                <strong><em>피지컬</em></strong></h2></div>
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="half_text"
-                                                                                 data-exp="default"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="rgba(238,238,238,0.37)"
-                                                                                 data-color-gradient="" style=""><h5>선수
-                                                                                자신의 한계를 뛰어넘는 근력, 스피드, 파워, 근지구력, 심폐지구력 과
-                                                                                같은 필수 기능을 향상시킵니다. 한계를 뛰어넘어야하기에 강한 트레이닝이
-                                                                                진행됩니다.</h5></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div id="fws_61c1ff4f73ec4" data-midnight=""
-                                                             data-column-margin="default"
-                                                             class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone bottom_padding_tablet_0px bottom_padding_phone_0px "
-                                                             style="padding-bottom: 50px; ">
-                                                            <div class="row-bg-wrap">
-                                                                <div class="row-bg"></div>
-                                                            </div>
-                                                            <div class="row_col_wrap_12_inner col span_12 left">
-                                                                <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
-                                                                     data-padding-pos="left-right"
-                                                                     data-has-bg-color="false" data-bg-color=""
-                                                                     data-bg-opacity="1" data-animation=""
-                                                                     data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="full_text"
-                                                                                 data-exp="default"
-                                                                                 data-user-color="true"
-                                                                                 style="color: #212121;"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="#ffffff"
-                                                                                 data-color-gradient="" style=""><h2>
-                                                                                <em><strong>재활(R.M)</strong></em></h2>
-                                                                            </div>
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="half_text"
-                                                                                 data-exp="default"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="rgba(238,238,238,0.37)"
-                                                                                 data-color-gradient="" style=""><h5>
-                                                                                기능적인 움직임과 근력 및 심폐 능력을 향상시키며, 경기에 복귀했을 때
-                                                                                최상의 몸 상태가 될 수 있도록 단계적으로 강도를 높여 전체적인
-                                                                                퍼포먼스를 향상시킵니다.</h5></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                                     data-padding-pos="all" data-has-bg-color="false"
-                                                                     data-bg-color="" data-bg-opacity="1"
-                                                                     data-animation="" data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="wpb_gallery wpb_content_element clearfix">
-                                                                                <div class="wpb_wrapper">
-                                                                                    <div class="wpb_gallery_slidesflickity_style"
-                                                                                         data-onclick="link_image"
-                                                                                         data-interval="5">
-                                                                                        <div class="nectar-flickity not-initialized"
-                                                                                             data-drag-scale=""
-                                                                                             data-overflow="hidden"
-                                                                                             data-wrap="wrap"
-                                                                                             data-spacing=""
-                                                                                             data-shadow=""
-                                                                                             data-autoplay=""
-                                                                                             data-autoplay-dur=""
-                                                                                             data-free-scroll=""
-                                                                                             data-controls="default"
-                                                                                             data-desktop-columns="1"
-                                                                                             data-small-desktop-columns="1"
-                                                                                             data-tablet-columns="1">
-                                                                                            <div class="flickity-viewport">
-                                                                                                <div class="flickity-slider">
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-9-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-9"
-                                                                                                             title="plco_gym_main_sec3_1-9"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-9.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-10-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-10"
-                                                                                                             title="plco_gym_main_sec3_1-10"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-10.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-11-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-11"
-                                                                                                             title="plco_gym_main_sec3_1-11"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-11.jpg"></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div id="fws_61c1ff4f74dcf" data-midnight=""
-                                                             data-column-margin="default"
-                                                             class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle bottom_padding_tablet_0px bottom_padding_phone_0px "
-                                                             style="padding-bottom: 100px; ">
-                                                            <div class="row-bg-wrap">
-                                                                <div class="row-bg"></div>
-                                                            </div>
-                                                            <div class="row_col_wrap_12_inner col span_12 left">
-                                                                <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                                     data-padding-pos="all" data-has-bg-color="false"
-                                                                     data-bg-color="" data-bg-opacity="1"
-                                                                     data-animation="" data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="wpb_gallery wpb_content_element clearfix">
-                                                                                <div class="wpb_wrapper">
-                                                                                    <div class="wpb_gallery_slidesflickity_style"
-                                                                                         data-onclick="link_image"
-                                                                                         data-interval="5">
-                                                                                        <div class="nectar-flickity not-initialized"
-                                                                                             data-drag-scale=""
-                                                                                             data-overflow="hidden"
-                                                                                             data-wrap="wrap"
-                                                                                             data-spacing=""
-                                                                                             data-shadow=""
-                                                                                             data-autoplay=""
-                                                                                             data-autoplay-dur=""
-                                                                                             data-free-scroll=""
-                                                                                             data-controls="default"
-                                                                                             data-desktop-columns="1"
-                                                                                             data-small-desktop-columns="1"
-                                                                                             data-tablet-columns="1">
-                                                                                            <div class="flickity-viewport">
-                                                                                                <div class="flickity-slider">
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-12-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-12"
-                                                                                                             title="plco_gym_main_sec3_1-12"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-12.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-13-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-13"
-                                                                                                             title="plco_gym_main_sec3_1-13"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-13.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-14-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-14"
-                                                                                                             title="plco_gym_main_sec3_1-14"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-14.jpg"></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
-                                                                     data-padding-pos="left-right"
-                                                                     data-has-bg-color="false" data-bg-color=""
-                                                                     data-bg-opacity="1" data-animation=""
-                                                                     data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="full_text"
-                                                                                 data-exp="default"
-                                                                                 data-user-color="true"
-                                                                                 style="color: #212121;"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="#ffffff"
-                                                                                 data-color-gradient="" style=""><h2>
-                                                                                <strong><em>퍼포먼스 측정</em></strong></h2>
-                                                                            </div>
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="half_text"
-                                                                                 data-exp="default"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="rgba(238,238,238,0.37)"
-                                                                                 data-color-gradient="" style=""><h5>첨단
-                                                                                측정장비를 활용하여 선수의 신체능력을 측정합니다. 기간별 측정 데이터를
-                                                                                통해 선수의 장단점을 파악하여 성장을 위한 효과적인 방법을
-                                                                                찾아냅니다.</h5></div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -2103,8 +1742,7 @@
                                                              data-using-custom-color="false"
                                                              data-animation-delay="false" data-color=""
                                                              data-color-gradient="" style=""><h1
-                                                                style="text-align: center;"><strong><em>전문성과
-                                                            즐거움을<br/></em>동시에!</strong></h1></div>
+                                                                style="text-align: center;"><strong><em>장현지구점</em>(직영점)</strong></h1></div>
                                                         <div id="fws_61c1ff4f75c7d" data-midnight=""
                                                              data-column-margin="default"
                                                              class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_tablet_0px top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
@@ -2129,7 +1767,7 @@
                                                                                  data-animation-delay="false"
                                                                                  data-color="#ffffff"
                                                                                  data-color-gradient="" style=""><h2>
-                                                                                <em>스킬</em></h2></div>
+                                                                                <em>장현지구점</em></h2></div>
                                                                             <div class="nectar-highlighted-text"
                                                                                  data-style="half_text"
                                                                                  data-exp="default"
@@ -2137,7 +1775,13 @@
                                                                                  data-animation-delay="false"
                                                                                  data-color="rgba(238,238,238,0.37)"
                                                                                  data-color-gradient="" style=""><h5>
-                                                                                <em>프로선수와 동일한 훈련!<br/></em>전문 피지컬 트레이닝
+                                                                                장현지구점에서는 풋살장 정식규격(야외구장)에서
+																				취미반/엘리트반이 운영되고 있습니다.
+																				본사 통합관리로 장현지구점이 운영되고 있기에
+																				풋볼아이의 교육 “축구를 재미있게, 제대로 배울 수 있도록”이라는
+																				사명감을 가지고 본점과 똑같이 진행되고 있습니다.
+																				엘리트반은 취미반보다 더 체계적인 교육을 받을 수 있으며,
+																				실력 향상 후 선수반으로 이동도 가능합니다. 
                                                                             </h5></div>
                                                                         </div>
                                                                     </div>
@@ -2171,523 +1815,35 @@
                                                                                                     <div class="cell"
                                                                                                          data-lazy="false">
                                                                                                         <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_2-1-750x500.jpg"
+                                                                                                             src="wp-content/uploads/2021/06/jang1.jpg"
                                                                                                              width="750"
                                                                                                              height="500"
                                                                                                              alt="plco_gym_main_sec3_2-1"
                                                                                                              title="plco_gym_main_sec3_2-1"/><a
                                                                                                             class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_2-1.jpg"></a>
+                                                                                                            href="wp-content/uploads/2021/06/jang1.jpg"></a>
                                                                                                     </div>
                                                                                                     <div class="cell"
                                                                                                          data-lazy="false">
                                                                                                         <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_2-2-750x500.jpg"
+                                                                                                             src="wp-content/uploads/2021/06/jang2.jpg"
                                                                                                              width="750"
                                                                                                              height="500"
                                                                                                              alt="plco_gym_main_sec3_2-2"
                                                                                                              title="plco_gym_main_sec3_2-2"/><a
                                                                                                             class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_2-2.jpg"></a>
+                                                                                                            href="wp-content/uploads/2021/06/jang2.jpg"></a>
                                                                                                     </div>
                                                                                                     <div class="cell"
                                                                                                          data-lazy="false">
                                                                                                         <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_2-3-750x500.jpg"
+                                                                                                             src="wp-content/uploads/2021/06/jang3.jpg"
                                                                                                              width="750"
                                                                                                              height="500"
                                                                                                              alt="plco_gym_main_sec3_2-3"
                                                                                                              title="plco_gym_main_sec3_2-3"/><a
                                                                                                             class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_2-3.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_2-4-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_2-4"
-                                                                                                             title="plco_gym_main_sec3_2-4"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_2-4.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_2-5-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_2-5"
-                                                                                                             title="plco_gym_main_sec3_2-5"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_2-5.jpg"></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div id="fws_61c1ff4f77014" data-midnight=""
-                                                             data-column-margin="default"
-                                                             class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle bottom_padding_tablet_0px bottom_padding_phone_0px "
-                                                             style="padding-bottom: 100px; ">
-                                                            <div class="row-bg-wrap">
-                                                                <div class="row-bg"></div>
-                                                            </div>
-                                                            <div class="row_col_wrap_12_inner col span_12 left">
-                                                                <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                                     data-padding-pos="all" data-has-bg-color="false"
-                                                                     data-bg-color="" data-bg-opacity="1"
-                                                                     data-animation="" data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="wpb_gallery wpb_content_element clearfix">
-                                                                                <div class="wpb_wrapper">
-                                                                                    <div class="wpb_gallery_slidesflickity_style"
-                                                                                         data-onclick="link_image"
-                                                                                         data-interval="5">
-                                                                                        <div class="nectar-flickity not-initialized"
-                                                                                             data-drag-scale=""
-                                                                                             data-overflow="hidden"
-                                                                                             data-wrap="wrap"
-                                                                                             data-spacing=""
-                                                                                             data-shadow=""
-                                                                                             data-autoplay=""
-                                                                                             data-autoplay-dur=""
-                                                                                             data-free-scroll=""
-                                                                                             data-controls="default"
-                                                                                             data-desktop-columns="1"
-                                                                                             data-small-desktop-columns="1"
-                                                                                             data-tablet-columns="1">
-                                                                                            <div class="flickity-viewport">
-                                                                                                <div class="flickity-slider">
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_2-6-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_2-6"
-                                                                                                             title="plco_gym_main_sec3_2-6"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_2-6.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_2-7-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_2-7"
-                                                                                                             title="plco_gym_main_sec3_2-7"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_2-7.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/06/plco_gym_main_sec3_2-8-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_2-8"
-                                                                                                             title="plco_gym_main_sec3_2-8"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/06/plco_gym_main_sec3_2-8.jpg"></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
-                                                                     data-padding-pos="left-right"
-                                                                     data-has-bg-color="false" data-bg-color=""
-                                                                     data-bg-opacity="1" data-animation=""
-                                                                     data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="full_text"
-                                                                                 data-exp="default"
-                                                                                 data-user-color="true"
-                                                                                 style="color: #212121;"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="#ffffff"
-                                                                                 data-color-gradient="" style=""><h2>
-                                                                                <em>피지컬</em></h2></div>
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="half_text"
-                                                                                 data-exp="default"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="rgba(238,238,238,0.37)"
-                                                                                 data-color-gradient="" style=""><h5>
-                                                                                프로선수가 받는 피지컬 트레이닝을 통해 보다 전문적으로 진행.<br/>
-                                                                                신체 밸런스와 신체 기능 향상을 위한 전문 피지컬 트레이닝을 진행합니다.
-                                                                            </h5></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div id="tab-%ed%8c%80" data-tab-icon=""
-                                                         class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
-                                                        <div class="divider-wrap" data-alignment="default">
-                                                            <div style="height: 25px;" class="divider"></div>
-                                                        </div>
-                                                        <div class="nectar-highlighted-text" data-style="text_outline"
-                                                             data-outline-thickness="regular"
-                                                             data-using-custom-color="false"
-                                                             data-animation-delay="false" data-color=""
-                                                             data-color-gradient="" style=""><h1
-                                                                style="text-align: center;"><strong><em>한계를
-                                                            뛰어넘는<br/></em>플레이 전략!</strong></h1></div>
-                                                        <div id="fws_61c1ff4f77ef0" data-midnight=""
-                                                             data-column-margin="default"
-                                                             class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_tablet_0px top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
-                                                             style="padding-top: 80px; padding-bottom: 100px; ">
-                                                            <div class="row-bg-wrap">
-                                                                <div class="row-bg"></div>
-                                                            </div>
-                                                            <div class="row_col_wrap_12_inner col span_12 left">
-                                                                <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
-                                                                     data-padding-pos="left-right"
-                                                                     data-has-bg-color="false" data-bg-color=""
-                                                                     data-bg-opacity="1" data-animation=""
-                                                                     data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="full_text"
-                                                                                 data-exp="default"
-                                                                                 data-user-color="true"
-                                                                                 style="color: #212121;"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="#ffffff"
-                                                                                 data-color-gradient="" style=""><h2>
-                                                                                <em>퍼포먼스 측정</em></h2></div>
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="half_text"
-                                                                                 data-exp="default"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="rgba(238,238,238,0.37)"
-                                                                                 data-color-gradient="" style=""><h5>
-                                                                                프로선수가 받는 피지컬 트레이닝을 통해 보다 전문적으로 진행. 신체
-                                                                                밸런스와 신체 기능 향상을 위한 전문 피지컬 트레이닝을
-                                                                                진행합니다.</h5></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                                     data-padding-pos="all" data-has-bg-color="false"
-                                                                     data-bg-color="" data-bg-opacity="1"
-                                                                     data-animation="" data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="wpb_gallery wpb_content_element clearfix">
-                                                                                <div class="wpb_wrapper">
-                                                                                    <div class="wpb_gallery_slidesflickity_style"
-                                                                                         data-onclick="link_image"
-                                                                                         data-interval="5">
-                                                                                        <div class="nectar-flickity not-initialized"
-                                                                                             data-drag-scale=""
-                                                                                             data-overflow="hidden"
-                                                                                             data-wrap="wrap"
-                                                                                             data-spacing=""
-                                                                                             data-shadow=""
-                                                                                             data-autoplay=""
-                                                                                             data-autoplay-dur=""
-                                                                                             data-free-scroll=""
-                                                                                             data-controls="default"
-                                                                                             data-desktop-columns="1"
-                                                                                             data-small-desktop-columns="1"
-                                                                                             data-tablet-columns="1">
-                                                                                            <div class="flickity-viewport">
-                                                                                                <div class="flickity-slider">
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/07/plco_gym_main_sec3_3-1-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_3-1"
-                                                                                                             title="plco_gym_main_sec3_3-1"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/07/plco_gym_main_sec3_3-1.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/07/plco_gym_main_sec3_3-2-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_3-2"
-                                                                                                             title="plco_gym_main_sec3_3-2"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/07/plco_gym_main_sec3_3-2.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/07/plco_gym_main_sec3_3-3-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_3-3"
-                                                                                                             title="plco_gym_main_sec3_3-3"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/07/plco_gym_main_sec3_3-3.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/07/plco_gym_main_sec3_3-4-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_3-4"
-                                                                                                             title="plco_gym_main_sec3_3-4"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/07/plco_gym_main_sec3_3-4.jpg"></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div id="fws_61c1ff4f78fa4" data-midnight=""
-                                                             data-column-margin="default"
-                                                             class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle bottom_padding_tablet_0px bottom_padding_phone_0px "
-                                                             style="padding-bottom: 100px; ">
-                                                            <div class="row-bg-wrap">
-                                                                <div class="row-bg"></div>
-                                                            </div>
-                                                            <div class="row_col_wrap_12_inner col span_12 left">
-                                                                <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                                     data-padding-pos="all" data-has-bg-color="false"
-                                                                     data-bg-color="" data-bg-opacity="1"
-                                                                     data-animation="" data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="wpb_gallery wpb_content_element clearfix">
-                                                                                <div class="wpb_wrapper">
-                                                                                    <div class="wpb_gallery_slidesflickity_style"
-                                                                                         data-onclick="link_image"
-                                                                                         data-interval="5">
-                                                                                        <div class="nectar-flickity not-initialized"
-                                                                                             data-drag-scale=""
-                                                                                             data-overflow="hidden"
-                                                                                             data-wrap="wrap"
-                                                                                             data-spacing=""
-                                                                                             data-shadow=""
-                                                                                             data-autoplay=""
-                                                                                             data-autoplay-dur=""
-                                                                                             data-free-scroll=""
-                                                                                             data-controls="default"
-                                                                                             data-desktop-columns="1"
-                                                                                             data-small-desktop-columns="1"
-                                                                                             data-tablet-columns="1">
-                                                                                            <div class="flickity-viewport">
-                                                                                                <div class="flickity-slider">
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/07/plco_gym_main_sec3_3-5-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_3-5"
-                                                                                                             title="plco_gym_main_sec3_3-5"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/07/plco_gym_main_sec3_3-5.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/07/plco_gym_main_sec3_3-6-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_3-6"
-                                                                                                             title="plco_gym_main_sec3_3-6"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/07/plco_gym_main_sec3_3-6.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/07/plco_gym_main_sec3_3-7-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_3-7"
-                                                                                                             title="plco_gym_main_sec3_3-7"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/07/plco_gym_main_sec3_3-7.jpg"></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
-                                                                     data-padding-pos="left-right"
-                                                                     data-has-bg-color="false" data-bg-color=""
-                                                                     data-bg-opacity="1" data-animation=""
-                                                                     data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="full_text"
-                                                                                 data-exp="default"
-                                                                                 data-user-color="true"
-                                                                                 style="color: #212121;"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="#ffffff"
-                                                                                 data-color-gradient="" style=""><h2>
-                                                                                <em>측정 데이터 분석</em></h2></div>
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="half_text"
-                                                                                 data-exp="default"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="rgba(238,238,238,0.37)"
-                                                                                 data-color-gradient="" style=""><h5>
-                                                                                지도자와 함께 팀 전체 상태, 선수 개별 상태를 분석.<br/>
-                                                                                이를 통해 선수의 장단점을 파악.</h5></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div id="fws_61c1ff4f79dba" data-midnight=""
-                                                             data-column-margin="default"
-                                                             class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
-                                                             style="padding-top: 150px; padding-bottom: 100px; ">
-                                                            <div class="row-bg-wrap">
-                                                                <div class="row-bg"></div>
-                                                            </div>
-                                                            <div class="row_col_wrap_12_inner col span_12 left">
-                                                                <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-                                                                     data-padding-pos="all" data-has-bg-color="false"
-                                                                     data-bg-color="" data-bg-opacity="1"
-                                                                     data-animation="" data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="full_text"
-                                                                                 data-exp="default"
-                                                                                 data-user-color="true"
-                                                                                 style="color: #212121;"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="#ffffff"
-                                                                                 data-color-gradient="" style=""><h2
-                                                                                    style="text-align: center;"><em>솔루션
-                                                                                데이</em></h2></div>
-                                                                            <div class="nectar-highlighted-text"
-                                                                                 data-style="half_text"
-                                                                                 data-exp="default"
-                                                                                 data-using-custom-color="true"
-                                                                                 data-animation-delay="false"
-                                                                                 data-color="rgba(238,238,238,0.37)"
-                                                                                 data-color-gradient="" style=""><h5>
-                                                                                선수들의 상태에 따라 개인훈련과 보강훈련을 진행.<br/>
-                                                                                선수 개인의 부족한 부분을 보완, 장점을 발전시킬 수 있는 솔루션을
-                                                                                제공합니다.</h5></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                                     data-padding-pos="all" data-has-bg-color="false"
-                                                                     data-bg-color="" data-bg-opacity="1"
-                                                                     data-animation="" data-delay="0">
-                                                                    <div class="vc_column-inner">
-                                                                        <div class="wpb_wrapper">
-                                                                            <div class="wpb_gallery wpb_content_element clearfix">
-                                                                                <div class="wpb_wrapper">
-                                                                                    <div class="wpb_gallery_slidesflickity_style"
-                                                                                         data-onclick="link_image"
-                                                                                         data-interval="5">
-                                                                                        <div class="nectar-flickity not-initialized"
-                                                                                             data-drag-scale=""
-                                                                                             data-overflow="hidden"
-                                                                                             data-wrap="wrap"
-                                                                                             data-spacing=""
-                                                                                             data-shadow=""
-                                                                                             data-autoplay=""
-                                                                                             data-autoplay-dur=""
-                                                                                             data-free-scroll=""
-                                                                                             data-controls="default"
-                                                                                             data-desktop-columns="1"
-                                                                                             data-small-desktop-columns="1"
-                                                                                             data-tablet-columns="1">
-                                                                                            <div class="flickity-viewport">
-                                                                                                <div class="flickity-slider">
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/07/plco_gym_main_sec3_3-8-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_3-8"
-                                                                                                             title="plco_gym_main_sec3_3-8"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/07/plco_gym_main_sec3_3-8.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/07/plco_gym_main_sec3_3-9-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_3-9"
-                                                                                                             title="plco_gym_main_sec3_3-9"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/07/plco_gym_main_sec3_3-9.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/07/plco_gym_main_sec3_3-10-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_3-10"
-                                                                                                             title="plco_gym_main_sec3_3-10"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/07/plco_gym_main_sec3_3-10.jpg"></a>
-                                                                                                    </div>
-                                                                                                    <div class="cell"
-                                                                                                         data-lazy="false">
-                                                                                                        <img class="skip-lazy "
-                                                                                                             src="wp-content/uploads/2021/07/plco_gym_main_sec3_3-11-750x500.jpg"
-                                                                                                             width="750"
-                                                                                                             height="500"
-                                                                                                             alt="plco_gym_main_sec3_3-11"
-                                                                                                             title="plco_gym_main_sec3_3-11"/><a
-                                                                                                            class="entire-slide-link"
-                                                                                                            href="wp-content/uploads/2021/07/plco_gym_main_sec3_3-11.jpg"></a>
+                                                                                                            href="wp-content/uploads/2021/06/jang3.jpg"></a>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
@@ -2760,9 +1916,8 @@
                                                                     </strong></h2></div>
                                                                 <div class="wpb_text_column wpb_content_element "
                                                                      style=" max-width: 650px; display: inline-block;">
-                                                                    <!--                                                                    <div class="wpb_wrapper"><p>다양한 실전 경험과 지도 경력으로 구성된-->
-                                                                    <!--                                                                        코치들은<br/>-->
-                                                                    <!--                                                                        보다 더 전문적이고 체계적인 트레이닝을 선사합니다 🙂</p></div>-->
+                                                                     <div class="wpb_wrapper"><p>풋볼아이의 코치진을 소개합니다.<br/>
+                                                                      유소년 선수에게 더 전문적이고 체계적인 트레이닝을 제공합니다 🙂</p></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2775,7 +1930,7 @@
                                                     <div class="row-bg"></div>
                                                 </div>
                                                 <!--코칭스태프 여기부터-->
-                                                <div class="row_col_wrap_12_inner col span_12" style=" padding-left:30%;">
+                                                <div class="row_col_wrap_12_inner col span_12" style="padding-left:20%; padding-right:10%;">
 
                                                     <!--1번째-->
                                                     <div class="vc_col-sm-1/5 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone "
@@ -2791,18 +1946,16 @@
                                                                      data-delay="" data-alignment="left"
                                                                      data-color="accent-color">
                                                                     <div class="box-bg"
-                                                                         data-nectar-img-src="wp-content/uploads/2021/07/img_u12_coach_2021_1.png"></div>
+                                                                         data-nectar-img-src="wp-content/uploads/2021/07/lim.png"></div>
                                                                     <div class="inner">
                                                                         <div class="heading-wrap">
-                                                                            <h4><strong>이재홍
+                                                                            <h4><strong>임원빈
                                                                                 <span style="font-size: 0.8em">| </span></strong><span
-                                                                                    style="font-size: 0.8em">LEE JAE HONG</span><strong><br/></strong>
+                                                                                    style="font-size: 0.8em">LIM WON BIN</span><strong><br/></strong>
                                                                             </h4>
 
                                                                             <blockquote>
-                                                                                <h6>감독<br/>
-                                                                                    1982년 03월 13일<br/>
-                                                                                    중앙고 - 한양대
+                                                                                <h6>대표<br/><br/><br/>
                                                                                 </h6>
                                                                             </blockquote>
                                                                         </div>
@@ -2810,13 +1963,11 @@
 
                                                                         <div class="hover-content">■ 지도자 경력</p>
                                                                             <p>
-                                                                                2007~2013유상철축구교실 U12 총괄 감독<br/>
-                                                                                2012~2013방이중학교 코치<br/>
-                                                                                2014~2015울산대학교 코치<br/>
-                                                                                2016~2017서울 이랜드 FC U18 코치<br/>
-                                                                                2019~현재인천유나이티드 U12 감독</p>
-                                                                            <p>■ 선수 경력<br/>
-                                                                                - 한양대학교<br/>
+                                                                                현 풋볼아이 유튜브(2016) 대표<br/>
+                                                                                현 풋볼아이 축구교실(2018) 대표<br/>
+                                                                                현 풋볼아이 의류 브랜드(2019) 대표</p>
+                                                                            <p>KFA 지도자 자격증 보유<br/>
+                                                                                    스포츠경영관리사 보유
                                                                             </p>
 
                                                                         </div>
@@ -2839,20 +1990,20 @@
                                                                      data-delay="" data-alignment="left"
                                                                      data-color="accent-color">
                                                                     <div class="box-bg"
-                                                                         data-nectar-img-src="wp-content/uploads/2021/07/img_u12_coach_2021_2.png"></div>
+                                                                         data-nectar-img-src="wp-content/uploads/2021/07/kimb.png"></div>
                                                                     <div class="inner">
                                                                         <div class="heading-wrap">
 
 
-                                                                            <h4><strong>조동욱
+                                                                            <h4><strong>김병익
                                                                                 <span style="font-size: 0.8em">| </span></strong><span
-                                                                                    style="font-size: 0.8em">CHO DONG WOOK</span><strong><br/></strong>
+                                                                                    style="font-size: 0.8em">KIM BYUNG IK</span><strong><br/></strong>
                                                                             </h4>
 
                                                                             <blockquote>
-                                                                                <h6>코치<br/>
-                                                                                    1985년 05월 21일<br/>
-                                                                                    강릉농공고 - 동국대
+                                                                                <h6>대야점 팀장<br/>
+                                                                                    부천SK 유스<br/>
+                                                                                    인천대학교 체육학부 졸업
                                                                                 </h6>
                                                                             </blockquote>
                                                                         </div>
@@ -2860,17 +2011,15 @@
 
                                                                         <div class="hover-content">■ 지도자 경력</p>
                                                                             <p>
-                                                                                광명공업고등학교 코치<br/>
-                                                                                2013~2014여의도고등학교 코치<br/>
-                                                                                2014~2016전북현대 U15 금산중 코치<br/>
-                                                                                2016~2017서울 이랜드 FC U18 코치<br/>
-                                                                                2018서울 이랜드 FC U15 코치<br/>
-                                                                                2018KFA 골든에이지 서울지역 지도자<br/>
-                                                                                2019~현재인천유나이티드 U12 코치<br/>
+                                                                                전 부천FC 어린이 축구단 코치<br/>
+                                                                                전 필리핀 마닐라 알라방 아인FC 총괄<br/>
+                                                                                전 인천유나이티드 아카데미 서구지부 팀장<br/>
+                                                                                현 풋볼아이FC 팀장<br/>
 
                                                                             </p>
-                                                                            <p>■ 선수 경력<br/>
-                                                                                2008~2010천안시청<br/>
+                                                                            <p>KFA 지도자 자격증 보유<br/>
+                                                                                풋살 지도자 3급 <br/>
+                                                                                풋살 심판 3급 <br/>
                                                                             </p>
 
                                                                         </div>
@@ -2894,21 +2043,79 @@
                                                                      data-delay="" data-alignment="left"
                                                                      data-color="accent-color">
                                                                     <div class="box-bg"
-                                                                         data-nectar-img-src="wp-content/uploads/2021/07/img_u12_coach_2021_3.png"></div>
+                                                                         data-nectar-img-src="wp-content/uploads/2021/07/kimk.png"></div>
                                                                     <div class="inner">
                                                                         <div class="heading-wrap">
 
 
-                                                                            <h4><strong>조재환
+                                                                            <h4><strong>김규탁
                                                                                 <span style="font-size: 0.8em">| </span></strong><span
-                                                                                    style="font-size: 0.8em">CHO JAE HWAN</span><strong><br/></strong>
+                                                                                    style="font-size: 0.8em">KIM GYU TAK</span><strong><br/></strong>
                                                                             </h4>
 
                                                                             <blockquote>
 
-                                                                                <h6>코치<br/>
-                                                                                    1996년 09월 17일<br/>
-                                                                                    여의도고 - 명지대
+                                                                                <h6>대야점 코치<br/>
+                                                                                    전남드래곤즈 입단<br/>
+                                                                                    동국대 채육교육과 졸업 
+                                                                                </h6>
+                                                                            </blockquote>
+                                                                        </div>
+
+
+                                                                        <div class="hover-content">■ 수상내역</p>
+                                                                            <p>
+                                                                                2013년 주말리그 최우수 선수상 <br/>
+																				2013년  대통령 금배 수비상 <br/>
+																				2013년 춘계대회 우승 <br/>
+																				2013년 대통령 금배 우승 <br/>
+																				2013년 아시아 축구대회  우승<br/>
+                                                                            </p>
+                                                                            <p>■ 선수 경력<br/>
+                                                                                U-16세 파주nfc 대표팀 소집<br/>
+                                                                                2013년 아시아 대표팀  발탁<br/>
+                                                                                2018년  전남드래곤즈 입단<br/>
+                                                                            </p>
+                                                                            <p>KFA 지도자 자격증 보유<br/>
+																				정교사 자격증 <br/>
+																				KFA 심판3급 자격증 보유<br/>
+                                                                            </p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="vc_col-sm-1/5 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone "
+                                                         data-padding-pos="all" data-has-bg-color="false"
+                                                         data-bg-color="" data-bg-opacity="1"
+                                                         data-animation="fade-in-from-bottom" data-delay="0">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <div class="nectar-fancy-box using-img hover_color_000000 "
+                                                                     style="min-height: 800px" data-style="hover_desc"
+                                                                     data-border-radius="default" data-animation=""
+                                                                     data-bg-animation="long_zoom" data-border=""
+                                                                     data-delay="" data-alignment="left"
+                                                                     data-color="accent-color">
+                                                                    <div class="box-bg"
+                                                                         data-nectar-img-src="wp-content/uploads/2021/07/leej.png"></div>
+                                                                    <div class="inner">
+                                                                        <div class="heading-wrap">
+
+
+                                                                            <h4><strong>이지환
+                                                                                <span style="font-size: 0.8em">| </span></strong><span
+                                                                                    style="font-size: 0.8em">LEE JI HWAN</span><strong><br/></strong>
+                                                                            </h4>
+
+                                                                            <blockquote>
+
+                                                                                <h6>대야점 코치<br/>
+                                                                                    인천유나이티드 <br/>
+                                                                                    아카데미 코치(20~21)
                                                                                 </h6>
                                                                             </blockquote>
                                                                         </div>
@@ -2916,10 +2123,10 @@
 
                                                                         <div class="hover-content">■ 지도자 경력</p>
                                                                             <p>
-                                                                                2019~현재인천유나이티드 U10 코치<br/>
+                                                                                인천유나이티드 <br/>
+                                                                                아카데미 코치(20~21)<br/>
                                                                             </p>
-                                                                            <p>■ 선수 경력<br/>
-                                                                                - 명지대학교<br/>
+                                                                            <p>KFA 지도자 자격증 보유<br/>
                                                                             </p>
 
                                                                         </div>
@@ -2937,285 +2144,128 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="fws_61c1ff4f7d42f" data-column-margin="default" data-midnight="light"
-                             class="wpb_row vc_row-fluid vc_row full-width-section "
-                             style="padding-top: 0px; padding-bottom: 100px; ">
-                            <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false">
-                                <div class="inner-wrap">
-                                    <div class="row-bg using-bg-color" style="background-color: #0a0a0a; "></div>
-                                </div>
-                            </div>
-                            <div class="row_col_wrap_12 col span_12 light left">
-                                <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "
-                                     data-padding-pos="all" data-has-bg-color="false" data-bg-color=""
-                                     data-bg-opacity="1" data-animation="" data-delay="0">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div id="fws_61c1ff4f7d51e" data-midnight="" data-column-margin="default"
-                                                 class="wpb_row vc_row-fluid vc_row inner_row " style="">
-                                                <div class="row-bg-wrap">
-                                                    <div class="row-bg"></div>
-                                                </div>
-                                                <div class="row_col_wrap_12_inner col span_12 left">
-                                                    <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                         data-padding-pos="all" data-has-bg-color="false"
-                                                         data-bg-color="" data-bg-opacity="1" data-animation=""
-                                                         data-delay="0">
-                                                        <div class="vc_column-inner">
-                                                            <div class="wpb_wrapper"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-                                                         data-padding-pos="all" data-has-bg-color="false"
-                                                         data-bg-color="" data-bg-opacity="1" data-animation=""
-                                                         data-delay="0">
-                                                        <div class="vc_column-inner">
-                                                            <div class="wpb_wrapper">
-                                                                <div class="nectar-highlighted-text"
-                                                                     data-style="text_outline"
-                                                                     data-outline-thickness="thin"
-                                                                     data-using-custom-color="false"
-                                                                     data-animation-delay="false" data-color=""
-                                                                     data-color-gradient="" style=""><h2
-                                                                        style="text-align: center;"><strong>플코짐
-                                                                    <em>유저</em> 스토리</strong></h2></div>
-                                                                <div class="wpb_text_column wpb_content_element vc_custom_1626181897600"
-                                                                     style=" max-width: 600px; display: inline-block;">
-                                                                    <div class="wpb_wrapper"><p
-                                                                            style="text-align: center;">플코짐과 유저의 생생한
-                                                                        트레이닝 스토리를 알아보세요!</p></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                         data-padding-pos="all" data-has-bg-color="false"
-                                                         data-bg-color="" data-bg-opacity="1" data-animation=""
-                                                         data-delay="0">
-                                                        <div class="vc_column-inner">
-                                                            <div class="wpb_wrapper"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row blog-recent columns-3" data-style="list_featured_first_row"
-                                                 data-color-scheme="light" data-remove-post-date=""
-                                                 data-remove-post-author="" data-remove-post-comment-number=""
-                                                 data-remove-post-nectar-love="">
-                                                <div class="col span_4 post-652 post type-post status-publish format-standard has-post-thumbnail category-main category-player category-user-story">
-                                                    <a class="full-post-link"
-                                                       href="%eb%b6%80%ec%82%b0%ec%95%84%ec%9d%b4%ed%8c%8c%ed%81%ac-no-8-%eb%b0%95%ec%a2%85%ec%9a%b0-%ec%84%a0%ec%88%98/index.html"
-                                                       aria-label="부산아이파크 (No. 8) 박종우 선수"></a><a class="featured"
-                                                                                                 aria-label="부산아이파크 (No. 8) 박종우 선수"
-                                                                                                 href="%eb%b6%80%ec%82%b0%ec%95%84%ec%9d%b4%ed%8c%8c%ed%81%ac-no-8-%eb%b0%95%ec%a2%85%ec%9a%b0-%ec%84%a0%ec%88%98/index.html"><img
-                                                        width="600" height="403"
-                                                        src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-                                                        class="attachment-portfolio-thumb size-portfolio-thumb wp-post-image"
-                                                        alt="" loading="lazy" title=""
-                                                        srcset="https://gym.plco.site/wp-content/uploads/2021/07/플코짐_박종우.001-600x403.jpeg 600w, https://gym.plco.site/wp-content/uploads/2021/07/플코짐_박종우.001-900x604.jpeg 900w, https://gym.plco.site/wp-content/uploads/2021/07/플코짐_박종우.001-400x269.jpeg 400w"
-                                                        sizes="(max-width: 600px) 100vw, 600px"
-                                                        data-url="wp-content/uploads/2021/07/%e1%84%91%e1%85%b3%e1%86%af%e1%84%8f%e1%85%a9%e1%84%8c%e1%85%b5%e1%86%b7_%e1%84%87%e1%85%a1%e1%86%a8%e1%84%8c%e1%85%a9%e1%86%bc%e1%84%8b%e1%85%ae.001-768x432.jpg"/></a>
-                                                    <div class="post-header featured"><span class="meta-category"><a
-                                                            class="main" href="category/main/index.html">메인 : 유저스토리</a></span>
-                                                        <h3>부산아이파크 (No. 8) 박종우 선수</h3></div><!--/post-header-->
-                                                    <div class="excerpt">&nbsp; &nbsp; &nbsp; 1. 본인을 소개해주세요 ☺️ (영상) 부산
-                                                        아이파크 미드필더로 활약하고 있는 박종우&hellip;
-                                                    </div>
-                                                </div><!--/col-->
-                                                <div class="col span_4 post-654 post type-post status-publish format-standard has-post-thumbnail category-main category-player category-user-story">
-                                                    <a class="full-post-link"
-                                                       href="%ea%b2%bd%ec%a3%bc%ed%95%9c%ec%88%98%ec%9b%90-no-8-%eb%b0%95%ec%98%88%ec%9d%80-%ec%84%a0%ec%88%98/index.html"
-                                                       aria-label="여축 국가대표 박예은 선수"></a><a class="featured"
-                                                                                          aria-label="여축 국가대표 박예은 선수"
-                                                                                          href="%ea%b2%bd%ec%a3%bc%ed%95%9c%ec%88%98%ec%9b%90-no-8-%eb%b0%95%ec%98%88%ec%9d%80-%ec%84%a0%ec%88%98/index.html"><img
-                                                        width="600" height="403"
-                                                        src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-                                                        class="attachment-portfolio-thumb size-portfolio-thumb wp-post-image"
-                                                        alt="" loading="lazy" title=""
-                                                        srcset="https://gym.plco.site/wp-content/uploads/2021/07/플코짐_이용후기_박예은.001-600x403.jpeg 600w, https://gym.plco.site/wp-content/uploads/2021/07/플코짐_이용후기_박예은.001-900x604.jpeg 900w, https://gym.plco.site/wp-content/uploads/2021/07/플코짐_이용후기_박예은.001-400x269.jpeg 400w"
-                                                        sizes="(max-width: 600px) 100vw, 600px"
-                                                        data-url="wp-content/uploads/2021/07/%e1%84%91%e1%85%b3%e1%86%af%e1%84%8f%e1%85%a9%e1%84%8c%e1%85%b5%e1%86%b7_%e1%84%8b%e1%85%b5%e1%84%8b%e1%85%ad%e1%86%bc%e1%84%92%e1%85%ae%e1%84%80%e1%85%b5_%e1%84%87%e1%85%a1%e1%86%a8%e1%84%8b%e1%85%a8%e1%84%8b%e1%85%b3%e1%86%ab.001-768x432.jpg"/></a>
-                                                    <div class="post-header featured"><span class="meta-category"><a
-                                                            class="main" href="category/main/index.html">메인 : 유저스토리</a></span>
-                                                        <h3>여축 국가대표 박예은 선수</h3></div><!--/post-header-->
-                                                    <div class="excerpt">https://youtu.be/DHrEx42K164 1. 본인을 소개해주세요 ☺️
-                                                        경주한수원 소속 박예은 선수입니다. &nbsp; 2. 플코짐을 다니게 된&hellip;
-                                                    </div>
-                                                </div><!--/col-->
-                                                <div class="col span_4 post-928 post type-post status-publish format-standard has-post-thumbnail category-main category-event category-story">
-                                                    <a class="full-post-link"
-                                                       href="%ec%84%a0%ec%88%98-%eb%b6%80%eb%aa%a8%eb%8b%98%ec%9d%b4-%eb%93%a4%eb%a0%a4%ec%a3%bc%eb%8a%94-%ec%9d%b4%ec%9a%a9%ed%9b%84%ea%b8%b0/index.html"
-                                                       aria-label="선수 부모님이 들려주는 이용후기"></a><a class="featured"
-                                                                                             aria-label="선수 부모님이 들려주는 이용후기"
-                                                                                             href="%ec%84%a0%ec%88%98-%eb%b6%80%eb%aa%a8%eb%8b%98%ec%9d%b4-%eb%93%a4%eb%a0%a4%ec%a3%bc%eb%8a%94-%ec%9d%b4%ec%9a%a9%ed%9b%84%ea%b8%b0/index.html"><img
-                                                        width="600" height="403"
-                                                        src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-                                                        class="attachment-portfolio-thumb size-portfolio-thumb wp-post-image"
-                                                        alt="" loading="lazy" title=""
-                                                        srcset="https://gym.plco.site/wp-content/uploads/2021/07/플코짐-홈페이지_플코짐스토리_썸네일작업_부모님.001-600x403.jpeg 600w, https://gym.plco.site/wp-content/uploads/2021/07/플코짐-홈페이지_플코짐스토리_썸네일작업_부모님.001-900x604.jpeg 900w, https://gym.plco.site/wp-content/uploads/2021/07/플코짐-홈페이지_플코짐스토리_썸네일작업_부모님.001-400x269.jpeg 400w"
-                                                        sizes="(max-width: 600px) 100vw, 600px"
-                                                        data-url="wp-content/uploads/2021/07/%ed%94%8c%ec%bd%94%ec%a7%90-%ed%99%88%ed%8e%98%ec%9d%b4%ec%a7%80_%ed%94%8c%ec%bd%94%ec%a7%90%ec%8a%a4%ed%86%a0%eb%a6%ac_%ec%8d%b8%eb%84%a4%ec%9d%bc%ec%9e%91%ec%97%85_%eb%b6%80%eb%aa%a8%eb%8b%98.001-768x432.jpg"/></a>
-                                                    <div class="post-header featured"><span class="meta-category"><a
-                                                            class="main" href="category/main/index.html">메인 : 유저스토리</a></span>
-                                                        <h3>선수 부모님이 들려주는 이용후기</h3></div><!--/post-header-->
-                                                    <div class="excerpt">플코짐에서는 우리 아이들의 가장 든든한 팬이자 지원군인 '부모님'의  의견을 듣고
-                                                        있습니다. 플코짐을 다니는 이유,&hellip;
-                                                    </div>
-                                                </div><!--/col--> </div><!--/blog-recent-->
-                                            <div id="fws_61c1ff4f7fdf5" data-midnight="" data-column-margin="default"
-                                                 class="wpb_row vc_row-fluid vc_row inner_row " style="">
-                                                <div class="row-bg-wrap">
-                                                    <div class="row-bg"></div>
-                                                </div>
-                                                <div class="row_col_wrap_12_inner col span_12 left">
-                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-                                                         data-padding-pos="all" data-has-bg-color="false"
-                                                         data-bg-color="" data-bg-opacity="1" data-animation=""
-                                                         data-delay="0">
-                                                        <div class="vc_column-inner">
-                                                            <div class="wpb_wrapper">
-                                                                <div class="nectar-cta alignment_tablet_default alignment_phone_default "
-                                                                     data-color="accent-color" data-using-bg="true"
-                                                                     data-style="basic" data-display="block"
-                                                                     data-alignment="center" data-text-color="custom"
-                                                                     style="margin-left: 5px;"><span
-                                                                        style="color: #ffffff;"
-                                                                        class="nectar-button-type"><span
-                                                                        class="link_wrap"
-                                                                        style="padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px;"><a
-                                                                        class="link_text" href="#"><span class="text">모든 유저 스토리</span></a></span></span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="fws_61c1ff4f80021" data-column-margin="default" data-midnight="dark"
-                             class="wpb_row vc_row-fluid vc_row full-width-section "
-                             style="padding-top: 0px; padding-bottom: 100px; ">
-                            <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false">
-                                <div class="inner-wrap">
-                                    <div class="row-bg using-bg-color" style="background-color: #0a0a0a; "></div>
-                                </div>
-                            </div>
-                            <div class="row_col_wrap_12 col span_12 dark left">
-                                <div class="vc_col-sm-12 wpb_column column_container vc_column_container col has-animation no-extra-padding inherit_tablet inherit_phone "
-                                     data-padding-pos="all" data-has-bg-color="false" data-bg-color=""
-                                     data-bg-opacity="1" data-animation="fade-in-from-bottom" data-delay="400">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_video_widget wpb_content_element vc_clearfix vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-center">
-                                                <div class="wpb_wrapper">
-                                                    <div class="wpb_video_wrapper">
-                                                        <iframe title="플코짐 | Best Performance Ever 가장 최고의 퍼포먼스"
-                                                                width="1080" height="608"
-                                                                src="https://www.youtube.com/embed/f-ErTB2hiZ0?feature=oembed"
-                                                                frameborder="0"
-                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                                allowfullscreen></iframe>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="fws_61c1ff4f80475" data-column-margin="default" data-midnight="dark"
-                             class="wpb_row vc_row-fluid vc_row full-width-section parallax_section top_padding_phone_50px bottom_padding_phone_100px "
-                             style="padding-top: 100px; padding-bottom: 100px; ">
-                            <div class="row-bg-wrap" data-bg-animation="zoom-out-slow" data-bg-overlay="false">
-                                <div class="inner-wrap">
-                                    <div class="row-bg" data-parallax-speed="medium_fast" style=""></div>
-                                </div>
-                            </div>
-                            <div class="nectar-shape-divider-wrap " style=" height:100px;" data-height="100"
-                                 data-front="" data-style="fan" data-position="top">
-                                <svg class="nectar-shape-divider" aria-hidden="true" fill="#0a0a0a"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1003.92 91"
-                                     preserveAspectRatio="none">
-                                    <polygon class="cls-1"
-                                             points="502.46 46.31 1 85.67 1 91.89 1002.91 91.89 1002.91 85.78 502.46 46.31"/>
-                                    <polygon class="cls-2"
-                                             points="502.46 45.8 1 0 1 91.38 1002.91 91.38 1002.91 0.1 502.46 45.8"/>
-                                    <rect class="cls-3" y="45.81" width="1003.92" height="46.09"/>
-                                </svg>
-                            </div>
-                            <div class="row_col_wrap_12 col span_12 dark left">
-                                <div class="vc_col-sm-12 wpb_column column_container vc_column_container col force-tablet-text-align-center force-phone-text-align-center no-extra-padding inherit_tablet inherit_phone "
-                                     data-padding-pos="all" data-has-bg-color="false" data-bg-color=""
-                                     data-bg-opacity="1" data-animation="" data-delay="0">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div id="fws_61c1ff4f80561" data-midnight="" data-column-margin="default"
-                                                 class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle "
-                                                 style="">
-                                                <div class="row-bg-wrap">
-                                                    <div class="row-bg"></div>
-                                                </div>
-                                                <div class="row_col_wrap_12_inner col span_12 left">
-                                                    <div class="vc_col-sm-4 vc_col-xs-6 wpb_column column_container vc_column_container col child_column padding-5-percent bottom_margin_phone_40px left_margin_phone_25pct inherit_tablet inherit_phone "
-                                                         data-padding-pos="all" data-has-bg-color="false"
-                                                         data-bg-color="" data-bg-opacity="1" data-animation=""
-                                                         data-delay="0">
-                                                        <div class="vc_column-inner">
-                                                            <div class="wpb_wrapper">
-                                                                <div class="img-with-aniamtion-wrap center"
-                                                                     data-max-width="100%"
-                                                                     data-max-width-mobile="default" data-shadow="none"
-                                                                     data-animation="fade-in">
-                                                                    <div class="inner">
-                                                                        <div class="hover-wrap">
-                                                                            <div class="hover-wrap-inner"><img
-                                                                                    class="img-with-animation skip-lazy "
-                                                                                    data-delay="0" height="500"
-                                                                                    width="500" data-animation="fade-in"
-                                                                                    src="wp-content/uploads/2021/06/plco_main_sec5.png"
-                                                                                    alt=""
-                                                                                    srcset="https://gym.plco.site/wp-content/uploads/2021/06/plco_main_sec5.png 500w, https://gym.plco.site/wp-content/uploads/2021/06/plco_main_sec5-300x300.png 300w, https://gym.plco.site/wp-content/uploads/2021/06/plco_main_sec5-150x150.png 150w, https://gym.plco.site/wp-content/uploads/2021/06/plco_main_sec5-100x100.png 100w, https://gym.plco.site/wp-content/uploads/2021/06/plco_main_sec5-140x140.png 140w, https://gym.plco.site/wp-content/uploads/2021/06/plco_main_sec5-350x350.png 350w"
-                                                                                    sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                         data-padding-pos="all" data-has-bg-color="false"
-                                                         data-bg-color="" data-bg-opacity="1" data-animation=""
-                                                         data-delay="0">
-                                                        <div class="vc_column-inner">
-                                                            <div class="wpb_wrapper">
-                                                                <div class="nectar-highlighted-text"
-                                                                     data-style="text_outline"
-                                                                     data-outline-thickness="thin"
-                                                                     data-using-custom-color="false"
-                                                                     data-animation-delay="false" data-color=""
-                                                                     data-color-gradient="" style=""><h2><span
-                                                                        style="font-size: 1.1em;">2020 올해의<br/><em>우수스포츠기업</em> 선정</span>
-                                                                </h2></div>
-                                                                <div class="wpb_text_column wpb_content_element ">
-                                                                    <div class="wpb_wrapper"><p>문화체육관광부와 국민체육진흥공단이 주최,
-                                                                        주관한 2020 올해의 우수스포츠기업에 선정되었습니다.<br/>
-                                                                        스포츠 선수의 퍼포먼스 증진을 위한 플코와 플코짐 서비스의 우수성을 인정받았습니다.
-                                                                    </p></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
+<!--                         <div id="fws_61c1ff4f80021" data-column-margin="default" data-midnight="dark" -->
+<!--                              class="wpb_row vc_row-fluid vc_row full-width-section " -->
+<!--                              style="padding-top: 0px; padding-bottom: 100px; "> -->
+<!--                             <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"> -->
+<!--                                 <div class="inner-wrap"> -->
+<!--                                     <div class="row-bg using-bg-color" style="background-color: #0a0a0a; "></div> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                             <div class="row_col_wrap_12 col span_12 dark left"> -->
+<!--                                 <div class="vc_col-sm-12 wpb_column column_container vc_column_container col has-animation no-extra-padding inherit_tablet inherit_phone " -->
+<!--                                      data-padding-pos="all" data-has-bg-color="false" data-bg-color="" -->
+<!--                                      data-bg-opacity="1" data-animation="fade-in-from-bottom" data-delay="400"> -->
+<!--                                     <div class="vc_column-inner"> -->
+<!--                                         <div class="wpb_wrapper"> -->
+<!--                                             <div class="wpb_video_widget wpb_content_element vc_clearfix vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-center"> -->
+<!--                                                 <div class="wpb_wrapper"> -->
+<!--                                                     <div class="wpb_video_wrapper"> -->
+<!--                                                         <iframe title="플코짐 | Best Performance Ever 가장 최고의 퍼포먼스" -->
+<!--                                                                 width="1080" height="608" -->
+<!--                                                                 src="https://www.youtube.com/embed/f-ErTB2hiZ0?feature=oembed" -->
+<!--                                                                 frameborder="0" -->
+<!--                                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" -->
+<!--                                                                 allowfullscreen></iframe> -->
+<!--                                                     </div> -->
+<!--                                                 </div> -->
+<!--                                             </div> -->
+<!--                                         </div> -->
+<!--                                     </div> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                         </div> -->
+<!--                         <div id="fws_61c1ff4f80475" data-column-margin="default" data-midnight="dark" -->
+<!--                              class="wpb_row vc_row-fluid vc_row full-width-section parallax_section top_padding_phone_50px bottom_padding_phone_100px " -->
+<!--                              style="padding-top: 100px; padding-bottom: 100px; "> -->
+<!--                             <div class="row-bg-wrap" data-bg-animation="zoom-out-slow" data-bg-overlay="false"> -->
+<!--                                 <div class="inner-wrap"> -->
+<!--                                     <div class="row-bg" data-parallax-speed="medium_fast" style=""></div> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                             <div class="nectar-shape-divider-wrap " style=" height:100px;" data-height="100" -->
+<!--                                  data-front="" data-style="fan" data-position="top"> -->
+<!--                                 <svg class="nectar-shape-divider" aria-hidden="true" fill="#0a0a0a" -->
+<!--                                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1003.92 91" -->
+<!--                                      preserveAspectRatio="none"> -->
+<!--                                     <polygon class="cls-1" -->
+<!--                                              points="502.46 46.31 1 85.67 1 91.89 1002.91 91.89 1002.91 85.78 502.46 46.31"/> -->
+<!--                                     <polygon class="cls-2" -->
+<!--                                              points="502.46 45.8 1 0 1 91.38 1002.91 91.38 1002.91 0.1 502.46 45.8"/> -->
+<!--                                     <rect class="cls-3" y="45.81" width="1003.92" height="46.09"/> -->
+<!--                                 </svg> -->
+<!--                             </div> -->
+<!--                             <div class="row_col_wrap_12 col span_12 dark left"> -->
+<!--                                 <div class="vc_col-sm-12 wpb_column column_container vc_column_container col force-tablet-text-align-center force-phone-text-align-center no-extra-padding inherit_tablet inherit_phone " -->
+<!--                                      data-padding-pos="all" data-has-bg-color="false" data-bg-color="" -->
+<!--                                      data-bg-opacity="1" data-animation="" data-delay="0"> -->
+<!--                                     <div class="vc_column-inner"> -->
+<!--                                         <div class="wpb_wrapper"> -->
+<!--                                             <div id="fws_61c1ff4f80561" data-midnight="" data-column-margin="default" -->
+<!--                                                  class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle " -->
+<!--                                                  style=""> -->
+<!--                                                 <div class="row-bg-wrap"> -->
+<!--                                                     <div class="row-bg"></div> -->
+<!--                                                 </div> -->
+<!--                                                 <div class="row_col_wrap_12_inner col span_12 left"> -->
+<!--                                                     <div class="vc_col-sm-4 vc_col-xs-6 wpb_column column_container vc_column_container col child_column padding-5-percent bottom_margin_phone_40px left_margin_phone_25pct inherit_tablet inherit_phone " -->
+<!--                                                          data-padding-pos="all" data-has-bg-color="false" -->
+<!--                                                          data-bg-color="" data-bg-opacity="1" data-animation="" -->
+<!--                                                          data-delay="0"> -->
+<!--                                                         <div class="vc_column-inner"> -->
+<!--                                                             <div class="wpb_wrapper"> -->
+<!--                                                                 <div class="img-with-aniamtion-wrap center" -->
+<!--                                                                      data-max-width="100%" -->
+<!--                                                                      data-max-width-mobile="default" data-shadow="none" -->
+<!--                                                                      data-animation="fade-in"> -->
+<!--                                                                     <div class="inner"> -->
+<!--                                                                         <div class="hover-wrap"> -->
+<!--                                                                             <div class="hover-wrap-inner"><img -->
+<!--                                                                                     class="img-with-animation skip-lazy " -->
+<!--                                                                                     data-delay="0" height="500" -->
+<!--                                                                                     width="500" data-animation="fade-in" -->
+<!--                                                                                     src="wp-content/uploads/2021/06/plco_main_sec5.png" -->
+<!--                                                                                     alt="" -->
+<!--                                                                                     srcset="https://gym.plco.site/wp-content/uploads/2021/06/plco_main_sec5.png 500w, https://gym.plco.site/wp-content/uploads/2021/06/plco_main_sec5-300x300.png 300w, https://gym.plco.site/wp-content/uploads/2021/06/plco_main_sec5-150x150.png 150w, https://gym.plco.site/wp-content/uploads/2021/06/plco_main_sec5-100x100.png 100w, https://gym.plco.site/wp-content/uploads/2021/06/plco_main_sec5-140x140.png 140w, https://gym.plco.site/wp-content/uploads/2021/06/plco_main_sec5-350x350.png 350w" -->
+<!--                                                                                     sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/> -->
+<!--                                                                             </div> -->
+<!--                                                                         </div> -->
+<!--                                                                     </div> -->
+<!--                                                                 </div> -->
+<!--                                                             </div> -->
+<!--                                                         </div> -->
+<!--                                                     </div> -->
+<!--                                                     <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone " -->
+<!--                                                          data-padding-pos="all" data-has-bg-color="false" -->
+<!--                                                          data-bg-color="" data-bg-opacity="1" data-animation="" -->
+<!--                                                          data-delay="0"> -->
+<!--                                                         <div class="vc_column-inner"> -->
+<!--                                                             <div class="wpb_wrapper"> -->
+<!--                                                                 <div class="nectar-highlighted-text" -->
+<!--                                                                      data-style="text_outline" -->
+<!--                                                                      data-outline-thickness="thin" -->
+<!--                                                                      data-using-custom-color="false" -->
+<!--                                                                      data-animation-delay="false" data-color="" -->
+<!--                                                                      data-color-gradient="" style=""><h2><span -->
+<!--                                                                         style="font-size: 1.1em;">2020 올해의<br/><em>우수스포츠기업</em> 선정</span> -->
+<!--                                                                 </h2></div> -->
+<!--                                                                 <div class="wpb_text_column wpb_content_element "> -->
+<!--                                                                     <div class="wpb_wrapper"><p>문화체육관광부와 국민체육진흥공단이 주최, -->
+<!--                                                                         주관한 2020 올해의 우수스포츠기업에 선정되었습니다.<br/> -->
+<!--                                                                         스포츠 선수의 퍼포먼스 증진을 위한 플코와 플코짐 서비스의 우수성을 인정받았습니다. -->
+<!--                                                                     </p></div> -->
+<!--                                                                 </div> -->
+<!--                                                             </div> -->
+<!--                                                         </div> -->
+<!--                                                     </div> -->
+<!--                                                 </div> -->
+<!--                                             </div> -->
+<!--                                         </div> -->
+<!--                                     </div> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                         </div> -->
                         <span class="cp-load-after-post"></span></div>
                 </div>
                 <div class="nectar-global-section before-footer">
@@ -3466,80 +2516,7 @@
                         <div class="col span_7 col_last">
                             <ul class="social"></ul>
                         </div><!--/span_7--> </div><!--/container--> </div><!--/row--></div><!--/footer-outer-->
-            <div id="slide-out-widget-area-bg" class="fullscreen-split hidden dark"></div>
-            <div id="slide-out-widget-area" class="fullscreen-split hidden"
-                 data-dropdown-func="separate-dropdown-parent-link" data-back-txt="Back">
-                <div class="inner-wrap">
-                    <div class="inner" data-prepend-menu-mobile="false"><a class="slide_out_area_close" href="#"><span
-                            class="screen-reader-text">Close Menu</span><span class="close-wrap"> <span
-                            class="close-line close-line1"></span> <span class="close-line close-line2"></span> </span></a>
-                        <div class="container normal-container">
-                            <div class="left-side">
-                                <div class="off-canvas-menu-container mobile-only">
-                                    <ul class="menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-479">
-                                            <a href="/guide">소개</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131">
-                                                    <a href="service/index.html">선수</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406">
-                                                    <a href="service/amateur/index.html">아마추어</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405">
-                                                    <a href="service/team/index.html">팀</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404">
-                                            <a href="user-story/index.html">유저 스토리</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-463">
-                                            <a href="guide/index.html">이용 안내</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-465">
-                                                    <a href="guide/index.html#schedule">트레이닝 스케줄</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-464">
-                                                    <a href="guide/index.html#price">이용 요금</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-466">
-                                                    <a href="guide/index.html#space">시설 안내</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-467">
-                                                    <a href="guide/index.html#location">오시는 길</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-468">
-                                                    <a href="guide/index.html#coach">코치진 소개</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-471">
-                                            <a href="news/index.html">새소식</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473">
-                                                    <a href="news/story/index.html">플코짐 스토리</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-472">
-                                                    <a href="news/event/index.html">이벤트</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <ul class="menu secondary-header-items"></ul>
-                                </div>
-                            </div>
-                            <div class="right-side">
-                                <div class="right-side-inner">
-                                    <div class="bottom-meta-wrap">
-                                        <ul class="off-canvas-social-links mobile-only">
-                                            <li><a target="_blank" href="https://www.facebook.com/plcogym"><span
-                                                    class="screen-reader-text">facebook</span><i class="fa fa-facebook"
-                                                                                                 aria-hidden="true"></i>
-                                            </a></li>
-                                            <li><a target="_blank"
-                                                   href="https://www.youtube.com/channel/UCUXRxvrWoWrXprZ0mMZjT3A/featured"><span
-                                                    class="screen-reader-text">youtube</span><i
-                                                    class="fa fa-youtube-play" aria-hidden="true"></i> </a></li>
-                                            <li><a target="_blank"
-                                                   href="https://www.instagram.com/official_plcogym_elite/"><span
-                                                    class="screen-reader-text">instagram</span><i
-                                                    class="fa fa-instagram" aria-hidden="true"></i> </a></li>
-                                        </ul>
-                                    </div><!--/bottom-meta-wrap--></div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--/inner-wrap--></div>
+             <%@include file="header2.jsp"%>
         </div> <!--/ajax-content-wrap--></div>
 </div><!--/ocm-effect-wrap-->
 <script type="text/javascript" id="modal">    document.addEventListener("DOMContentLoaded", function () {

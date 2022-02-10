@@ -55,8 +55,9 @@ jQuery(document).ready(function ($) {
 			<div class="row">
 				<div class="col span_3">
 					<a id="logo" href="/" data-supplied-ml-starting-dark="true"
-						data-supplied-ml-starting="true" data-supplied-ml="false">
-						LOGO </a>
+						data-supplied-ml-starting="true" data-supplied-ml="false" style="display:flex;">
+						<img src="wp-content/uploads/2021/06/logo.png" />
+						풋볼아이</a>
 				</div>
 				<!--/span_3-->
 				<div class="col span_9 col_last">
@@ -65,7 +66,7 @@ jQuery(document).ready(function ($) {
 						data-custom-color="false" data-icon-animation="simple-transform">
 						<div>
 							<a href="#sidewidgetarea" aria-label="Navigation Menu"
-								aria-expanded="false" class="closed"><span
+								aria-expanded="false" class="closed""><span
 								class="screen-reader-text">Menu</span><span aria-hidden="true">
 									<i class="lines-button x2"> <i class="lines"></i>
 								</i>
@@ -122,7 +123,7 @@ jQuery(document).ready(function ($) {
 
 							<li id="menu-item-479"
 								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-479">
-								<a href="/lesson"><span class="menu-title-text">축구레슨</span></a>
+								<a href="/lesson"><span class="menu-title-text">레슨센터</span></a>
 								<ul class="sub-menu">
 									<li id="menu-item-131"
 										class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-131">

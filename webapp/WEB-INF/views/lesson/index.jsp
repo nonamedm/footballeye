@@ -1570,8 +1570,8 @@
                                                                                                           class="mobile-menu-link"><i
                                                         class="salient-page-submenu-icon"></i>Menu</a>
                                                     <ul style="background-color:#000000; color: #ffffff;">
-                                                        <li><a href="#info">대야점(본점)</a></li>
-                                                        <li><a href="#pay">장현지구(직영점)</a></li>
+                                                        <li><a href="#info">레슨소개</a></li>
+                                                        <li><a href="#pay">레슨비용</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1619,7 +1619,7 @@
                                                                      data-animation-delay="0" data-m-rm-animation=""
                                                                      data-stagger="" data-custom-font-size="false">
                                                                     <div class="heading-line">
-                                                                        <div><strong><h2>대야점(본점)</h2></strong></div>
+                                                                        <div><strong><h2>레슨소개</h2></strong></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -4146,7 +4146,7 @@
                                                                             <div class="vc_column-inner">
                                                                                 <div class="wpb_wrapper">
                                                                                     <div><h2>
-                                                                                        <strong>대야점(본점)</strong></h2></div>
+                                                                                        <strong>레슨소개</strong></h2></div>
                                                                                     <div class="nectar-highlighted-text"
                                                                                          data-style="half_text"
                                                                                          data-exp="default"
@@ -4344,7 +4344,7 @@
                                                                                 <div class="wpb_wrapper">
                                                                                     <div>
                                                                                         <h2>
-                                                                                            <strong>장현지구(직영점)</strong>
+                                                                                            <strong>레슨비용</strong>
                                                                                         </h2>
                                                                                     </div>
                                                                                     <div class="nectar-highlighted-text"
@@ -4459,7 +4459,7 @@
                                                                      data-animation-delay="0" data-m-rm-animation=""
                                                                      data-stagger="" data-custom-font-size="false">
                                                                     <div class="heading-line">
-                                                                        <div><h2>장현지구(직영점)</h2></div>
+                                                                        <div><h2>레슨비용</h2></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -5597,424 +5597,10 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!--                        <div id="fws_61c1ff5e6c34a" data-column-margin="default" data-midnight="dark"-->
-                        <!--                             class="wpb_row vc_row-fluid vc_row " style="padding-top: 0px; padding-bottom: 0px; ">-->
-                        <!--                            <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false">-->
-                        <!--                                <div class="inner-wrap">-->
-                        <!--                                    <div class="row-bg" style=""></div>-->
-                        <!--                                </div>-->
-                        <!--                            </div>-->
-                        <!--                            <div class="row_col_wrap_12 col span_12 dark left">-->
-                        <!--                                <div style="margin-bottom: -21px; "-->
-                        <!--                                     class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "-->
-                        <!--                                     data-padding-pos="all" data-has-bg-color="false" data-bg-color=""-->
-                        <!--                                     data-bg-opacity="1" data-animation="" data-delay="0">-->
-                        <!--                                    <div class="vc_column-inner">-->
-                        <!--                                        <div class="wpb_wrapper">-->
-                        <!--                                            <div class="wpb_widgetised_column wpb_content_element">-->
-                        <!--                                                <div id="sidebar" data-nectar-ss="" class="wpb_wrapper">-->
-                        <!--                                                    <div id="text-2" class="widget widget_text">-->
-                        <!--                                                        <div class="textwidget">-->
-                        <!--                                                            <div id="fws_61c1ff5e6ca3f" data-column-margin="default"-->
-                        <!--                                                                 data-midnight="light" data-top-percent="5%"-->
-                        <!--                                                                 data-bottom-percent="5%"-->
-                        <!--                                                                 class="wpb_row vc_row-fluid vc_row full-width-section vc_row-o-equal-height vc_row-flex vc_row-o-content-middle parallax_section "-->
-                        <!--                                                                 style="padding-top: calc(100vw * 0.05); padding-bottom: calc(100vw * 0.05); ">-->
-                        <!--                                                                <div class="row-bg-wrap" data-bg-animation="none"-->
-                        <!--                                                                     data-bg-overlay="true">-->
-                        <!--                                                                    <div class="inner-wrap using-image">-->
-                        <!--                                                                        <div class="row-bg using-image using-bg-color"-->
-                        <!--                                                                             data-parallax-speed="fast"-->
-                        <!--                                                                             style="background-image: url(../wp-content/uploads/2021/06/service_cta-scaled.jpg); background-position: center center; background-repeat: no-repeat; background-color: #1e1e1e; "></div>-->
-                        <!--                                                                    </div>-->
-                        <!--                                                                    <div class="row-bg-overlay"-->
-                        <!--                                                                         style="background-color:#000000; opacity: 0.8; "></div>-->
-                        <!--                                                                </div>-->
-                        <!--                                                                <div class="row_col_wrap_12 col span_12 light left">-->
-                        <!--                                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "-->
-                        <!--                                                                         data-padding-pos="all"-->
-                        <!--                                                                         data-has-bg-color="false" data-bg-color=""-->
-                        <!--                                                                         data-bg-opacity="1" data-animation=""-->
-                        <!--                                                                         data-delay="0">-->
-                        <!--                                                                        <div class="vc_column-inner">-->
-                        <!--                                                                            <div class="wpb_wrapper">-->
-                        <!--                                                                                <div id="fws_61c1ff5e6cb83"-->
-                        <!--                                                                                     data-midnight=""-->
-                        <!--                                                                                     data-column-margin="default"-->
-                        <!--                                                                                     class="wpb_row vc_row-fluid vc_row inner_row vc_custom_1626186036416 "-->
-                        <!--                                                                                     style="">-->
-                        <!--                                                                                    <div class="row-bg-wrap">-->
-                        <!--                                                                                        <div class="row-bg"></div>-->
-                        <!--                                                                                    </div>-->
-                        <!--                                                                                    <div class="row_col_wrap_12_inner col span_12 left">-->
-                        <!--                                                                                        <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-                        <!--                                                                                             data-padding-pos="all"-->
-                        <!--                                                                                             data-has-bg-color="false"-->
-                        <!--                                                                                             data-bg-color=""-->
-                        <!--                                                                                             data-bg-opacity="1"-->
-                        <!--                                                                                             data-animation=""-->
-                        <!--                                                                                             data-delay="0">-->
-                        <!--                                                                                            <div class="vc_column-inner">-->
-                        <!--                                                                                                <div class="wpb_wrapper"></div>-->
-                        <!--                                                                                            </div>-->
-                        <!--                                                                                        </div>-->
-                        <!--                                                                                        <div class="vc_col-sm-8 vc_hidden-sm vc_hidden-xs wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "-->
-                        <!--                                                                                             data-padding-pos="left-right"-->
-                        <!--                                                                                             data-has-bg-color="false"-->
-                        <!--                                                                                             data-bg-color=""-->
-                        <!--                                                                                             data-bg-opacity="1"-->
-                        <!--                                                                                             data-animation=""-->
-                        <!--                                                                                             data-delay="0">-->
-                        <!--                                                                                            <div class="vc_column-inner">-->
-                        <!--                                                                                                <div class="wpb_wrapper">-->
-                        <!--                                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1624435412260">-->
-                        <!--                                                                                                        <div class="wpb_wrapper">-->
-                        <!--                                                                                                            <h5><strong>BEST-->
-                        <!--                                                                                                                PERFORMANCE-->
-                        <!--                                                                                                                EVER!</strong>-->
-                        <!--                                                                                                            </h5></div>-->
-                        <!--                                                                                                    </div>-->
-
-                        <!--                                                                                                </div>-->
-                        <!--                                                                                            </div>-->
-                        <!--                                                                                        </div>-->
-                        <!--                                                                                        <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-                        <!--                                                                                             data-padding-pos="all"-->
-                        <!--                                                                                             data-has-bg-color="false"-->
-                        <!--                                                                                             data-bg-color=""-->
-                        <!--                                                                                             data-bg-opacity="1"-->
-                        <!--                                                                                             data-animation=""-->
-                        <!--                                                                                             data-delay="0">-->
-                        <!--                                                                                            <div class="vc_column-inner">-->
-                        <!--                                                                                                <div class="wpb_wrapper"></div>-->
-                        <!--                                                                                            </div>-->
-                        <!--                                                                                        </div>-->
-                        <!--                                                                                    </div>-->
-                        <!--                                                                                </div>-->
-                        <!--                                                                                <div id="fws_61c1ff5e6cefd"-->
-                        <!--                                                                                     data-midnight=""-->
-                        <!--                                                                                     data-column-margin="default"-->
-                        <!--                                                                                     class="wpb_row vc_row-fluid vc_row inner_row vc_custom_1626186040826 "-->
-                        <!--                                                                                     style="">-->
-                        <!--                                                                                    <div class="row-bg-wrap">-->
-                        <!--                                                                                        <div class="row-bg"></div>-->
-                        <!--                                                                                    </div>-->
-                        <!--                                                                                    <div class="row_col_wrap_12_inner col span_12 left">-->
-                        <!--                                                                                        <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-                        <!--                                                                                             data-padding-pos="all"-->
-                        <!--                                                                                             data-has-bg-color="false"-->
-                        <!--                                                                                             data-bg-color=""-->
-                        <!--                                                                                             data-bg-opacity="1"-->
-                        <!--                                                                                             data-animation=""-->
-                        <!--                                                                                             data-delay="0">-->
-                        <!--                                                                                            <div class="vc_column-inner">-->
-                        <!--                                                                                                <div class="wpb_wrapper"></div>-->
-                        <!--                                                                                            </div>-->
-                        <!--                                                                                        </div>-->
-                        <!--                                                                                        <div class="vc_col-sm-8 vc_hidden-lg vc_hidden-md wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "-->
-                        <!--                                                                                             data-padding-pos="left-right"-->
-                        <!--                                                                                             data-has-bg-color="false"-->
-                        <!--                                                                                             data-bg-color=""-->
-                        <!--                                                                                             data-bg-opacity="1"-->
-                        <!--                                                                                             data-animation=""-->
-                        <!--                                                                                             data-delay="0">-->
-                        <!--                                                                                            <div class="vc_column-inner">-->
-                        <!--                                                                                                <div class="wpb_wrapper">-->
-                        <!--                                                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1624435412260">-->
-                        <!--                                                                                                        <div class="wpb_wrapper">-->
-                        <!--                                                                                                            <h5><strong>BEST-->
-                        <!--                                                                                                                PERFORMANCE-->
-                        <!--                                                                                                                EVER!</strong>-->
-                        <!--                                                                                                            </h5></div>-->
-                        <!--                                                                                                    </div>-->
-                        <!--                                                                                                    &lt;!&ndash;<div class="wpb_text_column wpb_content_element ">-->
-                        <!--                                                                                                        <div class="wpb_wrapper">-->
-                        <!--                                                                                                            <h2><strong>지금-->
-                        <!--                                                                                                                신청하세요!</strong>-->
-                        <!--                                                                                                            </h2></div>-->
-                        <!--                                                                                                    </div>&ndash;&gt;-->
-                        <!--                                                                                                    &lt;!&ndash;<a class="nectar-button large see-through-3 "-->
-                        <!--                                                                                                       style="margin-top: 25px; border-color: #2a44ec;"-->
-                        <!--                                                                                                       target="_blank"-->
-                        <!--                                                                                                       href="https://form.typeform.com/to/AF4PWVSz"-->
-                        <!--                                                                                                       data-color-override="#2a44ec"-->
-                        <!--                                                                                                       data-hover-color-override="#2a44ec"-->
-                        <!--                                                                                                       data-hover-text-color-override="#ffffff"-->
-                        <!--                                                                                                       rel="noopener"><span>무료훈련 신청</span></a>&ndash;&gt;-->
-                        <!--                                                                                                </div>-->
-                        <!--                                                                                            </div>-->
-                        <!--                                                                                        </div>-->
-                        <!--                                                                                        <div class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-                        <!--                                                                                             data-padding-pos="all"-->
-                        <!--                                                                                             data-has-bg-color="false"-->
-                        <!--                                                                                             data-bg-color=""-->
-                        <!--                                                                                             data-bg-opacity="1"-->
-                        <!--                                                                                             data-animation=""-->
-                        <!--                                                                                             data-delay="0">-->
-                        <!--                                                                                            <div class="vc_column-inner">-->
-                        <!--                                                                                                <div class="wpb_wrapper"></div>-->
-                        <!--                                                                                            </div>-->
-                        <!--                                                                                        </div>-->
-                        <!--                                                                                    </div>-->
-                        <!--                                                                                </div>-->
-                        <!--                                                                            </div>-->
-                        <!--                                                                        </div>-->
-                        <!--                                                                    </div>-->
-                        <!--                                                                </div>-->
-                        <!--                                                            </div>-->
-                        <!--                                                        </div>-->
-                        <!--                                                    </div>-->
-                        <!--                                                </div>-->
-                        <!--                                            </div>-->
-                        <!--                                        </div>-->
-                        <!--                                    </div>-->
-                        <!--                                </div>-->
-                        <!--                            </div>-->
-                        <!--                        </div>-->
                         <span class="cp-load-after-post"></span></div>
                 </div>
-                <!--                <div class="nectar-global-section before-footer">-->
-                <!--                    <div class="container normal-container row">-->
-                <!--                        <div id="fws_61c1ff5e6e71b" data-column-margin="none" data-midnight="light"-->
-                <!--                             class="wpb_row vc_row-fluid vc_row full-width-section vc_row-o-equal-height vc_row-flex vc_row-o-content-middle "-->
-                <!--                             style="padding-top: 50px; padding-bottom: 50px; ">-->
-                <!--                            <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="true">-->
-                <!--                                <div class="inner-wrap">-->
-                <!--                                    <div class="row-bg using-bg-color" style="background-color: #000000; "></div>-->
-                <!--                                </div>-->
-                <!--                                <div class="row-bg-overlay" style="background-color:#111111; opacity: 0.8; "></div>-->
-                <!--                            </div>-->
-                <!--                            <div class="row_col_wrap_12 col span_12 light left">-->
-                <!--                                <div class="vc_col-sm-6 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "-->
-                <!--                                     data-padding-pos="right" data-has-bg-color="false" data-bg-color=""-->
-                <!--                                     data-bg-opacity="1" data-animation="" data-delay="0">-->
-                <!--                                    <div class="vc_column-inner">-->
-                <!--                                        <div class="wpb_wrapper">-->
-                <!--                                            <div id="fws_61c1ff5e6e826" data-midnight="" data-column-margin="70px"-->
-                <!--                                                 class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex "-->
-                <!--                                                 style="">-->
-                <!--                                                <div class="row-bg-wrap">-->
-                <!--                                                    <div class="row-bg"></div>-->
-                <!--                                                </div>-->
-                <!--                                                <div class="row_col_wrap_12_inner col span_12 left">-->
-                <!--                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "-->
-                <!--                                                         data-t-w-inherits="small_desktop" data-padding-pos="all"-->
-                <!--                                                         data-has-bg-color="false" data-bg-color="" data-bg-opacity="1"-->
-                <!--                                                         data-animation="" data-delay="0">-->
-                <!--                                                        <div class="vc_column-inner">-->
-                <!--                                                            <div class="wpb_wrapper">-->
-                <!--                                                                <div class="wpb_text_column wpb_content_element ">-->
-                <!--                                                                    <div class="wpb_wrapper"><h4>㈜-->
-                <!--                                                                        <strong>큐엠아이티</strong></h4>-->
-                <!--                                                                        <p><span style="font-size: 0.9em;"><strong>사업자 등록번호.</strong> 528-86-00986  <strong>대표.</strong> 이상기<br/><strong>본사.</strong> 서울특별시 서초구 강남대로311, 드림플러스 강남<br/><strong>플코짐 송파점.</strong> 서울특별시 송파구 송파대로111, 파크하비오 B101</span>-->
-                <!--                                                                        </p></div>-->
-                <!--                                                                </div>-->
-                <!--                                                                <div class="wpb_text_column wpb_content_element ">-->
-                <!--                                                                    <div class="wpb_wrapper"><p><i-->
-                <!--                                                                            class="icon-tiny fa fa-phone extra-color-3"></i><strong>일반상담-->
-                <!--                                                                        :-->
-                <!--                                                                         <a href="tel: 028531201">02-853-1201</a></strong><br/><i-->
-                <!--                                                                            class="icon-tiny fa fa-commenting-o extra-color-3"></i><strong>카카오-->
-                <!--                                                                        1:1 상담 : </strong> <span-->
-                <!--                                                                            style="color: #ffffff;"><a-->
-                <!--                                                                            style="color: #ffffff;"-->
-                <!--                                                                            href="http://pf.kakao.com/_Rnskxb/chat"-->
-                <!--                                                                            target="_blank" rel="noopener"><span-->
-                <!--                                                                            style="text-decoration: underline;">엘리트</span><i-->
-                <!--                                                                            class="icon-tiny fa fa-external-link extra-color-3"></i></a> <a-->
-                <!--                                                                            style="color: #ffffff;"-->
-                <!--                                                                            href="http://pf.kakao.com/_XBsKK/chat"-->
-                <!--                                                                            target="_blank" rel="noopener"><span-->
-                <!--                                                                            style="text-decoration: underline;">아마추어</span><i-->
-                <!--                                                                            class="icon-tiny fa fa-external-link extra-color-3"></i> </a></span>-->
-                <!--                                                                    </p></div>-->
-                <!--                                                                </div>-->
-                <!--                                                            </div>-->
-                <!--                                                        </div>-->
-                <!--                                                    </div>-->
-                <!--                                                </div>-->
-                <!--                                            </div>-->
-                <!--                                            <div id="fws_61c1ff5e6ea75" data-midnight="" data-column-margin="default"-->
-                <!--                                                 class="wpb_row vc_row-fluid vc_row inner_row bottom_padding_tablet_15pct "-->
-                <!--                                                 style="padding-top: 5px; ">-->
-                <!--                                                <div class="row-bg-wrap">-->
-                <!--                                                    <div class="row-bg"></div>-->
-                <!--                                                </div>-->
-                <!--                                                <div class="row_col_wrap_12_inner col span_12 left">-->
-                <!--                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding el_spacing_0px inherit_tablet inherit_phone "-->
-                <!--                                                         data-padding-pos="all" data-has-bg-color="false"-->
-                <!--                                                         data-bg-color="" data-bg-opacity="1" data-animation=""-->
-                <!--                                                         data-delay="0">-->
-                <!--                                                        <div class="vc_column-inner">-->
-                <!--                                                            <div class="wpb_wrapper">-->
-                <!--                                                                <div class="nectar-cta alignment_tablet_default alignment_phone_default "-->
-                <!--                                                                     data-color="default" data-using-bg="false"-->
-                <!--                                                                     data-display="inline" data-style="underline"-->
-                <!--                                                                     data-alignment="left" data-text-color="custom"-->
-                <!--                                                                     style="margin-right: 30px; margin-bottom: 10px; ">-->
-                <!--                                                                    <p style="color: #ffffff;"><span-->
-                <!--                                                                            class="text"> </span><span-->
-                <!--                                                                            class="link_wrap"><a target="_blank"-->
-                <!--                                                                                                 class="link_text"-->
-                <!--                                                                                                 style="border-color: #ffffff;"-->
-                <!--                                                                                                 href="https://plco.site/about">회사소개</a></span>-->
-                <!--                                                                    </p></div>-->
-                <!--                                                                <div class="nectar-cta alignment_tablet_default alignment_phone_default "-->
-                <!--                                                                     data-color="default" data-using-bg="false"-->
-                <!--                                                                     data-display="inline" data-style="underline"-->
-                <!--                                                                     data-alignment="left" data-text-color="custom"-->
-                <!--                                                                     style="margin-bottom: 10px; "><p-->
-                <!--                                                                        style="color: #ffffff;"><span-->
-                <!--                                                                        class="text"> </span><span class="link_wrap"-->
-                <!--                                                                                                   style="padding-right: 30px; "><a-->
-                <!--                                                                        target="_blank" class="link_text"-->
-                <!--                                                                        style="border-color: #ffffff;"-->
-                <!--                                                                        href="https://www.notion.so/qmit1201/Join-QMIT-6e503040945143099c84a410b2ecec31">채용</a></span>-->
-                <!--                                                                </p></div>-->
-                <!--                                                                <div class="nectar-cta alignment_tablet_default alignment_phone_default "-->
-                <!--                                                                     data-color="default" data-using-bg="false"-->
-                <!--                                                                     data-display="inline" data-style="underline"-->
-                <!--                                                                     data-alignment="left" data-text-color="custom"-->
-                <!--                                                                     style="margin-bottom: 10px; "><p-->
-                <!--                                                                        style="color: #ffffff;"><span-->
-                <!--                                                                        class="text"> </span><span class="link_wrap"-->
-                <!--                                                                                                   style="padding-right: 25px; "><a-->
-                <!--                                                                        target="_blank" class="link_text"-->
-                <!--                                                                        style="border-color: #ffffff;"-->
-                <!--                                                                        href="https://form.typeform.com/to/AF4PWVSz">무료훈련 신청</a></span>-->
-                <!--                                                                </p></div>-->
-                <!--                                                            </div>-->
-                <!--                                                        </div>-->
-                <!--                                                    </div>-->
-                <!--                                                </div>-->
-                <!--                                            </div>-->
-                <!--                                        </div>-->
-                <!--                                    </div>-->
-                <!--                                </div>-->
-                <!--                                <div class="vc_col-sm-6 wpb_column column_container vc_column_container col centered-text no-extra-padding no-extra-padding_tablet no-extra-padding_phone border_left_tablet_0px border_left_phone_0px border_top_tablet_0px border_top_phone_0px border_color_5e5e5e border_style_solid "-->
-                <!--                                     data-padding-pos="left" data-has-bg-color="false" data-bg-color=""-->
-                <!--                                     data-bg-opacity="1" data-animation="" data-delay="0">-->
-                <!--                                    <div class="vc_column-inner">-->
-                <!--                                        <div class="wpb_wrapper">-->
-                <!--                                            <div class="clients no-carousel four-cols" data-he="opacity"-->
-                <!--                                                 data-additional_padding="2">-->
-                <!--                                                <div class="no-link"><img-->
-                <!--                                                        src="../wp-content/uploads/2021/07/Naver-D2SF-30.png"-->
-                <!--                                                        alt="client" width="214" height="30"/></div>-->
-                <!--                                                <div class="no-link"><img-->
-                <!--                                                        src="../wp-content/uploads/2021/07/Lotte-Accelelator-30.png"-->
-                <!--                                                        alt="client" width="179" height="30"/></div>-->
-                <!--                                                <div class="no-link"><img-->
-                <!--                                                        src="../wp-content/uploads/2021/07/Kaist-light-30.png"-->
-                <!--                                                        alt="client" width="67" height="30"/></div>-->
-                <!--                                                <div class="no-link"><img-->
-                <!--                                                        src="../wp-content/uploads/2021/07/SansSans-ebiz-30.png"-->
-                <!--                                                        alt="client" width="98" height="30"/></div>-->
-                <!--                                                <div class="no-link"><img-->
-                <!--                                                        src="../wp-content/uploads/2021/07/samsung-30.png" alt="client"-->
-                <!--                                                        width="98" height="30"/></div>-->
-                <!--                                                <div class="no-link"><img-->
-                <!--                                                        src="../wp-content/uploads/2021/07/C-Lab-light-20.png"-->
-                <!--                                                        alt="client" width="81" height="20"/></div>-->
-                <!--                                                <div class="no-link"><img src="../wp-content/uploads/2021/07/MCB-30.png"-->
-                <!--                                                                          alt="client" width="128" height="30"/></div>-->
-                <!--                                                <div class="no-link"><img-->
-                <!--                                                        src="../wp-content/uploads/2021/07/kspo-30.png" alt="client"-->
-                <!--                                                        width="81" height="30"/></div>-->
-                <!--                                            </div>-->
-                <!--                                        </div>-->
-                <!--                                    </div>-->
-                <!--                                </div>-->
-                <!--                            </div>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </div>-->
             </div>
-            <!--            <div id="footer-outer" data-midnight="light" data-cols="4" data-custom-color="true"-->
-            <!--                 data-disable-copyright="false" data-matching-section-color="true" data-copyright-line="false"-->
-            <!--                 data-using-bg-img="false" data-bg-img-overlay="0.8" data-full-width="false"-->
-            <!--                 data-using-widget-area="false" data-link-hover="default">-->
-            <!--                <div class="row" id="copyright" data-layout="default">-->
-            <!--                    <div class="container">-->
-            <!--                        <div class="col span_5"><p>ⓒ 2021 QMIT All rights reserved.</p></div>&lt;!&ndash;/span_5&ndash;&gt;-->
-            <!--                        <div class="col span_7 col_last">-->
-            <!--                            <ul class="social"></ul>-->
-            <!--                        </div>&lt;!&ndash;/span_7&ndash;&gt; </div>&lt;!&ndash;/container&ndash;&gt; </div>&lt;!&ndash;/row&ndash;&gt;</div>&lt;!&ndash;/footer-outer&ndash;&gt;-->
-            <div id="slide-out-widget-area-bg" class="fullscreen-split hidden dark"></div>
-            <div id="slide-out-widget-area" class="fullscreen-split hidden"
-                 data-dropdown-func="separate-dropdown-parent-link" data-back-txt="Back">
-                <div class="inner-wrap">
-                    <div class="inner" data-prepend-menu-mobile="false"><a class="slide_out_area_close" href="#"><span
-                            class="screen-reader-text">Close Menu</span><span class="close-wrap"> <span
-                            class="close-line close-line1"></span> <span class="close-line close-line2"></span> </span></a>
-                        <div class="container normal-container">
-                            <div class="left-side">
-                                <div class="off-canvas-menu-container mobile-only">
-                                    <ul class="menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-479">
-                                            <a href="../service/index.html">서비스 소개</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131">
-                                                    <a href="../service/index.html">선수</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406">
-                                                    <a href="../service/amateur/index.html">아마추어</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405">
-                                                    <a href="../service/team/index.html">팀</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404">
-                                            <a href="../user-story/index.html">유저 스토리</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-270 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-463">
-                                            <a href="index.html" aria-current="page">이용 안내</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-465">
-                                                    <a href="index.html#schedule" aria-current="page">트레이닝 스케줄</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-464">
-                                                    <a href="index.html#price" aria-current="page">이용 요금</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-466">
-                                                    <a href="index.html#space" aria-current="page">시설 안내</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-467">
-                                                    <a href="index.html#location" aria-current="page">오시는 길</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-468">
-                                                    <a href="index.html#coach" aria-current="page">코치진 소개</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-471">
-                                            <a href="../news/index.html">새소식</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473">
-                                                    <a href="../news/story/index.html">플코짐 스토리</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-472">
-                                                    <a href="../news/event/index.html">이벤트</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <ul class="menu secondary-header-items"></ul>
-                                </div>
-                            </div>
-                            <div class="right-side">
-                                <div class="right-side-inner">
-                                    <div class="bottom-meta-wrap">
-                                        <ul class="off-canvas-social-links mobile-only">
-                                            <li><a target="_blank" href="https://www.facebook.com/plcogym"><span
-                                                    class="screen-reader-text">facebook</span><i class="fa fa-facebook"
-                                                                                                 aria-hidden="true"></i>
-                                            </a></li>
-                                            <li><a target="_blank"
-                                                   href="https://www.youtube.com/channel/UCUXRxvrWoWrXprZ0mMZjT3A/featured"><span
-                                                    class="screen-reader-text">youtube</span><i
-                                                    class="fa fa-youtube-play" aria-hidden="true"></i> </a></li>
-                                            <li><a target="_blank"
-                                                   href="https://www.instagram.com/official_plcogym_elite/"><span
-                                                    class="screen-reader-text">instagram</span><i
-                                                    class="fa fa-instagram" aria-hidden="true"></i> </a></li>
-                                        </ul>
-                                    </div><!--/bottom-meta-wrap--></div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--/inner-wrap--></div>
+			<%@include file="../header2.jsp"%>
         </div> <!--/ajax-content-wrap--></div>
 </div><!--/ocm-effect-wrap-->
 <script type="text/javascript" id="modal">    document.addEventListener("DOMContentLoaded", function () {
