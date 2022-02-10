@@ -2134,6 +2134,7 @@ function stopclock() {
     };
     var nectar_front_i18n = {"next": "Next", "previous": "Previous"};
     /* ]]> */</script>
+
 	<script type='text/javascript' src='../wp-content/themes/salient/js/inita73f.js?ver=13.0.5'
         id='nectar-frontend-js'></script>
 <script type='text/javascript' src='../wp-content/themes/salient/js/third-party/stickkit5152.js?ver=1.0'

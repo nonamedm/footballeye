@@ -718,6 +718,9 @@ table, tr, th, td{
 .note-editable {
 	background-color:white; color:black;
 }
+.btn {
+	padding: 6px 12px;
+}
 </style>
 <link rel='stylesheet' id='salient-child-style-css'
 	href='../wp-content/themes/salient-child/stylea73f.css?ver=13.0.5'

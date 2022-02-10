@@ -13,7 +13,7 @@
 <meta name='robots'
 	content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 <!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ -->
-<title>이용 안내 | Plco GYM</title>
+<title>풋볼아이</title>
 <link rel="canonical" href="index.html" />
 <meta property="og:locale" content="ko_KR" />
 <meta property="og:type" content="article" />
@@ -179,7 +179,6 @@ img.wp-smiley, img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }
-
 </style>
 <link rel='stylesheet' id='wp-block-library-css'
 	href='../wp-includes/css/dist/block-library/style.min4999.css?ver=5.7.4'
@@ -855,6 +854,15 @@ table, tr, th, td{
 	color:white;
 	font-size:18px;
 }
+ul li {
+    list-style: none;
+    list-style-position: outside;
+    display:inline-block;
+}
+img {
+	width: 270px;
+    height: 150px;
+}
 
 </style>
 <link rel='stylesheet' id='salient-child-style-css'
@@ -878,7 +886,7 @@ table, tr, th, td{
 <script>
 var pageMove;
 var pageHtml;
-var pageList = 10;
+var pageList = 8;
 var startNum = 0;
 var endNum = 10;
 var pageEndNum = 0;
@@ -887,7 +895,7 @@ jQuery(document).ready(function ($) {
 	//console.dir(boardList);
 	
 	pageMove =function (pageNum) {
-		var html = "";
+		var html = "<ul class=''>";
 		nowPage = pageNum;
 		startNum = (pageNum-1)*pageList;
 		endNum = startNum+pageList;
@@ -897,21 +905,31 @@ jQuery(document).ready(function ($) {
 			data : {startNum : startNum, endNum : endNum},
 			type : 'POST',
 			success : function (result) {
-// 				console.dir(result);
+ 				console.dir(result);
 				if(endNum>result.getMissionList.length){
 					endNum = result.getMissionList.length;
 				}
 				pageEndNum = Math.floor(result.getMissionList.length / pageList) + 1;
 				
 				for(i=startNum; i<endNum; i++) {
-					html += "<tr>";
-					html += "<td>"+result.getMissionList[i].BOARD_IDX+"</td>";
-					html += "<td><a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+result.getMissionList[i].BOARD_TITLE+"</a></td>";
-					html += "<td>"+result.getMissionList[i].USER_NAME+"</td>";
-					html += "<td>"+result.getMissionList[i].BOARD_REGDATE+"</td>";
-					html += "<td>"+result.getMissionList[i].BOARD_READCOUNT+"</td></tr>";
+					
+					if(result.getMissionList[i].SFILE_NAME!=null){
+						var ext = result.getMissionList[i].FILE_EXT;
+						if(ext=='.mp4'||ext=='.mov'||ext=='.wmv'||ext=='.avi'||ext=='.mkv'||ext=='.ogm'||ext=='.mpeg'||ext=='.m4v'){
+							html += "<li><a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+"<iframe scrolling='no' style='width: 100%; height:100%;' allow='accelerometer;' src='file/"+result.getMissionList[i].SFILE_NAME+"'></iframe></a>";
+						} else if(ext=='.jpg'||ext=='.png'||ext=='.jpeg'||ext=='.bmp'||ext=='.gif') {
+							html += "<li><a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+"<img style='width: 290px; height: 115px;' src='file/"+result.getMissionList[i].SFILE_NAME+"'></iframe></a>";
+						}
+					} else {
+						html += "<li><a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+"<img style='width: 290px; height: 115px;' src='file/notfound.png'></iframe></a>";
+					}
+					html += "<br/><a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+result.getMissionList[i].BOARD_TITLE+"</a></li>";
+// 					html += "<td>"+result.getGameList[i].USER_NAME+"</td>";
+// 					html += "<td>"+result.getGameList[i].BOARD_REGDATE+"</td>";
+// 					html += "<td>"+result.getGameList[i].BOARD_READCOUNT+"</td></tr>";
 				}
-				$("#tableCont").html(html);
+				html += "</ul>";
+				$("#listCont").html(html);
 				pageHtml(pageNum);
 			}
 		});
@@ -1010,6 +1028,7 @@ jQuery(document).ready(function ($) {
 	
 	pageMove(nowPage);
 	pageHtml(1);
+	
 });
 </script>
 <link rel="https://api.w.org/" href="../wp-json" />
@@ -1851,40 +1870,11 @@ body .page-submenu li a {
 															</h3>
 								                            <div class="container">
 																<div style="margin-top:20px"></div>
-																<table class="table table-striped">
-																	<thead>
-																	<tr>
-																		<th style="width:10%">
-																		<h4>
-																			<strong>번호</strong>
-																		</h4>
-																		</th>
-																		<th style="width:40%">
-																		<h4>
-																			<strong>제목</strong>
-																		</h4>
-																		</th>
-																		<th style="width:20%">
-																		<h4>
-																			<strong>작성자</strong>
-																		</h4>
-																		</th>
-																		<th style="width:20%">
-																		<h4>
-																			<strong>작성일</strong>
-																		</h4>
-																		</th>
-																		<th style="width:10%">
-																		<h4>
-																			<strong>조회</strong>
-																		</h4>
-																		</th>
-																	</tr>
-																	</thead>
-																	<tbody id="tableCont">
-																	
-																	</tbody>
-																</table>
+																
+																<div id="listCont" class="row" style="display:flex;">
+																
+																</div>
+																
 																<div class="row"  style="display:flex;">
 														    		<div class="col-sm-2">
 																		<button class="btn btn-block" onclick="window.location='/boardWrite'">글쓰기</button>

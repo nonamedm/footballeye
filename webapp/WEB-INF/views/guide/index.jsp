@@ -10,16 +10,6 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
     <!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ --><title>풋볼아이</title>
     <link rel="canonical" href="index.html"/>
-    <meta property="og:locale" content="ko_KR"/>
-    <meta property="og:type" content="article"/>
-    <meta property="og:title" content="이용 안내 | Plco GYM"/>
-    <meta property="og:url" content="index.html"/>
-    <meta property="og:site_name" content="Plco GYM"/>
-    <meta property="article:publisher" content="https://www.facebook.com/plcogym"/>
-    <meta property="article:modified_time" content="2021-11-25T06:31:16+00:00"/>
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:label1" content="Est. reading time"/>
-    <meta name="twitter:data1" content="18분"/>
     <script type="application/ld+json" class="yoast-schema-graph">{
         "@context": "https://schema.org",
         "@graph": [
