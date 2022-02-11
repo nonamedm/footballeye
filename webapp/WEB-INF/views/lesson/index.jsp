@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
-<!-- Mirrored from gym.plco.site/guide/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Dec 2021 16:23:44 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
 <head>
@@ -10,109 +9,11 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
     <!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ --><title>풋볼아이</title>
     <link rel="canonical" href="index.html"/>
-    <meta property="og:locale" content="ko_KR"/>
-    <meta property="og:type" content="article"/>
-    <meta property="og:title" content="이용 안내 | Plco GYM"/>
-    <meta property="og:url" content="index.html"/>
-    <meta property="og:site_name" content="Plco GYM"/>
-    <meta property="article:publisher" content="https://www.facebook.com/plcogym"/>
-    <meta property="article:modified_time" content="2021-11-25T06:31:16+00:00"/>
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:label1" content="Est. reading time"/>
-    <meta name="twitter:data1" content="18분"/>
     <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
-    <script type="application/ld+json" class="yoast-schema-graph">{
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "Organization",
-                "@id": "https://gym.plco.site/#organization",
-                "name": "\ud50c\ucf54\uc9d0",
-                "url": "https://gym.plco.site/",
-                "sameAs": [
-                    "https://www.facebook.com/plcogym",
-                    "https://www.instagram.com/official_plcogym_elite",
-                    "https://www.youtube.com/channel/UCUXRxvrWoWrXprZ0mMZjT3A"
-                ],
-                "logo": {
-                    "@type": "ImageObject",
-                    "@id": "https://gym.plco.site/#logo",
-                    "inLanguage": "ko-KR",
-                    "url": "https://gym.plco.site/wp-content/uploads/2021/07/plcogym_logo_main.svg",
-                    "contentUrl": "https://gym.plco.site/wp-content/uploads/2021/07/plcogym_logo_main.svg",
-                    "caption": "\ud50c\ucf54\uc9d0"
-                },
-                "image": {
-                    "@id": "https://gym.plco.site/#logo"
-                }
-            },
-            {
-                "@type": "WebSite",
-                "@id": "https://gym.plco.site/#website",
-                "url": "https://gym.plco.site/",
-                "name": "Plco GYM",
-                "description": "",
-                "publisher": {
-                    "@id": "https://gym.plco.site/#organization"
-                },
-                "potentialAction": [
-                    {
-                        "@type": "SearchAction",
-                        "target": {
-                            "@type": "EntryPoint",
-                            "urlTemplate": "https://gym.plco.site/?s={search_term_string}"
-                        },
-                        "query-input": "required name=search_term_string"
-                    }
-                ],
-                "inLanguage": "ko-KR"
-            },
-            {
-                "@type": "WebPage",
-                "@id": "https://gym.plco.site/guide/#webpage",
-                "url": "https://gym.plco.site/guide/",
-                "name": "\uc774\uc6a9 \uc548\ub0b4 | Plco GYM",
-                "isPartOf": {
-                    "@id": "https://gym.plco.site/#website"
-                },
-                "datePublished": "2021-06-20T08:04:58+00:00",
-                "dateModified": "2021-11-25T06:31:16+00:00",
-                "breadcrumb": {
-                    "@id": "https://gym.plco.site/guide/#breadcrumb"
-                },
-                "inLanguage": "ko-KR",
-                "potentialAction": [
-                    {
-                        "@type": "ReadAction",
-                        "target": [
-                            "https://gym.plco.site/guide/"
-                        ]
-                    }
-                ]
-            },
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://gym.plco.site/guide/#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://gym.plco.site/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "\uc774\uc6a9 \uc548\ub0b4"
-                    }
-                ]
-            }
-        ]
-    }</script><!-- / Yoast SEO plugin. -->
+    <meta property="og:locale" content="ko_KR" />
+	<meta property="og:type" content="article" />
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/'/>
     <link rel='dns-prefetch' href='http://s.w.org/'/>
-    <link rel="alternate" type="application/rss+xml" title="Plco GYM &raquo; 피드" href="../feed/index.html"/>
-    <link rel="alternate" type="application/rss+xml" title="Plco GYM &raquo; 댓글 피드" href="../comments/feed/index.html"/>
     <script type="text/javascript">    window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
         "ext": ".png",
@@ -778,10 +679,6 @@
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd"/>
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml"/>
     <meta name="generator" content="WordPress 5.7.4"/>
-    <link rel="alternate" type="application/json+oembed"
-          href="../wp-json/oembed/1.0/embed5c8f.json?url=https%3A%2F%2Fgym.plco.site%2Fguide%2F"/>
-    <link rel="alternate" type="text/xml+oembed"
-          href="../wp-json/oembed/1.0/embed4768?url=https%3A%2F%2Fgym.plco.site%2Fguide%2F&amp;format=xml"/>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -796,23 +693,9 @@
             '../../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PTF6GFV');</script><!-- End Google Tag Manager -->
-    <meta name="facebook-domain-verification" content="zyx2qrlk3ffw3l2y6kcem3qyb0vctb"/>
-    <meta name="google-site-verification" content="RZvSLFLPME_-vW16IlNLgXsWanLy4M45vSGjmejNuPo"/>
-    <meta name="naver-site-verification" content="ee607f968d15abe5902f3ac74343ded29ca18a2b"/>
-    <meta name="description" content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
-    <meta property="og:type" content="플코짐">
-    <meta property="og:title" content="Plco GYM">
-    <meta property="og:description"
-          content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
-    <meta property="og:url" content="https://gym.plco.site">
-    <meta property="al:web:url" content="https://gym.plco.site">
-    <meta property="twitter:title" content="Plco GYM">
-    <meta name="twitter:description"
-          content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
     <link rel="canonical" href="../index.html">
     <script type="text/javascript"> var root = document.getElementsByTagName("html")[0];
     root.setAttribute("class", "js"); </script>
-    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
     <link rel="icon" href="../wp-content/uploads/2021/07/cropped-plcogym_favicon-32x32.png" sizes="32x32"/>
     <link rel="icon" href="../wp-content/uploads/2021/07/cropped-plcogym_favicon-192x192.png" sizes="192x192"/>
     <link rel="apple-touch-icon" href="../wp-content/uploads/2021/07/cropped-plcogym_favicon-180x180.png"/>
@@ -3585,13 +3468,8 @@ function stopclock() {
 <script type='text/javascript'
         src='../wp-content/plugins/convertplug/modules/assets/js/cp-module-mainf5fc.js?ver=3.5.21'
         id='convert-plus-module-main-js-js'></script>
-<script type='text/javascript' id='convert-plus-slide-in-script-js-extra'>
-    /* <![CDATA[ */
-    var smile_ajax = {"url": "https:\/\/gym.plco.site\/wp-admin\/admin-ajax.php"};
-    /* ]]> */</script>
 <script type='text/javascript'
         src='../wp-content/plugins/convertplug/modules/slide_in/assets/js/slide_in.minf5fc.js?ver=3.5.21'
         id='convert-plus-slide-in-script-js'></script>
 </body>
-<!-- Mirrored from gym.plco.site/guide/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Dec 2021 16:23:50 GMT -->
 </html>

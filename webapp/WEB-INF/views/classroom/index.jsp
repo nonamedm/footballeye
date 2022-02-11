@@ -2,7 +2,6 @@
 	pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
-<!-- Mirrored from gym.plco.site/guide/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Dec 2021 16:23:44 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <!-- /Added by HTTrack -->
@@ -18,101 +17,8 @@
 <meta property="og:locale" content="ko_KR" />
 <meta property="og:type" content="article" />
 <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
-<script type="application/ld+json" class="yoast-schema-graph">{
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "Organization",
-                "@id": "https://gym.plco.site/#organization",
-                "name": "\ud50c\ucf54\uc9d0",
-                "url": "https://gym.plco.site/",
-                "sameAs": [
-                    "https://www.facebook.com/plcogym",
-                    "https://www.instagram.com/official_plcogym_elite",
-                    "https://www.youtube.com/channel/UCUXRxvrWoWrXprZ0mMZjT3A"
-                ],
-                "logo": {
-                    "@type": "ImageObject",
-                    "@id": "https://gym.plco.site/#logo",
-                    "inLanguage": "ko-KR",
-                    "url": "https://gym.plco.site/wp-content/uploads/2021/07/plcogym_logo_main.svg",
-                    "contentUrl": "https://gym.plco.site/wp-content/uploads/2021/07/plcogym_logo_main.svg",
-                    "caption": "\ud50c\ucf54\uc9d0"
-                },
-                "image": {
-                    "@id": "https://gym.plco.site/#logo"
-                }
-            },
-            {
-                "@type": "WebSite",
-                "@id": "https://gym.plco.site/#website",
-                "url": "https://gym.plco.site/",
-                "name": "Plco GYM",
-                "description": "",
-                "publisher": {
-                    "@id": "https://gym.plco.site/#organization"
-                },
-                "potentialAction": [
-                    {
-                        "@type": "SearchAction",
-                        "target": {
-                            "@type": "EntryPoint",
-                            "urlTemplate": "https://gym.plco.site/?s={search_term_string}"
-                        },
-                        "query-input": "required name=search_term_string"
-                    }
-                ],
-                "inLanguage": "ko-KR"
-            },
-            {
-                "@type": "WebPage",
-                "@id": "https://gym.plco.site/guide/#webpage",
-                "url": "https://gym.plco.site/guide/",
-                "name": "\uc774\uc6a9 \uc548\ub0b4 | Plco GYM",
-                "isPartOf": {
-                    "@id": "https://gym.plco.site/#website"
-                },
-                "datePublished": "2021-06-20T08:04:58+00:00",
-                "dateModified": "2021-11-25T06:31:16+00:00",
-                "breadcrumb": {
-                    "@id": "https://gym.plco.site/guide/#breadcrumb"
-                },
-                "inLanguage": "ko-KR",
-                "potentialAction": [
-                    {
-                        "@type": "ReadAction",
-                        "target": [
-                            "https://gym.plco.site/guide/"
-                        ]
-                    }
-                ]
-            },
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://gym.plco.site/guide/#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://gym.plco.site/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "\uc774\uc6a9 \uc548\ub0b4"
-                    }
-                ]
-            }
-        ]
-    }</script>
-<!-- / Yoast SEO plugin. -->
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 <link rel='dns-prefetch' href='http://s.w.org/' />
-<link rel="alternate" type="application/rss+xml"
-	title="Plco GYM &raquo; 피드" href="../feed" />
-<link rel="alternate" type="application/rss+xml"
-	title="Plco GYM &raquo; 댓글 피드" href="../comments/feed" />
 <script type="text/javascript">    window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
         "ext": ".png",
@@ -839,10 +745,6 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
 <link rel="wlwmanifest" type="application/wlwmanifest+xml"
 	href="../wp-includes/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 5.7.4" />
-<link rel="alternate" type="application/json+oembed"
-	href="../wp-json/oembed/1.0/embed5c8f.json?url=https%3A%2F%2Fgym.plco.site%2Fguide%2F" />
-<link rel="alternate" type="text/xml+oembed"
-	href="../wp-json/oembed/1.0/embed4768?url=https%3A%2F%2Fgym.plco.site%2Fguide%2F&amp;format=xml" />
 <!-- Google Tag Manager -->
 <script>(function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -5196,12 +5098,8 @@ function stopclock() {
 <script type='text/javascript'
         src='../wp-content/plugins/convertplug/modules/assets/js/cp-module-mainf5fc.js?ver=3.5.21'
         id='convert-plus-module-main-js-js'></script>
-    /* <![CDATA[ */
-    var smile_ajax = {"url": "https:\/\/gym.plco.site\/wp-admin\/admin-ajax.php"};
-    /* ]]> */</script>
-	<script type='text/javascript'
+<script type='text/javascript'
 		src='..//wp-content/plugins/convertplug/modules/slide_in/assets/js/slide_in.minf5fc.js?ver=3.5.21'
 		id='convert-plus-slide-in-script-js'></script>
 </body>
-<!-- Mirrored from gym.plco.site/guide/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Dec 2021 16:23:50 GMT -->
 </html>

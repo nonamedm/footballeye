@@ -2,7 +2,6 @@
     pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
-<!-- Mirrored from gym.plco.site/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Dec 2021 16:22:39 GMT -->
 <!-- Added by HTTrack -->
 <head>
     <meta charset="UTF-8">
@@ -11,104 +10,6 @@
     <!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ --><title>
     풋볼아이</title>
     <link rel="canonical" href="index.html"/>
-    <script type="application/ld+json" class="yoast-schema-graph">{
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "Organization",
-                "@id": "https://gym.plco.site/#organization",
-                "name": "\ud50c\ucf54\uc9d0",
-                "url": "https://gym.plco.site/",
-                "sameAs": [
-                    "https://www.facebook.com/plcogym",
-                    "https://www.instagram.com/official_plcogym_elite",
-                    "https://www.youtube.com/channel/UCUXRxvrWoWrXprZ0mMZjT3A"
-                ],
-                "logo": {
-                    "@type": "ImageObject",
-                    "@id": "https://gym.plco.site/#logo",
-                    "inLanguage": "ko-KR",
-                    "url": "https://gym.plco.site/wp-content/uploads/2021/07/plcogym_logo_main.svg",
-                    "contentUrl": "https://gym.plco.site/wp-content/uploads/2021/07/plcogym_logo_main.svg",
-                    "caption": "\ud50c\ucf54\uc9d0"
-                },
-                "image": {
-                    "@id": "https://gym.plco.site/#logo"
-                }
-            },
-            {
-                "@type": "WebSite",
-                "@id": "https://gym.plco.site/#website",
-                "url": "https://gym.plco.site/",
-                "name": "Plco GYM",
-                "description": "",
-                "publisher": {
-                    "@id": "https://gym.plco.site/#organization"
-                },
-                "potentialAction": [
-                    {
-                        "@type": "SearchAction",
-                        "target": {
-                            "@type": "EntryPoint",
-                            "urlTemplate": "https://gym.plco.site/?s={search_term_string}"
-                        },
-                        "query-input": "required name=search_term_string"
-                    }
-                ],
-                "inLanguage": "ko-KR"
-            },
-            {
-                "@type": "ImageObject",
-                "@id": "https://gym.plco.site/#primaryimage",
-                "inLanguage": "ko-KR",
-                "url": "https://gym.plco.site/wp-content/uploads/2021/06/gym_main.jpg",
-                "contentUrl": "https://gym.plco.site/wp-content/uploads/2021/06/gym_main.jpg",
-                "width": 1920,
-                "height": 1277
-            },
-            {
-                "@type": "WebPage",
-                "@id": "https://gym.plco.site/#webpage",
-                "url": "https://gym.plco.site/",
-                "name": "\ud50c\ucf54\uc9d0",
-                "isPartOf": {
-                    "@id": "https://gym.plco.site/#website"
-                },
-                "about": {
-                    "@id": "https://gym.plco.site/#organization"
-                },
-                "primaryImageOfPage": {
-                    "@id": "https://gym.plco.site/#primaryimage"
-                },
-                "datePublished": "2021-06-20T14:45:58+00:00",
-                "dateModified": "2021-11-01T02:06:49+00:00",
-                "description": "\uad6d\uac00\ub300\ud45c, \ud504\ub85c\uc120\uc218 \ucd9c\uc2e0, \uc2a4\ud3ec\uce20 \uacfc\ud559 \uc804\ubb38 \ucf54\uce58\uc9c4\uc774 \uc2a4\ud3ec\uce20 \uc120\uc218\uc758 \uc804\ubb38 \uccb4\ub825, \uc2a4\ud0ac\uc744 \uccb4\uacc4\uc801\uc73c\ub85c \uc131\uc7a5\uc2dc\ud0a4\ub294 \ud504\ub9ac\ubbf8\uc5c4 \ud2b8\ub808\uc774\ub2dd \uc11c\ube44\uc2a4\uc785\ub2c8\ub2e4.",
-                "breadcrumb": {
-                    "@id": "https://gym.plco.site/#breadcrumb"
-                },
-                "inLanguage": "ko-KR",
-                "potentialAction": [
-                    {
-                        "@type": "ReadAction",
-                        "target": [
-                            "https://gym.plco.site/"
-                        ]
-                    }
-                ]
-            },
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://gym.plco.site/#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home"
-                    }
-                ]
-            }
-        ]
-    }</script><!-- / Yoast SEO plugin. -->
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/'/>
     <link rel='dns-prefetch' href='http://s.w.org/'/>
     <script type="text/javascript">    window._wpemojiSettings = {
@@ -824,10 +725,6 @@
     <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/11.json"/>
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd"/>
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml"/>
-    <link rel="alternate" type="application/json+oembed"
-          href="wp-json/oembed/1.0/embed9283.json?url=https%3A%2F%2Fgym.plco.site%2F"/>
-    <link rel="alternate" type="text/xml+oembed"
-          href="wp-json/oembed/1.0/embedbc2d?url=https%3A%2F%2Fgym.plco.site%2F&amp;format=xml"/>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -1677,8 +1574,8 @@
                                                                                                              src="wp-content/uploads/2021/06/daeya1.jpg"
                                                                                                              width="750"
                                                                                                              height="500"
-                                                                                                             alt="plco_gym_main_sec3_2-1"
-                                                                                                             title="plco_gym_main_sec3_2-1"/><a
+                                                                                                             alt="daeya1.jpg"
+                                                                                                             title="daeya1.jpg"/><a
                                                                                                             class="entire-slide-link"
                                                                                                             href="wp-content/uploads/2021/06/daeya1.jpg"></a>
                                                                                                     </div>
@@ -1688,8 +1585,8 @@
                                                                                                              src="wp-content/uploads/2021/06/daeya2.jpg"
                                                                                                              width="750"
                                                                                                              height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-2"
-                                                                                                             title="plco_gym_main_sec3_1-2"/><a
+                                                                                                             alt="daeya2.jpg"
+                                                                                                             title="daeya2.jpg"/><a
                                                                                                             class="entire-slide-link"
                                                                                                             href="wp-content/uploads/2021/06/daeya2.jpg"></a>
                                                                                                     </div>
@@ -1699,8 +1596,8 @@
                                                                                                              src="wp-content/uploads/2021/06/daeya3.jpg"
                                                                                                              width="750"
                                                                                                              height="500"
-                                                                                                             alt="plco_gym_main_sec3_1-3"
-                                                                                                             title="plco_gym_main_sec3_1-3"/><a
+                                                                                                             alt="daeya3.jpg"
+                                                                                                             title="daeya3.jpg"/><a
                                                                                                             class="entire-slide-link"
                                                                                                             href="wp-content/uploads/2021/06/daeya3.jpg"></a>
                                                                                                     </div>
@@ -1802,8 +1699,8 @@
                                                                                                              src="wp-content/uploads/2021/06/jang1.jpg"
                                                                                                              width="750"
                                                                                                              height="500"
-                                                                                                             alt="plco_gym_main_sec3_2-1"
-                                                                                                             title="plco_gym_main_sec3_2-1"/><a
+                                                                                                             alt="jang1.jpg"
+                                                                                                             title="jang1.jpg"/><a
                                                                                                             class="entire-slide-link"
                                                                                                             href="wp-content/uploads/2021/06/jang1.jpg"></a>
                                                                                                     </div>
@@ -1813,8 +1710,8 @@
                                                                                                              src="wp-content/uploads/2021/06/jang2.jpg"
                                                                                                              width="750"
                                                                                                              height="500"
-                                                                                                             alt="plco_gym_main_sec3_2-2"
-                                                                                                             title="plco_gym_main_sec3_2-2"/><a
+                                                                                                             alt="jang2.jpg"
+                                                                                                             title="jang2.jpg"/><a
                                                                                                             class="entire-slide-link"
                                                                                                             href="wp-content/uploads/2021/06/jang2.jpg"></a>
                                                                                                     </div>
@@ -1824,8 +1721,8 @@
                                                                                                              src="wp-content/uploads/2021/06/jang3.jpg"
                                                                                                              width="750"
                                                                                                              height="500"
-                                                                                                             alt="plco_gym_main_sec3_2-3"
-                                                                                                             title="plco_gym_main_sec3_2-3"/><a
+                                                                                                             alt="jang3.jpg"
+                                                                                                             title="jang3.jpg"/><a
                                                                                                             class="entire-slide-link"
                                                                                                             href="wp-content/uploads/2021/06/jang3.jpg"></a>
                                                                                                     </div>
@@ -2692,13 +2589,8 @@ function stopclock() {
         id='flickity-js'></script>
 <script type='text/javascript' src='wp-content/plugins/convertplug/modules/assets/js/cp-module-mainf5fc.js?ver=3.5.21'
         id='convert-plus-module-main-js-js'></script>
-<script type='text/javascript' id='convert-plus-slide-in-script-js-extra'>
-    /* <![CDATA[ */
-    var smile_ajax = {"url": "https:\/\/gym.plco.site\/wp-admin\/admin-ajax.php"};
-    /* ]]> */</script>   
 <script type='text/javascript'
         src='wp-content/plugins/convertplug/modules/slide_in/assets/js/slide_in.minf5fc.js?ver=3.5.21'
         id='convert-plus-slide-in-script-js'></script>
 </body>
-<!-- Mirrored from gym.plco.site/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Dec 2021 16:23:15 GMT -->
 </html>

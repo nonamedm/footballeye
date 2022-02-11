@@ -4,7 +4,15 @@
 <!DOCTYPE html>
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
+<title>풋볼아이</title>
+<link rel="canonical" href="index.html"/>
+<script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+<meta property="og:locale" content="ko_KR" />
+<meta property="og:type" content="article" />
 <style type="text/css">
 
 img.wp-smiley, img.emoji {
