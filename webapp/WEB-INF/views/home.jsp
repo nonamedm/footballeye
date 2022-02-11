@@ -111,8 +111,6 @@
     }</script><!-- / Yoast SEO plugin. -->
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/'/>
     <link rel='dns-prefetch' href='http://s.w.org/'/>
-    <link rel="alternate" type="application/rss+xml" title="Plco GYM &raquo; 피드" href="feed/index.html"/>
-    <link rel="alternate" type="application/rss+xml" title="Plco GYM &raquo; 댓글 피드" href="comments/feed/index.html"/>
     <script type="text/javascript">    window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
         "ext": ".png",
@@ -826,7 +824,6 @@
     <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/11.json"/>
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd"/>
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml"/>
-    <meta name="generator" content="WordPress 5.7.4"/>
     <link rel="alternate" type="application/json+oembed"
           href="wp-json/oembed/1.0/embed9283.json?url=https%3A%2F%2Fgym.plco.site%2F"/>
     <link rel="alternate" type="text/xml+oembed"
@@ -845,28 +842,12 @@
             '../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PTF6GFV');</script><!-- End Google Tag Manager -->
-    <meta name="facebook-domain-verification" content="zyx2qrlk3ffw3l2y6kcem3qyb0vctb"/>
-    <meta name="google-site-verification" content="RZvSLFLPME_-vW16IlNLgXsWanLy4M45vSGjmejNuPo"/>
-    <meta name="naver-site-verification" content="ee607f968d15abe5902f3ac74343ded29ca18a2b"/>
-    <meta name="description" content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
-    <meta property="og:type" content="플코짐">
-    <meta property="og:title" content="Plco GYM">
-    <meta property="og:description"
-          content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
-    <meta property="og:url" content="https://gym.plco.site">
-    <meta property="al:web:url" content="https://gym.plco.site">
-    <meta property="twitter:title" content="Plco GYM">
-    <meta name="twitter:description"
-          content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
     <link rel="canonical" href="index.html">
     <script type="text/javascript"> var root = document.getElementsByTagName("html")[0];
     root.setAttribute("class", "js"); </script>
-    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
     <link rel="icon" href="wp-content/uploads/2021/07/cropped-plcogym_favicon-32x32.png" sizes="32x32"/>
     <link rel="icon" href="wp-content/uploads/2021/07/cropped-plcogym_favicon-192x192.png" sizes="192x192"/>
     <link rel="apple-touch-icon" href="wp-content/uploads/2021/07/cropped-plcogym_favicon-180x180.png"/>
-    <meta name="msapplication-TileImage"
-          content="https://gym.plco.site/wp-content/uploads/2021/07/cropped-plcogym_favicon-270x270.png"/>
     <style type="text/css" data-type="vc_custom-css">.tabbed[data-style="material"] > ul li a:not(.active-tab),
     .tabbed[data-style*="material"][data-color-scheme="extra-color-1"] ul:after, .tabbed[data-style*="material"][data-color-scheme="extra-color-1"] ul li .active-tab {
         font-size: 20px;
@@ -1219,7 +1200,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="fws_61c1ff4f6e4d8" data-column-margin="default" data-midnight="dark"
+                        
+                        <!-- 유소년 선수 소개 시작 -->
+                      <!--   <div id="fws_61c1ff4f6e4d8" data-column-margin="default" data-midnight="dark"
                              class="wpb_row vc_row-fluid vc_row full-width-section vc_row-o-equal-height vc_row-flex vc_row-o-content-middle parallax_section top_padding_phone_50px bottom_padding_phone_120px "
                              style="padding-top: 150px; padding-bottom: 300px; ">
                             <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false">
@@ -1316,29 +1299,29 @@
                                                             </div>
                                                         </div>
                                                     </div>
-<!--                                                     <div class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone " -->
-<!--                                                          data-padding-pos="all" data-has-bg-color="false" -->
-<!--                                                          data-bg-color="" data-bg-opacity="1" data-animation="" -->
-<!--                                                          data-delay="0"> -->
-<!--                                                         <div class="vc_column-inner"> -->
-<!--                                                             <div class="wpb_wrapper"> -->
-<!--                                                                 <div class="nectar-milestone " data-symbol="명" -->
-<!--                                                                      data-symbol-alignment="superscript" -->
-<!--                                                                      data-symbol-pos="after" data-symbol-size="30" -->
-<!--                                                                      data-ms-align="default"> -->
-<!--                                                                     <div class="number extra-color-3" -->
-<!--                                                                          data-number-size="92"><h2><span>26</span></h2> -->
-<!--                                                                     </div> -->
-<!--                                                                     <div class="subject" style="padding: 2%;">미드필더 -->
-<!--                                                                     </div> -->
-<!--                                                                 </div> -->
-<!--                                                             </div> -->
-<!--                                                         </div> -->
-<!--                                                     </div> -->
+                                                    <div class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
+                                                         data-padding-pos="all" data-has-bg-color="false"
+                                                         data-bg-color="" data-bg-opacity="1" data-animation=""
+                                                         data-delay="0">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <div class="nectar-milestone " data-symbol="명"
+                                                                     data-symbol-alignment="superscript"
+                                                                     data-symbol-pos="after" data-symbol-size="30"
+                                                                     data-ms-align="default">
+                                                                    <div class="number extra-color-3"
+                                                                         data-number-size="92"><h2><span>26</span></h2>
+                                                                    </div>
+                                                                    <div class="subject" style="padding: 2%;">미드필더
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
                                                 </div>
                                             </div>
-                                            <!--메인선수소개 이미지 시작-->
+                                            메인선수소개 이미지 시작
                                             <div id="fws_61c1ff4f6ea7a" data-midnight="" data-column-margin="default"
                                                  class="wpb_row vc_row-fluid vc_row inner_row " style="">
                                                 <div class="row-bg-wrap">
@@ -1447,7 +1430,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!--메인선수소개 이미지 끝-->
+                                            메인선수소개 이미지 끝
                                             <div id="fws_61c1ff4f6fae1" data-midnight="" data-column-margin="default"
                                                  class="wpb_row vc_row-fluid vc_row inner_row " style="">
                                                 <div class="row-bg-wrap">
@@ -1561,6 +1544,7 @@
                                 </div>
                             </div>
                         </div>
+                         -->
                         <!--모바일-->
                         <div id="fws_61c1ff4f709fa" data-column-margin="default" data-midnight="dark"
                              class="wpb_row vc_row-fluid vc_row full-width-section "
@@ -2711,7 +2695,7 @@ function stopclock() {
 <script type='text/javascript' id='convert-plus-slide-in-script-js-extra'>
     /* <![CDATA[ */
     var smile_ajax = {"url": "https:\/\/gym.plco.site\/wp-admin\/admin-ajax.php"};
-    /* ]]> */</script>
+    /* ]]> */</script>   
 <script type='text/javascript'
         src='wp-content/plugins/convertplug/modules/slide_in/assets/js/slide_in.minf5fc.js?ver=3.5.21'
         id='convert-plus-slide-in-script-js'></script>

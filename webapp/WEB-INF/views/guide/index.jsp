@@ -3847,8 +3847,8 @@
                                                                                                          src="wp-content/uploads/2021/06/daeya1.jpg"
                                                                                                          width="750"
                                                                                                          height="500"
-                                                                                                         alt="plco_gym_main_sec3_2-1"
-                                                                                                         title="plco_gym_main_sec3_2-1"/><a
+                                                                                                         alt="daeya1.jpg"
+                                                                                                         title="daeya1.jpg"/><a
                                                                                                         class="entire-slide-link"
                                                                                                         href="wp-content/uploads/2021/06/daeya1.jpg"></a>
                                                                                                 </div>
@@ -3858,8 +3858,8 @@
                                                                                                          src="wp-content/uploads/2021/06/daeya2.jpg"
                                                                                                          width="750"
                                                                                                          height="500"
-                                                                                                         alt="plco_gym_main_sec3_1-2"
-                                                                                                         title="plco_gym_main_sec3_1-2"/><a
+                                                                                                         alt="daeya2.jpg"
+                                                                                                         title="daeya2.jpg"/><a
                                                                                                         class="entire-slide-link"
                                                                                                         href="wp-content/uploads/2021/06/daeya1.jpg"></a>
                                                                                                 </div>
@@ -3869,8 +3869,8 @@
                                                                                                          src="wp-content/uploads/2021/06/daeya3.jpg"
                                                                                                          width="750"
                                                                                                          height="500"
-                                                                                                         alt="plco_gym_main_sec3_1-3"
-                                                                                                         title="plco_gym_main_sec3_1-3"/><a
+                                                                                                         alt="daeya3.jpg"
+                                                                                                         title="daeya3.jpg"/><a
                                                                                                         class="entire-slide-link"
                                                                                                         href="wp-content/uploads/2021/06/daeya3.jpg"></a>
                                                                                                 </div>
@@ -3886,16 +3886,44 @@
                                                         </div>
                                                     </div>
                                                     <!--본점끝-->
-
-                                                    <!--장현지구(직영점) 시작-->
-                                                    <div id="fws_61c1ff4f728b7" data-midnight=""
+                                                    <!--장현지구점시작-->
+                                                    <div id="fws_61c1ff4f70f85" data-midnight=""
                                                          data-column-margin="default"
-                                                         class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle bottom_padding_tablet_0px bottom_padding_phone_0px "
-                                                         style="padding-bottom: 100px; ">
+                                                         class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_tablet_0px top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
+                                                         style="padding-top: 80px; padding-bottom: 100px; ">
                                                         <div class="row-bg-wrap">
                                                             <div class="row-bg"></div>
                                                         </div>
                                                         <div class="row_col_wrap_12_inner col span_12 left">
+                                                            <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
+                                                                 data-padding-pos="left-right"
+                                                                 data-has-bg-color="false" data-bg-color=""
+                                                                 data-bg-opacity="1" data-animation=""
+                                                                 data-delay="0">
+                                                                <div class="vc_column-inner">
+                                                                    <div class="wpb_wrapper">
+                                                                        <div><h2>
+                                                                            <strong>장현지구점(직영점)</strong></h2></div>
+                                                                        <div class="nectar-highlighted-text"
+                                                                             data-style="half_text"
+                                                                             data-exp="default"
+                                                                             data-using-custom-color="true"
+                                                                             data-animation-delay="false"
+                                                                             data-color="rgba(255,255,255,0.21)"
+                                                                             data-color-gradient="" style="">
+                                                                            <h5>
+                                                                            장현지구점에서는 풋살장 정식규격(야외구장)에서
+                                                                            취미반/엘리트반이 운영되고 있습니다.
+                                                                            본사 통합관리로 장현지구점이 운영되고 있기에
+                                                                            풋볼아이의 교육 “축구를 재미있게, 제대로 배울 수 있도록”이라는
+                                                                            사명감을 가지고 본점과 똑같이 진행되고 있습니다.
+                                                                            엘리트반은 취미반보다 더 체계적인 교육을 받을 수 있으며,
+                                                                            실력 향상 후 선수반으로 이동도 가능합니다.</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
                                                             <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
                                                                  data-padding-pos="all" data-has-bg-color="false"
                                                                  data-bg-color="" data-bg-opacity="1"
@@ -3928,8 +3956,8 @@
                                                                                                          src="wp-content/uploads/2021/06/jang1.jpg"
                                                                                                          width="750"
                                                                                                          height="500"
-                                                                                                         alt="plco_gym_main_sec3_1-4"
-                                                                                                         title="plco_gym_main_sec3_1-4"/><a
+                                                                                                         alt="jang1.jpg"
+                                                                                                         title="jang1.jpg"/><a
                                                                                                         class="entire-slide-link"
                                                                                                         href="wp-content/uploads/2021/06/jang1.jpg"></a>
                                                                                                 </div>
@@ -3939,8 +3967,8 @@
                                                                                                          src="wp-content/uploads/2021/06/jang2.jpg"
                                                                                                          width="750"
                                                                                                          height="500"
-                                                                                                         alt="plco_gym_main_sec3_1-5"
-                                                                                                         title="plco_gym_main_sec3_1-5"/><a
+                                                                                                         alt="jang2.jpg"
+                                                                                                         title="jang2.jpg"/><a
                                                                                                         class="entire-slide-link"
                                                                                                         href="wp-content/uploads/2021/06/jang2.jpg"></a>
                                                                                                 </div>
@@ -3950,8 +3978,8 @@
                                                                                                          src="wp-content/uploads/2021/06/jang3.jpg"
                                                                                                          width="750"
                                                                                                          height="500"
-                                                                                                         alt="plco_gym_main_sec3_1-6"
-                                                                                                         title="plco_gym_main_sec3_1-6"/><a
+                                                                                                         alt="jang3.jpg"
+                                                                                                         title="jang3.jpg"/><a
                                                                                                         class="entire-slide-link"
                                                                                                         href="wp-content/uploads/2021/06/jang3.jpg"></a>
                                                                                                 </div>
@@ -3964,41 +3992,10 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
-                                                                 data-padding-pos="left-right"
-                                                                 data-has-bg-color="false" data-bg-color=""
-                                                                 data-bg-opacity="1" data-animation=""
-                                                                 data-delay="0">
-                                                                <div class="vc_column-inner">
-                                                                    <div class="wpb_wrapper">
-                                                                        <div>
-                                                                            <h2>
-                                                                                <strong>장현지구(직영점)</strong>
-                                                                            </h2>
-                                                                        </div>
-                                                                        <div class="nectar-highlighted-text"
-                                                                             data-style="half_text"
-                                                                             data-exp="default"
-                                                                             data-using-custom-color="true"
-                                                                             data-animation-delay="false"
-                                                                             data-color="rgba(238,238,238,0.37)"
-                                                                             data-color-gradient="" style="">
-                                                                            <h5>
-                                                                                장현지구점에서는 풋살장 정식규격(야외구장)에서
-                                                                                취미반/엘리트반이 운영되고 있습니다.
-                                                                                본사 통합관리로 장현지구점이 운영되고 있기에
-                                                                                풋볼아이의 교육 “축구를 재미있게, 제대로 배울 수 있도록”이라는
-                                                                                사명감을 가지고 본점과 똑같이 진행되고 있습니다.
-                                                                                엘리트반은 취미반보다 더 체계적인 교육을 받을 수 있으며,
-                                                                                실력 향상 후 선수반으로 이동도 가능합니다.
-                                                                            </h5>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <!--장현구점 끝-->
+                                                    <!--장현지구점끝-->
+
                                                 </div>
                                             </div>
                                         <!--여기까지-->

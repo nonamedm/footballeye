@@ -858,23 +858,6 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PTF6GFV');</script>
 <!-- End Google Tag Manager -->
-<meta name="facebook-domain-verification"
-	content="zyx2qrlk3ffw3l2y6kcem3qyb0vctb" />
-<meta name="google-site-verification"
-	content="RZvSLFLPME_-vW16IlNLgXsWanLy4M45vSGjmejNuPo" />
-<meta name="naver-site-verification"
-	content="ee607f968d15abe5902f3ac74343ded29ca18a2b" />
-<meta name="description"
-	content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
-<meta property="og:type" content="플코짐">
-<meta property="og:title" content="Plco GYM">
-<meta property="og:description"
-	content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
-<meta property="og:url" content="https://gym.plco.site">
-<meta property="al:web:url" content="https://gym.plco.site">
-<meta property="twitter:title" content="Plco GYM">
-<meta name="twitter:description"
-	content="국가대표, 프로선수 출신, 스포츠 과학 전문 코치진이 스포츠 선수의 전문 체력, 스킬을 체계적으로 성장시키는 프리미엄 트레이닝 서비스입니다.">
 <link rel="canonical" href="../">
 <script type="text/javascript"> var root = document.getElementsByTagName("html")[0];
     root.setAttribute("class", "js"); </script>
@@ -1552,10 +1535,10 @@ body .page-submenu li a {
 										data-delay="0">
 										<div class="vc_column-inner">
 											<div class="wpb_wrapper">
-												<p
-													style="color: rgba(255, 255, 255, 0.74); text-align: center"
-													class="vc_custom_heading vc_custom_1625455006671">
-													축구교실에서 배울수 있는 시스템 소개</p>
+<!-- 												<p -->
+<!-- 													style="color: rgba(255, 255, 255, 0.74); text-align: center" -->
+<!-- 													class="vc_custom_heading vc_custom_1625455006671"> -->
+<!-- 													축구교실에서 배울수 있는 시스템 소개</p> -->
 												<div id="fws_61c1ff5e5f61a" data-midnight=""
 													data-column-margin="default"
 													class="wpb_row vc_row-fluid vc_row inner_row vc_custom_1626184666410 "
@@ -1578,7 +1561,7 @@ body .page-submenu li a {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h1>
-																			<strong>축구교실에 대해<br /> 소개해드립니다.<br />
+																			<strong>풋볼아이FC 축구클럽을 소개합니다.<br />
 																			</strong>
 																		</h1>
 																	</div>
@@ -1609,7 +1592,7 @@ body .page-submenu li a {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h2>
-																			<strong>축구교실에 대해<br />소개해드립니다.<br />
+																			<strong>풋볼아이FC 축구클럽을 소개합니다.<br />
 																			</strong>
 																		</h2>
 																	</div>
@@ -1761,12 +1744,13 @@ body .page-submenu li a {
 														data-icon-size="" data-full-width-line=""
 														data-color-scheme="accent-color" data-alignment="left">
 														<ul class="wpb_tabs_nav ui-tabs-nav clearfix">
-															<li><a href="#tab-schedule-1" class="active-tab"><span>스케줄(취미반/선수반)</span></a></li>
+															<li><a href="#tab-schedule-1" class="active-tab"><span>트레이닝 스케줄(취미반/선수반)</span></a></li>
 															<li><a href="#tab-usage-fee-1"><span>이용요금</span></a></li>
 															<li><a href="#tab-way-1"><span>오시는 길</span></a></li>
 														</ul>
 														</br>
-
+														
+														<!-- 대야점 취미반 -->
 														<div id="tab-schedule-1" data-tab-icon=""
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
 
@@ -1782,7 +1766,7 @@ body .page-submenu li a {
 																	</div>
 																	<div class="row_col_wrap_12_inner col span_12 left">
 																		<div style=""
-																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
+																			class="vc_col-sm-1 vc_col-xs-1 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
 																			data-using-bg="true" data-border-radius="20px"
 																			data-padding-pos="top-bottom"
 																			data-has-bg-color="true" data-bg-color="#2a44ec"
@@ -1805,7 +1789,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div style=""
-																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-using-bg="true" data-border-radius="20px"
 																			data-padding-pos="all" data-has-bg-color="true"
 																			data-bg-color="#2a44ec" data-bg-opacity="1"
@@ -1828,7 +1812,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div style=""
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
 																			data-using-bg="true" data-border-radius="20px"
 																			data-padding-pos="top-bottom"
 																			data-has-bg-color="true" data-bg-color="#2a44ec"
@@ -1860,7 +1844,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div style=""
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-using-bg="true" data-border-radius="20px"
 																			data-padding-pos="all" data-has-bg-color="true"
 																			data-bg-color="#2a44ec" data-bg-opacity="1"
@@ -1920,7 +1904,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div style=""
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-using-bg="true" data-border-radius="20px"
 																			data-padding-pos="all" data-has-bg-color="true"
 																			data-bg-color="#2a44ec" data-bg-opacity="1"
@@ -1960,7 +1944,7 @@ body .page-submenu li a {
 																	</div>
 																	<div class="row_col_wrap_12_inner col span_12 left">
 																		<div
-																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-1 vc_col-xs-1 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -1969,7 +1953,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h3>
-																								<strong>2</strong>
+																								<strong>1</strong>
 																							</h3>
 																						</div>
 																					</div>
@@ -1977,7 +1961,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-padding-pos="all" data-has-bg-color="false"
 																			data-bg-color="" data-bg-opacity="1"
 																			data-animation="" data-delay="0">
@@ -1986,7 +1970,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h4>
-																								<strong>14:30 &#8211; 15:30</strong>
+																								<strong>13:30 &#8211; 14:30  </strong>
 																							</h4>
 																						</div>
 																					</div>
@@ -1994,7 +1978,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px"
 																			data-padding-pos="top-bottom"
 																			data-has-bg-color="false" data-bg-color=""
@@ -2005,14 +1989,13 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-2" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">월,수 /
-																							화,목,금</div>
+																							style="height: 78px; width: 150px;">월~금</div>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2022,8 +2005,7 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">유치부 /
-																							2,3학년</div>
+																							style="height: 78px; width: 150px;">1,2학년</div>
 																					</div>
 																				</div>
 																			</div>
@@ -2037,14 +2019,14 @@ body .page-submenu li a {
 																				<div class="wpb_wrapper">
 																					<div class="wpb_wrapper">
 																						<h4>
-																							<strong>10:00 &#8211; 11:00</strong>
+																							<strong>9:00 &#8211; 10:00</strong>
 																						</h4>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2054,7 +2036,7 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">5,6학년</div>
+																							style="height: 78px; width: 150px;">1,2학년</div>
 																					</div>
 																				</div>
 																			</div>
@@ -2070,7 +2052,7 @@ body .page-submenu li a {
 																	</div>
 																	<div class="row_col_wrap_12_inner col span_12 left">
 																		<div
-																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-1 vc_col-xs-1 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2087,7 +2069,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-padding-pos="all" data-has-bg-color="false"
 																			data-bg-color="" data-bg-opacity="1"
 																			data-animation="" data-delay="0">
@@ -2104,7 +2086,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px"
 																			data-padding-pos="top-bottom"
 																			data-has-bg-color="false" data-bg-color=""
@@ -2122,7 +2104,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2154,7 +2136,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2181,7 +2163,7 @@ body .page-submenu li a {
 																	</div>
 																	<div class="row_col_wrap_12_inner col span_12 left">
 																		<div
-																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-1 vc_col-xs-1 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2190,7 +2172,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h3>
-																								<strong>2</strong>
+																								<strong>3</strong>
 																							</h3>
 																						</div>
 																					</div>
@@ -2198,7 +2180,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-padding-pos="all" data-has-bg-color="false"
 																			data-bg-color="" data-bg-opacity="1"
 																			data-animation="" data-delay="0">
@@ -2207,7 +2189,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h4>
-																								<strong>14:30 &#8211; 15:30</strong>
+																								<strong>15:30 &#8211; 17:30</strong>
 																							</h4>
 																						</div>
 																					</div>
@@ -2215,7 +2197,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px"
 																			data-padding-pos="top-bottom"
 																			data-has-bg-color="false" data-bg-color=""
@@ -2226,14 +2208,14 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-2" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">월,수 /
-																							화,목,금</div>
+																							style="height: 78px; width: 150px;">월/화,목 /
+																							/수,금</div>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2243,8 +2225,8 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">유치부 /
-																							2,3학년</div>
+																							style="height: 78px; width: 150px;">유치부/1,2학년 /
+																							3,4학년</div>
 																					</div>
 																				</div>
 																			</div>
@@ -2258,14 +2240,14 @@ body .page-submenu li a {
 																				<div class="wpb_wrapper">
 																					<div class="wpb_wrapper">
 																						<h4>
-																							<strong>10:00 &#8211; 11:00</strong>
+																							<strong>13:00 &#8211; 14:00</strong>
 																						</h4>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2275,7 +2257,7 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">5,6학년</div>
+																							style="height: 78px; width: 150px;">유치부</div>
 																					</div>
 																				</div>
 																			</div>
@@ -2291,7 +2273,7 @@ body .page-submenu li a {
 																	</div>
 																	<div class="row_col_wrap_12_inner col span_12 left">
 																		<div
-																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-1 vc_col-xs-1 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2300,7 +2282,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h3>
-																								<strong>2</strong>
+																								<strong>4</strong>
 																							</h3>
 																						</div>
 																					</div>
@@ -2308,7 +2290,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-padding-pos="all" data-has-bg-color="false"
 																			data-bg-color="" data-bg-opacity="1"
 																			data-animation="" data-delay="0">
@@ -2317,7 +2299,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h4>
-																								<strong>14:30 &#8211; 15:30</strong>
+																								<strong>16:30 &#8211; 17:30</strong>
 																							</h4>
 																						</div>
 																					</div>
@@ -2325,7 +2307,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px"
 																			data-padding-pos="top-bottom"
 																			data-has-bg-color="false" data-bg-color=""
@@ -2336,14 +2318,14 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-2" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">월,수 /
-																							화,목,금</div>
+																							style="height: 78px; width: 150px;">월,수,금 /
+																							화,목</div>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2353,8 +2335,8 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">유치부 /
-																							2,3학년</div>
+																							style="height: 78px; width: 150px;">1,2학년 /
+																							3,4학년</div>
 																					</div>
 																				</div>
 																			</div>
@@ -2368,14 +2350,14 @@ body .page-submenu li a {
 																				<div class="wpb_wrapper">
 																					<div class="wpb_wrapper">
 																						<h4>
-																							<strong>10:00 &#8211; 11:00</strong>
+																							<strong></strong>
 																						</h4>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2385,7 +2367,7 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">5,6학년</div>
+																							style="height: 78px; width: 150px;"></div>
 																					</div>
 																				</div>
 																			</div>
@@ -2401,7 +2383,7 @@ body .page-submenu li a {
 																	</div>
 																	<div class="row_col_wrap_12_inner col span_12 left">
 																		<div
-																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-1 vc_col-xs-1 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2410,7 +2392,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h3>
-																								<strong>2</strong>
+																								<strong>5</strong>
 																							</h3>
 																						</div>
 																					</div>
@@ -2418,7 +2400,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-padding-pos="all" data-has-bg-color="false"
 																			data-bg-color="" data-bg-opacity="1"
 																			data-animation="" data-delay="0">
@@ -2427,7 +2409,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h4>
-																								<strong>14:30 &#8211; 15:30</strong>
+																								<strong>17:30 &#8211; 18:30</strong>
 																							</h4>
 																						</div>
 																					</div>
@@ -2435,7 +2417,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px"
 																			data-padding-pos="top-bottom"
 																			data-has-bg-color="false" data-bg-color=""
@@ -2446,14 +2428,13 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-2" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">월,수 /
-																							화,목,금</div>
+																							style="height: 78px; width: 150px;">월-금</div>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2463,8 +2444,8 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">유치부 /
-																							2,3학년</div>
+																							style="height: 78px; width: 150px;">
+																							5,6학년</div>
 																					</div>
 																				</div>
 																			</div>
@@ -2478,38 +2459,12 @@ body .page-submenu li a {
 																				<div class="wpb_wrapper">
 																					<div class="wpb_wrapper">
 																						<h4>
-																							<strong>10:00 &#8211; 11:00</strong>
+																							<strong></strong>
 																						</h4>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="nectar_icon_wrap" data-style="default"
-																						data-padding="20px"
-																						data-color="extra-color-gradient-1" style="">
-																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">5,6학년</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<div id="fws_61c1ff5e62513" data-midnight=""
-																	data-column-margin="default"
-																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																	style="">
-																	<div class="row-bg-wrap">
-																		<div class="row-bg"></div>
-																	</div>
-																	<div class="row_col_wrap_12_inner col span_12 left">
 																		<div
 																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
@@ -2517,95 +2472,11 @@ body .page-submenu li a {
 																			data-bg-opacity="1" data-animation="" data-delay="0">
 																			<div class="vc_column-inner">
 																				<div class="wpb_wrapper">
-																					<div class="wpb_text_column wpb_content_element ">
-																						<div class="wpb_wrapper">
-																							<h3>
-																								<strong>2</strong>
-																							</h3>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-padding-pos="all" data-has-bg-color="false"
-																			data-bg-color="" data-bg-opacity="1"
-																			data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="wpb_text_column wpb_content_element ">
-																						<div class="wpb_wrapper">
-																							<h4>
-																								<strong>14:30 &#8211; 15:30</strong>
-																							</h4>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px"
-																			data-padding-pos="top-bottom"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="nectar_icon_wrap" data-style="default"
-																						data-padding="20px"
-																						data-color="extra-color-gradient-2" style="">
-																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">월,수 /
-																							화,목,금</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
 																					<div class="nectar_icon_wrap" data-style="default"
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">유치부 /
-																							2,3학년</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>10:00 &#8211; 11:00</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="nectar_icon_wrap" data-style="default"
-																						data-padding="20px"
-																						data-color="extra-color-gradient-1" style="">
-																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">5,6학년</div>
+																							style="height: 78px; width: 150px;"></div>
 																					</div>
 																				</div>
 																			</div>
@@ -2613,16 +2484,15 @@ body .page-submenu li a {
 																	</div>
 																</div>
 															</div>
-
+															
+															<div style="width:100%;height:100px;border-bottom:1px solid #878787; margin-bottom:100px; "></div>
+															
 															<h2>선수반</h2>
 															<div class="wpb_wrapper">
 																<h6>
-																	<br /> <i class="fas fa-check"></i> 실내훈련(18:30~20:30)
-																	정규훈련으로 필수적 훈련참여,<br /> <i class="fas fa-check"></i>
-																	야외훈련(15:00~17:00) 야외훈련으로 선택적 훈련참여,<br /> <i
-																		class="fas fa-check"></i> 야외훈련 추가 비용 없음, 하루 2시간~4시간 훈련
-																	진행<br /> <i class="fas fa-check"></i> 3학년부터 야외/실내 훈련 필수
-																	참여(적응기간 제외)<br />
+																<i class="fas fa-check"></i>실내훈련(18:30~20:30) 정규훈련으로 필수적 훈련참여</br>
+																<i class="fas fa-check"></i>야외훈련(15:00~17:00) 야외훈련으로 선택적 훈련참여,</br>
+																<i class="fas fa-check"></i>야외훈련 추가 비용 없음</br>
 															</div>
 															<div id="schedule-1-player">
 																<div id="fws_61c1ff5e60f0e" data-midnight=""
@@ -2758,49 +2628,15 @@ body .page-submenu li a {
 																						class="wpb_text_column wpb_content_element vc_custom_1625454024762">
 																						<div class="wpb_wrapper">
 																							<h4>
-																								<strong>주말 시간대</strong>
+																								<strong>훈련장소</strong>
 																							</h4>
-																						</div>
-																					</div>
-																					<div
-																						class="wpb_text_column wpb_content_element vc_custom_1625453017923">
-																						<div class="wpb_wrapper">
-																							<h6>(토요일)</h6>
 																						</div>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
-																		<div style=""
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-using-bg="true" data-border-radius="20px"
-																			data-padding-pos="all" data-has-bg-color="true"
-																			data-bg-color="#2a44ec" data-bg-opacity="1"
-																			data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="column-bg-overlay-wrap"
-																					data-bg-animation="none">
-																					<div class="column-bg-overlay"
-																						style="opacity: 1; background-color: #2a44ec;"></div>
-																				</div>
-																				<div class="wpb_wrapper">
-																					<div
-																						class="wpb_text_column wpb_content_element vc_custom_1625454024762">
-																						<div class="wpb_wrapper">
-																							<h4>
-																								<strong>대상</strong>
-																							</h4>
-																						</div>
-																					</div>
-																					<div
-																						class="wpb_text_column wpb_content_element vc_custom_1625453017923">
-																						<div class="wpb_wrapper">
-																							<h6></h6>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
+																		
+																	
 																	</div>
 																</div>
 																<div id="fws_61c1ff5e613b8" data-midnight=""
@@ -2821,7 +2657,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h3>
-																								<strong>2</strong>
+																								<strong>1</strong>
 																							</h3>
 																						</div>
 																					</div>
@@ -2829,7 +2665,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-padding-pos="all" data-has-bg-color="false"
 																			data-bg-color="" data-bg-opacity="1"
 																			data-animation="" data-delay="0">
@@ -2838,7 +2674,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h4>
-																								<strong>14:30 &#8211; 15:30</strong>
+																								<strong>15:00 &#8211; 17:00</strong>
 																							</h4>
 																						</div>
 																					</div>
@@ -2846,7 +2682,7 @@ body .page-submenu li a {
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px"
 																			data-padding-pos="top-bottom"
 																			data-has-bg-color="false" data-bg-color=""
@@ -2857,14 +2693,13 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-2" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">월,수 /
-																							화,목,금</div>
+																							style="height: 78px; width: 150px;">월-금</div>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px" data-padding-pos="all"
 																			data-has-bg-color="false" data-bg-color=""
 																			data-bg-opacity="1" data-animation="" data-delay="0">
@@ -2874,8 +2709,7 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">유치부 /
-																							2,3학년</div>
+																							style="height: 78px; width: 150px;">1,2/3,4/5,6학년</div>
 																					</div>
 																				</div>
 																			</div>
@@ -2889,28 +2723,13 @@ body .page-submenu li a {
 																				<div class="wpb_wrapper">
 																					<div class="wpb_wrapper">
 																						<h4>
-																							<strong>10:00 &#8211; 11:00</strong>
+																							<strong>신천동 축구장</strong>
 																						</h4>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="nectar_icon_wrap" data-style="default"
-																						data-padding="20px"
-																						data-color="extra-color-gradient-1" style="">
-																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">5,6학년</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
+																		
 																	</div>
 																</div>
 																<div id="fws_61c1ff5e61880" data-midnight=""
@@ -2931,7 +2750,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h3>
-																								<strong>2</strong>
+																								<strong></strong>
 																							</h3>
 																						</div>
 																					</div>
@@ -2948,13 +2767,14 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h4>
-																								<strong>14:30 &#8211; 15:30</strong>
+																								<strong>17:00 &#8211; 18:30 휴식</strong>
 																							</h4>
 																						</div>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
+																		
 																		<div
 																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
 																			data-border-radius="20px"
@@ -2967,8 +2787,7 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-2" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">월,수 /
-																							화,목,금</div>
+																							style="height: 78px; width: 150px;">
 																					</div>
 																				</div>
 																			</div>
@@ -2984,8 +2803,7 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">유치부 /
-																							2,3학년</div>
+																							style="height: 78px; width: 150px;"></div>
 																					</div>
 																				</div>
 																			</div>
@@ -2999,7 +2817,7 @@ body .page-submenu li a {
 																				<div class="wpb_wrapper">
 																					<div class="wpb_wrapper">
 																						<h4>
-																							<strong>10:00 &#8211; 11:00</strong>
+																							<strong></strong>
 																						</h4>
 																					</div>
 																				</div>
@@ -3016,11 +2834,15 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">5,6학년</div>
+																							style="height: 78px; width: 150px;"></div>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
+																	</div>
+																	
+																	
+																	
 																	</div>
 
 																</div>
@@ -3042,7 +2864,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h3>
-																								<strong>2</strong>
+																								<strong></strong>
 																							</h3>
 																						</div>
 																					</div>
@@ -3059,7 +2881,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h4>
-																								<strong>14:30 &#8211; 15:30</strong>
+																								<strong>18:30 &#8211; 20:30</strong>
 																							</h4>
 																						</div>
 																					</div>
@@ -3078,8 +2900,7 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-2" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">월,수 /
-																							화,목,금</div>
+																							style="height: 78px; width: 150px;">월-금</div>
 																					</div>
 																				</div>
 																			</div>
@@ -3095,8 +2916,7 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">유치부 /
-																							2,3학년</div>
+																							style="height: 78px; width: 150px;">3,4/5,6학년</div>
 																					</div>
 																				</div>
 																			</div>
@@ -3110,24 +2930,8 @@ body .page-submenu li a {
 																				<div class="wpb_wrapper">
 																					<div class="wpb_wrapper">
 																						<h4>
-																							<strong>10:00 &#8211; 11:00</strong>
+																							<strong>실내축구장(대야점)</strong>
 																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="nectar_icon_wrap" data-style="default"
-																						data-padding="20px"
-																						data-color="extra-color-gradient-1" style="">
-																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">5,6학년</div>
 																					</div>
 																				</div>
 																			</div>
@@ -3152,7 +2956,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h3>
-																								<strong>2</strong>
+																								<strong></strong>
 																							</h3>
 																						</div>
 																					</div>
@@ -3169,7 +2973,7 @@ body .page-submenu li a {
 																					<div class="wpb_text_column wpb_content_element ">
 																						<div class="wpb_wrapper">
 																							<h4>
-																								<strong>14:30 &#8211; 15:30</strong>
+																								<strong>11:00 &#8211; 13:00</strong>
 																							</h4>
 																						</div>
 																					</div>
@@ -3188,8 +2992,7 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-2" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">월,수 /
-																							화,목,금</div>
+																							style="height: 78px; width: 150px;">토요일</div>
 																					</div>
 																				</div>
 																			</div>
@@ -3205,8 +3008,7 @@ body .page-submenu li a {
 																						data-padding="20px"
 																						data-color="extra-color-gradient-1" style="">
 																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">유치부 /
-																							2,3학년</div>
+																							style="height: 78px; width: 150px;">1,2/3,4/5,6학년</div>
 																					</div>
 																				</div>
 																			</div>
@@ -3220,253 +3022,21 @@ body .page-submenu li a {
 																				<div class="wpb_wrapper">
 																					<div class="wpb_wrapper">
 																						<h4>
-																							<strong>10:00 &#8211; 11:00</strong>
+																							<strong>실내축구장(대야점)</strong>
 																						</h4>
 																					</div>
 																				</div>
 																			</div>
 																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="nectar_icon_wrap" data-style="default"
-																						data-padding="20px"
-																						data-color="extra-color-gradient-1" style="">
-																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">5,6학년</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
+																		
 																	</div>
 																</div>
-																<div id="fws_61c1ff5e62210" data-midnight=""
-																	data-column-margin="default"
-																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																	style="">
-																	<div class="row-bg-wrap">
-																		<div class="row-bg"></div>
-																	</div>
-																	<div class="row_col_wrap_12_inner col span_12 left">
-																		<div
-																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="wpb_text_column wpb_content_element ">
-																						<div class="wpb_wrapper">
-																							<h3>
-																								<strong>2</strong>
-																							</h3>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-padding-pos="all" data-has-bg-color="false"
-																			data-bg-color="" data-bg-opacity="1"
-																			data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="wpb_text_column wpb_content_element ">
-																						<div class="wpb_wrapper">
-																							<h4>
-																								<strong>14:30 &#8211; 15:30</strong>
-																							</h4>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px"
-																			data-padding-pos="top-bottom"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="nectar_icon_wrap" data-style="default"
-																						data-padding="20px"
-																						data-color="extra-color-gradient-2" style="">
-																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">월,수 /
-																							화,목,금</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="nectar_icon_wrap" data-style="default"
-																						data-padding="20px"
-																						data-color="extra-color-gradient-1" style="">
-																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">유치부 /
-																							2,3학년</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>10:00 &#8211; 11:00</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="nectar_icon_wrap" data-style="default"
-																						data-padding="20px"
-																						data-color="extra-color-gradient-1" style="">
-																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">5,6학년</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<div id="fws_61c1ff5e62513" data-midnight=""
-																	data-column-margin="default"
-																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																	style="">
-																	<div class="row-bg-wrap">
-																		<div class="row-bg"></div>
-																	</div>
-																	<div class="row_col_wrap_12_inner col span_12 left">
-																		<div
-																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="wpb_text_column wpb_content_element ">
-																						<div class="wpb_wrapper">
-																							<h3>
-																								<strong>2</strong>
-																							</h3>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-padding-pos="all" data-has-bg-color="false"
-																			data-bg-color="" data-bg-opacity="1"
-																			data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="wpb_text_column wpb_content_element ">
-																						<div class="wpb_wrapper">
-																							<h4>
-																								<strong>14:30 &#8211; 15:30</strong>
-																							</h4>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px"
-																			data-padding-pos="top-bottom"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="nectar_icon_wrap" data-style="default"
-																						data-padding="20px"
-																						data-color="extra-color-gradient-2" style="">
-																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">월,수 /
-																							화,목,금</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="nectar_icon_wrap" data-style="default"
-																						data-padding="20px"
-																						data-color="extra-color-gradient-1" style="">
-																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">유치부 /
-																							2,3학년</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>10:00 &#8211; 11:00</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																		<div
-																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																			data-border-radius="20px" data-padding-pos="all"
-																			data-has-bg-color="false" data-bg-color=""
-																			data-bg-opacity="1" data-animation="" data-delay="0">
-																			<div class="vc_column-inner">
-																				<div class="wpb_wrapper">
-																					<div class="nectar_icon_wrap" data-style="default"
-																						data-padding="20px"
-																						data-color="extra-color-gradient-1" style="">
-																						<div class="nectar_icon"
-																							style="height: 78px; width: 150px;">5,6학년</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
+																
 															</div>
 
 														</div>
+														
+														<!-- 대야점 이용요금 -->
 														<div id="tab-usage-fee-1" data-tab-icon=""
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
 															<div id="fws_61c1ff5e60f0e" data-midnight=""
@@ -3601,6 +3171,8 @@ body .page-submenu li a {
 																	</div>
 																</div>
 															</div>
+															
+															
 															<div id="fws_61c1ff5e60f0e" data-midnight=""
 																data-column-margin="default"
 																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1626185031385 right_padding_15px left_padding_15px top_padding_tablet_5px top_padding_phone_5px bottom_padding_tablet_5px bottom_padding_phone_5px "
@@ -3733,6 +3305,7 @@ body .page-submenu li a {
 
 														</div>
 														
+														
 														<div id="tab-way-1" data-tab-icon=""
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
 															<div id="fws_61c1ff5e63b63" data-midnight=""
@@ -3772,6 +3345,8 @@ body .page-submenu li a {
 																</div>
 															</div>
 														</div>
+														
+														
 													</div>
 												</div>
 											</div>
@@ -3859,12 +3434,1147 @@ body .page-submenu li a {
 														data-icon-size="" data-full-width-line=""
 														data-color-scheme="accent-color" data-alignment="left">
 														<ul class="wpb_tabs_nav ui-tabs-nav clearfix">
-															<li><a href="#tab-schedule-2" class="active-tab"><span>스케줄(취미반/선수반)</span></a></li>
+															<li><a href="#tab-schedule-2" class="active-tab"><span>트레이닝 스케줄(취미반/엘리트반/선수반)</span></a></li>
 															<li><a href="#tab-usage-fee-2"><span>이용요금</span></a></li>
 															<li><a href="#tab-way-2"><span>오시는 길</span></a></li>
 														</ul>
+														<!-- 직영점 취미반 -->
 														<div id="tab-schedule-2" data-tab-icon=""
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
+
+															<h2>취미반</h2>
+															<!--                                                        <h4><strong>취미반</strong></h4>-->
+															<div id="schedule-1-hobby">
+																<div id="fws_61c1ff5e60f0e" data-midnight=""
+																	data-column-margin="default"
+																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1626185031385 right_padding_15px left_padding_15px top_padding_tablet_5px top_padding_phone_5px bottom_padding_tablet_5px bottom_padding_phone_5px "
+																	style="padding-top: 15px; padding-bottom: 15px;">
+																	<div class="row-bg-wrap">
+																		<div class="row-bg"></div>
+																	</div>
+																	<div class="row_col_wrap_12_inner col span_12 left">
+																		<div style=""
+																			class="vc_col-sm-1 vc_col-xs-1 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="true" data-bg-color="#2a44ec"
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>번호</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div style=""
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="all" data-has-bg-color="true"
+																			data-bg-color="#2a44ec" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>시간대</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div style=""
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="true" data-bg-color="#2a44ec"
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1625454021862">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>평일</strong>
+																							</h4>
+																						</div>
+																					</div>
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1626185144216">
+																						<div class="wpb_wrapper">
+																							<h6>
+																								<span style="letter-spacing: -0.05em;">(월,화,수,목,금)</span>
+																							</h6>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div style=""
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="all" data-has-bg-color="true"
+																			data-bg-color="#2a44ec" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1625454024762">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>대상</strong>
+																							</h4>
+																						</div>
+																					</div>
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1625453017923">
+																						<div class="wpb_wrapper">
+																							<h6></h6>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div id="fws_61c1ff5e613b8" data-midnight=""
+																	data-column-margin="default"
+																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
+																	style="">
+																	<div class="row-bg-wrap">
+																		<div class="row-bg"></div>
+																	</div>
+																	<div class="row_col_wrap_12_inner col span_12 left">
+																		<div
+																			class="vc_col-sm-1 vc_col-xs-1 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h3>
+																								<strong>1</strong>
+																							</h3>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-padding-pos="all" data-has-bg-color="false"
+																			data-bg-color="" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>13:20 &#8211; 14:20  </strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-2" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">월-금</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-1" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">1,2학년</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																	</div>
+																</div>
+																<div id="fws_61c1ff5e61880" data-midnight=""
+																	data-column-margin="default"
+																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
+																	style="">
+																	<div class="row-bg-wrap">
+																		<div class="row-bg"></div>
+																	</div>
+																	<div class="row_col_wrap_12_inner col span_12 left">
+																		<div
+																			class="vc_col-sm-1 vc_col-xs-1 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h3>
+																								<strong>2</strong>
+																							</h3>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-padding-pos="all" data-has-bg-color="false"
+																			data-bg-color="" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>14:30 &#8211; 15:50</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-2" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">월,수 /
+																							화,목,금</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-1" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">유치부 /
+																							2,3학년</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																	</div>
+
+																</div>
+																<div id="fws_61c1ff5e61ba0" data-midnight=""
+																	data-column-margin="default"
+																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
+																	style="">
+																	<div class="row-bg-wrap">
+																		<div class="row-bg"></div>
+																	</div>
+																	<div class="row_col_wrap_12_inner col span_12 left">
+																		<div
+																			class="vc_col-sm-1 vc_col-xs-1 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h3>
+																								<strong>3</strong>
+																							</h3>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-padding-pos="all" data-has-bg-color="false"
+																			data-bg-color="" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>15:50 &#8211; 17:10</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-2" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">월/화,목 /
+																							/수,금</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-1" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">유치부/1,2학년 /
+																							3,4학년</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																	</div>
+																</div>
+																
+																
+															</div>
+															<div style="width:100%;height:100px;border-bottom:1px solid #878787; margin-bottom:100px; "></div>
+															
+															<h2>엘리트반</h2>
+															
+															<div id="schedule-1-player">
+																<div id="fws_61c1ff5e60f0e" data-midnight=""
+																	data-column-margin="default"
+																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1626185031385 right_padding_15px left_padding_15px top_padding_tablet_5px top_padding_phone_5px bottom_padding_tablet_5px bottom_padding_phone_5px "
+																	style="padding-top: 15px; padding-bottom: 15px;">
+																	<div class="row-bg-wrap">
+																		<div class="row-bg"></div>
+																	</div>
+																	<div class="row_col_wrap_12_inner col span_12 left">
+																		<div style=""
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="true" data-bg-color="#2a44ec"
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>번호</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div style=""
+																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="all" data-has-bg-color="true"
+																			data-bg-color="#2a44ec" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>시간대</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div style=""
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="true" data-bg-color="#2a44ec"
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1625454021862">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>평일</strong>
+																							</h4>
+																						</div>
+																					</div>
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1626185144216">
+																						<div class="wpb_wrapper">
+																							<h6>
+																								<span style="letter-spacing: -0.05em;">(월,화,수,목,금)</span>
+																							</h6>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div style=""
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="all" data-has-bg-color="true"
+																			data-bg-color="#2a44ec" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1625454024762">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>대상</strong>
+																							</h4>
+																						</div>
+																					</div>
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1625453017923">
+																						<div class="wpb_wrapper">
+																							<h6></h6>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																		
+																		
+																	</div>
+																</div>
+																<div id="fws_61c1ff5e613b8" data-midnight=""
+																	data-column-margin="default"
+																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
+																	style="">
+																	<div class="row-bg-wrap">
+																		<div class="row-bg"></div>
+																	</div>
+																	<div class="row_col_wrap_12_inner col span_12 left">
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h3>
+																								<strong>1</strong>
+																							</h3>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-padding-pos="all" data-has-bg-color="false"
+																			data-bg-color="" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>17:10 &#8211; 18:30</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-2" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">월-금</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-1" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">1-4학년</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																	</div>
+																</div>
+																
+															</div>
+
+															
+															<div style="width:100%;height:100px;border-bottom:1px solid #878787; margin-bottom:100px; "></div>
+															
+															<h2>선수반(풋볼아이 모든 지점 시흥 통합 훈련)</h2>
+															<div class="wpb_wrapper">
+																<h6>
+																<i class="fas fa-check"></i>실내훈련(18:30~20:30) 정규훈련으로 필수적 훈련참여<br>
+																<i class="fas fa-check"></i>야외훈련(15:00~17:00) 야외훈련으로 선택적 훈련참여,<br>
+																<i class="fas fa-check"></i>야외훈련 추가 비용 없음<br>
+																</h6>
+															</div>
+															
+															
+															
+															<div id="schedule-1-player">
+																<div id="fws_61c1ff5e60f0e" data-midnight=""
+																	data-column-margin="default"
+																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1626185031385 right_padding_15px left_padding_15px top_padding_tablet_5px top_padding_phone_5px bottom_padding_tablet_5px bottom_padding_phone_5px "
+																	style="padding-top: 15px; padding-bottom: 15px;">
+																	<div class="row-bg-wrap">
+																		<div class="row-bg"></div>
+																	</div>
+																	<div class="row_col_wrap_12_inner col span_12 left">
+																		<div style=""
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="true" data-bg-color="#2a44ec"
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>번호</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div style=""
+																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="all" data-has-bg-color="true"
+																			data-bg-color="#2a44ec" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>시간대</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div style=""
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="true" data-bg-color="#2a44ec"
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1625454021862">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>평일</strong>
+																							</h4>
+																						</div>
+																					</div>
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1626185144216">
+																						<div class="wpb_wrapper">
+																							<h6>
+																								<span style="letter-spacing: -0.05em;">(월,화,수,목,금)</span>
+																							</h6>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div style=""
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="all" data-has-bg-color="true"
+																			data-bg-color="#2a44ec" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1625454024762">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>대상</strong>
+																							</h4>
+																						</div>
+																					</div>
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1625453017923">
+																						<div class="wpb_wrapper">
+																							<h6></h6>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div style=""
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-using-bg="true" data-border-radius="20px"
+																			data-padding-pos="all" data-has-bg-color="true"
+																			data-bg-color="#2a44ec" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="column-bg-overlay-wrap"
+																					data-bg-animation="none">
+																					<div class="column-bg-overlay"
+																						style="opacity: 1; background-color: #2a44ec;"></div>
+																				</div>
+																				<div class="wpb_wrapper">
+																					<div
+																						class="wpb_text_column wpb_content_element vc_custom_1625454024762">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>훈련장소</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																	
+																	</div>
+																</div>
+																<div id="fws_61c1ff5e613b8" data-midnight=""
+																	data-column-margin="default"
+																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
+																	style="">
+																	<div class="row-bg-wrap">
+																		<div class="row-bg"></div>
+																	</div>
+																	<div class="row_col_wrap_12_inner col span_12 left">
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h3>
+																								<strong>1</strong>
+																							</h3>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-padding-pos="all" data-has-bg-color="false"
+																			data-bg-color="" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>15:00 &#8211; 17:00</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-2" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">월-금</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-1" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">1,2/3,4/5,6학년</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_wrapper">
+																						<h4>
+																							<strong>신천동 축구장</strong>
+																						</h4>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																	</div>
+																</div>
+																<div id="fws_61c1ff5e61880" data-midnight=""
+																	data-column-margin="default"
+																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
+																	style="">
+																	<div class="row-bg-wrap">
+																		<div class="row-bg"></div>
+																	</div>
+																	<div class="row_col_wrap_12_inner col span_12 left">
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h3>
+																								<strong></strong>
+																							</h3>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-padding-pos="all" data-has-bg-color="false"
+																			data-bg-color="" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>17:00 &#8211; 18:30 휴식</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-2" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-1" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;"></div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_wrapper">
+																						<h4>
+																							<strong></strong>
+																						</h4>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-1" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;"></div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	
+																	
+																	
+																	</div>
+
+																</div>
+																<div id="fws_61c1ff5e61ba0" data-midnight=""
+																	data-column-margin="default"
+																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
+																	style="">
+																	<div class="row-bg-wrap">
+																		<div class="row-bg"></div>
+																	</div>
+																	<div class="row_col_wrap_12_inner col span_12 left">
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h3>
+																								<strong></strong>
+																							</h3>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-padding-pos="all" data-has-bg-color="false"
+																			data-bg-color="" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>18:30 &#8211; 20:30</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-2" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">월-금</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-1" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">3,4/5,6학년</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_wrapper">
+																						<h4>
+																							<strong>실내축구장(대야점)</strong>
+																						</h4>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div id="fws_61c1ff5e61ed9" data-midnight=""
+																	data-column-margin="default"
+																	class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
+																	style="">
+																	<div class="row-bg-wrap">
+																		<div class="row-bg"></div>
+																	</div>
+																	<div class="row_col_wrap_12_inner col span_12 left">
+																		<div
+																			class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h3>
+																								<strong></strong>
+																							</h3>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-padding-pos="all" data-has-bg-color="false"
+																			data-bg-color="" data-bg-opacity="1"
+																			data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_text_column wpb_content_element ">
+																						<div class="wpb_wrapper">
+																							<h4>
+																								<strong>11:00 &#8211; 13:00</strong>
+																							</h4>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px"
+																			data-padding-pos="top-bottom"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-2" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">토요일</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="nectar_icon_wrap" data-style="default"
+																						data-padding="20px"
+																						data-color="extra-color-gradient-1" style="">
+																						<div class="nectar_icon"
+																							style="height: 78px; width: 150px;">1,2/3,4/5,6학년</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
+																			data-border-radius="20px" data-padding-pos="all"
+																			data-has-bg-color="false" data-bg-color=""
+																			data-bg-opacity="1" data-animation="" data-delay="0">
+																			<div class="vc_column-inner">
+																				<div class="wpb_wrapper">
+																					<div class="wpb_wrapper">
+																						<h4>
+																							<strong>실내축구장(대야점)</strong>
+																						</h4>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																	</div>
+																</div>
+																
+															</div>
+
+
+
+														</div>
+														
+														<!-- 직영점이용요금 -->
+														<div id="tab-usage-fee-2" data-tab-icon=""
+															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
+															<!-- 취미반 -->
+														
 															<div id="fws_61c1ff5e60f0e" data-midnight=""
 																data-column-margin="default"
 																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1626185031385 right_padding_15px left_padding_15px top_padding_tablet_5px top_padding_phone_5px bottom_padding_tablet_5px bottom_padding_phone_5px "
@@ -3872,825 +4582,325 @@ body .page-submenu li a {
 																<div class="row-bg-wrap">
 																	<div class="row-bg"></div>
 																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div style=""
-																		class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
-																		data-using-bg="true" data-border-radius="20px"
-																		data-padding-pos="top-bottom" data-has-bg-color="true"
-																		data-bg-color="#2a44ec" data-bg-opacity="1"
-																		data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="column-bg-overlay-wrap"
-																				data-bg-animation="none">
-																				<div class="column-bg-overlay"
-																					style="opacity: 1; background-color: #2a44ec;"></div>
-																			</div>
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>No.</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
+																<h2>
+																	이용요금
+																</h2>
+																<h3>
+																	<strong>취미반  <i class="fas fa-clock"></i> 장현지구 1시간20분 수업</strong>
+																</h3>
+																<div class="row_col_wrap_12_inner col left">
+																	<!--이용요금-->
+																	<div id="fws_61c1ff5e646b0" data-midnight=""
+																		data-column-margin="40px"
+																		class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-top vc_custom_1625460531616 "
+																		style="">
+																		<div class="row-bg-wrap">
+																			<div class="row-bg"></div>
 																		</div>
-																	</div>
-																	<div style=""
-																		class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-using-bg="true" data-border-radius="20px"
-																		data-padding-pos="all" data-has-bg-color="true"
-																		data-bg-color="#2a44ec" data-bg-opacity="1"
-																		data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="column-bg-overlay-wrap"
-																				data-bg-animation="none">
-																				<div class="column-bg-overlay"
-																					style="opacity: 1; background-color: #2a44ec;"></div>
-																			</div>
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
+																		<div class="row_col_wrap_12_inner col span_12 left">
+																			<div style=""
+																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
+																				data-using-bg="true" data-shadow="x_large_depth"
+																				data-border-radius="10px" data-border-animation=""
+																				data-border-animation-delay=""
+																				data-border-width="1px" data-border-style="solid"
+																				data-border-color="#333333"
+																				data-padding-pos="left-right"
+																				data-has-bg-color="true" data-bg-color="#0a0a0a"
+																				data-bg-opacity="1" data-hover-bg="#010101"
+																				data-hover-bg-opacity="1" data-animation="grow-in"
+																				data-delay="0">
+																				<div class="vc_column-inner"
+																					style="border: 1px solid #333333;">
+																					<div class="column-bg-overlay-wrap"
+																						data-bg-animation="none">
+																						<div class="column-bg-overlay"
+																							style="opacity: 1; background-color: #0a0a0a;"></div>
+																					</div>
 																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>시간대</strong>
-																						</h4>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625460014594">
+																							<div class="wpb_wrapper">
+																								<p>주1회</p>
+																							</div>
+																						</div>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625459284045">
+																							<div class="wpb_wrapper">
+																								<h2>80,000</h2>
+																							</div>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
-																		</div>
-																	</div>
-																	<div style=""
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
-																		data-using-bg="true" data-border-radius="20px"
-																		data-padding-pos="top-bottom" data-has-bg-color="true"
-																		data-bg-color="#2a44ec" data-bg-opacity="1"
-																		data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="column-bg-overlay-wrap"
-																				data-bg-animation="none">
-																				<div class="column-bg-overlay"
-																					style="opacity: 1; background-color: #2a44ec;"></div>
-																			</div>
-																			<div class="wpb_wrapper">
-																				<div
-																					class="wpb_text_column wpb_content_element vc_custom_1625454021862">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>평일</strong>
-																						</h4>
+																			
+																			
+																			<div style=""
+																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
+																				data-using-bg="true" data-border-radius="10px"
+																				data-border-animation=""
+																				data-border-animation-delay=""
+																				data-border-width="1px" data-border-style="solid"
+																				data-border-color="#222222"
+																				data-padding-pos="left-right"
+																				data-has-bg-color="true" data-bg-color="#0a0a0a"
+																				data-bg-opacity="1" data-hover-bg="#010101"
+																				data-hover-bg-opacity="1" data-animation="grow-in"
+																				data-delay="0">
+																				<div class="vc_column-inner"
+																					style="border: 1px solid #222222;">
+																					<div class="column-bg-overlay-wrap"
+																						data-bg-animation="none">
+																						<div class="column-bg-overlay"
+																							style="opacity: 1; background-color: #0a0a0a;"></div>
 																					</div>
-																				</div>
-																				<div
-																					class="wpb_text_column wpb_content_element vc_custom_1626185144216">
 																					<div class="wpb_wrapper">
-																						<h6>
-																							<span style="letter-spacing: -0.05em;">(월,수,목,금)</span>
-																						</h6>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div style=""
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-using-bg="true" data-border-radius="20px"
-																		data-padding-pos="all" data-has-bg-color="true"
-																		data-bg-color="#2a44ec" data-bg-opacity="1"
-																		data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="column-bg-overlay-wrap"
-																				data-bg-animation="none">
-																				<div class="column-bg-overlay"
-																					style="opacity: 1; background-color: #2a44ec;"></div>
-																			</div>
-																			<div class="wpb_wrapper">
-																				<div
-																					class="wpb_text_column wpb_content_element vc_custom_1625454024762">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>주말</strong>
-																						</h4>
-																					</div>
-																				</div>
-																				<div
-																					class="wpb_text_column wpb_content_element vc_custom_1625453017923">
-																					<div class="wpb_wrapper">
-																						<h6>(토,일)</h6>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625460011176">
+																							<div class="wpb_wrapper">
+																								<p>주2회</p>
+																							</div>
+																						</div>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625459279816">
+																							<div class="wpb_wrapper">
+																								<h2>130,000</h2>
+																							</div>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
+																		
 																		</div>
 																	</div>
 																</div>
 															</div>
-															<div id="fws_61c1ff5e613b8" data-midnight=""
+														
+															<!-- 엘리트반 -->
+
+															<div id="fws_61c1ff5e60f0e" data-midnight=""
 																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																style="">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div
-																		class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h3>
-																							<strong>①</strong>
-																						</h3>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-padding-pos="all" data-has-bg-color="false"
-																		data-bg-color="" data-bg-opacity="1" data-animation=""
-																		data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>10:00 &#8211; 12:00</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px"
-																		data-padding-pos="top-bottom"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-2" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-times"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-1" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-check"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div id="fws_61c1ff5e61880" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																style="">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div
-																		class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h3>
-																							<strong>②</strong>
-																						</h3>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-padding-pos="all" data-has-bg-color="false"
-																		data-bg-color="" data-bg-opacity="1" data-animation=""
-																		data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>12:00 &#8211; 14:00</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px"
-																		data-padding-pos="top-bottom"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-2" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-times"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-1" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-check"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div id="fws_61c1ff5e61ba0" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																style="">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div
-																		class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h3>
-																							<strong>③</strong>
-																						</h3>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-padding-pos="all" data-has-bg-color="false"
-																		data-bg-color="" data-bg-opacity="1" data-animation=""
-																		data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>15:00 &#8211; 17:00</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px"
-																		data-padding-pos="top-bottom"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-2" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-times"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-1" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-check"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div id="fws_61c1ff5e61ed9" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																style="">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div
-																		class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h3>
-																							<strong>④</strong>
-																						</h3>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-padding-pos="all" data-has-bg-color="false"
-																		data-bg-color="" data-bg-opacity="1" data-animation=""
-																		data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>16:00 &#8211; 18:00</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px"
-																		data-padding-pos="top-bottom"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-1" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-check"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-2" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-times"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div id="fws_61c1ff5e62210" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																style="">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div
-																		class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h3>
-																							<strong>⑤</strong>
-																						</h3>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-padding-pos="all" data-has-bg-color="false"
-																		data-bg-color="" data-bg-opacity="1" data-animation=""
-																		data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>17:00 &#8211; 19:00</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px"
-																		data-padding-pos="top-bottom"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-2" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-times"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-1" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-check"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div id="fws_61c1ff5e62513" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																style="">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div
-																		class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h3>
-																							<strong>⑥</strong>
-																						</h3>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-padding-pos="all" data-has-bg-color="false"
-																		data-bg-color="" data-bg-opacity="1" data-animation=""
-																		data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>18:00 &#8211; 20:00</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px"
-																		data-padding-pos="top-bottom"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-1" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-check"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px" data-color="extra-color-2"
-																					style="">
-																					<div class="nectar_icon">
-																						<i
-																							style="font-size: 30px; line-height: 30px; height: 30px; width: 30px;"
-																							class="fa fa-times"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div id="tab-usage-fee-2" data-tab-icon=""
-															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
-															<div id="fws_61c1ff5e62966" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1626185186526 right_padding_15px left_padding_15px top_padding_tablet_5px top_padding_phone_5px bottom_padding_tablet_5px bottom_padding_phone_5px "
+																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1626185031385 right_padding_15px left_padding_15px top_padding_tablet_5px top_padding_phone_5px bottom_padding_tablet_5px bottom_padding_phone_5px "
 																style="padding-top: 15px; padding-bottom: 15px;">
 																<div class="row-bg-wrap">
 																	<div class="row-bg"></div>
 																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div style=""
-																		class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
-																		data-using-bg="true" data-border-radius="20px"
-																		data-padding-pos="top-bottom" data-has-bg-color="true"
-																		data-bg-color="#2a44ec" data-bg-opacity="1"
-																		data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="column-bg-overlay-wrap"
-																				data-bg-animation="none">
-																				<div class="column-bg-overlay"
-																					style="opacity: 1; background-color: #2a44ec;"></div>
-																			</div>
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>No.</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
+																
+																<h3>
+																	<strong>엘리트 반 </strong>
+																</h3>
+																<div class="row_col_wrap_12_inner col left">
+																	<!--이용요금-->
+																	<div id="fws_61c1ff5e646b0" data-midnight=""
+																		data-column-margin="40px"
+																		class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-top vc_custom_1625460531616 "
+																		style="">
+																		<div class="row-bg-wrap">
+																			<div class="row-bg"></div>
 																		</div>
-																	</div>
-																	<div style=""
-																		class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-using-bg="true" data-border-radius="20px"
-																		data-padding-pos="all" data-has-bg-color="true"
-																		data-bg-color="#2a44ec" data-bg-opacity="1"
-																		data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="column-bg-overlay-wrap"
-																				data-bg-animation="none">
-																				<div class="column-bg-overlay"
-																					style="opacity: 1; background-color: #2a44ec;"></div>
-																			</div>
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
+																		<div class="row_col_wrap_12_inner col span_12 left">
+																			<div style=""
+																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
+																				data-using-bg="true" data-shadow="x_large_depth"
+																				data-border-radius="10px" data-border-animation=""
+																				data-border-animation-delay=""
+																				data-border-width="1px" data-border-style="solid"
+																				data-border-color="#333333"
+																				data-padding-pos="left-right"
+																				data-has-bg-color="true" data-bg-color="#0a0a0a"
+																				data-bg-opacity="1" data-hover-bg="#010101"
+																				data-hover-bg-opacity="1" data-animation="grow-in"
+																				data-delay="0">
+																				<div class="vc_column-inner"
+																					style="border: 1px solid #333333;">
+																					<div class="column-bg-overlay-wrap"
+																						data-bg-animation="none">
+																						<div class="column-bg-overlay"
+																							style="opacity: 1; background-color: #0a0a0a;"></div>
+																					</div>
 																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>시간대</strong>
-																						</h4>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625460014594">
+																							<div class="wpb_wrapper">
+																								<p>주3회</p>
+																							</div>
+																						</div>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625459284045">
+																							<div class="wpb_wrapper">
+																								<h2>200,000</h2>
+																							</div>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
-																		</div>
-																	</div>
-																	<div style=""
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text padding-1-percent inherit_tablet inherit_phone "
-																		data-using-bg="true" data-border-radius="20px"
-																		data-padding-pos="top-bottom" data-has-bg-color="true"
-																		data-bg-color="#2a44ec" data-bg-opacity="1"
-																		data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="column-bg-overlay-wrap"
-																				data-bg-animation="none">
-																				<div class="column-bg-overlay"
-																					style="opacity: 1; background-color: #2a44ec;"></div>
-																			</div>
-																			<div class="wpb_wrapper">
-																				<div
-																					class="wpb_text_column wpb_content_element vc_custom_1625454021862">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>평일</strong>
-																						</h4>
+																			
+																			
+																			<div style=""
+																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
+																				data-using-bg="true" data-border-radius="10px"
+																				data-border-animation=""
+																				data-border-animation-delay=""
+																				data-border-width="1px" data-border-style="solid"
+																				data-border-color="#222222"
+																				data-padding-pos="left-right"
+																				data-has-bg-color="true" data-bg-color="#0a0a0a"
+																				data-bg-opacity="1" data-hover-bg="#010101"
+																				data-hover-bg-opacity="1" data-animation="grow-in"
+																				data-delay="0">
+																				<div class="vc_column-inner"
+																					style="border: 1px solid #222222;">
+																					<div class="column-bg-overlay-wrap"
+																						data-bg-animation="none">
+																						<div class="column-bg-overlay"
+																							style="opacity: 1; background-color: #0a0a0a;"></div>
 																					</div>
-																				</div>
-																				<div
-																					class="wpb_text_column wpb_content_element vc_custom_1626185172338">
 																					<div class="wpb_wrapper">
-																						<h6>
-																							<span style="letter-spacing: -0.05em;">(월,수,목,금)</span>
-																						</h6>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div style=""
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-using-bg="true" data-border-radius="20px"
-																		data-padding-pos="all" data-has-bg-color="true"
-																		data-bg-color="#2a44ec" data-bg-opacity="1"
-																		data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="column-bg-overlay-wrap"
-																				data-bg-animation="none">
-																				<div class="column-bg-overlay"
-																					style="opacity: 1; background-color: #2a44ec;"></div>
-																			</div>
-																			<div class="wpb_wrapper">
-																				<div
-																					class="wpb_text_column wpb_content_element vc_custom_1625454024762">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>주말</strong>
-																						</h4>
-																					</div>
-																				</div>
-																				<div
-																					class="wpb_text_column wpb_content_element vc_custom_1625453017923">
-																					<div class="wpb_wrapper">
-																						<h6>(토,일)</h6>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625460011176">
+																							<div class="wpb_wrapper">
+																								<p>주5회</p>
+																							</div>
+																						</div>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625459279816">
+																							<div class="wpb_wrapper">
+																								<h2>270,000</h2>
+																							</div>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
+																		
 																		</div>
 																	</div>
 																</div>
 															</div>
-															<div id="fws_61c1ff5e62d56" data-midnight=""
+														
+															
+															<!-- 선수반 -->
+															<div id="fws_61c1ff5e60f0e" data-midnight=""
 																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																style="">
+																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1626185031385 right_padding_15px left_padding_15px top_padding_tablet_5px top_padding_phone_5px bottom_padding_tablet_5px bottom_padding_phone_5px "
+																style="padding-top: 15px; padding-bottom: 15px;">
 																<div class="row-bg-wrap">
 																	<div class="row-bg"></div>
 																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div
-																		class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
+																<h3>
+																	<strong>선수반</strong>
+																</h3>
+																<div class="row_col_wrap_12_inner col left">
+																	<!--이용요금-->
+																	<div id="fws_61c1ff5e646b0" data-midnight=""
+																		data-column-margin="40px"
+																		class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-top vc_custom_1625460531616 "
+																		style="">
+																		<div class="row-bg-wrap">
+																			<div class="row-bg"></div>
+																		</div>
+																		<div class="row_col_wrap_12_inner col span_12 left">
+																			<div style=""
+																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
+																				data-using-bg="true" data-shadow="x_large_depth"
+																				data-border-radius="10px" data-border-animation=""
+																				data-border-animation-delay=""
+																				data-border-width="1px" data-border-style="solid"
+																				data-border-color="#333333"
+																				data-padding-pos="left-right"
+																				data-has-bg-color="true" data-bg-color="#0a0a0a"
+																				data-bg-opacity="1" data-hover-bg="#010101"
+																				data-hover-bg-opacity="1" data-animation="grow-in"
+																				data-delay="0">
+																				<div class="vc_column-inner"
+																					style="border: 1px solid #333333;">
+																					<div class="column-bg-overlay-wrap"
+																						data-bg-animation="none">
+																						<div class="column-bg-overlay"
+																							style="opacity: 1; background-color: #0a0a0a;"></div>
+																					</div>
 																					<div class="wpb_wrapper">
-																						<h3>
-																							<strong>①</strong>
-																						</h3>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625460014594">
+																							<div class="wpb_wrapper">
+																								<p>주3회</p>
+																							</div>
+																						</div>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625459284045">
+																							<div class="wpb_wrapper">
+																								<h2>200,000</h2>
+																							</div>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-padding-pos="all" data-has-bg-color="false"
-																		data-bg-color="" data-bg-opacity="1" data-animation=""
-																		data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
+																			<div style=""
+																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
+																				data-using-bg="true" data-border-radius="10px"
+																				data-border-animation=""
+																				data-border-animation-delay=""
+																				data-border-width="1px" data-border-style="solid"
+																				data-border-color="#222222"
+																				data-padding-pos="left-right"
+																				data-has-bg-color="true" data-bg-color="#0a0a0a"
+																				data-bg-opacity="1" data-hover-bg="#010101"
+																				data-hover-bg-opacity="1" data-animation="grow-in"
+																				data-delay="0">
+																				<div class="vc_column-inner"
+																					style="border: 1px solid #222222;">
+																					<div class="column-bg-overlay-wrap"
+																						data-bg-animation="none">
+																						<div class="column-bg-overlay"
+																							style="opacity: 1; background-color: #0a0a0a;"></div>
+																					</div>
 																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>12:30 &#8211; 13:40</strong>
-																						</h4>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625460011176">
+																							<div class="wpb_wrapper">
+																								<p>주5회</p>
+																							</div>
+																						</div>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625459279816">
+																							<div class="wpb_wrapper">
+																								<h2>300,000</h2>
+																							</div>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px"
-																		data-padding-pos="top-bottom"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-1" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-check"></i>
+																			<div style=""
+																				class="vc_col-sm-3-1 wpb_column column_container vc_column_container col child_column centered-text has-animation padding-2-percent inherit_tablet inherit_phone "
+																				data-using-bg="true" data-border-radius="10px"
+																				data-border-animation=""
+																				data-border-animation-delay=""
+																				data-border-width="1px" data-border-style="solid"
+																				data-border-color="#222222"
+																				data-padding-pos="left-right"
+																				data-has-bg-color="true" data-bg-color="#0a0a0a"
+																				data-bg-opacity="1" data-hover-bg="#010101"
+																				data-hover-bg-opacity="1" data-animation="grow-in"
+																				data-delay="0">
+																				<div class="vc_column-inner"
+																					style="border: 1px solid #222222;">
+																					<div class="column-bg-overlay-wrap"
+																						data-bg-animation="none">
+																						<div class="column-bg-overlay"
+																							style="opacity: 1; background-color: #0a0a0a;"></div>
 																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-2" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-times"></i>
+																					<div class="wpb_wrapper">
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625460000452">
+																							<div class="wpb_wrapper">
+																								<p>주6회</p>
+																							</div>
+																						</div>
+																						<div
+																							class="wpb_text_column wpb_content_element vc_custom_1625459276620">
+																							<div class="wpb_wrapper">
+																								<h2>330,000</h2>
+																							</div>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
@@ -4698,273 +4908,9 @@ body .page-submenu li a {
 																	</div>
 																</div>
 															</div>
-															<div id="fws_61c1ff5e630a7" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																style="">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div
-																		class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h3>
-																							<strong>②</strong>
-																						</h3>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-padding-pos="all" data-has-bg-color="false"
-																		data-bg-color="" data-bg-opacity="1" data-animation=""
-																		data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>13:30 &#8211; 14:40</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px"
-																		data-padding-pos="top-bottom"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-1" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-check"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-2" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-times"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div id="fws_61c1ff5e633c5" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																style="">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div
-																		class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h3>
-																							<strong>③</strong>
-																						</h3>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-padding-pos="all" data-has-bg-color="false"
-																		data-bg-color="" data-bg-opacity="1" data-animation=""
-																		data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>19:00 &#8211; 20:10</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px"
-																		data-padding-pos="top-bottom"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-2" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-times"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-1" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-check"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div id="fws_61c1ff5e636bc" data-midnight=""
-																data-column-margin="default"
-																class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle vc_custom_1625454141887 right_padding_15px left_padding_15px "
-																style="">
-																<div class="row-bg-wrap">
-																	<div class="row-bg"></div>
-																</div>
-																<div class="row_col_wrap_12_inner col span_12 left">
-																	<div
-																		class="vc_col-sm-2 vc_col-xs-2 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h3>
-																							<strong>④</strong>
-																						</h3>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-4 vc_col-xs-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-padding-pos="all" data-has-bg-color="false"
-																		data-bg-color="" data-bg-opacity="1" data-animation=""
-																		data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="wpb_text_column wpb_content_element ">
-																					<div class="wpb_wrapper">
-																						<h4>
-																							<strong>20:00 &#8211; 21:10</strong>
-																						</h4>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px"
-																		data-padding-pos="top-bottom"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-1" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-check"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div
-																		class="vc_col-sm-3 vc_col-xs-3 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone "
-																		data-border-radius="20px" data-padding-pos="all"
-																		data-has-bg-color="false" data-bg-color=""
-																		data-bg-opacity="1" data-animation="" data-delay="0">
-																		<div class="vc_column-inner">
-																			<div class="wpb_wrapper">
-																				<div class="nectar_icon_wrap" data-style="default"
-																					data-padding="20px"
-																					data-color="extra-color-gradient-2" style="">
-																					<div class="nectar_icon"
-																						style="height: 78px; width: 78px;">
-																						<i
-																							style="font-size: 30px; line-height: 36px; height: 36px; width: 36px;"
-																							class="fa fa-times"></i>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div
-																class="wpb_text_column wpb_content_element vc_custom_1635734144145">
-																<div class="wpb_wrapper"></div>
-															</div>
-															<div
-																class="wpb_text_column wpb_content_element vc_custom_1637819871985">
-																<div class="wpb_wrapper">
-																	<p>💬 아마추어 트레이닝 타임 중 12:30~13:40  타임은 수, 목, 금 에만
-																		운영됩니다.</p>
-																</div>
-															</div>
+
 														</div>
+														
 														<div id="tab-way-2" data-tab-icon=""
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
 															<div id="fws_61c1ff5e63b63" data-midnight=""
@@ -4990,7 +4936,7 @@ body .page-submenu li a {
 																				<div class="wpb_text_column wpb_content_element ">
 																					<div class="wpb_wrapper">
 																						<h4>
-																							지도가 들어갈 부분입니다.</strong>🙂
+																							지도가 들어갈 부분입니다.🙂
 																						</h4>
 																					</div>
 																				</div>
@@ -5000,6 +4946,7 @@ body .page-submenu li a {
 																</div>
 															</div>
 														</div>
+
 
 													</div>
 												</div>

@@ -854,14 +854,20 @@ table, tr, th, td{
 	color:white;
 	font-size:18px;
 }
-ul li {
+#listCont > ul li {
     list-style: none;
     list-style-position: outside;
     display:inline-block;
+    text-align:center;
 }
 img {
 	width: 270px;
     height: 150px;
+}
+#listCont > ul > li {
+	height:115px;
+	margin-right:10px;
+	margin-bottom:15%;
 }
 
 </style>
@@ -892,7 +898,6 @@ var endNum = 10;
 var pageEndNum = 0;
 var nowPage = 1;
 jQuery(document).ready(function ($) {
-	//console.dir(boardList);
 	
 	pageMove =function (pageNum) {
 		var html = "<ul class=''>";
@@ -905,28 +910,31 @@ jQuery(document).ready(function ($) {
 			data : {startNum : startNum, endNum : endNum},
 			type : 'POST',
 			success : function (result) {
- 				console.dir(result);
+ 				//console.dir(result);
 				if(endNum>result.getMissionList.length){
 					endNum = result.getMissionList.length;
 				}
 				pageEndNum = Math.floor(result.getMissionList.length / pageList) + 1;
 				
 				for(i=startNum; i<endNum; i++) {
-					
+					html += "<li><a style='color:white; font-size:15px; float:right;' href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+result.getMissionList[i].BOARD_REGDATE+"</a><br/>";
 					if(result.getMissionList[i].SFILE_NAME!=null){
 						var ext = result.getMissionList[i].FILE_EXT;
 						if(ext=='.mp4'||ext=='.mov'||ext=='.wmv'||ext=='.avi'||ext=='.mkv'||ext=='.ogm'||ext=='.mpeg'||ext=='.m4v'){
-							html += "<li><a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+"<iframe scrolling='no' style='width: 100%; height:100%;' allow='accelerometer;' src='file/"+result.getMissionList[i].SFILE_NAME+"'></iframe></a>";
+							html += "<a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+"<video controls width=290 height=115><source src='file/"+result.getMissionList[i].SFILE_NAME+"'/></video></a>";
 						} else if(ext=='.jpg'||ext=='.png'||ext=='.jpeg'||ext=='.bmp'||ext=='.gif') {
-							html += "<li><a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+"<img style='width: 290px; height: 115px;' src='file/"+result.getMissionList[i].SFILE_NAME+"'></iframe></a>";
+							html += "<a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+"<img style='width: 290px; height: 80px;' src='file/"+result.getMissionList[i].SFILE_NAME+"'></iframe></a>";
 						}
+						
+					} else if(result.getMissionList[i].BOARD_CONT.indexOf("youtube.com")>0 && result.getMissionList[i].BOARD_CONT.indexOf("iframe")>0) {
+						var youtubeUrl = result.getMissionList[i].BOARD_CONT.substring(result.getMissionList[i].BOARD_CONT.indexOf('www.youtube'),result.getMissionList[i].BOARD_CONT.indexOf('" width='))
+						html += "<a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+"<iframe scrolling='no' style='width: 100%; height:100%;' allow='accelerometer;' src='//"+youtubeUrl+"'></iframe></a>";
+						
 					} else {
-						html += "<li><a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+"<img style='width: 290px; height: 115px;' src='file/notfound.png'></iframe></a>";
+						html += "<a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+"<img style='width: 290px; height: 80px;' src='file/notfound.png'></iframe></a>";
 					}
-					html += "<br/><a href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+result.getMissionList[i].BOARD_TITLE+"</a></li>";
-// 					html += "<td>"+result.getGameList[i].USER_NAME+"</td>";
-// 					html += "<td>"+result.getGameList[i].BOARD_REGDATE+"</td>";
-// 					html += "<td>"+result.getGameList[i].BOARD_READCOUNT+"</td></tr>";
+					html += "<br/><a style='color:white; font-size:15px;' href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+result.getMissionList[i].BOARD_TITLE+"</a>";
+					html += "<br/><a style='color:white; font-size:15px;' href='/boardRead?idx="+result.getMissionList[i].BOARD_IDX+"'>"+result.getMissionList[i].USER_ID+"("+result.getMissionList[i].USER_NAME+")</a><br/></li>";
 				}
 				html += "</ul>";
 				$("#listCont").html(html);
@@ -1787,8 +1795,7 @@ body .page-submenu li a {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h2>
-																			<strong>폭발적인 <em>퍼포먼스<br /> 성장을 경험
-																			</em>하다<br />
+																			<strong>풋볼아이<br /> 영상게시판
 																			</strong>
 																		</h2>
 																	</div>
@@ -1877,7 +1884,14 @@ body .page-submenu li a {
 																
 																<div class="row"  style="display:flex;">
 														    		<div class="col-sm-2">
-																		<button class="btn btn-block" onclick="window.location='/boardWrite'">글쓰기</button>
+														    			<c:choose>
+														    				<c:when test="${login.user_id ne null }">
+																				<button class="btn btn-block" onclick="window.location='/boardWrite'">글쓰기</button>
+														    				</c:when>
+														    				<c:otherwise>
+														    					<button class="btn btn-block" onclick="javascript:alert('로그인이 필요합니다!');location.href='http://localhost:9090/loginFm'">글쓰기</button>
+														    				</c:otherwise>
+														    			</c:choose>
 																	</div>
 														    		<div id="pageDiv" class="col-sm-5" style="width:80%; text-align:center;">
 																		

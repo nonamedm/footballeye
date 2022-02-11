@@ -51,23 +51,22 @@ public class UserController {
 			session.setAttribute("login", vo);	//vo 값 세션에 담기
 			
 			String cookie = request.getParameter("idrmb");
+			
 			if(cookie!=null) {
-				Cookie c = new Cookie("idsave", vo.getUser_id());
-				c.setComment("아이디 저장");
+				Cookie c = new Cookie("idsave",vo.getUser_id());
 				// 쿠키 유효기간을 설정한다. 초단위 : 60*60*24= 1일
 				c.setMaxAge(60*60*30);
 				// 응답헤더에 쿠키를 추가한다.
 				response.addCookie(c);
 			} else {
 				Cookie c = new Cookie("idsave", "");
-				c.setComment("아이디 저장");
 				c.setMaxAge(60*60*30);
 				response.addCookie(c);
 			}
 			mav.addObject("user_id",vo.getUser_id());
 		} else {
 		}
-		mav.setViewName("home");
+		mav.setViewName("redirect:/");
 		return mav;
 		
 ////		String sphoto_name = userService.getUserPhoto(map);

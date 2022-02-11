@@ -580,7 +580,7 @@ li ul, li ol {
 }
 
 ul li{
-  list-style:disc;
+  list-style:none;
   list-style-position:outside
 }
 

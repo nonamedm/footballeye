@@ -1801,6 +1801,8 @@ body .wpb_gallery_slides ul li {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    /* 빈칸균등 */
+    flex:1;
 }
 
 

@@ -24,7 +24,7 @@
 <meta name='robots'
 	content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 <!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ -->
-<title>이용 안내 | Plco GYM</title>
+<title>풋볼아이</title>
 <link rel="canonical" href="index.html" />
 <meta property="og:locale" content="ko_KR" />
 <meta property="og:type" content="article" />
@@ -1632,10 +1632,6 @@ jQuery(document).ready(function ($) {
 	
 });
 function loginDo () {
-// 	jQuery(document).ready(function ($) {
-// 		$('form').attr("method","POST").submit();
-// 	});
-	//alert("무야호");
 	
 }
 function joinDo () {
@@ -1862,7 +1858,7 @@ function loginCancel () {
 																		</tr>
 																		<tr>
 																			<td colspan="2" class="wp30">
-																			<input type="submit" value="로그인" onclick="javascript:loginDo();" />
+																			<input type="submit" value="로그인" />
 																			<input type="button" value="취소" onclick="window.history.back()" />
 																			 <input
 																				type="button" value="회원가입" onclick="javascript:joinDo();" />
