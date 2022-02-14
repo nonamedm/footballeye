@@ -100,7 +100,35 @@ html body[data-header-resize="1"] .container-wrap, html body[data-header-format=
 .main-content>.row>#breadcrumbs.yoast {
 	padding: 20px 0;
 }
+table th a {
+	color:white;
+	font-size:15px;
+}
+table th a:hover {
+	color:white;
+	font-size:16px;
+}
+table {
+	width:100%;
+}
+tr {
+	height:45px;
+}
+th, td {
+	text-align:center;  vertical-align: middle;
+}
+th h4 strong {
+	font-size:20px;
+}
+td {
+	font-size:15px; font-weight:600;
+}
+table, tr, th, td{
+	border: 2px solid rgba(255,255,255,0.16);
+	border-collapse:collapse;
+}
 </style>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
 <link rel='stylesheet' id='nectar-element-highlighted-text-css'
 	href='../wp-content/themes/salient/css/elements/element-highlighted-texta73f.css?ver=13.0.5'
 	type='text/css' media='all' />
@@ -720,33 +748,6 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
 	.clients[data-additional_padding="2"].no-carousel>div {
 		padding: 5% 5% 5% 5%;
 	}
-}
-table th a {
-	color:white;
-	font-size:15px;
-}
-table th a:hover {
-	color:white;
-	font-size:16px;
-}
-table {
-	width:100%;
-}
-tr {
-	height:45px;
-}
-th, td {
-	text-align:center;  vertical-align: middle;
-}
-th h4 strong {
-	font-size:20px;
-}
-td {
-	font-size:15px; font-weight:600;
-}
-table, tr, th, td{
-	border: 2px solid rgba(255,255,255,0.16);
-	border-collapse:collapse;
 }
 
 </style>
@@ -1551,8 +1552,8 @@ jQuery(document).ready(function ($) {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h2>
-																			<strong>폭발적인 <em>퍼포먼스<br /> 성장을 경험
-																			</em>하다<br />
+																			<strong>풋볼아이<br />
+																			영상게시판<br />
 																			</strong>
 																		</h2>
 																	</div>
@@ -1630,7 +1631,7 @@ jQuery(document).ready(function ($) {
 															</h3>
 								                            <div class="container">
 																<div style="margin-top:20px"></div>
-																<table class="table table-striped">
+																<table class="table">
 																	<tr><th colspan="3" style="width:100%; text-align:left; padding-left:20px;"><h4><strong>${getBoardRead.BOARD_TITLE }</strong></h4></th></tr>
 																	<tr>
 																	<th style="width:70%; text-align:left; border-right:0px; padding-left:20px;">${getBoardRead.USER_NAME } ( ${getBoardRead.USER_ID} )</th>
@@ -1638,7 +1639,7 @@ jQuery(document).ready(function ($) {
 																	<th style="width:15%; border-left:0px;">조회수 : ${getBoardRead.BOARD_READCOUNT}</th></tr>
 																	<tr><td colspan="3" style="width:100%; vertical-align: baseline; padding:20px; background-color:white;">
 																		<c:forEach var="getFileList" items="${getFileList }">
-																			<iframe width="800px" height="500px" src="file/${getFileList.SFILE_NAME}" align="center"></iframe>
+																			<video controls width="30%" type="video/quicktime" src="file/${getFileList.SFILE_NAME}"/></video>
 																		</c:forEach>
 																		${getBoardRead.BOARD_CONT }
 																		</td>
@@ -1668,11 +1669,13 @@ jQuery(document).ready(function ($) {
 																	</th></tr>
 																</table>
 																<div class="row" >
-														    		<div class="col-sm-2">
-																		<button class="btn btn-block" onclick="javascript:history.back();">목록으로</button>
+														    		<div class="col-sm-4">
+																		<button style="background-color: white;height: 40px;color:black;width: 90px;font-size: 15px;font-weight: 600;" onclick="javascript:history.back();">
+																		<span class="glyphicon glyphicon-ok"></span>&nbsp;목록</button>
 																		<c:choose>
 																		<c:when test="${login.user_id ne null }">
-																		<button class="btn btn-block" style="" id="deleteBtn">삭제</button>
+																		<button style="background-color: white;height: 40px;color:black;width: 90px;font-size: 15px;font-weight: 600;" id="deleteBtn">
+																		<span class="glyphicon glyphicon-remove"></span>&nbsp;삭제</button>
 																		</c:when>
 																		<c:otherwise></c:otherwise>
 																		</c:choose>

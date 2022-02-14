@@ -59,6 +59,8 @@ public interface UserService {
 
 	void calendarEventDelete(CalendarVo vo);
 
+	void testSubmit(HashMap<String, Object> map);
+
 	
 	
 

@@ -959,13 +959,13 @@ body[data-transparent-nav="1"][data-header-color="light"] #header-outer{
 #top #logo{
   width:auto;
   max-width:none;
-  line-height:22px;
+  line-height:40px;
   font-size:22px;
   letter-spacing:-1px;
   color:#444;
   font-family:'Open Sans';
   font-weight:600;
-	align-self: center;
+  align-self: center;
 }
 
 #top #logo .retina-logo,
@@ -988,7 +988,8 @@ body[data-transparent-nav="1"][data-header-color="light"] #header-outer{
   width:auto;
   margin-bottom:0;
   display:block;
-  transition:opacity 0.4s ease
+  transition:opacity 0.4s ease;
+  width:40px;
 }
 #header-outer[data-transparent-header="true"] #top #logo img.stnd {
   position: relative;

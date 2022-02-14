@@ -76,6 +76,7 @@ img.wp-smiley, img.emoji {
 }
 
 </style>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
 <link rel='stylesheet' id='wp-block-library-css'
 	href='../wp-includes/css/dist/block-library/style.min4999.css?ver=5.7.4'
 	type='text/css' media='all' />
@@ -761,9 +762,10 @@ img {
     height: 150px;
 }
 #listCont > ul > li {
-	height:115px;
+	
 	margin-right:10px;
 	margin-bottom:15%;
+	border-bottom:1px solid white;
 }
 
 </style>
@@ -779,6 +781,11 @@ img {
 <link rel='stylesheet' id='convert-plus-info-bar-style-css'
 	href='../wp-content/plugins/convertplug/modules/info_bar/assets/css/info_bar.minf5fc.css?ver=3.5.21'
 	type='text/css' media='all' />
+<script src="/js/jquery-1.9.1.js"></script>
+<script src="/js/summernote.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
+<script src=" https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/lang/summernote-ko-KR.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>	
 <script type='text/javascript' id='jquery-core-js-extra'>
         /* <![CDATA[ */
         var slide_in = {"demo_dir": "https:\/\/gym.plco.site\/wp-content\/plugins\/convertplug\/modules\/slide_in\/assets\/demos"};
@@ -816,7 +823,7 @@ jQuery(document).ready(function ($) {
 					html += "<li><a style='color:white; font-size:15px; float:right;' href='/boardRead?idx="+result.getGameList[i].BOARD_IDX+"'>"+result.getGameList[i].BOARD_REGDATE+"</a><br/>";
 					if(result.getGameList[i].SFILE_NAME!=null){
 						var ext = result.getGameList[i].FILE_EXT;
-						if(ext=='.mp4'||ext=='.mov'||ext=='.wmv'||ext=='.avi'||ext=='.mkv'||ext=='.ogm'||ext=='.mpeg'||ext=='.m4v'){
+						if(ext=='.mp4'||ext=='.mov'||ext=='.wmv'||ext=='.avi'||ext=='.mkv'||ext=='.ogm'||ext=='.mpeg'||ext=='.m4v'||ext=='.MOV'){
 							html += "<a href='/boardRead?idx="+result.getGameList[i].BOARD_IDX+"'>"+"<video controls width=290 height=115><source src='file/"+result.getGameList[i].SFILE_NAME+"'/></video></a>";
 						} else if(ext=='.jpg'||ext=='.png'||ext=='.jpeg'||ext=='.bmp'||ext=='.gif') {
 							html += "<a href='/boardRead?idx="+result.getGameList[i].BOARD_IDX+"'>"+"<img style='width: 290px; height: 80px;' src='file/"+result.getGameList[i].SFILE_NAME+"'></iframe></a>";
@@ -1766,7 +1773,16 @@ body .page-submenu li a {
 																</div>
 																<div class="row"  style="display:flex;">
 														    		<div class="col-sm-2">
-																		<button class="btn btn-block" onclick="window.location='/boardWrite'">글쓰기</button>
+																		<c:choose>
+														    				<c:when test="${login.user_id ne null }">
+																				<button style="background-color: white;height: 40px;color:black;width: 90px;font-size: 15px;font-weight: 600;" onclick="window.location='/boardWrite'">
+																				<span class="glyphicon glyphicon-ok"></span>&nbsp;글쓰기</button>
+														    				</c:when>
+														    				<c:otherwise>
+														    					<button style="background-color: white;height: 40px;color:black;width: 90px;font-size: 15px;font-weight: 600;" onclick="javascript:alert('로그인이 필요합니다!');location.href='/loginFm'">
+														    					<span class="glyphicon glyphicon-ok"></span>&nbsp;글쓰기</button>
+														    				</c:otherwise>
+														    			</c:choose>
 																	</div>
 														    		<div id="pageDiv" class="col-sm-5" style="width:80%; text-align:center;">
 																		

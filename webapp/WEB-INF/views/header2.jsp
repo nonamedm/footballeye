@@ -81,19 +81,19 @@ jQuery(document).ready(function ($) {
 								<a href="https://smartstore.naver.com/assistsuit?NaPm=ct%3Dkx0c0jvc%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3Dcaeb95eeb127615e37031fca52d3f2cb1c848695">온라인매장</a>
 							</li>
 							<li
-								class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-270 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-463">
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-479">
 								<a href="/video" aria-current="page">VIDEO</a>
 								<ul class="sub-menu">
 									<li
-										class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-465">
+										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131">
 										<a href="/mission#mission" aria-current="page">미션</a>
 									</li>
 									<li
-										class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-464">
+										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405">
 										<a href="/game#game" aria-current="page">경기영상</a>
 									</li>
 									<li
-										class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-466">
+										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406">
 										<a href="/analysis#analysis" aria-current="page">분석영상(8vs8)</a>
 									</li>
 								</ul>

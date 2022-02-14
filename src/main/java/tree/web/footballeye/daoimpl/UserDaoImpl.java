@@ -151,6 +151,12 @@ public class UserDaoImpl implements UserDao {
 		
 	}
 
+	@Override
+	public void testSubmit(HashMap<String, Object> map) {
+		sqlSession.insert("user.testSubmit",map);
+		
+	}
+
 	
 	
 	

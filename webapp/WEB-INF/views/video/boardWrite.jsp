@@ -699,9 +699,15 @@ th h4 strong {
 td {
 	font-size:15px; font-weight:600;
 }
+@media only screen and (min-width: 480px) and (max-width: 690px) {
+	table > tr > th {
+		width:70px;	
+	}
+}
 table, tr, th, td{
 	border: 2px solid rgba(255,255,255,0.16);
 	border-collapse:collapse;
+	vertical-align: middle;
 }
 .note-btn {
     color: #333;
@@ -1388,10 +1394,25 @@ body .page-submenu li a {
 <script type="text/javascript">
 jQuery(document).ready(function ($) {
 	$('#board_cont').summernote({
-	       placeholder: '새 글을 작성하세요 !',
+	       placeholder: '새 글을 작성하세요',
 	       tabsize: 2,
 	       height: 500,
-	       lang: "ko-KR"/* ,
+	       lang: "ko-KR",
+	       toolbar: [
+			    // [groupName, [list of button]]
+			    ['fontname', ['fontname']],
+			    ['fontsize', ['fontsize']],
+			    ['style', ['bold', 'italic', 'underline','strikethrough', 'clear']],
+			    ['color', ['forecolor','color']],
+			    ['table', ['table']],
+			    ['para', ['ul', 'ol', 'paragraph']],
+			    ['height', ['height']],
+			    ['insert',['picture','link','video']],
+			    ['view', ['fullscreen', 'help']]
+			  ],
+			fontNames: ['Arial', 'Arial Black', 'Comic Sans MS', 'Courier New','맑은 고딕','궁서','굴림체','굴림','돋움체','바탕체'],
+			fontSizes: ['8','9','10','11','12','14','16','18','20','22','24','28','30','36','50','72']
+	       /* ,
 	       callbacks : { 
 	       	onImageUpload : function(files, editor, welEditable) {
 	       // 파일 업로드(다중업로드를 위해 반복문 사용)
@@ -1528,8 +1549,8 @@ jQuery(document).ready(function ($) {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h2>
-																			<strong>폭발적인 <em>퍼포먼스<br /> 성장을 경험
-																			</em>하다<br />
+																			<strong>풋볼아이<br />
+																			영상게시판<br />
 																			</strong>
 																		</h2>
 																	</div>
@@ -1608,14 +1629,17 @@ jQuery(document).ready(function ($) {
 								                            <div class="container">
 																<div style="margin-top:20px"></div>
 																<form action="/boardWriteNew" method="post" class="form-horizontal" enctype="multipart/form-data">
-																	<table>
+																	<table class="table">
 																		<input type="hidden" id="user_id" name="user_id"  value="${login.user_id}"/>
 																		<input type="hidden" id="user_name" name="user_name"  value="${login.user_name }" />
 																		<tr>
-																			<th>제목</th><th><input type="text" id="board_title" name="board_title" style="width:100%; color:white;" autocomplete="off"></th>
-																			<th>게시판 분류</th>
-																			<th>
-																				<select name="board_name">
+																			<th style="width:10%; vertical-align:middle;">제목</th>
+																			<th style="width:40%;"><input type="text" id="board_title" name="board_title" style="width:-webkit-fill-available;color:black; background-color:white;" placeholder="제목을 입력해 주세요"autocomplete="off"></th>
+																		</tr>
+																		<tr>
+																			<th style="width:20%; vertical-align:middle;">게시판 분류</th>
+																			<th style="width:30%;">
+																				<select name="board_name" style="background-color:white; color:black;">
 																					<option value="mission" selected>미션영상</option>
 																					<option value="game">경기영상</option>
 																					<option value="analysis">분석영상</option>
@@ -1623,16 +1647,16 @@ jQuery(document).ready(function ($) {
 																			</th>
 																		</tr>
 																		<tr>
-																			<th colspan="4" style=""><textarea class="form-control" id="board_cont" name="board_cont"></textarea></th>
+																			<th colspan="2" style=""><textarea class="form-control" id="board_cont" name="board_cont"></textarea></th>
 																		</tr>
 																		<tr>
-																			<th>영상첨부</th>
+																			<th style="min-width:70px; vertical-align:middle;">영상첨부</th>
 																			<th>
 																				<input type="file" name="file_name" id="file_name" accept="video/*" multiple>
 																			</th>
 																		</tr>
 																		<tr>
-																			<th colspan="4">
+																			<th colspan="2">
 																			<button class="btn btn-default" type="submit" >
 																				<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;저장
 																			</button>
@@ -1999,12 +2023,8 @@ function stopclock() {
 <script type='text/javascript'
         src='../wp-content/plugins/convertplug/modules/assets/js/cp-module-mainf5fc.js?ver=3.5.21'
         id='convert-plus-module-main-js-js'></script>
-    /* <![CDATA[ */
-    var smile_ajax = {"url": "https:\/\/gym.plco.site\/wp-admin\/admin-ajax.php"};
-    /* ]]> */</script>
 	<script type='text/javascript'
 		src='..//wp-content/plugins/convertplug/modules/slide_in/assets/js/slide_in.minf5fc.js?ver=3.5.21'
 		id='convert-plus-slide-in-script-js'></script>
 </body>
-<!-- Mirrored from gym.plco.site/guide/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Dec 2021 16:23:50 GMT -->
 </html>

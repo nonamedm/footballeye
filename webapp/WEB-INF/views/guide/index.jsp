@@ -206,6 +206,12 @@
                 padding-top: 30px;
             }
         }
+        @media only screen and (max-width: 690px) {
+            .team-member {
+            	width:70%;
+            	margin:0 auto;
+            }
+        }
 
         @media only screen and (max-width: 999px) {
             .full-width-ns .nectar-slider-wrap .swiper-slide[data-y-pos="middle"] .content, .full-width-ns .nectar-slider-wrap .swiper-slide[data-y-pos="top"] .content {
@@ -1415,10 +1421,11 @@
                                                             <div class="wpb_wrapper">
                                                                 <div class="nectar-next-section-wrap bounce"
                                                                      data-shad="none" data-align="center"
-                                                                     data-custom-color="true"><a href="#"
-                                                                                                 style="background-color: #ffffff;"
-                                                                                                 class="nectar-next-section skip-hash">
-                                                                    <i class="fa fa-angle-down dark-arrow"></i> </a>
+                                                                     data-custom-color="true">
+                                                                     <a href="#" style="background-color: #ffffff; background-image:url('../wp-content/uploads/2021/06/tiger-logo.png');
+                                                                     background-repeat : no-repeat; background-size : cover;" class="nectar-next-section skip-hash">
+<!--                                                                     <i class="fa fa-angle-down dark-arrow"></i> -->
+                                                                    </a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2823,7 +2830,7 @@
                                                                      data-animation-delay="0" data-m-rm-animation=""
                                                                      data-stagger="" data-custom-font-size="false">
                                                                     <div class="heading-line">
-                                                                        <div><h2>시설 안내(대야점)</h2></div>
+                                                                        <div><h2>시설 안내<br/>(대야점)</h2></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -2886,8 +2893,8 @@
 
                                                                     <div class="wpb_text_column wpb_content_element vc_custom_1626441277294"
                                                                          style=" max-width: 500px; display: inline-block;">
-                                                                        <div class="wpb_wrapper"><p>실내구장 250평 규모로 취미반/선수반을 운영중입니다.
-                                                                            부모님 대기공간(카페)와 넓은 환경으로 감염병으로부터안전하게 훈련이 가능합니다.
+                                                                        <div class="wpb_wrapper"><p>실내구장 250평 규모로 취미반/선수반을 운영중입니다.<br/>
+                                                                            부모님 대기공간(카페)와 넓은 환경으로 감염병으로부터안전하게 훈련이 가능합니다.<br/>
                                                                             또한,바닥 충격방지 매트 설치 후 잔디를 설치하여 아이들이 축구 교육을 안전하고 제대로 배울 수 있습니다.</p></div>
                                                                     </div>
                                                                 </div>
@@ -3269,7 +3276,7 @@
                                                                      data-animation-delay="0" data-m-rm-animation=""
                                                                      data-stagger="" data-custom-font-size="false">
                                                                     <div class="heading-line">
-                                                                        <div><h2>시설 안내(장현지구점)</h2></div>
+                                                                        <div><h2>시설 안내<br/>(장현지구점)</h2></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -3329,22 +3336,17 @@
                                                                     </div>
                                                                     <div class="wpb_text_column wpb_content_element vc_custom_1626441320921"
                                                                          style=" max-width: 500px; display: inline-block;">
-                                                                        <div class="wpb_wrapper"><p>풋살장 정식규격 사이즈 훈련장에서
-                                                                            취미반/엘리트반을 운영중입니다.
-                                                                            부모님 대기공간과 아이들이 겨울에도 따듯하게 훈련할 수 있도록
-                                                                            옆 바람막이가 설치되어 있습니다.
-                                                                            장현지구 실내구장은 2022년 6월에 완공예정으로,
+                                                                        <div class="wpb_wrapper"><p>풋살장 정식규격 사이즈 훈련장에서</br>
+                                                                            취미반/엘리트반을 운영중입니다.</br>
+                                                                            부모님 대기공간과 아이들이 겨울에도 따듯하게 훈련할 수 있도록</br>
+                                                                            옆 바람막이가 설치되어 있습니다.</br>
+                                                                            장현지구 실내구장은 2022년 6월에 완공예정으로,</br>
                                                                             더운 여름, 추운 겨울 실내에서 훈련을 할 수있도록 준비하고 있습니다.</br>
                                                                             </br>
 
-                                                                            선수반은 대야점, 장현지구 통합훈련으로
-                                                                            야외훈련장(신천동축구장)+실내구장에서
-                                                                            훈련이 진행되고 있습니다</br></br>
-
-                                                                            1학년 주3회</br>
-                                                                            2학년 주3회~ 주5회</br>
-                                                                            3학년 주5회</br>
-                                                                            4,5,6학년 주6회</p>
+                                                                            선수반은 대야점, 장현지구 통합훈련으로</br>
+                                                                            야외훈련장(신천동축구장)+실내구장에서</br>
+                                                                            훈련이 진행되고 있습니다</br></br></p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -3376,16 +3378,6 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <!--<div class="wpb_text_column wpb_content_element vc_custom_1625461071586">
-                                                                        <div class="wpb_wrapper"><h4><strong>Physical
-                                                                            Zone </strong>ㅣ 피지컬 존</h4></div>
-                                                                    </div>
-                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1626441320921"
-                                                                         style=" max-width: 355px; display: inline-block;">
-                                                                        <div class="wpb_wrapper"><p>경기장에서의 폭발력을 위한 전문 체력
-                                                                            장비가 세팅된 피지컬 존에서 플코짐 선수들은 성장을 경험하게 됩니다.</p>
-                                                                        </div>
-                                                                    </div>-->
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3536,16 +3528,27 @@
                                                 <div class="row-bg-wrap">
                                                     <div class="row-bg"></div>
                                                 </div>
-                                                <div class="nectar-split-heading" data-align="default"
-                                                     data-m-align="inherit"
-                                                     data-animation-type="default"
-                                                     data-animation-delay="0" data-m-rm-animation=""
-                                                     data-stagger="" data-custom-font-size="false">
-                                                    <div class="heading-line">
-                                                        <div><h2>수상내역</h2></div>
-                                                    </div>
-                                                </div>
                                                 <div class="row_col_wrap_12_inner col span_12 left">
+                                                    <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
+                                                         data-padding-pos="left-right"
+                                                         data-has-bg-color="false" data-bg-color=""
+                                                         data-bg-opacity="1" data-animation=""
+                                                         data-delay="0">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <div><h2>
+                                                                    <strong>수상내역</strong></h2></div>
+                                                                <div style="text-align: center;margin:0 auto;padding:7%;">
+			                                                        <p style="font-size: 15px;">6월 부여 전국대회 3학년 3위 입상<br>
+			                                                            6월 부여 전국대회 5학년 3위 입상<br>
+			                                                            7월 고성 전국대회 3학년 3위 입상<br>
+			                                                            7월 고성 전국대회 5학년 3위 입상<br>
+			                                                            11월 부여 하반기 전국대회 1,2학년 3위 입상<br>
+			                                                            11월 부여 하반기 전국대회 5학년 3위 입상</p>
+			                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
                                                     <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
                                                          data-padding-pos="all" data-has-bg-color="false"
@@ -3576,36 +3579,36 @@
                                                                                         <div class="cell"
                                                                                              data-lazy="false">
                                                                                             <img class="skip-lazy "
-                                                                                                 src="../wp-content/uploads/2021/06/award.jpg"
+                                                                                                 src="../wp-content/uploads/2021/06/award1.jpg"
                                                                                                  width="750"
                                                                                                  height="500"
-                                                                                                 alt="award"
-                                                                                                 title="award"/><a
+                                                                                                 alt="award1.jpg"
+                                                                                                 title="award1.jpg"/><a
                                                                                                 class="entire-slide-link"
-                                                                                                href="../wp-content/uploads/2021/06/award.jpg"></a>
+                                                                                                href="../wp-content/uploads/2021/06/award1.jpg"></a>
                                                                                         </div>
-<!--                                                                                         <div class="cell" -->
-<!--                                                                                              data-lazy="false"> -->
-<!--                                                                                             <img class="skip-lazy " -->
-<!--                                                                                                  src="../wp-content/uploads/2021/06/plco_gym_main_sec3_1-2-750x500.jpg" -->
-<!--                                                                                                  width="750" -->
-<!--                                                                                                  height="500" -->
-<!--                                                                                                  alt="plco_gym_main_sec3_1-2" -->
-<!--                                                                                                  title="plco_gym_main_sec3_1-2"/><a -->
-<!--                                                                                                 class="entire-slide-link" -->
-<!--                                                                                                 href="../wp-content/uploads/2021/06/plco_gym_main_sec3_1-2.jpg"></a> -->
-<!--                                                                                         </div> -->
-<!--                                                                                         <div class="cell" -->
-<!--                                                                                              data-lazy="false"> -->
-<!--                                                                                             <img class="skip-lazy " -->
-<!--                                                                                                  src="../wp-content/uploads/2021/06/plco_gym_main_sec3_1-3-750x500.jpg" -->
-<!--                                                                                                  width="750" -->
-<!--                                                                                                  height="500" -->
-<!--                                                                                                  alt="plco_gym_main_sec3_1-3" -->
-<!--                                                                                                  title="plco_gym_main_sec3_1-3"/><a -->
-<!--                                                                                                 class="entire-slide-link" -->
-<!--                                                                                                 href="../wp-content/uploads/2021/06/plco_gym_main_sec3_1-3.jpg"></a> -->
-<!--                                                                                         </div> -->
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="../wp-content/uploads/2021/06/award2.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="award2.jpg"
+                                                                                                 title="award2.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="../wp-content/uploads/2021/06/award2.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="../wp-content/uploads/2021/06/award3.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="award3.jpg"
+                                                                                                 title="award3.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="../wp-content/uploads/2021/06/award3.jpg"></a>
+                                                                                        </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -3615,17 +3618,9 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div style="text-align: center;margin:0 auto;">
-                                                        <p>6월 부여 전국대회 3학년 3위 입상<br>
-                                                            6월 부여 전국대회 5학년 3위 입상<br>
-                                                            7월 고성 전국대회 3학년 3위 입상<br>
-                                                            7월 고성 전국대회 5학년 3위 입상<br>
-                                                            11월 부여 하반기 전국대회 1,2학년 3위 입상<br>
-                                                            11월 부여 하반기 전국대회 5학년 3위 입상</p>
-                                                    </div>
                                                 </div>
                                             </div>
-
+											
                                             <div id="fws_61c1ff5e6be07" data-midnight="" data-column-margin="default"
                                                  class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-top "
                                                  style="">
@@ -3711,9 +3706,9 @@
                                                                              data-color="rgba(255,255,255,0.21)"
                                                                              data-color-gradient="" style="">
                                                                             <h5>
-                                                                            대야점에서는 실내훈련과 야외훈련이 진행됩니다.
-                                                                            취미반/선수반/그룹레슨/개인레슨을 운영중이며,
-                                                                            선수반은 전지점 시흥 대야점(실내구장)과 신천동축구장(야외구장)에서
+                                                                            대야점에서는 실내훈련과 야외훈련이 진행됩니다.<br/>
+                                                                            취미반/선수반/그룹레슨/개인레슨을 운영중이며,<br/>
+                                                                            선수반은 전지점 시흥 대야점(실내구장)과 신천동축구장(야외구장)에서<br/>
                                                                             통합훈련으로 진행되고있습니다.</h5>
                                                                         </div>
                                                                     </div>
@@ -3817,12 +3812,12 @@
                                                                              data-color="rgba(255,255,255,0.21)"
                                                                              data-color-gradient="" style="">
                                                                             <h5>
-                                                                            장현지구점에서는 풋살장 정식규격(야외구장)에서
-                                                                            취미반/엘리트반이 운영되고 있습니다.
-                                                                            본사 통합관리로 장현지구점이 운영되고 있기에
-                                                                            풋볼아이의 교육 “축구를 재미있게, 제대로 배울 수 있도록”이라는
-                                                                            사명감을 가지고 본점과 똑같이 진행되고 있습니다.
-                                                                            엘리트반은 취미반보다 더 체계적인 교육을 받을 수 있으며,
+                                                                            장현지구점에서는 풋살장 정식규격(야외구장)에서<br/>
+                                                                            취미반/엘리트반이 운영되고 있습니다.<br/>
+                                                                            본사 통합관리로 장현지구점이 운영되고 있기에<br/>
+                                                                            풋볼아이의 교육<br/> “축구를 재미있게, 제대로 배울 수 있도록”이라는<br/>
+                                                                            사명감을 가지고 본점과 똑같이 진행되고 있습니다.<br/>
+                                                                            엘리트반은 취미반보다 더 체계적인 교육을 받을 수 있으며,<br/>
                                                                             실력 향상 후 선수반으로 이동도 가능합니다.</h5>
                                                                         </div>
                                                                     </div>

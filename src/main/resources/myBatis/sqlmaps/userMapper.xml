@@ -32,6 +32,11 @@
   		WHERE  USER_PHONE = #{user_phone}
   	</select>
   	
+  	<insert id="testSubmit" parameterType="hashmap" >
+	   	INSERT INTO TEST(TEST_NAME,TEST_AGE,TEST_ADDRESS,TEST_PHONE,TEST_QNA,TEST_TYPE)
+	  	 VALUES(#{test_name},#{test_age},#{test_address},#{test_phone},#{test_qna},#{test_type}) 
+  	</insert>
+  	
 <!--   	<update id="userupdate" -->
 <!--   			parameterType="hashmap"> -->
 <!--   		 UPDATE   USER_INFO  -->

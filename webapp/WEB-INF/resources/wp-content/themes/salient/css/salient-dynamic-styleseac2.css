@@ -1676,7 +1676,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 	 @media only screen and (max-width: 999px) {
 		 	body #top #logo img,
 			#header-outer[data-permanent-transparent="false"] #logo .dark-version {
-		 		height: 30px!important;
+		 		height: 40px!important;
 		 	}
 
 	 }#header-outer #social-in-menu .fa-facebook:after,

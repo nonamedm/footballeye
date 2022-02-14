@@ -55,5 +55,7 @@ public interface UserDao {
 
 	String getPwCheck(HashMap<String, Object> map);
 
+	void testSubmit(HashMap<String, Object> map);
+
 
 }

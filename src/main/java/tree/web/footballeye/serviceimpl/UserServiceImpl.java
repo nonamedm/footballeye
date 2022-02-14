@@ -138,6 +138,12 @@ public class UserServiceImpl implements UserService {
 		userDao.calendarEventDelete(vo);
 		
 	}
+
+	@Override
+	public void testSubmit(HashMap<String, Object> map) {
+		userDao.testSubmit(map);
+		
+	}
 	
 	
 	

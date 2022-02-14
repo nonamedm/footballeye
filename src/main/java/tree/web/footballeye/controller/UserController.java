@@ -65,6 +65,15 @@ public class UserController {
 			}
 			mav.addObject("user_id",vo.getUser_id());
 		} else {
+			PrintWriter out = null;
+			response.setContentType("text/html; charset=euc-kr");
+			try {
+				out = response.getWriter();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			out.println("<script>alert('비밀번호가 틀렸습니다'); location.href='/loginFm'; </script>");
+			out.flush();
 		}
 		mav.setViewName("redirect:/");
 		return mav;
@@ -201,4 +210,24 @@ public class UserController {
 		mv.setViewName("jsonView");
 		return mv;     
 	}
+	
+	@RequestMapping("/testSubmit")
+	public  void testSubmit(HttpServletRequest request,HttpServletResponse response,HttpSession session, @RequestParam HashMap<String, Object> map) throws IOException {
+		
+		ModelAndView  mav = new ModelAndView();
+		//TEST_NAME TEST_AGE TEST_ADDRESS TEST_PHONE TEST_QNA
+		String test_name = (String) map.get("test_name");
+		String test_age = (String) map.get("test_age");
+		String test_address = (String) map.get("test_address");
+		String test_phone = (String) map.get("test_phone");
+		String test_qna = (String) map.get("test_qna");
+		String test_type = (String) map.get("test_type");
+		
+		userService.testSubmit(map);
+		
+		response.setContentType("text/html; charset=euc-kr");
+		PrintWriter out = response.getWriter();
+		out.println("<script>alert('테스트 신청이 완료되었습니다!'); location.href='/'; </script>");
+		out.flush();
+	}  
 }

@@ -755,7 +755,7 @@ td {
 	font-size:15px; font-weight:600;
 }
 table, tr, th, td{
-	border: 2px solid rgba(255,255,255,0.16);
+	padding:2%;
 	border-collapse:collapse;
 }
 
@@ -1646,8 +1646,8 @@ function loginCancel () {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h2>
-																			<strong>풋볼아이 <em>회원<br /> 서비스
-																			</em>
+																			<strong>풋볼아이 <br />회원서비스
+																			
 																			</strong>
 																		</h2>
 																	</div>
@@ -1716,9 +1716,9 @@ function loginCancel () {
 														data-icon-size="" data-full-width-line=""
 														data-color-scheme="accent-color" data-alignment="left">
 
-														<div id="mission" data-tab-icon="" style="width:50%; margin:0 auto;"
+														<div id="mission" data-tab-icon="" style="width:60%; margin:0 auto;"
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
-															<h3>
+															<h3 style="text-align:center;">
 																	<i class="fas fa-user"></i> 로그인
 															</h3>
 								                            <div class="container">
@@ -1726,17 +1726,26 @@ function loginCancel () {
 																<table class="table-type02">
 																	<tbody>
 																		<tr>
-																			<th style="width:30%;font-weight: 700;font-size: 15px;">아이디</th>
+<!-- 																			<th style="width:40%;font-weight: 700;font-size: 15px;">아이디</th> -->
 																			<td><input type="text" name="user_id_in" id="user_id_in"
-																				class="wp100" value="<%=idsave%>"/></td>
+																				class="wp100" style="width: 70%; background-color: #dddddd; border-radius:20px;" value="<%=idsave%>" placeholder="Enter ID"/></td>
 																		</tr>
 																		<tr>
-																			<th style="width:30%;font-weight: 700;font-size: 15px;">비번</th>
+<!-- 																			<th style="width:30%;font-weight: 700;font-size: 15px;">비번</th> -->
 																			<td><input type="password" name="user_pwd_in" id="user_pwd_in"
-																				class="wp100" /></td>
+																				class="wp100" style="width: 70%; background-color: #dddddd; border-radius:20px;" placeholder="Enter PW"/></td>
 																		</tr>
 																		<tr>
-																			<td colspan="2">
+																			<td colspan="2" class="wp30">
+																			<input type="submit" value="로그인" />
+																			<input type="button" value="취소" onclick="window.history.back()" />
+																			 <input
+																				type="button" value="회원가입" onclick="javascript:joinDo();" />
+																			</td>
+																		</tr>
+																		<tr>
+<!-- 																			<td colspan="2"> -->
+																			<td>
 																			<c:set var="idsave" value="<%=idsave %>" />
 																				<c:choose>
 																				<c:when test="${idsave eq ''}">
@@ -1748,20 +1757,12 @@ function loginCancel () {
 																				</c:choose>
 																			</td>
 																		</tr>
-																		<tr>
-																			<td colspan="2" class="wp30">
-																			<input type="submit" value="로그인" />
-																			<input type="button" value="취소" onclick="window.history.back()" />
-																			 <input
-																				type="button" value="회원가입" onclick="javascript:joinDo();" />
-																			</td>
-																		</tr>
-																		<tr>
-																			<td colspan="2">
+<!-- 																		<tr> -->
+<!-- 																			<td colspan="2"> -->
 <!-- 																				<input type="button" value="아이디/비번찾기" -->
 <!-- 																				onclick="location.href='/findIdPw'" /> -->
-																				</td>
-																		</tr>
+<!-- 																				</td> -->
+<!-- 																		</tr> -->
 																	</tbody>
 																</table>
 															</form>																
@@ -1778,116 +1779,7 @@ function loginCancel () {
 						</div>
 					</div>
 				</div>
-				<div id="slide-out-widget-area-bg"
-					class="fullscreen-split hidden dark"></div>
-				<div id="slide-out-widget-area" class="fullscreen-split hidden"
-					data-dropdown-func="separate-dropdown-parent-link"
-					data-back-txt="Back">
-					<div class="inner-wrap">
-						<div class="inner" data-prepend-menu-mobile="false">
-							<a class="slide_out_area_close" href="#"><span
-								class="screen-reader-text">Close Menu</span><span
-								class="close-wrap"> <span class="close-line close-line1"></span>
-									<span class="close-line close-line2"></span>
-							</span></a>
-							<div class="container normal-container">
-								<div class="left-side">
-									<div class="off-canvas-menu-container mobile-only">
-										<ul class="menu">
-											<li
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-479">
-												<a href="../service">서비스 소개</a>
-												<ul class="sub-menu">
-													<li
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131">
-														<a href="../service">선수</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406">
-														<a href="../service/amateur">아마추어</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405">
-														<a href="../service/team">팀</a>
-													</li>
-												</ul>
-											</li>
-											<li
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404">
-												<a href="../user-story">유저 스토리</a>
-											</li>
-											<li
-												class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-270 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-463">
-												<a href="index.html" aria-current="page">이용 안내</a>
-												<ul class="sub-menu">
-													<li
-														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-465">
-														<a href="index.html#schedule" aria-current="page">트레이닝
-															스케줄</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-464">
-														<a href="index.html#price" aria-current="page">이용 요금</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-466">
-														<a href="index.html#space" aria-current="page">시설 안내</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-467">
-														<a href="index.html#location" aria-current="page">오시는
-															길</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-468">
-														<a href="index.html#coach" aria-current="page">코치진 소개</a>
-													</li>
-												</ul>
-											</li>
-											<li
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-471">
-												<a href="../news">새소식</a>
-												<ul class="sub-menu">
-													<li
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473">
-														<a href="../news/story">플코짐 스토리</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-472">
-														<a href="../news/event">이벤트</a>
-													</li>
-												</ul>
-											</li>
-										</ul>
-										<ul class="menu secondary-header-items"></ul>
-									</div>
-								</div>
-								<div class="right-side">
-									<div class="right-side-inner">
-										<div class="bottom-meta-wrap">
-											<ul class="off-canvas-social-links mobile-only">
-												<li><a target="_blank"
-													href="https://www.facebook.com/plcogym"><span
-														class="screen-reader-text">facebook</span><i
-														class="fa fa-facebook" aria-hidden="true"></i> </a></li>
-												<li><a target="_blank"
-													href="https://www.youtube.com/channel/UCUXRxvrWoWrXprZ0mMZjT3A/featured"><span
-														class="screen-reader-text">youtube</span><i
-														class="fa fa-youtube-play" aria-hidden="true"></i> </a></li>
-												<li><a target="_blank"
-													href="https://www.instagram.com/official_plcogym_elite/"><span
-														class="screen-reader-text">instagram</span><i
-														class="fa fa-instagram" aria-hidden="true"></i> </a></li>
-											</ul>
-										</div>
-										<!--/bottom-meta-wrap-->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--/inner-wrap-->
-				</div>
+				<%@include file="../header2.jsp"%>
 			</div>
 			<!--/ajax-content-wrap-->
 		</div>
@@ -2048,7 +1940,7 @@ function stopclock() {
 		<!-- .slidein-overlay -->
 	</div>
 	<section id="joinForm"
-		style="width: 50%; border-radius:16px; padding:1%; margin: 16px auto; display:none; position: fixed; top: 25%; left: 25%; z-index: 999; background-color:white; color:black;">
+		style="width: 60%; border-radius:16px; padding:1%; margin: 16px auto; display:none; position: fixed; top: 25%; left: 20%; z-index: 999; background-color:white; color:black;">
 		<div class="section-tit">
 			<h3 style="color:black; text-align:center;"><strong>회원가입</strong></h3>
 		</div>
@@ -2058,7 +1950,7 @@ function stopclock() {
 					<tbody>
 						<tr><th>아이디</th>
 							<td><input style="width:70%;"type="text" name="user_id" id="user_id"
-								class="wp70" placeholder="아이디를 입력하세요" autocomplete="off"/>
+								class="wp70" placeholder="아이디 입력" autocomplete="off"/>
 								<span id="id_check_result" style="width: 20%;display: inline-block;"></span></td>
 						</tr>
 						<tr><th>이름</th>

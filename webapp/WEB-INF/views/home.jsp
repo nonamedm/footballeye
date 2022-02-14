@@ -55,6 +55,50 @@
             "complete" === a.readyState && t.readyCallback()
         })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)))
     }(window, document, window._wpemojiSettings);</script>
+
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'
+            id='jquery-core-js'></script>
+<script>
+var testSubmit;
+var submitCancel;
+jQuery(document).ready(function ($) {
+	
+	testSubmit =function (testString) {
+		
+		$("#submitForm").css("display","block");
+		if(testString=='player'){
+			$("#testTitle").html("<strong>선수반 무료 테스트 신청</strong>");
+			$("#test_type").val("선수반");
+		} else if(testString=='hobby') {
+			$("#testTitle").html("<strong>취미반 체험 수업 신청</strong>");
+			$("#test_type").val("취미반");
+		}
+		
+	}
+
+	submitCancel = function () {
+		$('#submitForm').css("display","none");
+		//alert("무야호");
+	}
+	
+	$('#joinFormSubmit').on('submit',function(){
+		if($('[name=test_name]').val().trim().length==0){
+			alert('이름을 입력하세요');
+			$('[name=test_name]').focus();
+			return false;
+		}
+		if($('[name=test_phone]').val().trim().length==0){
+			alert('전화번호를 입력하세요');
+			$('[name=test_phone]').focus();
+			return false;
+		}
+		
+		return true;
+	})
+	
+	
+});
+</script>
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -704,7 +748,36 @@
             .clients[data-additional_padding="2"].no-carousel > div {
                 padding: 5% 5% 5% 5%;
             }
-        }</style>
+        }
+        table {
+			width:100%;
+		}
+		table td a {
+			color:white;
+			font-size:15px;
+		}
+		table td a:hover {
+			color:white;
+			font-size:16px;
+		}
+		tr {
+			height:45px;
+		}
+		th, td {
+			text-align:center;  vertical-align: middle; min-width: 70px;
+		}
+		th h4 strong {
+			font-size:20px;
+		}
+		td {
+			font-size:15px; font-weight:600;
+		}
+		table, tr, th, td{
+			border: 2px solid rgba(255,255,255,0.16);
+			border-collapse:collapse;
+		}
+		
+        </style>
     <link rel='stylesheet' id='salient-child-style-css' href='wp-content/themes/salient-child/stylea73f.css?ver=13.0.5'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='convert-plus-module-main-style-css'
@@ -962,8 +1035,8 @@
                                                                             style="font-size: 1.15em; font-weight: 400;">
                                                                         풋볼아이는 유소년 선수들을 위해
                                                                         최고의 환경과 최고의 교육을 제공합니다.<br/><br>
-                                                                        <input type="button" value="선수반 무료 테스트 신청"><br><br>
-                                                                        <input type="button" value="취미반 체험 수업 신청">
+                                                                        <input type="button" value="선수반 무료 테스트 신청" onclick="javascript:testSubmit('player');"><br><br>
+                                                                        <input type="button" value="취미반 체험 수업 신청" onclick="javascript:testSubmit('hobby');">
                                                                         </span></p></div>
                                                                 </div>
                                                             </div>
@@ -1083,8 +1156,9 @@
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_text_column wpb_content_element vc_custom_1626179150480">
                                                                     <div class="wpb_wrapper"><p>풋볼아이는 유소년 선수들을 위해<br/>
-                                                                        최고의 환경과 최고의 교육을 제공합니다.<br/><br><input type="button" value="선수반 무료 테스트 신청"><br><br>
-                                                                        <input type="button" value="취미반 체험 수업 신청">
+                                                                        최고의 환경과 최고의 교육을 제공합니다.<br/><br>
+                                                                        <input type="button" value="선수반 무료 테스트 신청" onclick="javascript:testSubmit('player');"><br><br>
+                                                                        <input type="button" value="취미반 체험 수업 신청" onclick="javascript:testSubmit('hobby');">
                                                                         </p></div>
                                                                 </div>
                                                             </div>
@@ -1475,7 +1549,7 @@
                                                                      data-outline-thickness="thin"
                                                                      data-using-custom-color="false"
                                                                      data-animation-delay="false" data-color=""
-                                                                     data-color-gradient="" style=""><h2>풋볼아이FC<br/><em>축구클럽</em>을
+                                                                     data-color-gradient="" style="margin-top:10%;"><h2>풋볼아이FC<br/><em>축구클럽</em>을
                                                                     소개합니다</h2></div>
                                                             </div>
                                                         </div>
@@ -1494,20 +1568,10 @@
                                                     </ul>
                                                     <div id="tab-%ec%84%a0%ec%88%98" data-tab-icon=""
                                                          class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
-                                                        <div class="divider-wrap" data-alignment="default">
-                                                            <div style="height: 25px;" class="divider"></div>
-                                                        </div>
-                                                        <div class="nectar-highlighted-text" data-style="text_outline"
-                                                             data-outline-thickness="regular"
-                                                             data-using-custom-color="false"
-                                                             data-animation-delay="false" data-color=""
-                                                             data-color-gradient="" style=""><h1
-                                                                style="text-align: center; letter-spacing: -0.05em;">
-                                                            <strong><em>대야점</em>(본점)</strong></h1></div>
                                                         <div id="fws_61c1ff4f70f85" data-midnight=""
                                                              data-column-margin="default"
                                                              class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_tablet_0px top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
-                                                             style="padding-top: 80px; padding-bottom: 100px; ">
+                                                             style="padding-bottom: 100px; ">
                                                             <div class="row-bg-wrap">
                                                                 <div class="row-bg"></div>
                                                             </div>
@@ -1535,9 +1599,9 @@
                                                                                  data-using-custom-color="true"
                                                                                  data-animation-delay="false"
                                                                                  data-color="rgba(255,255,255,0.21)"
-                                                                                 data-color-gradient="" style=""><h5>대야점에서는 실내훈련과 야외훈련이 진행됩니다.
-																				취미반/선수반/그룹레슨/개인레슨을 운영중이며,
-																				선수반은 전지점 시흥 대야점(실내구장)과 신천동축구장(야외구장)에서 
+                                                                                 data-color-gradient="" style=""><h5>대야점에서는 실내훈련과 야외훈련이 진행됩니다.<br/>
+																				취미반/선수반/그룹레슨/개인레슨을 운영중이며,<br/>
+																				선수반은 전지점 시흥 대야점(실내구장)과 <br/>신천동축구장(야외구장)에서 <br/>
 																				통합훈련으로 진행되고있습니다.</h5></div>
                                                                         </div>
                                                                     </div>
@@ -1615,19 +1679,10 @@
                                                     </div>
                                                     <div id="tab-%ec%95%84%eb%a7%88%ec%b6%94%ec%96%b4" data-tab-icon=""
                                                          class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
-                                                        <div class="divider-wrap" data-alignment="default">
-                                                            <div style="height: 25px;" class="divider"></div>
-                                                        </div>
-                                                        <div class="nectar-highlighted-text" data-style="text_outline"
-                                                             data-outline-thickness="regular"
-                                                             data-using-custom-color="false"
-                                                             data-animation-delay="false" data-color=""
-                                                             data-color-gradient="" style=""><h1
-                                                                style="text-align: center;"><strong><em>장현지구점</em>(직영점)</strong></h1></div>
                                                         <div id="fws_61c1ff4f75c7d" data-midnight=""
                                                              data-column-margin="default"
                                                              class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_tablet_0px top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
-                                                             style="padding-top: 80px; padding-bottom: 100px; ">
+                                                             style="padding-bottom: 100px; ">
                                                             <div class="row-bg-wrap">
                                                                 <div class="row-bg"></div>
                                                             </div>
@@ -1656,12 +1711,12 @@
                                                                                  data-animation-delay="false"
                                                                                  data-color="rgba(238,238,238,0.37)"
                                                                                  data-color-gradient="" style=""><h5>
-                                                                                장현지구점에서는 풋살장 정식규격(야외구장)에서
-																				취미반/엘리트반이 운영되고 있습니다.
-																				본사 통합관리로 장현지구점이 운영되고 있기에
-																				풋볼아이의 교육 “축구를 재미있게, 제대로 배울 수 있도록”이라는
-																				사명감을 가지고 본점과 똑같이 진행되고 있습니다.
-																				엘리트반은 취미반보다 더 체계적인 교육을 받을 수 있으며,
+                                                                                장현지구점에서는 풋살장 정식규격(야외구장)에서<br/>
+																				취미반/엘리트반이 운영되고 있습니다.<br/>
+																				본사 통합관리로 장현지구점이 운영되고 있기에<br/>
+																				풋볼아이의 교육 “축구를 재미있게, 제대로 배울 수 있도록”이라는<br/>
+																				사명감을 가지고 본점과 똑같이 진행되고 있습니다.<br/>
+																				엘리트반은 취미반보다 더 체계적인 교육을 받을 수 있으며,<br/>
 																				실력 향상 후 선수반으로 이동도 가능합니다. 
                                                                             </h5></div>
                                                                         </div>
@@ -1798,7 +1853,7 @@
                                                                 <div class="wpb_text_column wpb_content_element "
                                                                      style=" max-width: 650px; display: inline-block;">
                                                                      <div class="wpb_wrapper"><p>풋볼아이의 코치진을 소개합니다.<br/>
-                                                                      유소년 선수에게 더 전문적이고 체계적인 트레이닝을 제공합니다 🙂</p></div>
+                                                                      유소년 선수에게 더 전문적이고 체계적인 <br/>트레이닝을 제공합니다 🙂</p></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1821,7 +1876,7 @@
                                                         <div class="vc_column-inner">
                                                             <div class="wpb_wrapper">
                                                                 <div class="nectar-fancy-box using-img hover_color_000000 "
-                                                                     style="min-height: 800px" data-style="hover_desc"
+                                                                     style="min-height: 550px" data-style="hover_desc"
                                                                      data-border-radius="default" data-animation=""
                                                                      data-bg-animation="long_zoom" data-border=""
                                                                      data-delay="" data-alignment="left"
@@ -1865,7 +1920,7 @@
                                                         <div class="vc_column-inner">
                                                             <div class="wpb_wrapper">
                                                                 <div class="nectar-fancy-box using-img hover_color_000000 "
-                                                                     style="min-height: 800px" data-style="hover_desc"
+                                                                     style="min-height: 550px" data-style="hover_desc"
                                                                      data-border-radius="default" data-animation=""
                                                                      data-bg-animation="long_zoom" data-border=""
                                                                      data-delay="" data-alignment="left"
@@ -1918,7 +1973,7 @@
                                                         <div class="vc_column-inner">
                                                             <div class="wpb_wrapper">
                                                                 <div class="nectar-fancy-box using-img hover_color_000000 "
-                                                                     style="min-height: 800px" data-style="hover_desc"
+                                                                     style="min-height: 550px" data-style="hover_desc"
                                                                      data-border-radius="default" data-animation=""
                                                                      data-bg-animation="long_zoom" data-border=""
                                                                      data-delay="" data-alignment="left"
@@ -1976,7 +2031,7 @@
                                                         <div class="vc_column-inner">
                                                             <div class="wpb_wrapper">
                                                                 <div class="nectar-fancy-box using-img hover_color_000000 "
-                                                                     style="min-height: 800px" data-style="hover_desc"
+                                                                     style="min-height: 550px" data-style="hover_desc"
                                                                      data-border-radius="default" data-animation=""
                                                                      data-bg-animation="long_zoom" data-border=""
                                                                      data-delay="" data-alignment="left"
@@ -2400,6 +2455,53 @@
              <%@include file="header2.jsp"%>
         </div> <!--/ajax-content-wrap--></div>
 </div><!--/ocm-effect-wrap-->
+<section id="submitForm"
+	style="width: 60%; border-radius:16px; padding:1%; margin: 16px auto; display:none; position: fixed; top: 25%; left: 20%; z-index: 999; background-color:white; color:black;">
+	<div class="section-tit">
+		<h3 id="testTitle" style="color:black; text-align:center;"></h3>
+	</div>
+	<div class="table-wrap">
+		<form action="/testSubmit" method="POST" id="joinFormSubmit" enctype="multipart/form-data">
+			<table class="table-type02" id="joinFormTable">
+				<tbody>
+					<input type="hidden" id="test_type" name="test_type" value="">
+					<tr><th>이름<br/><span style="color:red;">(*필수)</span></th>
+						<td><input style="border-bottom:1px solid black; width:70%;"type="text" name="test_name" id="test_name"
+							class="wp70" placeholder="신청자 이름" autocomplete="off"/>
+						</td>
+					</tr>
+					<tr><th>전화번호<br/><span style="color:red;">(*필수)</span></th>
+						<td><input style="border-bottom:1px solid black; width:70%;" type="text" name="test_phone" id="test_phone"
+							class="wp70" placeholder="ex)010-1234-5678" autocomplete="off"/>
+						</td>
+					</tr>
+					<tr><th>나이</th>
+						<td><input style="border-bottom:1px solid black; width:70%;" type="text" name="test_age" id="test_age"
+							class="wp70" placeholder="신청자 연령" autocomplete="off"/>
+						</td>
+					</tr>
+					<tr><th>사는곳</th>
+						<td><input style="border-bottom:1px solid black; width:70%;" type="text" name="test_address" id="test_address"
+							class="wp70" placeholder="ex) 서울시 구로동" autocomplete="off"/>
+						</td>
+					</tr>
+					<tr><th>문의내용<br/>(요청사항)</th>
+						<td><input style="border-bottom:1px solid black; width:70%; height:100px;" type="text" name="test_qna" id="test_qna"
+							class="wp70" placeholder="문의하실 내용" autocomplete="off"/>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="wp30">
+						<input type="submit" value="신청하기" />
+						<input type="button" value="취소" onclick="location.href='javascript:submitCancel()'" /> 
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+
+</section>
 <script type="text/javascript" id="modal">    document.addEventListener("DOMContentLoaded", function () {
     startclock();
 });
