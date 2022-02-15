@@ -1670,7 +1670,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 	}
 	 #header-outer #logo .mobile-only-logo,
 	 #header-outer[data-format="centered-menu-bottom-bar"][data-condense="true"] .span_9 #logo img {
-		 height: 30px;
+		 height: 40px;
 	 }
 
 	 @media only screen and (max-width: 999px) {
