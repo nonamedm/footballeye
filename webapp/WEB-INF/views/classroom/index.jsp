@@ -99,7 +99,6 @@ img.wp-smiley, img.emoji {
 
 .schedule_img{
 	width:100%;
-	background: black;
 }
 </style>
 <link rel='stylesheet' id='wp-block-library-css'
@@ -1692,10 +1691,10 @@ body .page-submenu li a {
 															
 															<h2 class="class_h_title">선수반</h2>
 															<div class="wpb_wrapper" style="text-align:left;">
-																<h6>
-																<i class="fas fa-check"></i>실내훈련(18:30~20:30) 정규훈련으로 필수적 훈련참여</br>
-																<i class="fas fa-check"></i>야외훈련(15:00~17:00) 야외훈련으로 선택적 훈련참여</br>
-																<i class="fas fa-check"></i>야외훈련 추가 비용 없음</br>
+<!-- 																<h6> -->
+<!-- 																<i class="fas fa-check"></i>실내훈련(18:30~20:30) 정규훈련으로 필수적 훈련참여</br> -->
+<!-- 																<i class="fas fa-check"></i>야외훈련(15:00~17:00) 야외훈련으로 선택적 훈련참여</br> -->
+<!-- 																<i class="fas fa-check"></i>야외훈련 추가 비용 없음</br></h6> -->
 															</div>
 															
 														<div id="daya_player"></div>
@@ -2002,9 +2001,9 @@ body .page-submenu li a {
 																					<!--                                                                                        문의를 통해 빠른 문의</strong>가 가능합니다. 🙂-->
 																					<!--                                                                                </h4></div>-->
 																					<div class="wpb_wrapper">
-																						<h4>
-																							지도가 들어갈 부분입니다.<strong></strong>🙂
-																						</h4>
+																						<div class="map_img">
+																							<img style="width: 90%; margin: 0 auto;" src="../wp-content/uploads/2021/06/daeya_hobby.png"/>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
@@ -2110,7 +2109,7 @@ body .page-submenu li a {
 														<div id="tab-schedule-2" data-tab-icon=""
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
 
-															<h3 class="class_h_title">취미반</h3>
+															<h2 class="class_h_title">취미반</h2>
 
 
 															<div id="schedule-1-hobby">
@@ -2136,11 +2135,11 @@ body .page-submenu li a {
 																<h4>(풋볼아이 모든 지점 시흥 통합 훈련)</h4>
 															</div>
 															<div class="wpb_wrapper" style="text-align:left;">
-																<h6>
-																<i class="fas fa-check"></i>실내훈련(18:30~20:30) 정규훈련으로 필수적 훈련참여<br>
-																<i class="fas fa-check"></i>야외훈련(15:00~17:00) 야외훈련으로 선택적 훈련참여<br>
-																<i class="fas fa-check"></i>야외훈련 추가 비용 없음<br>
-																</h6>
+<!-- 																<h6> -->
+<!-- 																<i class="fas fa-check"></i>실내훈련(18:30~20:30) 정규훈련으로 필수적 훈련참여<br> -->
+<!-- 																<i class="fas fa-check"></i>야외훈련(15:00~17:00) 야외훈련으로 선택적 훈련참여<br> -->
+<!-- 																<i class="fas fa-check"></i>야외훈련 추가 비용 없음<br> -->
+<!-- 																</h6> -->
 															</div>
 															
 															<div id="schedule-1-player">
