@@ -28,6 +28,7 @@ img.wp-smiley, img.emoji {
 }
 
 </style>
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
 <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
 <link rel='stylesheet' id='wp-block-library-css'
@@ -540,21 +541,21 @@ body .row .tabbed>div:first-of-type {
 	;
 
 h1, h2, h3, h4, h5, h6, p, body {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 400;
 }
 
 span {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 }
 
 strong, b, .nectar-milestone .number {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 700;
 }
 
 .nectar-button span {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothic';
 	font-weight: 400;
 	font-size: 1.1em;
 }
@@ -639,7 +640,7 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
 	max-width: 100%;
 	text-align: center;
 	font-size: 2.5em;
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 400;
 }
 
@@ -1680,116 +1681,7 @@ jQuery(document).ready(function ($) {
 						</div>
 					</div>
 				</div>
-				<div id="slide-out-widget-area-bg"
-					class="fullscreen-split hidden dark"></div>
-				<div id="slide-out-widget-area" class="fullscreen-split hidden"
-					data-dropdown-func="separate-dropdown-parent-link"
-					data-back-txt="Back">
-					<div class="inner-wrap">
-						<div class="inner" data-prepend-menu-mobile="false">
-							<a class="slide_out_area_close" href="#"><span
-								class="screen-reader-text">Close Menu</span><span
-								class="close-wrap"> <span class="close-line close-line1"></span>
-									<span class="close-line close-line2"></span>
-							</span></a>
-							<div class="container normal-container">
-								<div class="left-side">
-									<div class="off-canvas-menu-container mobile-only">
-										<ul class="menu">
-											<li
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-479">
-												<a href="../service">서비스 소개</a>
-												<ul class="sub-menu">
-													<li
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131">
-														<a href="../service">선수</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406">
-														<a href="../service/amateur">아마추어</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405">
-														<a href="../service/team">팀</a>
-													</li>
-												</ul>
-											</li>
-											<li
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404">
-												<a href="../user-story">유저 스토리</a>
-											</li>
-											<li
-												class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-270 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-463">
-												<a href="index.html" aria-current="page">이용 안내</a>
-												<ul class="sub-menu">
-													<li
-														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-465">
-														<a href="index.html#schedule" aria-current="page">트레이닝
-															스케줄</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-464">
-														<a href="index.html#price" aria-current="page">이용 요금</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-466">
-														<a href="index.html#space" aria-current="page">시설 안내</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-467">
-														<a href="index.html#location" aria-current="page">오시는
-															길</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-468">
-														<a href="index.html#coach" aria-current="page">코치진 소개</a>
-													</li>
-												</ul>
-											</li>
-											<li
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-471">
-												<a href="../news">새소식</a>
-												<ul class="sub-menu">
-													<li
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473">
-														<a href="../news/story">플코짐 스토리</a>
-													</li>
-													<li
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-472">
-														<a href="../news/event">이벤트</a>
-													</li>
-												</ul>
-											</li>
-										</ul>
-										<ul class="menu secondary-header-items"></ul>
-									</div>
-								</div>
-								<div class="right-side">
-									<div class="right-side-inner">
-										<div class="bottom-meta-wrap">
-											<ul class="off-canvas-social-links mobile-only">
-												<li><a target="_blank"
-													href="https://www.facebook.com/plcogym"><span
-														class="screen-reader-text">facebook</span><i
-														class="fa fa-facebook" aria-hidden="true"></i> </a></li>
-												<li><a target="_blank"
-													href="https://www.youtube.com/channel/UCUXRxvrWoWrXprZ0mMZjT3A/featured"><span
-														class="screen-reader-text">youtube</span><i
-														class="fa fa-youtube-play" aria-hidden="true"></i> </a></li>
-												<li><a target="_blank"
-													href="https://www.instagram.com/official_plcogym_elite/"><span
-														class="screen-reader-text">instagram</span><i
-														class="fa fa-instagram" aria-hidden="true"></i> </a></li>
-											</ul>
-										</div>
-										<!--/bottom-meta-wrap-->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--/inner-wrap-->
-				</div>
+				<%@include file="../header2.jsp"%>
 			</div>
 			<!--/ajax-content-wrap-->
 		</div>
@@ -1866,7 +1758,7 @@ function stopclock() {
 }
 
 .slidein-overlay.content-61c1ff5e71f09 .cp-btn-flat.cp-slide-edit-btn {
-	font-family: inherit;
+	font-family: 'NanumGothic';
 	font-size: 12px;
 	border-radius: 0px;
 	border-width: 0px;

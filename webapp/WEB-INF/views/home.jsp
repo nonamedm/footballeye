@@ -112,6 +112,7 @@ jQuery(document).ready(function ($) {
             background: none !important;
             padding: 0 !important;
         }</style>
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
     <link rel='stylesheet' id='wp-block-library-css'
           href='wp-includes/css/dist/block-library/style.min4999.css?ver=5.7.4' type='text/css' media='all'/>
     <link rel='stylesheet' id='font-awesome-css'
@@ -623,21 +624,20 @@ jQuery(document).ready(function ($) {
 
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&amp;display=swap');
         h1, h2, h3, h4, h5, h6, p, body {
-            font-family: 'Noto Sans KR', sans-serif;
-            font-weight: 400;
+            font-family: 'NanumGothicExtraBold';
         }
 
         span {
-            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'NanumGothicExtraBold';
         }
 
         strong, b, .nectar-milestone .number {
-            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'NanumGothicExtraBold';
             font-weight: 700;
         }
 
         .nectar-button span {
-            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'NanumGothic';
             font-weight: 400;
             font-size: 1.1em;
         }
@@ -717,7 +717,7 @@ jQuery(document).ready(function ($) {
             max-width: 100%;
             text-align: center;
             font-size: 2.5em;
-            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'NanumGothicExtraBold';
             font-weight: 400;
         }
 
@@ -1006,10 +1006,10 @@ jQuery(document).ready(function ($) {
                                                                      data-using-custom-color="false"
                                                                      data-animation-delay="false" data-color=""
                                                                      data-color-gradient="" style="">
-                                                                    <h1 style="font-size: 6vh;">
-                                                                        <strong>We provide the</strong>
-                                                                        <strong>best environment and</strong>
-                                                                        <strong>best education !</strong>
+                                                                    <h1 style="font-size: 4vh;">
+                                                                        We provide <br>
+                                                                        the best environment<br>
+                                                                        and best education!
                                                                     </h1>
                                                                 </div>
                                                             </div>
@@ -1033,7 +1033,7 @@ jQuery(document).ready(function ($) {
                                                                 <div class="wpb_text_column wpb_content_element vc_custom_1626163412168">
                                                                     <div class="wpb_wrapper"><p><span
                                                                             style="font-size: 1.15em; font-weight: 400;">
-                                                                        풋볼아이는 유소년 선수들을 위해
+                                                                        풋볼아이는 유소년 선수들을 위해<br>
                                                                         최고의 환경과 최고의 교육을 제공합니다.<br/><br>
                                                                         <input type="button" value="선수반 무료 테스트 신청" onclick="javascript:testSubmit('player');"><br><br>
                                                                         <input type="button" value="취미반 체험 수업 신청" onclick="javascript:testSubmit('hobby');">
@@ -1076,7 +1076,7 @@ jQuery(document).ready(function ($) {
                                                                  data-bg-animation="ro-reveal-from-right">
                                                                 <div class="inner-wrap">
                                                                     <div class="column-image-bg"
-                                                                         style=" background-image: url('wp-content/uploads/2021/06/gym_main.jpg'); "></div>
+                                                                         style=" background-image: url('wp-content/uploads/2021/06/gym_main.png'); "></div>
                                                                 </div>
                                                             </div>
                                                             <div class="wpb_wrapper">
@@ -1130,9 +1130,10 @@ jQuery(document).ready(function ($) {
                                                                      data-animation-delay="false" data-color=""
                                                                      data-color-gradient="" style=""><h2
                                                                         style="text-align: center;"><span
-                                                                        style="font-size: 1em; line-height: 1.2em!important;"><strong>We provide the<br/>
-                                                                        best environment and<br/>
-                                                                        best education!<br><br>
+                                                                        style="font-size: 0.8em; line-height: 1.2em!important;">
+                                                                        We provide<br/> 
+                                                                        the best environment<br/>
+                                                                        and best education!<br><br>
                                                                         </strong></span>
                                                                         
                                                                 </h2></div>
@@ -2565,7 +2566,7 @@ function stopclock() {
 }
 
 .slidein-overlay.content-61c1ff4f84c8c .cp-btn-flat.cp-slide-edit-btn {
-    font-family: inherit;
+    font-family: 'NanumGothic';
     font-size: 12px;
     border-radius: 0px;
     border-width: 0px;

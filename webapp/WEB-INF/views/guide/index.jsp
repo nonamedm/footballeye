@@ -67,6 +67,7 @@
             background: none !important;
             padding: 0 !important;
         }</style>
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
     <link rel='stylesheet' id='wp-block-library-css'
           href='../wp-includes/css/dist/block-library/style.min4999.css?ver=5.7.4' type='text/css' media='all'/>
     <link rel='stylesheet' id='font-awesome-css'
@@ -534,21 +535,21 @@
 
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&amp;display=swap');
         h1, h2, h3, h4, h5, h6, p, body {
-            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'NanumGothicExtraBold';
             font-weight: 400;
         }
 
         span {
-            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'NanumGothicExtraBold';
         }
 
         strong, b, .nectar-milestone .number {
-            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'NanumGothicExtraBold';
             font-weight: 700;
         }
 
         .nectar-button span {
-            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'NanumGothic';
             font-weight: 400;
             font-size: 1.1em;
         }
@@ -628,7 +629,7 @@
             max-width: 100%;
             text-align: center;
             font-size: 2.5em;
-            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'NanumGothicExtraBold';
             font-weight: 400;
         }
 
@@ -1463,7 +1464,7 @@
                                                         <li><a href="#player">선수소개</a></li>
 <!--                                                        <li><a href="#schedule">트레이닝 스케줄</a></li>-->
 <!--                                                        <li><a href="#price">이용 요금</a></li>-->
-                                                        <li><a href="#space">시설</a></li>
+<!--                                                         <li><a href="#space">시설</a></li> -->
                                                         <li><a href="#awards">수상 안내</a></li>
                                                         <li><a href="#location">지점안내</a></li>
                                                     </ul>
@@ -2792,7 +2793,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="space" data-column-margin="default" data-midnight="dark"
+                        <!-- <div id="space" data-column-margin="default" data-midnight="dark"
                              class="wpb_row vc_row-fluid vc_row full-width-section top_padding_phone_50px "
                              style="padding-top: 100px; padding-bottom: 100px; ">
                             <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="true">
@@ -2926,16 +2927,6 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <!--<div class="wpb_text_column wpb_content_element vc_custom_1625461071586">
-                                                                        <div class="wpb_wrapper"><h4><strong>Physical
-                                                                            Zone </strong>ㅣ 피지컬 존</h4></div>
-                                                                    </div>
-                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1626441320921"
-                                                                         style=" max-width: 355px; display: inline-block;">
-                                                                        <div class="wpb_wrapper"><p>경기장에서의 폭발력을 위한 전문 체력
-                                                                            장비가 세팅된 피지컬 존에서 플코짐 선수들은 성장을 경험하게 됩니다.</p>
-                                                                        </div>
-                                                                    </div>-->
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3237,8 +3228,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="space2" data-column-margin="default" data-midnight="dark"
+                        </div> -->
+                        <!--<div id="space2" data-column-margin="default" data-midnight="dark"
                              class="wpb_row vc_row-fluid vc_row full-width-section top_padding_phone_50px "
                              style="padding-top: 100px; padding-bottom: 100px; ">
                             <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="true">
@@ -3440,35 +3431,6 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-<!--                                                         <div class="cell"> -->
-<!--                                                             <div class="inner-wrap-outer"> -->
-<!--                                                                 <div class="inner-wrap"> -->
-<!--                                                                     <div class="img-with-aniamtion-wrap " -->
-<!--                                                                          data-max-width="100%" -->
-<!--                                                                          data-max-width-mobile="default" -->
-<!--                                                                          data-border-radius="10px" -->
-<!--                                                                          data-shadow="x_large_depth" -->
-<!--                                                                          data-animation="fade-in"> -->
-<!--                                                                         <div class="inner"> -->
-<!--                                                                             <div class="hover-wrap"> -->
-<!--                                                                                 <div class="hover-wrap-inner"><a -->
-<!--                                                                                         href="../wp-content/uploads/2021/07/guide_space_17.jpg" -->
-<!--                                                                                         class="pp "> <img -->
-<!--                                                                                         class="img-with-animation skip-lazy " -->
-<!--                                                                                         data-delay="0" height="1277" -->
-<!--                                                                                         width="1920" -->
-<!--                                                                                         data-animation="fade-in" -->
-<!--                                                                                         src="../wp-content/uploads/2021/07/guide_space_17.jpg" -->
-<!--                                                                                         alt="" -->
-<!--                                                                                         srcset="../wp-content/uploads/2021/07/guide_space_17.jpg" -->
-<!--                                                                                         sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"/> -->
-<!--                                                                                 </a></div> -->
-<!--                                                                             </div> -->
-<!--                                                                         </div> -->
-<!--                                                                     </div> -->
-<!--                                                                 </div> -->
-<!--                                                             </div> -->
-<!--                                                         </div> -->
                                                         <div class="cell">
                                                             <div class="inner-wrap-outer">
                                                                 <div class="inner-wrap">
@@ -3505,7 +3467,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <div id="awards" data-column-margin="default" data-midnight="dark"
                              class="wpb_row vc_row-fluid vc_row full-width-section "
                              style="padding-top: 100px; padding-bottom: 100px; ">
@@ -3539,7 +3501,8 @@
                                                                 <div><h2>
                                                                     <strong>수상내역</strong></h2></div>
                                                                 <div style="text-align: center;margin:0 auto;padding:7%;">
-			                                                        <p style="font-size: 15px;">6월 부여 전국대회 3학년 3위 입상<br>
+			                                                        <p style="font-size: 15px;">- 2021 -<br><br>
+			                                                            6월 부여 전국대회 3학년 3위 입상<br>
 			                                                            6월 부여 전국대회 5학년 3위 입상<br>
 			                                                            7월 고성 전국대회 3학년 3위 입상<br>
 			                                                            7월 고성 전국대회 5학년 3위 입상<br>
@@ -3680,224 +3643,344 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <!--본점시작-->
-                                                    <div id="fws_61c1ff4f70f85" data-midnight=""
-                                                         data-column-margin="default"
-                                                         class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_tablet_0px top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
-                                                         style="padding-top: 80px; padding-bottom: 100px; ">
-                                                        <div class="row-bg-wrap">
-                                                            <div class="row-bg"></div>
-                                                        </div>
-                                                        <div class="row_col_wrap_12_inner col span_12 left">
-                                                            <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
-                                                                 data-padding-pos="left-right"
-                                                                 data-has-bg-color="false" data-bg-color=""
-                                                                 data-bg-opacity="1" data-animation=""
-                                                                 data-delay="0">
-                                                                <div class="vc_column-inner">
-                                                                    <div class="wpb_wrapper">
-                                                                        <div><h2>
-                                                                            <strong>대야점(본점)</strong></h2></div>
-                                                                        <div class="nectar-highlighted-text"
-                                                                             data-style="half_text"
-                                                                             data-exp="default"
-                                                                             data-using-custom-color="true"
-                                                                             data-animation-delay="false"
-                                                                             data-color="rgba(255,255,255,0.21)"
-                                                                             data-color-gradient="" style="">
-                                                                            <h5>
-                                                                            대야점에서는 실내훈련과 야외훈련이 진행됩니다.<br/>
-                                                                            취미반/선수반/그룹레슨/개인레슨을 운영중이며,<br/>
-                                                                            선수반은 전지점 시흥 대야점(실내구장)과 신천동축구장(야외구장)에서<br/>
-                                                                            통합훈련으로 진행되고있습니다.</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                                 data-padding-pos="all" data-has-bg-color="false"
-                                                                 data-bg-color="" data-bg-opacity="1"
-                                                                 data-animation="" data-delay="0">
-                                                                <div class="vc_column-inner">
-                                                                    <div class="wpb_wrapper">
-                                                                        <div class="wpb_gallery wpb_content_element clearfix">
-                                                                            <div class="wpb_wrapper">
-                                                                                <div class="wpb_gallery_slidesflickity_style"
-                                                                                     data-onclick="link_image"
-                                                                                     data-interval="5">
-                                                                                    <div class="nectar-flickity not-initialized"
-                                                                                         data-drag-scale=""
-                                                                                         data-overflow="hidden"
-                                                                                         data-wrap="wrap"
-                                                                                         data-spacing=""
-                                                                                         data-shadow=""
-                                                                                         data-autoplay=""
-                                                                                         data-autoplay-dur=""
-                                                                                         data-free-scroll=""
-                                                                                         data-controls="default"
-                                                                                         data-desktop-columns="1"
-                                                                                         data-small-desktop-columns="1"
-                                                                                         data-tablet-columns="1">
-                                                                                        <div class="flickity-viewport">
-                                                                                            <div class="flickity-slider">
-                                                                                                <div class="cell"
-                                                                                                     data-lazy="false">
-                                                                                                    <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/daeya1.jpg"
-                                                                                                         width="750"
-                                                                                                         height="500"
-                                                                                                         alt="daeya1.jpg"
-                                                                                                         title="daeya1.jpg"/><a
-                                                                                                        class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/daeya1.jpg"></a>
-                                                                                                </div>
-                                                                                                <div class="cell"
-                                                                                                     data-lazy="false">
-                                                                                                    <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/daeya2.jpg"
-                                                                                                         width="750"
-                                                                                                         height="500"
-                                                                                                         alt="daeya2.jpg"
-                                                                                                         title="daeya2.jpg"/><a
-                                                                                                        class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/daeya1.jpg"></a>
-                                                                                                </div>
-                                                                                                <div class="cell"
-                                                                                                     data-lazy="false">
-                                                                                                    <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/daeya3.jpg"
-                                                                                                         width="750"
-                                                                                                         height="500"
-                                                                                                         alt="daeya3.jpg"
-                                                                                                         title="daeya3.jpg"/><a
-                                                                                                        class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/daeya3.jpg"></a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!--본점끝-->
-                                                    <!--장현지구점시작-->
-                                                    <div id="fws_61c1ff4f70f85" data-midnight=""
-                                                         data-column-margin="default"
-                                                         class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_tablet_0px top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
-                                                         style="padding-top: 80px; padding-bottom: 100px; ">
-                                                        <div class="row-bg-wrap">
-                                                            <div class="row-bg"></div>
-                                                        </div>
-                                                        <div class="row_col_wrap_12_inner col span_12 left">
-                                                            <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
-                                                                 data-padding-pos="left-right"
-                                                                 data-has-bg-color="false" data-bg-color=""
-                                                                 data-bg-opacity="1" data-animation=""
-                                                                 data-delay="0">
-                                                                <div class="vc_column-inner">
-                                                                    <div class="wpb_wrapper">
-                                                                        <div><h2>
-                                                                            <strong>장현지구점(직영점)</strong></h2></div>
-                                                                        <div class="nectar-highlighted-text"
-                                                                             data-style="half_text"
-                                                                             data-exp="default"
-                                                                             data-using-custom-color="true"
-                                                                             data-animation-delay="false"
-                                                                             data-color="rgba(255,255,255,0.21)"
-                                                                             data-color-gradient="" style="">
-                                                                            <h5>
-                                                                            장현지구점에서는 풋살장 정식규격(야외구장)에서<br/>
-                                                                            취미반/엘리트반이 운영되고 있습니다.<br/>
-                                                                            본사 통합관리로 장현지구점이 운영되고 있기에<br/>
-                                                                            풋볼아이의 교육<br/> “축구를 재미있게, 제대로 배울 수 있도록”이라는<br/>
-                                                                            사명감을 가지고 본점과 똑같이 진행되고 있습니다.<br/>
-                                                                            엘리트반은 취미반보다 더 체계적인 교육을 받을 수 있으며,<br/>
-                                                                            실력 향상 후 선수반으로 이동도 가능합니다.</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
-                                                                 data-padding-pos="all" data-has-bg-color="false"
-                                                                 data-bg-color="" data-bg-opacity="1"
-                                                                 data-animation="" data-delay="0">
-                                                                <div class="vc_column-inner">
-                                                                    <div class="wpb_wrapper">
-                                                                        <div class="wpb_gallery wpb_content_element clearfix">
-                                                                            <div class="wpb_wrapper">
-                                                                                <div class="wpb_gallery_slidesflickity_style"
-                                                                                     data-onclick="link_image"
-                                                                                     data-interval="5">
-                                                                                    <div class="nectar-flickity not-initialized"
-                                                                                         data-drag-scale=""
-                                                                                         data-overflow="hidden"
-                                                                                         data-wrap="wrap"
-                                                                                         data-spacing=""
-                                                                                         data-shadow=""
-                                                                                         data-autoplay=""
-                                                                                         data-autoplay-dur=""
-                                                                                         data-free-scroll=""
-                                                                                         data-controls="default"
-                                                                                         data-desktop-columns="1"
-                                                                                         data-small-desktop-columns="1"
-                                                                                         data-tablet-columns="1">
-                                                                                        <div class="flickity-viewport">
-                                                                                            <div class="flickity-slider">
-                                                                                                <div class="cell"
-                                                                                                     data-lazy="false">
-                                                                                                    <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/jang1.jpg"
-                                                                                                         width="750"
-                                                                                                         height="500"
-                                                                                                         alt="jang1.jpg"
-                                                                                                         title="jang1.jpg"/><a
-                                                                                                        class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/jang1.jpg"></a>
-                                                                                                </div>
-                                                                                                <div class="cell"
-                                                                                                     data-lazy="false">
-                                                                                                    <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/jang2.jpg"
-                                                                                                         width="750"
-                                                                                                         height="500"
-                                                                                                         alt="jang2.jpg"
-                                                                                                         title="jang2.jpg"/><a
-                                                                                                        class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/jang2.jpg"></a>
-                                                                                                </div>
-                                                                                                <div class="cell"
-                                                                                                     data-lazy="false">
-                                                                                                    <img class="skip-lazy "
-                                                                                                         src="wp-content/uploads/2021/06/jang3.jpg"
-                                                                                                         width="750"
-                                                                                                         height="500"
-                                                                                                         alt="jang3.jpg"
-                                                                                                         title="jang3.jpg"/><a
-                                                                                                        class="entire-slide-link"
-                                                                                                        href="wp-content/uploads/2021/06/jang3.jpg"></a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!--장현지구점끝-->
-
                                                 </div>
                                             </div>
+                                            <!--본점시작-->
+                                            <div id="fws_61c1ff4f70f85" data-midnight=""
+                                                 data-column-margin="default"
+                                                 class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_tablet_0px top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
+                                                 style="padding-top: 80px; padding-bottom: 100px; ">
+                                                <div class="row-bg-wrap">
+                                                    <div class="row-bg"></div>
+                                                </div>
+                                                <div class="row_col_wrap_12_inner col span_12 left">
+                                                    <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
+                                                         data-padding-pos="left-right"
+                                                         data-has-bg-color="false" data-bg-color=""
+                                                         data-bg-opacity="1" data-animation=""
+                                                         data-delay="0">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <div><h2>
+                                                                    <strong>대야점(본점)</strong></h2></div>
+                                                                <div class="nectar-highlighted-text"
+                                                                     data-style="half_text"
+                                                                     data-exp="default"
+                                                                     data-using-custom-color="true"
+                                                                     data-animation-delay="false"
+                                                                     data-color="rgba(255,255,255,0.21)"
+                                                                     data-color-gradient="" style="">
+                                                                    <h5>
+                                                                    대야점에서는 실내훈련과 야외훈련이 진행됩니다.<br/>
+                                                                    취미반/선수반/그룹레슨/개인레슨을 운영중이며,<br/>
+                                                                    선수반은 전지점 시흥 대야점(실내구장)과 신천동축구장(야외구장)에서<br/>
+                                                                    통합훈련으로 진행되고있습니다.</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
+                                                         data-padding-pos="all" data-has-bg-color="false"
+                                                         data-bg-color="" data-bg-opacity="1"
+                                                         data-animation="" data-delay="0">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <div class="wpb_gallery wpb_content_element clearfix">
+                                                                    <div class="wpb_wrapper">
+                                                                        <div class="wpb_gallery_slidesflickity_style"
+                                                                             data-onclick="link_image"
+                                                                             data-interval="5">
+                                                                            <div class="nectar-flickity not-initialized"
+                                                                                 data-drag-scale=""
+                                                                                 data-overflow="hidden"
+                                                                                 data-wrap="wrap"
+                                                                                 data-spacing=""
+                                                                                 data-shadow=""
+                                                                                 data-autoplay=""
+                                                                                 data-autoplay-dur=""
+                                                                                 data-free-scroll=""
+                                                                                 data-controls="default"
+                                                                                 data-desktop-columns="1"
+                                                                                 data-small-desktop-columns="1"
+                                                                                 data-tablet-columns="1">
+                                                                                <div class="flickity-viewport">
+                                                                                    <div class="flickity-slider">
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_1.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space_1.jpg"
+                                                                                                 title="guide_space_1.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_1.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_2.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space2.jpg"
+                                                                                                 title="guide_space2.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_2.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_3.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space3.jpg"
+                                                                                                 title="guide_space3.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_3.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_4.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space4.jpg"
+                                                                                                 title="guide_space4.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_4.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_5.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space5.jpg"
+                                                                                                 title="guide_space5.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_5.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_6.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space6.jpg"
+                                                                                                 title="guide_space6.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_6.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_7.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space7.jpg"
+                                                                                                 title="guide_space7.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_7.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_8.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space8.jpg"
+                                                                                                 title="guide_space8.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_8.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_9.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space9.jpg"
+                                                                                                 title="guide_space9.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_9.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_10.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space10.jpg"
+                                                                                                 title="guide_space10.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_10.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_11.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space_11.jpg"
+                                                                                                 title="guide_space_11.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_11.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_12.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space_12.jpg"
+                                                                                                 title="guide_space_12.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_12.jpg"></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--본점끝-->
+                                            <!--장현지구점시작-->
+                                            <div id="fws_61c1ff4f70f85" data-midnight=""
+                                                 data-column-margin="default"
+                                                 class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle reverse_columns_column_tablet reverse_columns_column_phone top_padding_tablet_0px top_padding_phone_0px bottom_padding_tablet_0px bottom_padding_phone_0px "
+                                                 style="padding-top: 80px; padding-bottom: 100px; ">
+                                                <div class="row-bg-wrap">
+                                                    <div class="row-bg"></div>
+                                                </div>
+                                                <div class="row_col_wrap_12_inner col span_12 left">
+                                                    <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text padding-2-percent inherit_tablet inherit_phone "
+                                                         data-padding-pos="left-right"
+                                                         data-has-bg-color="false" data-bg-color=""
+                                                         data-bg-opacity="1" data-animation=""
+                                                         data-delay="0">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <div><h2>
+                                                                    <strong>장현지구점(직영점)</strong></h2></div>
+                                                                <div class="nectar-highlighted-text"
+                                                                     data-style="half_text"
+                                                                     data-exp="default"
+                                                                     data-using-custom-color="true"
+                                                                     data-animation-delay="false"
+                                                                     data-color="rgba(255,255,255,0.21)"
+                                                                     data-color-gradient="" style="">
+                                                                    <h5>
+                                                                    장현지구점에서는 풋살장 정식규격(야외구장)에서<br/>
+                                                                    취미반/엘리트반이 운영되고 있습니다.<br/>
+                                                                    본사 통합관리로 장현지구점이 운영되고 있기에<br/>
+                                                                    풋볼아이의 교육<br/> “축구를 재미있게, 제대로 배울 수 있도록”이라는<br/>
+                                                                    사명감을 가지고 본점과 똑같이 진행되고 있습니다.<br/>
+                                                                    엘리트반은 취미반보다 더 체계적인 교육을 받을 수 있으며,<br/>
+                                                                    실력 향상 후 선수반으로 이동도 가능합니다.</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
+                                                         data-padding-pos="all" data-has-bg-color="false"
+                                                         data-bg-color="" data-bg-opacity="1"
+                                                         data-animation="" data-delay="0">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <div class="wpb_gallery wpb_content_element clearfix">
+                                                                    <div class="wpb_wrapper">
+                                                                        <div class="wpb_gallery_slidesflickity_style"
+                                                                             data-onclick="link_image"
+                                                                             data-interval="5">
+                                                                            <div class="nectar-flickity not-initialized"
+                                                                                 data-drag-scale=""
+                                                                                 data-overflow="hidden"
+                                                                                 data-wrap="wrap"
+                                                                                 data-spacing=""
+                                                                                 data-shadow=""
+                                                                                 data-autoplay=""
+                                                                                 data-autoplay-dur=""
+                                                                                 data-free-scroll=""
+                                                                                 data-controls="default"
+                                                                                 data-desktop-columns="1"
+                                                                                 data-small-desktop-columns="1"
+                                                                                 data-tablet-columns="1">
+                                                                                <div class="flickity-viewport">
+                                                                                    <div class="flickity-slider">
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_13.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space_13.jpg"
+                                                                                                 title="guide_space_13.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_13.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_14.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space_14.jpg"
+                                                                                                 title="guide_space_14.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_14.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_15.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space_15.jpg"
+                                                                                                 title="guide_space_15.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_15.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_16.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space_16.jpg"
+                                                                                                 title="guide_space_16.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_16.jpg"></a>
+                                                                                        </div>
+                                                                                        <div class="cell"
+                                                                                             data-lazy="false">
+                                                                                            <img class="skip-lazy "
+                                                                                                 src="wp-content/uploads/2021/07/guide_space_18.jpg"
+                                                                                                 width="750"
+                                                                                                 height="500"
+                                                                                                 alt="guide_space_18.jpg"
+                                                                                                 title="guide_space_18.jpg"/><a
+                                                                                                class="entire-slide-link"
+                                                                                                href="wp-content/uploads/2021/07/guide_space_18.jpg"></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--장현지구점끝-->
                                         <!--여기까지-->
                                         </div>
                                     </div>
@@ -3974,7 +4057,7 @@ function stopclock() {
 }
 
 .slidein-overlay.content-61c1ff5e71f09 .cp-btn-flat.cp-slide-edit-btn {
-    font-family: inherit;
+    font-family: 'NanumGothic';
     font-size: 12px;
     border-radius: 0px;
     border-width: 0px;

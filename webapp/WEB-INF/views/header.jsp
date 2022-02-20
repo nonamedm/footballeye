@@ -54,10 +54,9 @@ jQuery(document).ready(function ($) {
 		<div class="container">
 			<div class="row">
 				<div class="col span_3">
-					<a id="logo" href="/" data-supplied-ml-starting-dark="true"
-						data-supplied-ml-starting="true" data-supplied-ml="false" style="display:flex;">
-						<img src="wp-content/uploads/2021/06/logo.png" />
-						풋볼아이</a>
+					<a id="" href="/" data-supplied-ml-starting-dark="true"
+						data-supplied-ml-starting="true" data-supplied-ml="false" style="margin:15px 0px 0px 15px;display:flex;">
+						<img src="wp-content/uploads/2021/06/logo.png" style="opacity:1;wkdth:50px; height:50px;"/></a>
 				</div>
 				<!--/span_3-->
 				<div class="col span_9 col_last">
@@ -89,10 +88,10 @@ jQuery(document).ready(function ($) {
 										class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-464">
 										<a href="/guide#player"><span class="menu-title-text">선수소개</span></a>
 									</li>
-									<li id="menu-item-466"
-										class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-466">
-										<a href="/guide#space"><span class="menu-title-text">시설</span></a>
-									</li>
+<!-- 									<li id="menu-item-466" -->
+<!-- 										class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-466"> -->
+<!-- 										<a href="/guide#space"><span class="menu-title-text">시설</span></a> -->
+<!-- 									</li> -->
 									<li id="menu-item-465"
 										class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-465">
 										<a href="/guide#awards"><span class="menu-title-text">수상내역</span></a>
@@ -176,7 +175,7 @@ jQuery(document).ready(function ($) {
 									</c:when>
 									<c:otherwise>
 										<a href="/Logout"><span
-											class="menu-title-text">${login.user_id} 님</span></a>
+											class="menu-title-text">로그아웃</span></a>
 									</c:otherwise>
 								</c:choose>
 							</li>

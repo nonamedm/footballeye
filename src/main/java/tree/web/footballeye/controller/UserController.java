@@ -227,7 +227,7 @@ public class UserController {
 		
 		response.setContentType("text/html; charset=euc-kr");
 		PrintWriter out = response.getWriter();
-		out.println("<script>alert('테스트 신청이 완료되었습니다!'); location.href='/'; </script>");
+		out.println("<script>alert('신청이 완료되었습니다!'); location.href='/'; </script>");
 		out.flush();
 	}  
 }

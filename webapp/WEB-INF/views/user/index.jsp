@@ -88,6 +88,7 @@ img.wp-smiley, img.emoji {
 }
 
 </style>
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
 <link rel='stylesheet' id='wp-block-library-css'
 	href='../wp-includes/css/dist/block-library/style.min4999.css?ver=5.7.4'
 	type='text/css' media='all' />
@@ -598,21 +599,21 @@ body .row .tabbed>div:first-of-type {
 	;
 
 h1, h2, h3, h4, h5, h6, p, body {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 400;
 }
 
 span {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 }
 
 strong, b, .nectar-milestone .number {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 700;
 }
 
 .nectar-button span {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothic';
 	font-weight: 400;
 	font-size: 1.1em;
 }
@@ -697,7 +698,7 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
 	max-width: 100%;
 	text-align: center;
 	font-size: 2.5em;
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 400;
 }
 
@@ -757,6 +758,19 @@ td {
 table, tr, th, td{
 	padding:2%;
 	border-collapse:collapse;
+}
+#mission {
+	width:50%; margin:0 auto;
+}
+@media only screen and (max-width: 1000px) {
+	#mission {
+		width:70%; margin:0 auto;
+	}
+}
+@media only screen and (max-width: 690px) {
+	#mission {
+		width:100%; margin:0 auto;
+	}
 }
 
 </style>
@@ -1716,7 +1730,7 @@ function loginCancel () {
 														data-icon-size="" data-full-width-line=""
 														data-color-scheme="accent-color" data-alignment="left">
 
-														<div id="mission" data-tab-icon="" style="width:60%; margin:0 auto;"
+														<div id="mission" data-tab-icon="" 
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
 															<h3 style="text-align:center;">
 																	<i class="fas fa-user"></i> 로그인
@@ -1737,10 +1751,14 @@ function loginCancel () {
 																		</tr>
 																		<tr>
 																			<td colspan="2" class="wp30">
-																			<input type="submit" value="로그인" />
-																			<input type="button" value="취소" onclick="window.history.back()" />
-																			 <input
-																				type="button" value="회원가입" onclick="javascript:joinDo();" />
+																				<input type="submit" style="width:70%" value="로그인" />
+																			</td>
+																		</tr>
+																		<tr>
+																			<td colspan="2" class="wp30">
+																				<input type="button" value="취소" style="width:35%" onclick="window.history.back()" />
+																				 <input
+																					type="button" value="회원가입" style="width:35%" onclick="javascript:joinDo();" />
 																			</td>
 																		</tr>
 																		<tr>
@@ -1856,7 +1874,7 @@ function stopclock() {
 }
 
 .slidein-overlay.content-61c1ff5e71f09 .cp-btn-flat.cp-slide-edit-btn {
-	font-family: inherit;
+	font-family: 'NanumGothic';
 	font-size: 12px;
 	border-radius: 0px;
 	border-width: 0px;

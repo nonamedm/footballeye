@@ -101,6 +101,7 @@ img.wp-smiley, img.emoji {
 	width:100%;
 }
 </style>
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
 <link rel='stylesheet' id='wp-block-library-css'
 	href='../wp-includes/css/dist/block-library/style.min4999.css?ver=5.7.4'
 	type='text/css' media='all' />
@@ -611,21 +612,21 @@ body .row .tabbed>div:first-of-type {
 	;
 
 h1, h2, h3, h4, h5, h6, p, body {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 400;
 }
 
 span {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 }
 
 strong, b, .nectar-milestone .number {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 700;
 }
 
 .nectar-button span {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothic';
 	font-weight: 400;
 	font-size: 1.1em;
 }
@@ -710,7 +711,7 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
 	max-width: 100%;
 	text-align: center;
 	font-size: 2.5em;
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 400;
 }
 
@@ -1485,7 +1486,7 @@ body .page-submenu li a {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h1>
-																			<strong>풋볼아이FC 축구클럽을 소개합니다.<br />
+																			<strong><br>풋볼아이FC 축구교실을 소개합니다.<br />
 																			</strong>
 																		</h1>
 																	</div>
@@ -1516,7 +1517,7 @@ body .page-submenu li a {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h2>
-																			<strong>풋볼아이FC 축구클럽을 소개합니다.<br />
+																			<strong>풋볼아이FC<br> 축구교실을 소개합니다.<br />
 																			</strong>
 																		</h2>
 																	</div>
@@ -2618,7 +2619,7 @@ function stopclock() {
 }
 
 .slidein-overlay.content-61c1ff5e71f09 .cp-btn-flat.cp-slide-edit-btn {
-	font-family: inherit;
+	font-family: 'NanumGothic';
 	font-size: 12px;
 	border-radius: 0px;
 	border-width: 0px;

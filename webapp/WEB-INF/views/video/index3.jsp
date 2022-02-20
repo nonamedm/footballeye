@@ -78,6 +78,7 @@ img.wp-smiley, img.emoji {
 }
 
 </style>
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
 <link rel='stylesheet' id='wp-block-library-css'
 	href='../wp-includes/css/dist/block-library/style.min4999.css?ver=5.7.4'
@@ -589,21 +590,21 @@ body .row .tabbed>div:first-of-type {
 	;
 
 h1, h2, h3, h4, h5, h6, p, body {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 400;
 }
 
 span {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 }
 
 strong, b, .nectar-milestone .number {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 700;
 }
 
 .nectar-button span {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothic';
 	font-weight: 400;
 	font-size: 1.1em;
 }
@@ -688,7 +689,7 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
 	max-width: 100%;
 	text-align: center;
 	font-size: 2.5em;
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 400;
 }
 
@@ -825,10 +826,10 @@ jQuery(document).ready(function ($) {
 					html += "<li><a style='color:white; font-size:15px; float:right;' href='/boardRead?idx="+result.getAnalysisList[i].BOARD_IDX+"'>"+result.getAnalysisList[i].BOARD_REGDATE+"</a><br/>";
 					if(result.getAnalysisList[i].SFILE_NAME!=null){
 						var ext = result.getAnalysisList[i].FILE_EXT;
-						if(ext=='.mp4'||ext=='.mov'||ext=='.wmv'||ext=='.avi'||ext=='.mkv'||ext=='.ogm'||ext=='.mpeg'||ext=='.m4v'||ext=='.MOV'){
-							html += "<a href='/boardRead?idx="+result.getAnalysisList[i].BOARD_IDX+"'>"+"<video controls width=290 height=115><source src='file/"+result.getAnalysisList[i].SFILE_NAME+"'/></video></a>";
-						} else if(ext=='.jpg'||ext=='.png'||ext=='.jpeg'||ext=='.bmp'||ext=='.gif') {
-							html += "<a href='/boardRead?idx="+result.getAnalysisList[i].BOARD_IDX+"'>"+"<img style='width: 290px; height: 80px;' src='file/"+result.getAnalysisList[i].SFILE_NAME+"'></iframe></a>";
+						if(ext=='.mp4'||ext=='.mov'||ext=='.wmv'||ext=='.avi'||ext=='.mkv'||ext=='.ogm'||ext=='.mpeg'||ext=='.m4v'||ext=='.MP4'||ext=='.MOV'||ext=='.WMV'||ext=='.AVI'||ext=='.MKV'||ext=='.OGM'||ext=='.MPEG'||ext=='.M4V'){
+							html += "<a href='/boardRead?idx="+result.getAnalysisList[i].BOARD_IDX+"'>"+"<video controls width=290 height=115 src='/file/"+result.getAnalysisList[i].SFILE_NAME+"'/></a>";
+						} else if(ext=='.jpg'||ext=='.png'||ext=='.jpeg'||ext=='.bmp'||ext=='.gif'||ext=='.JPG'||ext=='.PNG'||ext=='.JPEG'||ext=='.BMP'||ext=='.GIF') {
+							html += "<a href='/boardRead?idx="+result.getAnalysisList[i].BOARD_IDX+"'>"+"<img style='width: 290px; height: 80px;' src='/file/"+result.getAnalysisList[i].SFILE_NAME+"'></a>";
 						}
 						
 					} else if(result.getAnalysisList[i].BOARD_CONT.indexOf("youtube.com")>0 && result.getAnalysisList[i].BOARD_CONT.indexOf("iframe")>0) {
@@ -836,7 +837,7 @@ jQuery(document).ready(function ($) {
 						html += "<a href='/boardRead?idx="+result.getAnalysisList[i].BOARD_IDX+"'>"+"<iframe scrolling='no' style='width: 100%; height:100%;' allow='accelerometer;' src='//"+youtubeUrl+"'></iframe></a>";
 						
 					} else {
-						html += "<a href='/boardRead?idx="+result.getAnalysisList[i].BOARD_IDX+"'>"+"<img style='width: 290px; height: 80px;' src='file/notfound.png'></iframe></a>";
+						html += "<a href='/boardRead?idx="+result.getAnalysisList[i].BOARD_IDX+"'>"+"<img style='width: 290px; height: 80px;' src='/file/notfound.png'></a>";
 					}
 					html += "<br/><a style='color:white; font-size:15px;' href='/boardRead?idx="+result.getAnalysisList[i].BOARD_IDX+"'>"+result.getAnalysisList[i].BOARD_TITLE+"</a>";
 					html += "<br/><a style='color:white; font-size:15px;' href='/boardRead?idx="+result.getAnalysisList[i].BOARD_IDX+"'>"+result.getAnalysisList[i].USER_ID+"("+result.getAnalysisList[i].USER_NAME+")</a><br/></li>";
@@ -1883,7 +1884,7 @@ function stopclock() {
 }
 
 .slidein-overlay.content-61c1ff5e71f09 .cp-btn-flat.cp-slide-edit-btn {
-	font-family: inherit;
+	font-family: 'NanumGothic';
 	font-size: 12px;
 	border-radius: 0px;
 	border-width: 0px;

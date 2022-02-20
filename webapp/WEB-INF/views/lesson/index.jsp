@@ -120,6 +120,7 @@ img.wp-smiley, img.emoji {
     }
 }
 </style>
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
 <link rel='stylesheet' id='wp-block-library-css'
 	href='../wp-includes/css/dist/block-library/style.min4999.css?ver=5.7.4'
 	type='text/css' media='all' />
@@ -630,21 +631,21 @@ body .row .tabbed>div:first-of-type {
 	;
 
 h1, h2, h3, h4, h5, h6, p, body {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 400;
 }
 
 span {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 }
 
 strong, b, .nectar-milestone .number {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 700;
 }
 
 .nectar-button span {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothic';
 	font-weight: 400;
 	font-size: 1.1em;
 }
@@ -729,7 +730,7 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
 	max-width: 100%;
 	text-align: center;
 	font-size: 2.5em;
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumGothicExtraBold';
 	font-weight: 400;
 }
 
@@ -763,6 +764,33 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
 		padding: 5% 5% 5% 5%;
 	}
 }
+table {
+	width:100%;
+}
+table td a {
+	color:white;
+	font-size:15px;
+}
+table td a:hover {
+	color:white;
+	font-size:16px;
+}
+tr {
+	height:45px;
+}
+th, td {
+	text-align:center;  vertical-align: middle; min-width: 70px;
+}
+th h4 strong {
+	font-size:20px;
+}
+td {
+	font-size:15px; font-weight:600;
+}
+table, tr, th, td{
+	border: 2px solid rgba(255,255,255,0.16);
+	border-collapse:collapse;
+}
 </style>
 <link rel='stylesheet' id='salient-child-style-css'
 	href='../wp-content/themes/salient-child/stylea73f.css?ver=13.0.5'
@@ -783,6 +811,48 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
 <script type='text/javascript'
 	src='../wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'
 	id='jquery-core-js'></script>
+<script>
+var testSubmit;
+var submitCancel;
+jQuery(document).ready(function ($) {
+	
+	testSubmit =function (testString) {
+		$("#submitForm").css("display","block");
+		if(testString=='player'){
+			$("#test_type").val("선수반");
+		} else if(testString=='hobby') {
+			$("#test_type").val("취미반");
+		}
+		
+	}
+
+	submitCancel = function () {
+		$('#submitForm').css("display","none");
+		//alert("무야호");
+	}
+	
+	$('#joinFormSubmit').on('submit',function(){
+		if($('[name=test_type]').val()=='select'){
+			alert('레슨 종류를 선택하세요');
+			$('[name=test_type]').focus();
+			return false;
+		}
+		if($('[name=test_name]').val().trim().length==0){
+			alert('이름을 입력하세요');
+			$('[name=test_name]').focus();
+			return false;
+		}
+		if($('[name=test_phone]').val().trim().length==0){
+			alert('전화번호를 입력하세요');
+			$('[name=test_phone]').focus();
+			return false;
+		}
+		return true;
+	})
+	
+	
+});
+</script>
 <link rel="https://api.w.org/" href="../wp-json/index.html" />
 <link rel="alternate" type="application/json"
 	href="../wp-json/wp/v2/pages/270.json" />
@@ -1508,6 +1578,7 @@ body .page-submenu li a {
 																			</strong>
 																		</h1>
 																	</div>
+																	<input type="button" value="레슨 신청" onclick="javascript:testSubmit();">
 																</div>
 															</div>
 														</div>
@@ -1535,10 +1606,11 @@ body .page-submenu li a {
 																		data-animation-delay="false" data-color=""
 																		data-color-gradient="" style="">
 																		<h2>
-																			<strong>포지션별 트레이닝<br />
+																			<strong><br>풋볼아이 레슨센터<br />
 																			</strong>
 																		</h2>
 																	</div>
+																	<input type="button" value="레슨 신청" onclick="javascript:testSubmit();">
 																</div>
 															</div>
 														</div>
@@ -1605,6 +1677,7 @@ body .page-submenu li a {
 														<ul style="background-color: #000000; color: #ffffff;">
 															<li><a href="#info">레슨소개</a></li>
 															<li><a href="#pay">레슨비용</a></li>
+															<li><a onclick="javascript:testSubmit();" style="cursor:pointer;">레슨신청</a></li>
 														</ul>
 													</div>
 												</div>
@@ -1685,14 +1758,10 @@ body .page-submenu li a {
 														data-icon-size="" data-full-width-line=""
 														data-color-scheme="accent-color" data-alignment="left">
 														<ul class="wpb_tabs_nav ui-tabs-nav clearfix mo_ul">
-															<li><a href="#tab-position-1" class="active-tab"><span>포지션별
-																		트레이닝</span></a></li>
-															<li><a href="#tab-perfor-1"><span>퍼포먼스
-																		트레이닝</span></a></li>
-															<li><a href="#tab-woman-1"><span>아마추어 여성
-																		선수</span></a></li>
-															<li><a href="#tab-audult-1"><span>아마추어 성인
-																		선수</span></a></li>
+															<li><a href="#tab-position-1" class="active-tab"><span>포지션별트레이닝</span></a></li>
+															<li><a href="#tab-perfor-1"><span>퍼포먼스트레이닝</span></a></li>
+															<li><a href="#tab-woman-1"><span>아마추어 여성선수</span></a></li>
+															<li><a href="#tab-audult-1"><span>아마추어 성인선수</span></a></li>
 															<!--                                                         <li><a href="#tab-facility-1"><span>레슨비용</span></a></li> -->
 															<!--                                                         <li><a href="#tab-way-1"><span>오시는 길</span></a></li> -->
 														</ul>
@@ -1775,6 +1844,8 @@ body .page-submenu li a {
 																				data-padding-pos="all" data-has-bg-color="false"
 																				data-bg-color="" data-bg-opacity="1"
 																				data-animation="" data-delay="0">
+																				
+																				
 																				<div class="vc_column-inner">
 																					<div class="wpb_wrapper">
 																						<div
@@ -2239,16 +2310,6 @@ body .page-submenu li a {
 																														class="entire-slide-link"
 																														href="wp-content/uploads/2021/06/handling.jpg"></a>
 																												</div>
-																												<div class="cell" data-lazy="false">
-																													<img class="skip-lazy "
-																														src="wp-content/uploads/2021/06/plco_gym_main_sec3_1-5-750x500.jpg"
-																														width="750" height="500"
-																														alt="plco_gym_main_sec3_1-5"
-																														title="plco_gym_main_sec3_1-5" /><a
-																														class="entire-slide-link"
-																														href="wp-content/uploads/2021/06/plco_gym_main_sec3_1-5.jpg"></a>
-																												</div>
-																												
 																											</div>
 																										</div>
 																									</div>
@@ -2644,12 +2705,12 @@ body .page-submenu li a {
 																											<div class="flickity-slider">
 																												<div class="cell" data-lazy="false">
 																													<img class="skip-lazy "
-																														src="wp-content/uploads/2021/06/basicad.jpg"
+																														src="wp-content/uploads/2021/06/skillad.jpg"
 																														width="750" height="500"
-																														alt="basicad.jpg"
-																														title="basicad.jpg" /><a
+																														alt="skillad.jpg"
+																														title="skillad.jpg" /><a
 																														class="entire-slide-link"
-																														href="wp-content/uploads/2021/06/basicad.jpg"></a>
+																														href="wp-content/uploads/2021/06/skillad.jpg"></a>
 																												</div>
 																											</div>
 																										</div>
@@ -3022,6 +3083,64 @@ body .page-submenu li a {
 		</div>
 	</div>
 	<!--/ocm-effect-wrap-->
+<section id="submitForm"
+style="width: 60%; border-radius:16px; padding:1%; margin: 16px auto; display:none; position: fixed; top: 15%; left: 20%; z-index: 999; background-color:white; color:black;">
+<div class="section-tit">
+	<h3 id="testTitle" style="color:black; text-align:center;"><strong>레슨 신청</strong></h3>
+</div>
+<div class="table-wrap">
+	<form action="/testSubmit" method="POST" id="joinFormSubmit" enctype="multipart/form-data">
+		<table class="table-type02" id="joinFormTable">
+			<tbody>
+				<tr><th>레슨종류<br/><span style="color:red;">(*필수)</span></th>
+					<td>
+<!-- 						<input type="hidden" id="test_type" name="test_type" value=""> -->
+						<select id="test_type" name="test_type" style="width:70%;">
+							<option value="select" selected>---선택---</option>
+							<option value="포지션별 트레이닝">포지션별 트레이닝</option>
+							<option value="퍼포먼스 트레이닝">퍼포먼스 트레이닝</option>
+							<option value="아마추어 여성선수">아마추어 여성선수</option>
+							<option value="아마추어 성인선수">아마추어 성인선수</option>
+						</select>
+					</td>
+				</tr>
+				<tr><th>이름<br/><span style="color:red;">(*필수)</span></th>
+					<td><input style="border-bottom:1px solid black; width:70%;"type="text" name="test_name" id="test_name"
+						class="wp70" placeholder="신청자 이름" autocomplete="off"/>
+					</td>
+				</tr>
+				<tr><th>전화번호<br/><span style="color:red;">(*필수)</span></th>
+					<td><input style="border-bottom:1px solid black; width:70%;" type="text" name="test_phone" id="test_phone"
+						class="wp70" placeholder="ex)010-1234-5678" autocomplete="off"/>
+					</td>
+				</tr>
+				<tr><th>나이</th>
+					<td><input style="border-bottom:1px solid black; width:70%;" type="text" name="test_age" id="test_age"
+						class="wp70" placeholder="신청자 연령" autocomplete="off"/>
+					</td>
+				</tr>
+				<tr><th>사는곳</th>
+					<td><input style="border-bottom:1px solid black; width:70%;" type="text" name="test_address" id="test_address"
+						class="wp70" placeholder="ex) 서울시 구로동" autocomplete="off"/>
+					</td>
+				</tr>
+				<tr><th>문의내용<br/>(요청사항)</th>
+					<td><input style="border-bottom:1px solid black; width:70%; height:100px;" type="text" name="test_qna" id="test_qna"
+						class="wp70" placeholder="문의하실 내용" autocomplete="off"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="wp30">
+					<input type="submit" value="신청하기" />
+					<input type="button" value="취소" onclick="location.href='javascript:submitCancel()'" /> 
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+
+</section>
 	<script type="text/javascript" id="modal">    document.addEventListener("DOMContentLoaded", function () {
     startclock();
 });
@@ -3093,7 +3212,7 @@ function stopclock() {
 }
 
 .slidein-overlay.content-61c1ff5e71f09 .cp-btn-flat.cp-slide-edit-btn {
-	font-family: inherit;
+	font-family: 'NanumGothic';
 	font-size: 12px;
 	border-radius: 0px;
 	border-width: 0px;
@@ -3105,7 +3224,7 @@ function stopclock() {
 	border-color: rgb(0, 0, 0);
 }
 </style>
-	<div data-dev-mode="enabled" data-load-on-refresh="enabled"
+	<!-- <div data-dev-mode="enabled" data-load-on-refresh="enabled"
 		data-custom-class="cp-cp_id_30a46 cp-slidein-global"
 		data-exit-intent="disabled" data-add-to-cart="0"
 		data-onscroll-value="" data-onload-delay="0.1"
@@ -3116,7 +3235,7 @@ function stopclock() {
 		data-after-content-value="50" data-referrer-domain=""
 		data-referrer-check="hide" data-custom-selector=""
 		class=" si-onload cp-global-load overlay-show cp-cp_id_30a46 cp-slidein-global"
-		data-module-type="slide_in"></div>
+		data-module-type="slide_in"></div> -->
 	<div
 		class="cp-module cp-slidein-popup-container cp_id_30a46 cp-subscriber-newsletter-container overlay-show "
 		data-style-id="cp_id_30a46" data-module-name="slidein"

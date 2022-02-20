@@ -34,10 +34,10 @@ jQuery(document).ready(function ($) {
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406">
 										<a href="/guide#player">선수소개</a>
 									</li>
-									<li
-										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405">
-										<a href="/guide#space">시설</a>
-									</li>
+<!-- 									<li -->
+<!-- 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405"> -->
+<!-- 										<a href="/guide#space">시설</a> -->
+<!-- 									</li> -->
 									<li
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405">
 										<a href="/guide#awards">수상내역</a>
@@ -109,7 +109,7 @@ jQuery(document).ready(function ($) {
 										<a href="/loginFm">회원서비스</a>
 									</c:when>
 									<c:otherwise>
-										<a href="/Logout">${login.user_id} 님</a>
+										<a href="/Logout">로그아웃</a>
 									</c:otherwise>
 								</c:choose>
 							</li>
