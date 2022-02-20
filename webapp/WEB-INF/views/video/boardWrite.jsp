@@ -540,13 +540,17 @@ body .row .tabbed>div:first-of-type {
 	url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&amp;display=swap')
 	;
 
-h1, h2, h3, h4, h5, h6, p, body {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'NanumGothicExtraBold';
+	font-weight: 400;
+}
+p, body {
+	font-family: Arial;
 	font-weight: 400;
 }
 
 span {
-	font-family: 'NanumGothicExtraBold';
+	font-family: Arial;
 }
 
 strong, b, .nectar-milestone .number {
@@ -1621,7 +1625,7 @@ jQuery(document).ready(function ($) {
 														data-color-scheme="accent-color" data-alignment="left">
 														</br>
 
-														<div id="mission" data-tab-icon=""
+														<div id="mission" data-tab-icon="" style="overflow-x:scroll;"
 															class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide clearfix">
 
 															<h3>

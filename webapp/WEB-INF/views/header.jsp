@@ -84,10 +84,10 @@ jQuery(document).ready(function ($) {
 										class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-468">
 										<a href="/guide#coach"><span class="menu-title-text">코치진</span></a>
 									</li>
-									<li id="menu-item-464"
-										class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-464">
-										<a href="/guide#player"><span class="menu-title-text">선수소개</span></a>
-									</li>
+<!-- 									<li id="menu-item-464" -->
+<!-- 										class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-464"> -->
+<!-- 										<a href="/guide#player"><span class="menu-title-text">선수소개</span></a> -->
+<!-- 									</li> -->
 <!-- 									<li id="menu-item-466" -->
 <!-- 										class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-466"> -->
 <!-- 										<a href="/guide#space"><span class="menu-title-text">시설</span></a> -->

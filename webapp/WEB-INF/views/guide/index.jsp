@@ -1461,7 +1461,7 @@
                                                         class="salient-page-submenu-icon"></i>Menu</a>
                                                     <ul style="background-color:#000000; color: #ffffff;">
                                                         <li><a href="#coach">코치진</a></li>
-                                                        <li><a href="#player">선수소개</a></li>
+<!--                                                         <li><a href="#player">선수소개</a></li> -->
 <!--                                                        <li><a href="#schedule">트레이닝 스케줄</a></li>-->
 <!--                                                        <li><a href="#price">이용 요금</a></li>-->
 <!--                                                         <li><a href="#space">시설</a></li> -->
@@ -1768,7 +1768,7 @@
                             </div>
                         </div>
                         <!--선수 소개 영역-->
-                        <div id="player" data-column-margin="default" data-midnight="dark"
+                        <!--  <div id="player" data-column-margin="default" data-midnight="dark"
                              class="wpb_row vc_row-fluid vc_row full-width-section parallax_section "
                              style="padding-top: 0px; padding-bottom: 0px; ">
                             <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="true">
@@ -1785,7 +1785,6 @@
                                      data-bg-opacity="1" data-animation="" data-delay="0">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
-                                            <!--모바일 선수소개 부타이틀-->
                                             <div id="fws_61c1ff5e66b39" data-midnight="" data-column-margin="default"
                                                  class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-top vc_custom_1626440852231 "
                                                  style="">
@@ -1799,21 +1798,11 @@
                                                          data-delay="0">
                                                         <div class="vc_column-inner">
                                                             <div class="wpb_wrapper">
-                                                                <!--<div class="nectar-split-heading" data-align="default"
-                                                                     data-m-align="inherit"
-                                                                     data-animation-type="default"
-                                                                     data-animation-delay="0" data-m-rm-animation=""
-                                                                     data-stagger="" data-custom-font-size="false">
-                                                                    <div class="heading-line">
-                                                                        <div><h2>축구교실 선수소개</h2></div>
-                                                                    </div>
-                                                                </div>-->
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!--모바일/웹 코치진 타이틀-->
                                             <div id="fws_61c1ff5e66c62" data-midnight="" data-column-margin="default"
                                                  class="wpb_row vc_row-fluid vc_row inner_row bottom_padding_phone_40px "
                                                  style="padding-bottom: 100px; ">
@@ -1855,7 +1844,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!--모바일/웹 골키퍼 li-->
                                             <div id="fws_61c1ff4f6ea7a" data-midnight="" data-column-margin="default"
                                                  class="wpb_row vc_row-fluid vc_row inner_row " style="">
                                                 <div class="row-bg-wrap">
@@ -1920,7 +1908,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!--수비수 li-->
                                             <div id="fws_61c1ff4f6ea7a" data-midnight="" data-column-margin="default"
                                                  class="wpb_row vc_row-fluid vc_row inner_row " style="">
                                                 <div class="row-bg-wrap">
@@ -2150,7 +2137,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!--미드필더 li-->
                                             <div id="fws_61c1ff4f6ea7a" data-midnight="" data-column-margin="default"
                                                  class="wpb_row vc_row-fluid vc_row inner_row " style="">
                                                 <div class="row-bg-wrap">
@@ -2554,7 +2540,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!--공격수-->
                                             <div id="fws_61c1ff4f6ea7a" data-midnight="" data-column-margin="default"
                                                  class="wpb_row vc_row-fluid vc_row inner_row " style="">
                                                 <div class="row-bg-wrap">
@@ -2792,7 +2777,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <!-- <div id="space" data-column-margin="default" data-midnight="dark"
                              class="wpb_row vc_row-fluid vc_row full-width-section top_padding_phone_50px "
                              style="padding-top: 100px; padding-bottom: 100px; ">

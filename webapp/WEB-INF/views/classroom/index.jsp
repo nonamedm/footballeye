@@ -764,6 +764,30 @@ div#author-bio, .comment-wrap, span.meta-author.vcard.author, span.meta-comment-
         /* ]]> */</script>
 <script type='text/javascript' src='../wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'
             id='jquery-core-js'></script>
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=1yhytovxqu"></script>
+<script>
+jQuery(document).ready(function ($) {
+	var daeya = new naver.maps.LatLng(37.443212835455626, 126.79079093074871),
+    map = new naver.maps.Map('map1', {
+        center: daeya,
+        zoom: 18
+    }),
+    marker = new naver.maps.Marker({
+        map: map,
+        position: daeya
+    });
+	var jang = new naver.maps.LatLng(37.366664, 126.762206),
+    map = new naver.maps.Map('map2', {
+        center: jang,
+        zoom: 18
+    }),
+    marker = new naver.maps.Marker({
+        map: map,
+        position: jang
+    });
+	
+});
+</script>
 <link rel="https://api.w.org/" href="../wp-json" />
 <link rel="alternate" type="application/json"
 	href="../wp-json/wp/v2/pages/270.json" />
@@ -1993,19 +2017,17 @@ body .page-submenu li a {
 																			<div class="column-bg-overlay-wrap"
 																				data-bg-animation="none">
 																				<div class="column-bg-overlay"
-																					style="opacity: 1; background-color: #2a44ec;"></div>
+																					style="opacity: 0; background-color: black;"></div>
 																			</div>
 																			<div class="wpb_wrapper">
 																				<div class="wpb_text_column wpb_content_element ">
-																					<!--                                                                                <div class="wpb_wrapper"><h4>팀 스케줄은 별도-->
-																					<!--                                                                                    협의가 필요합니다. 사이트 하단 <strong>카카오톡 1:1-->
-																					<!--                                                                                        문의를 통해 빠른 문의</strong>가 가능합니다. 🙂-->
-																					<!--                                                                                </h4></div>-->
 																					<div class="wpb_wrapper">
-																						<div class="map_img">
-																							<img style="width: 90%; margin: 0 auto;" src="../wp-content/uploads/2021/06/daeya_hobby.png"/>
-																						</div>
+																						<div id="map1" style="width:100%;height:400px;"></div>
 																					</div>
+																					<br>
+																					<h4>⚽ 대야점(본점)</h4>
+																					<h4>📫 경기도 시흥시 비둘기공원5길 7 동진빌딩3층</h4>
+																					<h4>☎ 031.312.9206</h4>
 																				</div>
 																			</div>
 																		</div>
@@ -2512,15 +2534,17 @@ body .page-submenu li a {
 																			<div class="column-bg-overlay-wrap"
 																				data-bg-animation="none">
 																				<div class="column-bg-overlay"
-																					style="opacity: 1; background-color: #2a44ec;"></div>
+																					style="opacity: 0; background-color: black;"></div>
 																			</div>
 																			<div class="wpb_wrapper">
 																				<div class="wpb_text_column wpb_content_element ">
 																					<div class="wpb_wrapper">
-																						<h4>
-																							지도가 들어갈 부분입니다.🙂
-																						</h4>
+																						<div id="map2" style="width:100%;height:400px;"></div>
 																					</div>
+																					<br>
+																					<h4>⚽ 장현지구(직영점)</h4>
+																					<h4>📫 경기 시흥시 뒷방울길 10 (JM 풋살)</h4>
+																					<h4>☎ 031.312.9206</h4>
 																				</div>
 																			</div>
 																		</div>

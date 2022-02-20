@@ -30,10 +30,10 @@ jQuery(document).ready(function ($) {
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131">
 										<a href="/guide#coach">코치진</a>
 									</li>
-									<li
-										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406">
-										<a href="/guide#player">선수소개</a>
-									</li>
+<!-- 									<li -->
+<!-- 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406"> -->
+<!-- 										<a href="/guide#player">선수소개</a> -->
+<!-- 									</li> -->
 <!-- 									<li -->
 <!-- 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405"> -->
 <!-- 										<a href="/guide#space">시설</a> -->

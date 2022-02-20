@@ -1780,11 +1780,11 @@ body .page-submenu li a {
 														    		<div class="col-sm-2">
 																		<c:choose>
 														    				<c:when test="${login.user_id ne null }">
-																				<button style="background-color: white;height: 40px;color:black;width: 90px;font-size: 15px;font-weight: 600;" onclick="window.location='/boardWrite'">
+																				<button style="background-color: white;height: 40px;color:black;width: 90px;font-size: 12px;font-weight: 600;" onclick="window.location='/boardWrite'">
 																				<span class="glyphicon glyphicon-ok"></span>&nbsp;글쓰기</button>
 														    				</c:when>
 														    				<c:otherwise>
-														    					<button style="background-color: white;height: 40px;color:black;width: 90px;font-size: 15px;font-weight: 600;" onclick="javascript:alert('로그인이 필요합니다!');location.href='/loginFm'">
+														    					<button style="background-color: white;height: 40px;color:black;width: 90px;font-size: 12px;font-weight: 600;" onclick="javascript:alert('로그인이 필요합니다!');location.href='/loginFm'">
 														    					<span class="glyphicon glyphicon-ok"></span>&nbsp;글쓰기</button>
 														    				</c:otherwise>
 														    			</c:choose>
